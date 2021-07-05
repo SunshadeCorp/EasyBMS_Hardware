@@ -21292,13 +21292,6 @@ Source: www.kingbright.com</description>
 <label x="-83.82" y="208.28" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$106" class="0">
-<segment>
-<wire x1="177.8" y1="53.34" x2="177.8" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="JP4" gate="G$1" pin="2"/>
-<wire x1="177.8" y1="43.18" x2="187.96" y2="43.18" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="MOSI" class="0">
 <segment>
 <wire x1="269.24" y1="45.72" x2="264.16" y2="45.72" width="0.1524" layer="91"/>
@@ -21456,6 +21449,11 @@ Source: www.kingbright.com</description>
 <wire x1="403.86" y1="165.1" x2="403.86" y2="144.78" width="0.1524" layer="91"/>
 <junction x="403.86" y="144.78"/>
 <pinref part="D2" gate="G$1" pin="K"/>
+</segment>
+<segment>
+<wire x1="99.06" y1="353.06" x2="78.74" y2="353.06" width="0.1524" layer="91"/>
+<pinref part="JP5" gate="A" pin="1"/>
+<label x="78.74" y="353.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="P12" class="0">
@@ -22799,13 +22797,6 @@ Source: www.kingbright.com</description>
 <wire x1="116.84" y1="353.06" x2="106.68" y2="353.06" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="V+" class="0">
-<segment>
-<wire x1="99.06" y1="353.06" x2="78.74" y2="353.06" width="0.1524" layer="91"/>
-<pinref part="JP5" gate="A" pin="1"/>
-<label x="78.74" y="353.06" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="IPB" class="0">
 <segment>
 <label x="208.28" y="353.06" size="1.778" layer="95"/>
@@ -22881,6 +22872,12 @@ Source: www.kingbright.com</description>
 <label x="208.28" y="325.12" size="1.778" layer="95"/>
 <wire x1="182.88" y1="325.12" x2="210.82" y2="325.12" width="0.1524" layer="91"/>
 <pinref part="JP6" gate="A" pin="24"/>
+</segment>
+<segment>
+<wire x1="177.8" y1="53.34" x2="177.8" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="JP4" gate="G$1" pin="2"/>
+<wire x1="177.8" y1="43.18" x2="187.96" y2="43.18" width="0.1524" layer="91"/>
+<label x="175.26" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SWTEN" class="0">
