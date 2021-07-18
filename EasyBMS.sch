@@ -20252,11 +20252,10 @@ Source: www.kingbright.com</description>
 <part name="R60" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="27k"/>
 <part name="R61" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k"/>
 <part name="R62" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k"/>
-<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="100R"/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="20k"/>
 <part name="JP3" library="pinhead_own" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="JP4" library="pinhead_own" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
-<part name="Q1" library="SamacSys_Parts" deviceset="BSS308PEH6327XTSA1" device=""/>
+<part name="Q1" library="SamacSys_Parts" deviceset="BSS308PEH6327XTSA1" device="" value="C8547"/>
 <part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0"/>
 <part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="3.3k"/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="10nF"/>
@@ -20265,7 +20264,7 @@ Source: www.kingbright.com</description>
 <part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="100R"/>
 <part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0"/>
 <part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0"/>
-<part name="Q3" library="SamacSys_Parts" deviceset="BSS308PEH6327XTSA1" device=""/>
+<part name="Q3" library="SamacSys_Parts" deviceset="BSS308PEH6327XTSA1" device="" value="C8547"/>
 <part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0"/>
 <part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="3.3k"/>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="10nF"/>
@@ -20274,7 +20273,7 @@ Source: www.kingbright.com</description>
 <part name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="100R"/>
 <part name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0"/>
 <part name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0"/>
-<part name="Q4" library="SamacSys_Parts" deviceset="BSS308PEH6327XTSA1" device=""/>
+<part name="Q4" library="SamacSys_Parts" deviceset="BSS308PEH6327XTSA1" device="" value="C8547"/>
 <part name="R26" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0"/>
 <part name="R27" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="3.3k"/>
 <part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="10nF"/>
@@ -20283,7 +20282,7 @@ Source: www.kingbright.com</description>
 <part name="R29" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="100R"/>
 <part name="R30" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0"/>
 <part name="R31" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0"/>
-<part name="Q5" library="SamacSys_Parts" deviceset="BSS308PEH6327XTSA1" device=""/>
+<part name="Q5" library="SamacSys_Parts" deviceset="BSS308PEH6327XTSA1" device="" value="C8547"/>
 <part name="R32" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0"/>
 <part name="R33" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="3.3k"/>
 <part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="10nF"/>
@@ -20292,7 +20291,7 @@ Source: www.kingbright.com</description>
 <part name="R35" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="100R"/>
 <part name="R36" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0"/>
 <part name="R37" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0"/>
-<part name="Q6" library="SamacSys_Parts" deviceset="BSS308PEH6327XTSA1" device=""/>
+<part name="Q6" library="SamacSys_Parts" deviceset="BSS308PEH6327XTSA1" device="" value="C8547"/>
 <part name="R38" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0"/>
 <part name="R39" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="3.3k"/>
 <part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="10nF"/>
@@ -20301,7 +20300,7 @@ Source: www.kingbright.com</description>
 <part name="R41" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="100R"/>
 <part name="R42" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0"/>
 <part name="R43" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0"/>
-<part name="Q7" library="SamacSys_Parts" deviceset="BSS308PEH6327XTSA1" device=""/>
+<part name="Q7" library="SamacSys_Parts" deviceset="BSS308PEH6327XTSA1" device="" value="C8547"/>
 <part name="R44" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0"/>
 <part name="R45" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="3.3k"/>
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="10nF"/>
@@ -20310,7 +20309,7 @@ Source: www.kingbright.com</description>
 <part name="R47" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="100R"/>
 <part name="R48" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0"/>
 <part name="R49" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0"/>
-<part name="Q8" library="SamacSys_Parts" deviceset="BSS308PEH6327XTSA1" device=""/>
+<part name="Q8" library="SamacSys_Parts" deviceset="BSS308PEH6327XTSA1" device="" value="C8547"/>
 <part name="R50" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0"/>
 <part name="R51" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="3.3k"/>
 <part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="10nF"/>
@@ -20319,7 +20318,7 @@ Source: www.kingbright.com</description>
 <part name="R63" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="100R"/>
 <part name="R70" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0"/>
 <part name="R71" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0"/>
-<part name="Q10" library="SamacSys_Parts" deviceset="BSS308PEH6327XTSA1" device=""/>
+<part name="Q10" library="SamacSys_Parts" deviceset="BSS308PEH6327XTSA1" device="" value="C8547"/>
 <part name="R72" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0"/>
 <part name="R73" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="3.3k"/>
 <part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="10nF"/>
@@ -20328,7 +20327,7 @@ Source: www.kingbright.com</description>
 <part name="R75" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="100R"/>
 <part name="R83" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0"/>
 <part name="R84" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0"/>
-<part name="Q12" library="SamacSys_Parts" deviceset="BSS308PEH6327XTSA1" device=""/>
+<part name="Q12" library="SamacSys_Parts" deviceset="BSS308PEH6327XTSA1" device="" value="C8547"/>
 <part name="R85" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0"/>
 <part name="R86" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="3.3k"/>
 <part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="10nF"/>
@@ -20337,7 +20336,7 @@ Source: www.kingbright.com</description>
 <part name="R88" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="100R"/>
 <part name="R95" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0"/>
 <part name="R96" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0"/>
-<part name="Q14" library="SamacSys_Parts" deviceset="BSS308PEH6327XTSA1" device=""/>
+<part name="Q14" library="SamacSys_Parts" deviceset="BSS308PEH6327XTSA1" device="" value="C8547"/>
 <part name="R97" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0"/>
 <part name="R98" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="3.3k"/>
 <part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="10nF"/>
@@ -20346,7 +20345,7 @@ Source: www.kingbright.com</description>
 <part name="R100" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="100R"/>
 <part name="R64" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0"/>
 <part name="R65" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0"/>
-<part name="Q9" library="SamacSys_Parts" deviceset="BSS308PEH6327XTSA1" device=""/>
+<part name="Q9" library="SamacSys_Parts" deviceset="BSS308PEH6327XTSA1" device="" value="C8547"/>
 <part name="R66" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0"/>
 <part name="R67" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="3.3k"/>
 <part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="10nF"/>
@@ -20355,7 +20354,7 @@ Source: www.kingbright.com</description>
 <part name="R69" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="100R"/>
 <part name="R76" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0"/>
 <part name="R77" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0"/>
-<part name="Q11" library="SamacSys_Parts" deviceset="BSS308PEH6327XTSA1" device=""/>
+<part name="Q11" library="SamacSys_Parts" deviceset="BSS308PEH6327XTSA1" device="" value="C8547"/>
 <part name="R78" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0"/>
 <part name="R79" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="3.3k"/>
 <part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="10nF"/>
@@ -20377,6 +20376,9 @@ Source: www.kingbright.com</description>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="100R"/>
 <part name="C21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="100nF"/>
 <part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="100nF"/>
+<part name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="100nF"/>
+<part name="C19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="100nF"/>
+<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="100R"/>
 </parts>
 <sheets>
 <sheet>
@@ -20398,9 +20400,9 @@ Source: www.kingbright.com</description>
 <attribute name="NAME" x="1090.7014" y="161.29" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="1095.502" y="161.29" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C1" gate="G$1" x="927.1" y="127" smashed="yes">
-<attribute name="NAME" x="928.624" y="127.381" size="1.778" layer="95"/>
-<attribute name="VALUE" x="928.624" y="122.301" size="1.778" layer="96"/>
+<instance part="C1" gate="G$1" x="934.72" y="127" smashed="yes">
+<attribute name="NAME" x="936.244" y="127.381" size="1.778" layer="95"/>
+<attribute name="VALUE" x="936.244" y="122.301" size="1.778" layer="96"/>
 </instance>
 <instance part="JP1" gate="A" x="86.36" y="60.96" smashed="yes" rot="R180">
 <attribute name="NAME" x="92.71" y="42.545" size="1.778" layer="95" rot="R180"/>
@@ -20470,9 +20472,9 @@ Source: www.kingbright.com</description>
 <attribute name="NAME" x="773.2014" y="290.83" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="778.002" y="290.83" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C3" gate="G$1" x="1003.3" y="127" smashed="yes">
-<attribute name="NAME" x="1004.824" y="127.381" size="1.778" layer="95"/>
-<attribute name="VALUE" x="1004.824" y="122.301" size="1.778" layer="96"/>
+<instance part="C3" gate="G$1" x="975.36" y="111.76" smashed="yes">
+<attribute name="NAME" x="976.884" y="112.141" size="1.778" layer="95"/>
+<attribute name="VALUE" x="976.884" y="107.061" size="1.778" layer="96"/>
 </instance>
 <instance part="R59" gate="G$1" x="1176.02" y="198.12" smashed="yes" rot="R90">
 <attribute name="NAME" x="1174.5214" y="194.31" size="1.778" layer="95" rot="R90"/>
@@ -20489,10 +20491,6 @@ Source: www.kingbright.com</description>
 <instance part="R62" gate="G$1" x="1219.2" y="149.86" smashed="yes" rot="R180">
 <attribute name="NAME" x="1223.01" y="148.3614" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="1223.01" y="153.162" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="R5" gate="G$1" x="883.92" y="119.38" smashed="yes" rot="R270">
-<attribute name="NAME" x="885.4186" y="123.19" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="880.618" y="123.19" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="R6" gate="G$1" x="896.62" y="119.38" smashed="yes" rot="R270">
 <attribute name="NAME" x="898.1186" y="123.19" size="1.778" layer="95" rot="R270"/>
@@ -20990,6 +20988,18 @@ Source: www.kingbright.com</description>
 <attribute name="NAME" x="966.724" y="112.141" size="1.778" layer="95"/>
 <attribute name="VALUE" x="966.724" y="107.061" size="1.778" layer="96"/>
 </instance>
+<instance part="C18" gate="G$1" x="944.88" y="127" smashed="yes">
+<attribute name="NAME" x="946.404" y="127.381" size="1.778" layer="95"/>
+<attribute name="VALUE" x="946.404" y="122.301" size="1.778" layer="96"/>
+</instance>
+<instance part="C19" gate="G$1" x="919.48" y="127" smashed="yes">
+<attribute name="NAME" x="921.004" y="127.381" size="1.778" layer="95"/>
+<attribute name="VALUE" x="921.004" y="122.301" size="1.778" layer="96"/>
+</instance>
+<instance part="R5" gate="G$1" x="883.92" y="119.38" smashed="yes" rot="R270">
+<attribute name="NAME" x="885.4186" y="123.19" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="880.618" y="123.19" size="1.778" layer="96" rot="R270"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -21033,13 +21043,10 @@ Source: www.kingbright.com</description>
 <label x="1084.58" y="200.66" size="1.778" layer="95"/>
 <junction x="1074.42" y="198.12"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<pinref part="C3" gate="G$1" pin="+"/>
 <wire x1="993.14" y1="152.4" x2="1003.3" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="1003.3" y1="152.4" x2="1003.3" y2="129.54" width="0.1524" layer="91"/>
 <label x="995.68" y="154.94" size="1.778" layer="95"/>
 <wire x1="1003.3" y1="152.4" x2="1003.3" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="1003.3" y1="198.12" x2="1074.42" y2="198.12" width="0.1524" layer="91"/>
-<junction x="1003.3" y="152.4"/>
 <pinref part="JP4" gate="G$1" pin="1"/>
 <wire x1="993.14" y1="142.24" x2="993.14" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="1074.42" y1="180.34" x2="1074.42" y2="198.12" width="0.1524" layer="91"/>
@@ -21067,10 +21074,10 @@ Source: www.kingbright.com</description>
 <net name="GND" class="0">
 <segment>
 <wire x1="1315.72" y1="73.66" x2="1132.84" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="1132.84" y1="73.66" x2="1003.3" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="1003.3" y1="73.66" x2="965.2" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="965.2" y1="73.66" x2="927.1" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="927.1" y1="73.66" x2="911.86" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="1132.84" y1="73.66" x2="975.36" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="975.36" y1="73.66" x2="965.2" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="965.2" y1="73.66" x2="934.72" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="934.72" y1="73.66" x2="911.86" y2="73.66" width="0.1524" layer="91"/>
 <label x="919.48" y="68.58" size="1.778" layer="95"/>
 <pinref part="U$2" gate="G$1" pin="GND"/>
 <pinref part="U$1" gate="G$1" pin="OUT-"/>
@@ -21103,11 +21110,8 @@ Source: www.kingbright.com</description>
 <wire x1="911.86" y1="121.92" x2="911.86" y2="73.66" width="0.1524" layer="91"/>
 <junction x="911.86" y="73.66"/>
 <pinref part="C1" gate="G$1" pin="-"/>
-<wire x1="927.1" y1="121.92" x2="927.1" y2="73.66" width="0.1524" layer="91"/>
-<junction x="927.1" y="73.66"/>
-<pinref part="C3" gate="G$1" pin="-"/>
-<wire x1="1003.3" y1="121.92" x2="1003.3" y2="73.66" width="0.1524" layer="91"/>
-<junction x="1003.3" y="73.66"/>
+<wire x1="934.72" y1="121.92" x2="934.72" y2="73.66" width="0.1524" layer="91"/>
+<junction x="934.72" y="73.66"/>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="896.62" y1="114.3" x2="896.62" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="896.62" y1="73.66" x2="911.86" y2="73.66" width="0.1524" layer="91"/>
@@ -21144,6 +21148,15 @@ Source: www.kingbright.com</description>
 <pinref part="C16" gate="G$1" pin="2"/>
 <wire x1="965.2" y1="106.68" x2="965.2" y2="73.66" width="0.1524" layer="91"/>
 <junction x="965.2" y="73.66"/>
+<pinref part="C19" gate="G$1" pin="2"/>
+<wire x1="919.48" y1="121.92" x2="911.86" y2="121.92" width="0.1524" layer="91"/>
+<junction x="911.86" y="121.92"/>
+<pinref part="C18" gate="G$1" pin="2"/>
+<wire x1="944.88" y1="121.92" x2="934.72" y2="121.92" width="0.1524" layer="91"/>
+<junction x="934.72" y="121.92"/>
+<pinref part="C3" gate="G$1" pin="-"/>
+<wire x1="975.36" y1="106.68" x2="975.36" y2="73.66" width="0.1524" layer="91"/>
+<junction x="975.36" y="73.66"/>
 </segment>
 <segment>
 <pinref part="R16" gate="G$1" pin="1"/>
@@ -21530,8 +21543,11 @@ Source: www.kingbright.com</description>
 <net name="VREF1" class="0">
 <segment>
 <pinref part="C1" gate="G$1" pin="+"/>
-<wire x1="927.1" y1="147.32" x2="927.1" y2="129.54" width="0.1524" layer="91"/>
-<label x="927.1" y="142.24" size="1.778" layer="95"/>
+<wire x1="934.72" y1="147.32" x2="934.72" y2="129.54" width="0.1524" layer="91"/>
+<label x="934.72" y="142.24" size="1.778" layer="95"/>
+<pinref part="C18" gate="G$1" pin="1"/>
+<wire x1="944.88" y1="129.54" x2="934.72" y2="129.54" width="0.1524" layer="91"/>
+<junction x="934.72" y="129.54"/>
 </segment>
 <segment>
 <label x="1013.46" y="416.56" size="1.778" layer="95"/>
@@ -21616,6 +21632,9 @@ Source: www.kingbright.com</description>
 <pinref part="C2" gate="G$1" pin="+"/>
 <wire x1="911.86" y1="144.78" x2="911.86" y2="129.54" width="0.1524" layer="91"/>
 <label x="911.86" y="142.24" size="1.778" layer="95"/>
+<pinref part="C19" gate="G$1" pin="1"/>
+<wire x1="919.48" y1="129.54" x2="911.86" y2="129.54" width="0.1524" layer="91"/>
+<junction x="911.86" y="129.54"/>
 </segment>
 <segment>
 <label x="1013.46" y="414.02" size="1.778" layer="95"/>
@@ -23115,9 +23134,9 @@ Source: www.kingbright.com</description>
 <pinref part="JP6" gate="A" pin="2"/>
 </segment>
 <segment>
-<pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="883.92" y1="124.46" x2="883.92" y2="139.7" width="0.1524" layer="91"/>
 <label x="873.76" y="137.16" size="1.778" layer="95"/>
+<pinref part="R5" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="IMB" class="0">
@@ -23127,9 +23146,9 @@ Source: www.kingbright.com</description>
 <pinref part="JP6" gate="A" pin="4"/>
 </segment>
 <segment>
-<pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="883.92" y1="114.3" x2="883.92" y2="88.9" width="0.1524" layer="91"/>
 <label x="876.3" y="93.98" size="1.778" layer="95"/>
+<pinref part="R5" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="ICMP" class="0">
@@ -23189,9 +23208,13 @@ Source: www.kingbright.com</description>
 <pinref part="JP4" gate="G$1" pin="2"/>
 <wire x1="982.98" y1="139.7" x2="993.14" y2="139.7" width="0.1524" layer="91"/>
 <label x="980.44" y="149.86" size="1.778" layer="95"/>
-<wire x1="982.98" y1="149.86" x2="965.2" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="982.98" y1="149.86" x2="975.36" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="C16" gate="G$1" pin="1"/>
+<wire x1="975.36" y1="149.86" x2="965.2" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="965.2" y1="114.3" x2="965.2" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="+"/>
+<wire x1="975.36" y1="114.3" x2="975.36" y2="149.86" width="0.1524" layer="91"/>
+<junction x="975.36" y="149.86"/>
 </segment>
 </net>
 <net name="SWTEN" class="0">
