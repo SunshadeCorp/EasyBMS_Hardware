@@ -5609,14 +5609,14 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </net>
 <net name="GPIO1" class="0">
 <segment>
-<pinref part="JP1" gate="A" pin="20"/>
-<wire x1="287.02" y1="309.88" x2="302.26" y2="309.88" width="0.1524" layer="91"/>
-<label x="302.26" y="309.88" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="IC3" gate="G$1" pin="GPIO1"/>
 <wire x1="297.18" y1="195.58" x2="322.58" y2="195.58" width="0.1524" layer="91"/>
 <label x="304.8" y="195.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="28"/>
+<wire x1="287.02" y1="299.72" x2="302.26" y2="299.72" width="0.1524" layer="91"/>
+<label x="302.26" y="299.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VREG" class="0">
@@ -5667,9 +5667,9 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <label x="304.8" y="198.12" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="22"/>
-<wire x1="287.02" y1="307.34" x2="302.26" y2="307.34" width="0.1524" layer="91"/>
-<label x="302.26" y="307.34" size="1.778" layer="95"/>
+<pinref part="JP1" gate="A" pin="26"/>
+<wire x1="287.02" y1="302.26" x2="302.26" y2="302.26" width="0.1524" layer="91"/>
+<label x="302.26" y="302.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO3" class="0">
@@ -5691,9 +5691,9 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <label x="304.8" y="208.28" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="26"/>
-<wire x1="287.02" y1="302.26" x2="302.26" y2="302.26" width="0.1524" layer="91"/>
-<label x="302.26" y="302.26" size="1.778" layer="95"/>
+<pinref part="JP1" gate="A" pin="22"/>
+<wire x1="287.02" y1="307.34" x2="302.26" y2="307.34" width="0.1524" layer="91"/>
+<label x="302.26" y="307.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO5" class="0">
@@ -5703,9 +5703,9 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <label x="304.8" y="210.82" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="28"/>
-<wire x1="287.02" y1="299.72" x2="302.26" y2="299.72" width="0.1524" layer="91"/>
-<label x="302.26" y="299.72" size="1.778" layer="95"/>
+<pinref part="JP1" gate="A" pin="20"/>
+<wire x1="287.02" y1="309.88" x2="302.26" y2="309.88" width="0.1524" layer="91"/>
+<label x="302.26" y="309.88" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
