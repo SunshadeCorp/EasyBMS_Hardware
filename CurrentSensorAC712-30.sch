@@ -10071,20 +10071,22 @@ Source: www.kingbright.com</description>
 <busses>
 </busses>
 <nets>
-<net name="N$1" class="0">
+<net name="IN" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IP+"/>
 <pinref part="H1" gate="G$1" pin="MOUNT"/>
 <wire x1="67.31" y1="64.77" x2="67.31" y2="72.39" width="0.1524" layer="91"/>
 <wire x1="67.31" y1="72.39" x2="30.48" y2="72.39" width="0.1524" layer="91"/>
+<label x="45.72" y="74.93" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="OUT" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IP-"/>
 <pinref part="H2" gate="G$1" pin="MOUNT"/>
 <wire x1="67.31" y1="59.69" x2="67.31" y2="52.07" width="0.1524" layer="91"/>
 <wire x1="67.31" y1="52.07" x2="30.48" y2="52.07" width="0.1524" layer="91"/>
+<label x="46.99" y="49.53" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="5VDC" class="0">
@@ -10136,6 +10138,9 @@ Source: www.kingbright.com</description>
 <pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="121.92" y1="45.72" x2="121.92" y2="40.64" width="0.1524" layer="91"/>
 <junction x="121.92" y="40.64"/>
+<pinref part="JP1" gate="A" pin="4"/>
+<wire x1="181.61" y1="59.69" x2="181.61" y2="62.23" width="0.1524" layer="91"/>
+<junction x="181.61" y="62.23"/>
 </segment>
 </net>
 <net name="N$4" class="0">
