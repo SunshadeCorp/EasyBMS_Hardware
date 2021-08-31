@@ -19274,6 +19274,9 @@ Source: www.kingbright.com</description>
 <part name="R94" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="470R"/>
 <part name="R95" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="100R"/>
 <part name="JP5" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X20" device="" package3d_urn="urn:adsk.eagle:package:22443/2"/>
+<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2"/>
+<part name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2"/>
+<part name="C19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -19843,6 +19846,18 @@ Source: www.kingbright.com</description>
 <attribute name="NAME" x="130.81" y="346.075" size="1.778" layer="95"/>
 <attribute name="VALUE" x="130.81" y="289.56" size="1.778" layer="96"/>
 </instance>
+<instance part="C4" gate="G$1" x="139.7" y="30.48" smashed="yes">
+<attribute name="NAME" x="141.224" y="30.861" size="1.778" layer="95"/>
+<attribute name="VALUE" x="141.224" y="25.781" size="1.778" layer="96"/>
+</instance>
+<instance part="C18" gate="G$1" x="172.72" y="30.48" smashed="yes">
+<attribute name="NAME" x="174.244" y="30.861" size="1.778" layer="95"/>
+<attribute name="VALUE" x="174.244" y="25.781" size="1.778" layer="96"/>
+</instance>
+<instance part="C19" gate="G$1" x="205.74" y="30.48" smashed="yes">
+<attribute name="NAME" x="207.264" y="30.861" size="1.778" layer="95"/>
+<attribute name="VALUE" x="207.264" y="25.781" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -19899,6 +19914,9 @@ Source: www.kingbright.com</description>
 <label x="175.26" y="53.34" size="1.778" layer="95"/>
 <wire x1="187.96" y1="43.18" x2="177.8" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="C19" gate="G$1" pin="1"/>
+<wire x1="205.74" y1="33.02" x2="198.12" y2="33.02" width="0.1524" layer="91"/>
+<junction x="198.12" y="33.02"/>
 </segment>
 <segment>
 <label x="208.28" y="332.74" size="1.778" layer="95"/>
@@ -19969,6 +19987,15 @@ Source: www.kingbright.com</description>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="91.44" y1="17.78" x2="91.44" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="-22.86" x2="149.86" y2="-22.86" width="0.1524" layer="91"/>
+<pinref part="C4" gate="G$1" pin="2"/>
+<wire x1="139.7" y1="25.4" x2="149.86" y2="25.4" width="0.1524" layer="91"/>
+<junction x="149.86" y="25.4"/>
+<pinref part="C18" gate="G$1" pin="2"/>
+<wire x1="172.72" y1="25.4" x2="165.1" y2="25.4" width="0.1524" layer="91"/>
+<junction x="165.1" y="25.4"/>
+<pinref part="C19" gate="G$1" pin="2"/>
+<wire x1="205.74" y1="25.4" x2="198.12" y2="25.4" width="0.1524" layer="91"/>
+<junction x="198.12" y="25.4"/>
 </segment>
 <segment>
 <pinref part="R16" gate="G$1" pin="1"/>
@@ -20339,6 +20366,9 @@ Source: www.kingbright.com</description>
 <pinref part="C1" gate="G$1" pin="+"/>
 <wire x1="165.1" y1="50.8" x2="165.1" y2="33.02" width="0.1524" layer="91"/>
 <label x="165.1" y="45.72" size="1.778" layer="95"/>
+<pinref part="C18" gate="G$1" pin="1"/>
+<wire x1="165.1" y1="33.02" x2="172.72" y2="33.02" width="0.1524" layer="91"/>
+<junction x="165.1" y="33.02"/>
 </segment>
 <segment>
 <pinref part="JP2" gate="A" pin="3"/>
@@ -20423,6 +20453,9 @@ Source: www.kingbright.com</description>
 <pinref part="C2" gate="G$1" pin="+"/>
 <wire x1="149.86" y1="48.26" x2="149.86" y2="33.02" width="0.1524" layer="91"/>
 <label x="149.86" y="45.72" size="1.778" layer="95"/>
+<pinref part="C4" gate="G$1" pin="1"/>
+<wire x1="149.86" y1="33.02" x2="139.7" y2="33.02" width="0.1524" layer="91"/>
+<junction x="149.86" y="33.02"/>
 </segment>
 <segment>
 <pinref part="JP2" gate="A" pin="1"/>
