@@ -10449,6 +10449,8 @@ Source: http://www.allegromicro.com/en/Products/Part_Numbers/0758/0758.pdf</desc
 <part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="JP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="IC1" library="allegro-2" deviceset="ACS758*" device="" technology="LCB-050B-PFF-T"/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
+<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10nF"/>
 </parts>
 <sheets>
 <sheet>
@@ -10490,6 +10492,14 @@ Source: http://www.allegromicro.com/en/Products/Part_Numbers/0758/0758.pdf</desc
 <instance part="IC1" gate="G$1" x="80.01" y="63.5" smashed="yes">
 <attribute name="NAME" x="77.47" y="72.39" size="1.778" layer="95"/>
 <attribute name="VALUE" x="77.47" y="53.34" size="1.778" layer="96"/>
+</instance>
+<instance part="R2" gate="G$1" x="116.205" y="64.77" smashed="yes">
+<attribute name="NAME" x="112.395" y="66.2686" size="1.778" layer="95"/>
+<attribute name="VALUE" x="112.395" y="61.468" size="1.778" layer="96"/>
+</instance>
+<instance part="C2" gate="G$1" x="133.985" y="52.07" smashed="yes" rot="R180">
+<attribute name="NAME" x="132.461" y="51.689" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="132.461" y="56.769" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -10561,7 +10571,8 @@ Source: http://www.allegromicro.com/en/Products/Part_Numbers/0758/0758.pdf</desc
 <segment>
 <wire x1="168.91" y1="62.23" x2="168.91" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="168.91" y1="48.26" x2="168.91" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="168.91" y1="40.64" x2="102.87" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="168.91" y1="40.64" x2="133.985" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="133.985" y1="40.64" x2="102.87" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="102.87" y1="40.64" x2="102.87" y2="58.42" width="0.1524" layer="91"/>
 <label x="138.43" y="43.18" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="GND"/>
@@ -10590,17 +10601,31 @@ Source: http://www.allegromicro.com/en/Products/Part_Numbers/0758/0758.pdf</desc
 <wire x1="181.61" y1="48.895" x2="181.61" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="181.61" y1="48.26" x2="168.91" y2="48.26" width="0.1524" layer="91"/>
 <junction x="168.91" y="48.26"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="133.985" y1="49.53" x2="133.985" y2="40.64" width="0.1524" layer="91"/>
+<junction x="133.985" y="40.64"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="VOUT"/>
-<wire x1="90.17" y1="63.5" x2="102.87" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="102.87" y1="63.5" x2="102.87" y2="64.77" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="3"/>
 <wire x1="182.88" y1="62.23" x2="177.165" y2="62.23" width="0.1524" layer="91"/>
 <wire x1="177.165" y1="62.23" x2="177.165" y2="64.77" width="0.1524" layer="91"/>
-<wire x1="177.165" y1="64.77" x2="102.87" y2="64.77" width="0.1524" layer="91"/>
+<wire x1="177.165" y1="64.77" x2="133.985" y2="64.77" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="133.985" y1="64.77" x2="121.285" y2="64.77" width="0.1524" layer="91"/>
+<wire x1="133.985" y1="57.15" x2="133.985" y2="64.77" width="0.1524" layer="91"/>
+<junction x="133.985" y="64.77"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<wire x1="111.125" y1="64.77" x2="102.87" y2="64.77" width="0.1524" layer="91"/>
+<wire x1="102.87" y1="63.5" x2="102.87" y2="64.77" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="VOUT"/>
+<wire x1="90.17" y1="63.5" x2="102.87" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
