@@ -20593,11 +20593,6 @@ Source: www.kingbright.com</description>
 <junction x="165.1" y="33.02"/>
 </segment>
 <segment>
-<pinref part="JP2" gate="A" pin="3"/>
-<wire x1="-91.44" y1="208.28" x2="-81.28" y2="208.28" width="0.1524" layer="91"/>
-<label x="-83.82" y="208.28" size="1.778" layer="95"/>
-</segment>
-<segment>
 <label x="208.28" y="330.2" size="1.778" layer="95"/>
 <wire x1="210.82" y1="330.2" x2="142.24" y2="330.2" width="0.1524" layer="91"/>
 <pinref part="JP5" gate="A" pin="12"/>
@@ -20688,6 +20683,11 @@ Source: www.kingbright.com</description>
 <label x="208.28" y="327.66" size="1.778" layer="95"/>
 <wire x1="142.24" y1="327.66" x2="210.82" y2="327.66" width="0.1524" layer="91"/>
 <pinref part="JP5" gate="A" pin="14"/>
+</segment>
+<segment>
+<pinref part="JP2" gate="A" pin="3"/>
+<wire x1="-91.44" y1="208.28" x2="-81.28" y2="208.28" width="0.1524" layer="91"/>
+<label x="-83.82" y="208.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO1" class="0">
