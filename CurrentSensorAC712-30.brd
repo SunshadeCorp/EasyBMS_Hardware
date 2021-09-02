@@ -1917,7 +1917,7 @@ design rules under a new name.</description>
 <vertex x="-0.508" y="-0.508"/>
 <vertex x="-1.016" y="-0.508"/>
 </polygon>
-<polygon width="0" layer="16">
+<polygon width="0" layer="16" thermals="no">
 <vertex x="-1.016" y="24.638"/>
 <vertex x="13.208" y="24.638"/>
 <vertex x="13.208" y="-0.508"/>
