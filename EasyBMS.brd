@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -23,7 +23,7 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -32,7 +32,7 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -2406,17 +2406,17 @@ design rules under a new name.</description>
 <attribute name="NAME" x="3.302" y="18.669" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="3.175" y="23.749" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="LED4" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/1" value="KT-0603R" x="47.498" y="55.88" smashed="yes" rot="R180"/>
-<element name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/1" value="KT-0603R" x="43.688" y="55.88" smashed="yes" rot="R180"/>
-<element name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/1" value="KT-0603R" x="44.958" y="55.88" smashed="yes" rot="R180"/>
-<element name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/1" value="KT-0603R" x="46.228" y="55.88" smashed="yes" rot="R180"/>
-<element name="R53" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="200R0" x="20.066" y="79.756" smashed="yes" rot="R180"/>
-<element name="R54" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="200R0" x="20.066" y="81.788" smashed="yes" rot="R180"/>
-<element name="R55" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="200R0" x="20.066" y="83.82" smashed="yes" rot="R180"/>
-<element name="R56" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="200R0" x="20.066" y="85.852" smashed="yes" rot="R180"/>
+<element name="LED4" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/1" value="KT-0603R" x="30.226" y="97.282" smashed="yes"/>
+<element name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/1" value="KT-0603R" x="24.13" y="97.282" smashed="yes"/>
+<element name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/1" value="KT-0603R" x="26.162" y="97.282" smashed="yes"/>
+<element name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/1" value="KT-0603R" x="28.194" y="97.282" smashed="yes"/>
+<element name="R53" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="200R0" x="24.13" y="90.678" smashed="yes" rot="R270"/>
+<element name="R54" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="200R0" x="26.162" y="90.678" smashed="yes" rot="R270"/>
+<element name="R55" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="200R0" x="28.194" y="90.678" smashed="yes" rot="R270"/>
+<element name="R56" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="200R0" x="30.226" y="90.678" smashed="yes" rot="R270"/>
 <element name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="E2,5-6" package3d_urn="urn:adsk.eagle:package:23349/1" value="1uF" x="30.988" y="55.118" smashed="yes" rot="R90"/>
-<element name="R57" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="12k" x="14.605" y="73.533" smashed="yes" rot="R270"/>
-<element name="R58" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="12k" x="9.525" y="73.279" smashed="yes" rot="R270"/>
+<element name="R57" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="12k" x="11.684" y="73.152" smashed="yes" rot="R270"/>
+<element name="R58" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="12k" x="9.398" y="73.152" smashed="yes" rot="R270"/>
 <element name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="E2,5-6" package3d_urn="urn:adsk.eagle:package:23349/1" value="1uF" x="36.83" y="55.118" smashed="yes" rot="R90"/>
 <element name="R59" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="300k" x="31.242" y="74.422" smashed="yes" rot="R270"/>
 <element name="R60" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="27k" x="33.274" y="74.422" smashed="yes" rot="R90"/>
@@ -2427,12 +2427,9 @@ design rules under a new name.</description>
 <element name="JP3" library="pinhead_own" package="1X02" package3d_urn="urn:adsk.eagle:package:22435/2" value="" x="41.402" y="54.864" smashed="yes" rot="R90">
 <attribute name="VALUE" x="44.577" y="52.324" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="100R" x="22.352" y="1.524" smashed="yes" rot="R180">
-<attribute name="NAME" x="22.987" y="0.889" size="1.27" layer="25" rot="R180"/>
-</element>
-<element name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="" x="18.288" y="1.524" smashed="yes" rot="R180">
-<attribute name="NAME" x="18.923" y="0.889" size="1.27" layer="25" rot="R180"/>
-<attribute name="VALUE" x="18.923" y="3.429" size="1.27" layer="27" rot="R180"/>
+<element name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="100R" x="22.352" y="5.588" smashed="yes" rot="R180"/>
+<element name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="" x="18.288" y="5.588" smashed="yes" rot="R180">
+<attribute name="VALUE" x="18.923" y="7.493" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="D2" library="SamacSys_Parts" package="SODFL3616X135N" value="SM4007PL-TP" x="12.876" y="85.695" smashed="yes">
 <attribute name="DESCRIPTION" value="Rectifiers 1A, 1000V 1A, 1000V" x="12.876" y="85.695" size="1.778" layer="27" display="off"/>
@@ -2443,231 +2440,231 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Micro-Commercial-Components-MCC/SM4007PL-TP?qs=SdqRYZZ9IxCh9ylwm1K3UA%3D%3D" x="12.876" y="85.695" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="12.876" y="85.695" size="1.27" layer="25" align="center"/>
 </element>
-<element name="D3" library="SamacSys_Parts" package="SODFL3616X135N" value="SM4007PL-TP" x="3.763" y="9.349" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value="Rectifiers 1A, 1000V 1A, 1000V" x="3.763" y="9.349" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="1.35mm" x="3.763" y="9.349" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Micro Commercial Components (MCC)" x="3.763" y="9.349" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SM4007PL-TP" x="3.763" y="9.349" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="833-SM4007PL-TP" x="3.763" y="9.349" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Micro-Commercial-Components-MCC/SM4007PL-TP?qs=SdqRYZZ9IxCh9ylwm1K3UA%3D%3D" x="3.763" y="9.349" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="3.763" y="9.349" size="1.27" layer="25" rot="R180" align="center"/>
+<element name="D3" library="SamacSys_Parts" package="SODFL3616X135N" value="SM4007PL-TP" x="11.891" y="4.523" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="Rectifiers 1A, 1000V 1A, 1000V" x="11.891" y="4.523" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="1.35mm" x="11.891" y="4.523" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Micro Commercial Components (MCC)" x="11.891" y="4.523" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SM4007PL-TP" x="11.891" y="4.523" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="833-SM4007PL-TP" x="11.891" y="4.523" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Micro-Commercial-Components-MCC/SM4007PL-TP?qs=SdqRYZZ9IxCh9ylwm1K3UA%3D%3D" x="11.891" y="4.523" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="11.891" y="4.523" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
-<element name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="9.144" y="7.874" smashed="yes"/>
-<element name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="14.224" y="7.874" smashed="yes"/>
-<element name="Q3" library="SamacSys_Parts" package="SOT96P237X111-3N" value="BSS84LT1G" x="23.749" y="7.62" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value="MOSFET 50V 130mA P-Channel" x="23.749" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="1.11mm" x="23.749" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="ON Semiconductor" x="23.749" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="BSS84LT1G" x="23.749" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="863-BSS84LT1G" x="23.749" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/BSS84LT1G?qs=vNc2DXHODiKIGu9QIvMAfw%3D%3D" x="23.749" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="9.144" y="11.938" smashed="yes"/>
+<element name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="14.224" y="11.938" smashed="yes"/>
+<element name="Q3" library="SamacSys_Parts" package="SOT96P237X111-3N" value="BSS84LT1G" x="23.749" y="11.684" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="MOSFET 50V 130mA P-Channel" x="23.749" y="11.684" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="1.11mm" x="23.749" y="11.684" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="ON Semiconductor" x="23.749" y="11.684" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="BSS84LT1G" x="23.749" y="11.684" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="863-BSS84LT1G" x="23.749" y="11.684" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/BSS84LT1G?qs=vNc2DXHODiKIGu9QIvMAfw%3D%3D" x="23.749" y="11.684" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="19.304" y="7.874" smashed="yes"/>
-<element name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="3.3k" x="26.162" y="7.366" smashed="yes" rot="R270"/>
-<element name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="" x="8.128" y="6.35" smashed="yes" rot="R180">
-<attribute name="VALUE" x="8.763" y="8.255" size="1.27" layer="27" rot="R180"/>
+<element name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="19.304" y="11.938" smashed="yes"/>
+<element name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="3.3k" x="26.162" y="11.43" smashed="yes" rot="R270"/>
+<element name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="" x="8.128" y="10.414" smashed="yes" rot="R180">
+<attribute name="VALUE" x="8.763" y="12.319" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="LED6" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/1" value="KT-0603R" x="20.574" y="6.35" smashed="yes" rot="R90"/>
-<element name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="470R" x="17.907" y="6.35" smashed="yes" rot="R180"/>
-<element name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="100R" x="11.176" y="6.35" smashed="yes"/>
-<element name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="9.144" y="4.318" smashed="yes"/>
-<element name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="14.224" y="4.318" smashed="yes"/>
-<element name="Q2" library="SamacSys_Parts" package="SOT96P237X111-3N" value="BSS84LT1G" x="23.749" y="4.064" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value="MOSFET 50V 130mA P-Channel" x="23.749" y="4.064" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="1.11mm" x="23.749" y="4.064" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="ON Semiconductor" x="23.749" y="4.064" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="BSS84LT1G" x="23.749" y="4.064" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="863-BSS84LT1G" x="23.749" y="4.064" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/BSS84LT1G?qs=vNc2DXHODiKIGu9QIvMAfw%3D%3D" x="23.749" y="4.064" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="LED6" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/1" value="KT-0603R" x="20.574" y="10.414" smashed="yes" rot="R90"/>
+<element name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="470R" x="17.907" y="10.414" smashed="yes" rot="R180"/>
+<element name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="100R" x="11.176" y="10.414" smashed="yes"/>
+<element name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="9.144" y="8.382" smashed="yes"/>
+<element name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="14.224" y="8.382" smashed="yes"/>
+<element name="Q2" library="SamacSys_Parts" package="SOT96P237X111-3N" value="BSS84LT1G" x="23.749" y="8.128" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="MOSFET 50V 130mA P-Channel" x="23.749" y="8.128" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="1.11mm" x="23.749" y="8.128" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="ON Semiconductor" x="23.749" y="8.128" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="BSS84LT1G" x="23.749" y="8.128" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="863-BSS84LT1G" x="23.749" y="8.128" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/BSS84LT1G?qs=vNc2DXHODiKIGu9QIvMAfw%3D%3D" x="23.749" y="8.128" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="19.304" y="4.318" smashed="yes"/>
-<element name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="3.3k" x="26.162" y="3.81" smashed="yes" rot="R270"/>
-<element name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="" x="8.128" y="2.794" smashed="yes" rot="R180">
-<attribute name="VALUE" x="8.763" y="4.699" size="1.27" layer="27" rot="R180"/>
+<element name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="19.304" y="8.382" smashed="yes"/>
+<element name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="3.3k" x="26.162" y="7.874" smashed="yes" rot="R270"/>
+<element name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="" x="8.128" y="6.858" smashed="yes" rot="R180">
+<attribute name="VALUE" x="8.763" y="8.763" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="LED5" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/1" value="KT-0603R" x="20.574" y="2.794" smashed="yes" rot="R90"/>
-<element name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="470R" x="17.907" y="2.794" smashed="yes" rot="R180"/>
-<element name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="100R" x="11.176" y="2.794" smashed="yes"/>
-<element name="R31" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="9.144" y="11.43" smashed="yes"/>
-<element name="R32" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="14.224" y="11.43" smashed="yes"/>
-<element name="Q5" library="SamacSys_Parts" package="SOT96P237X111-3N" value="BSS84LT1G" x="23.749" y="11.176" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value="MOSFET 50V 130mA P-Channel" x="23.749" y="11.176" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="1.11mm" x="23.749" y="11.176" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="ON Semiconductor" x="23.749" y="11.176" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="BSS84LT1G" x="23.749" y="11.176" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="863-BSS84LT1G" x="23.749" y="11.176" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/BSS84LT1G?qs=vNc2DXHODiKIGu9QIvMAfw%3D%3D" x="23.749" y="11.176" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="LED5" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/1" value="KT-0603R" x="20.574" y="6.858" smashed="yes" rot="R90"/>
+<element name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="470R" x="17.907" y="6.858" smashed="yes" rot="R180"/>
+<element name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="100R" x="11.176" y="6.858" smashed="yes"/>
+<element name="R31" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="9.144" y="15.494" smashed="yes"/>
+<element name="R32" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="14.224" y="15.494" smashed="yes"/>
+<element name="Q5" library="SamacSys_Parts" package="SOT96P237X111-3N" value="BSS84LT1G" x="23.749" y="15.24" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="MOSFET 50V 130mA P-Channel" x="23.749" y="15.24" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="1.11mm" x="23.749" y="15.24" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="ON Semiconductor" x="23.749" y="15.24" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="BSS84LT1G" x="23.749" y="15.24" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="863-BSS84LT1G" x="23.749" y="15.24" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/BSS84LT1G?qs=vNc2DXHODiKIGu9QIvMAfw%3D%3D" x="23.749" y="15.24" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R33" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="19.304" y="11.43" smashed="yes"/>
-<element name="R34" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="3.3k" x="26.162" y="10.922" smashed="yes" rot="R270"/>
-<element name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="" x="8.128" y="9.906" smashed="yes" rot="R180">
-<attribute name="VALUE" x="8.763" y="11.811" size="1.27" layer="27" rot="R180"/>
+<element name="R33" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="19.304" y="15.494" smashed="yes"/>
+<element name="R34" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="3.3k" x="26.162" y="14.986" smashed="yes" rot="R270"/>
+<element name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="" x="8.128" y="13.97" smashed="yes" rot="R180">
+<attribute name="VALUE" x="8.763" y="15.875" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="LED8" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/1" value="KT-0603R" x="20.574" y="9.906" smashed="yes" rot="R90"/>
-<element name="R35" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="470R" x="17.907" y="9.906" smashed="yes" rot="R180"/>
-<element name="R36" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="100R" x="11.176" y="9.906" smashed="yes"/>
-<element name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="9.144" y="14.986" smashed="yes"/>
-<element name="R26" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="14.224" y="14.986" smashed="yes"/>
-<element name="Q4" library="SamacSys_Parts" package="SOT96P237X111-3N" value="BSS84LT1G" x="23.749" y="14.732" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value="MOSFET 50V 130mA P-Channel" x="23.749" y="14.732" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="1.11mm" x="23.749" y="14.732" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="ON Semiconductor" x="23.749" y="14.732" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="BSS84LT1G" x="23.749" y="14.732" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="863-BSS84LT1G" x="23.749" y="14.732" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/BSS84LT1G?qs=vNc2DXHODiKIGu9QIvMAfw%3D%3D" x="23.749" y="14.732" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="LED8" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/1" value="KT-0603R" x="20.574" y="13.97" smashed="yes" rot="R90"/>
+<element name="R35" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="470R" x="17.907" y="13.97" smashed="yes" rot="R180"/>
+<element name="R36" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="100R" x="11.176" y="13.97" smashed="yes"/>
+<element name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="9.144" y="19.05" smashed="yes"/>
+<element name="R26" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="14.224" y="19.05" smashed="yes"/>
+<element name="Q4" library="SamacSys_Parts" package="SOT96P237X111-3N" value="BSS84LT1G" x="23.749" y="18.796" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="MOSFET 50V 130mA P-Channel" x="23.749" y="18.796" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="1.11mm" x="23.749" y="18.796" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="ON Semiconductor" x="23.749" y="18.796" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="BSS84LT1G" x="23.749" y="18.796" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="863-BSS84LT1G" x="23.749" y="18.796" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/BSS84LT1G?qs=vNc2DXHODiKIGu9QIvMAfw%3D%3D" x="23.749" y="18.796" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R27" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="19.304" y="14.986" smashed="yes"/>
-<element name="R28" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="3.3k" x="26.162" y="14.478" smashed="yes" rot="R270"/>
-<element name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="" x="8.128" y="13.462" smashed="yes" rot="R180">
-<attribute name="VALUE" x="8.763" y="15.367" size="1.27" layer="27" rot="R180"/>
+<element name="R27" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="19.304" y="19.05" smashed="yes"/>
+<element name="R28" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="3.3k" x="26.162" y="18.542" smashed="yes" rot="R270"/>
+<element name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="" x="8.128" y="17.526" smashed="yes" rot="R180">
+<attribute name="VALUE" x="8.763" y="19.431" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="LED7" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/1" value="KT-0603R" x="20.574" y="13.462" smashed="yes" rot="R90"/>
-<element name="R29" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="470R" x="17.907" y="13.462" smashed="yes" rot="R180"/>
-<element name="R30" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="100R" x="11.176" y="13.462" smashed="yes"/>
-<element name="R37" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="9.144" y="18.542" smashed="yes"/>
-<element name="R38" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="14.224" y="18.542" smashed="yes"/>
-<element name="Q6" library="SamacSys_Parts" package="SOT96P237X111-3N" value="BSS84LT1G" x="23.749" y="18.288" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value="MOSFET 50V 130mA P-Channel" x="23.749" y="18.288" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="1.11mm" x="23.749" y="18.288" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="ON Semiconductor" x="23.749" y="18.288" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="BSS84LT1G" x="23.749" y="18.288" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="863-BSS84LT1G" x="23.749" y="18.288" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/BSS84LT1G?qs=vNc2DXHODiKIGu9QIvMAfw%3D%3D" x="23.749" y="18.288" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="LED7" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/1" value="KT-0603R" x="20.574" y="17.526" smashed="yes" rot="R90"/>
+<element name="R29" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="470R" x="17.907" y="17.526" smashed="yes" rot="R180"/>
+<element name="R30" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="100R" x="11.176" y="17.526" smashed="yes"/>
+<element name="R37" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="9.144" y="22.606" smashed="yes"/>
+<element name="R38" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="14.224" y="22.606" smashed="yes"/>
+<element name="Q6" library="SamacSys_Parts" package="SOT96P237X111-3N" value="BSS84LT1G" x="23.749" y="22.352" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="MOSFET 50V 130mA P-Channel" x="23.749" y="22.352" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="1.11mm" x="23.749" y="22.352" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="ON Semiconductor" x="23.749" y="22.352" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="BSS84LT1G" x="23.749" y="22.352" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="863-BSS84LT1G" x="23.749" y="22.352" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/BSS84LT1G?qs=vNc2DXHODiKIGu9QIvMAfw%3D%3D" x="23.749" y="22.352" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R39" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="19.304" y="18.542" smashed="yes"/>
-<element name="R40" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="3.3k" x="26.162" y="18.034" smashed="yes" rot="R270"/>
-<element name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="" x="8.128" y="17.018" smashed="yes" rot="R180">
-<attribute name="VALUE" x="8.763" y="18.923" size="1.27" layer="27" rot="R180"/>
+<element name="R39" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="19.304" y="22.606" smashed="yes"/>
+<element name="R40" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="3.3k" x="26.162" y="22.098" smashed="yes" rot="R270"/>
+<element name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="" x="8.128" y="21.082" smashed="yes" rot="R180">
+<attribute name="VALUE" x="8.763" y="22.987" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="LED9" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/1" value="KT-0603R" x="20.574" y="17.018" smashed="yes" rot="R90"/>
-<element name="R41" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="470R" x="17.907" y="17.018" smashed="yes" rot="R180"/>
-<element name="R42" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="100R" x="11.176" y="17.018" smashed="yes"/>
-<element name="R43" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="9.144" y="22.098" smashed="yes"/>
-<element name="R44" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="14.224" y="22.098" smashed="yes"/>
-<element name="Q7" library="SamacSys_Parts" package="SOT96P237X111-3N" value="BSS84LT1G" x="23.749" y="21.844" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value="MOSFET 50V 130mA P-Channel" x="23.749" y="21.844" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="1.11mm" x="23.749" y="21.844" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="ON Semiconductor" x="23.749" y="21.844" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="BSS84LT1G" x="23.749" y="21.844" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="863-BSS84LT1G" x="23.749" y="21.844" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/BSS84LT1G?qs=vNc2DXHODiKIGu9QIvMAfw%3D%3D" x="23.749" y="21.844" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="LED9" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/1" value="KT-0603R" x="20.574" y="21.082" smashed="yes" rot="R90"/>
+<element name="R41" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="470R" x="17.907" y="21.082" smashed="yes" rot="R180"/>
+<element name="R42" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="100R" x="11.176" y="21.082" smashed="yes"/>
+<element name="R43" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="9.144" y="26.162" smashed="yes"/>
+<element name="R44" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="14.224" y="26.162" smashed="yes"/>
+<element name="Q7" library="SamacSys_Parts" package="SOT96P237X111-3N" value="BSS84LT1G" x="23.749" y="25.908" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="MOSFET 50V 130mA P-Channel" x="23.749" y="25.908" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="1.11mm" x="23.749" y="25.908" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="ON Semiconductor" x="23.749" y="25.908" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="BSS84LT1G" x="23.749" y="25.908" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="863-BSS84LT1G" x="23.749" y="25.908" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/BSS84LT1G?qs=vNc2DXHODiKIGu9QIvMAfw%3D%3D" x="23.749" y="25.908" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R45" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="19.304" y="22.098" smashed="yes"/>
-<element name="R46" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="3.3k" x="26.162" y="21.59" smashed="yes" rot="R270"/>
-<element name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="" x="8.128" y="20.574" smashed="yes" rot="R180">
-<attribute name="VALUE" x="8.763" y="22.479" size="1.27" layer="27" rot="R180"/>
+<element name="R45" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="19.304" y="26.162" smashed="yes"/>
+<element name="R46" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="3.3k" x="26.162" y="25.654" smashed="yes" rot="R270"/>
+<element name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="" x="8.128" y="24.638" smashed="yes" rot="R180">
+<attribute name="VALUE" x="8.763" y="26.543" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="LED11" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/1" value="KT-0603R" x="20.574" y="20.574" smashed="yes" rot="R90"/>
-<element name="R47" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="470R" x="17.907" y="20.574" smashed="yes" rot="R180"/>
-<element name="R48" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="100R" x="11.176" y="20.574" smashed="yes"/>
-<element name="R49" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="9.144" y="25.654" smashed="yes"/>
-<element name="R50" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="14.224" y="25.654" smashed="yes"/>
-<element name="Q8" library="SamacSys_Parts" package="SOT96P237X111-3N" value="BSS84LT1G" x="23.749" y="25.4" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value="MOSFET 50V 130mA P-Channel" x="23.749" y="25.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="1.11mm" x="23.749" y="25.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="ON Semiconductor" x="23.749" y="25.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="BSS84LT1G" x="23.749" y="25.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="863-BSS84LT1G" x="23.749" y="25.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/BSS84LT1G?qs=vNc2DXHODiKIGu9QIvMAfw%3D%3D" x="23.749" y="25.4" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="LED11" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/1" value="KT-0603R" x="20.574" y="24.638" smashed="yes" rot="R90"/>
+<element name="R47" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="470R" x="17.907" y="24.638" smashed="yes" rot="R180"/>
+<element name="R48" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="100R" x="11.176" y="24.638" smashed="yes"/>
+<element name="R49" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="9.144" y="29.718" smashed="yes"/>
+<element name="R50" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="14.224" y="29.718" smashed="yes"/>
+<element name="Q8" library="SamacSys_Parts" package="SOT96P237X111-3N" value="BSS84LT1G" x="23.749" y="29.464" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="MOSFET 50V 130mA P-Channel" x="23.749" y="29.464" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="1.11mm" x="23.749" y="29.464" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="ON Semiconductor" x="23.749" y="29.464" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="BSS84LT1G" x="23.749" y="29.464" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="863-BSS84LT1G" x="23.749" y="29.464" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/BSS84LT1G?qs=vNc2DXHODiKIGu9QIvMAfw%3D%3D" x="23.749" y="29.464" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R51" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="19.304" y="25.654" smashed="yes"/>
-<element name="R52" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="3.3k" x="26.162" y="25.146" smashed="yes" rot="R270"/>
-<element name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="" x="8.128" y="24.13" smashed="yes" rot="R180">
-<attribute name="VALUE" x="8.763" y="26.035" size="1.27" layer="27" rot="R180"/>
+<element name="R51" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="19.304" y="29.718" smashed="yes"/>
+<element name="R52" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="3.3k" x="26.162" y="29.21" smashed="yes" rot="R270"/>
+<element name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="" x="8.128" y="28.194" smashed="yes" rot="R180">
+<attribute name="VALUE" x="8.763" y="30.099" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="LED12" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/1" value="KT-0603R" x="20.574" y="24.13" smashed="yes" rot="R90"/>
-<element name="R63" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="470R" x="17.907" y="24.13" smashed="yes" rot="R180"/>
-<element name="R64" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="100R" x="11.176" y="24.13" smashed="yes"/>
-<element name="R65" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="9.144" y="29.21" smashed="yes"/>
-<element name="R66" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="14.224" y="29.21" smashed="yes"/>
-<element name="Q9" library="SamacSys_Parts" package="SOT96P237X111-3N" value="BSS84LT1G" x="23.749" y="28.956" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value="MOSFET 50V 130mA P-Channel" x="23.749" y="28.956" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="1.11mm" x="23.749" y="28.956" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="ON Semiconductor" x="23.749" y="28.956" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="BSS84LT1G" x="23.749" y="28.956" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="863-BSS84LT1G" x="23.749" y="28.956" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/BSS84LT1G?qs=vNc2DXHODiKIGu9QIvMAfw%3D%3D" x="23.749" y="28.956" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="LED12" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/1" value="KT-0603R" x="20.574" y="28.194" smashed="yes" rot="R90"/>
+<element name="R63" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="470R" x="17.907" y="28.194" smashed="yes" rot="R180"/>
+<element name="R64" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="100R" x="11.176" y="28.194" smashed="yes"/>
+<element name="R65" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="9.144" y="33.274" smashed="yes"/>
+<element name="R66" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="14.224" y="33.274" smashed="yes"/>
+<element name="Q9" library="SamacSys_Parts" package="SOT96P237X111-3N" value="BSS84LT1G" x="23.749" y="33.02" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="MOSFET 50V 130mA P-Channel" x="23.749" y="33.02" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="1.11mm" x="23.749" y="33.02" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="ON Semiconductor" x="23.749" y="33.02" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="BSS84LT1G" x="23.749" y="33.02" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="863-BSS84LT1G" x="23.749" y="33.02" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/BSS84LT1G?qs=vNc2DXHODiKIGu9QIvMAfw%3D%3D" x="23.749" y="33.02" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R67" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="19.304" y="29.21" smashed="yes"/>
-<element name="R68" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="3.3k" x="26.162" y="28.702" smashed="yes" rot="R270"/>
-<element name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="" x="8.128" y="27.686" smashed="yes" rot="R180">
-<attribute name="VALUE" x="8.763" y="29.591" size="1.27" layer="27" rot="R180"/>
+<element name="R67" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="19.304" y="33.274" smashed="yes"/>
+<element name="R68" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="3.3k" x="26.162" y="32.766" smashed="yes" rot="R270"/>
+<element name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="" x="8.128" y="31.75" smashed="yes" rot="R180">
+<attribute name="VALUE" x="8.763" y="33.655" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="LED13" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/1" value="KT-0603R" x="20.574" y="27.686" smashed="yes" rot="R90"/>
-<element name="R69" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="470R" x="17.907" y="27.686" smashed="yes" rot="R180"/>
-<element name="R70" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="100R" x="11.176" y="27.686" smashed="yes"/>
-<element name="R71" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="9.144" y="32.766" smashed="yes"/>
-<element name="R72" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="14.224" y="32.766" smashed="yes"/>
-<element name="Q10" library="SamacSys_Parts" package="SOT96P237X111-3N" value="BSS84LT1G" x="23.749" y="32.512" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value="MOSFET 50V 130mA P-Channel" x="23.749" y="32.512" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="1.11mm" x="23.749" y="32.512" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="ON Semiconductor" x="23.749" y="32.512" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="BSS84LT1G" x="23.749" y="32.512" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="863-BSS84LT1G" x="23.749" y="32.512" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/BSS84LT1G?qs=vNc2DXHODiKIGu9QIvMAfw%3D%3D" x="23.749" y="32.512" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="LED13" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/1" value="KT-0603R" x="20.574" y="31.75" smashed="yes" rot="R90"/>
+<element name="R69" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="470R" x="17.907" y="31.75" smashed="yes" rot="R180"/>
+<element name="R70" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="100R" x="11.176" y="31.75" smashed="yes"/>
+<element name="R71" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="9.144" y="36.83" smashed="yes"/>
+<element name="R72" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="14.224" y="36.83" smashed="yes"/>
+<element name="Q10" library="SamacSys_Parts" package="SOT96P237X111-3N" value="BSS84LT1G" x="23.749" y="36.576" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="MOSFET 50V 130mA P-Channel" x="23.749" y="36.576" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="1.11mm" x="23.749" y="36.576" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="ON Semiconductor" x="23.749" y="36.576" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="BSS84LT1G" x="23.749" y="36.576" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="863-BSS84LT1G" x="23.749" y="36.576" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/BSS84LT1G?qs=vNc2DXHODiKIGu9QIvMAfw%3D%3D" x="23.749" y="36.576" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R73" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="19.304" y="32.766" smashed="yes"/>
-<element name="R74" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="3.3k" x="26.162" y="32.258" smashed="yes" rot="R270"/>
-<element name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="" x="8.128" y="31.242" smashed="yes" rot="R180">
-<attribute name="VALUE" x="8.763" y="33.147" size="1.27" layer="27" rot="R180"/>
+<element name="R73" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="19.304" y="36.83" smashed="yes"/>
+<element name="R74" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="3.3k" x="26.162" y="36.322" smashed="yes" rot="R270"/>
+<element name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="" x="8.128" y="35.306" smashed="yes" rot="R180">
+<attribute name="VALUE" x="8.763" y="37.211" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="LED14" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/1" value="KT-0603R" x="20.574" y="31.242" smashed="yes" rot="R90"/>
-<element name="R75" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="470R" x="17.907" y="31.242" smashed="yes" rot="R180"/>
-<element name="R76" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="100R" x="11.176" y="31.242" smashed="yes"/>
-<element name="R77" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="9.144" y="36.322" smashed="yes"/>
-<element name="R78" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="14.224" y="36.322" smashed="yes"/>
-<element name="Q11" library="SamacSys_Parts" package="SOT96P237X111-3N" value="BSS84LT1G" x="23.749" y="36.068" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value="MOSFET 50V 130mA P-Channel" x="23.749" y="36.068" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="1.11mm" x="23.749" y="36.068" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="ON Semiconductor" x="23.749" y="36.068" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="BSS84LT1G" x="23.749" y="36.068" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="863-BSS84LT1G" x="23.749" y="36.068" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/BSS84LT1G?qs=vNc2DXHODiKIGu9QIvMAfw%3D%3D" x="23.749" y="36.068" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="LED14" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/1" value="KT-0603R" x="20.574" y="35.306" smashed="yes" rot="R90"/>
+<element name="R75" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="470R" x="17.907" y="35.306" smashed="yes" rot="R180"/>
+<element name="R76" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="100R" x="11.176" y="35.306" smashed="yes"/>
+<element name="R77" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="9.144" y="40.386" smashed="yes"/>
+<element name="R78" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="14.224" y="40.386" smashed="yes"/>
+<element name="Q11" library="SamacSys_Parts" package="SOT96P237X111-3N" value="BSS84LT1G" x="23.749" y="40.132" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="MOSFET 50V 130mA P-Channel" x="23.749" y="40.132" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="1.11mm" x="23.749" y="40.132" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="ON Semiconductor" x="23.749" y="40.132" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="BSS84LT1G" x="23.749" y="40.132" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="863-BSS84LT1G" x="23.749" y="40.132" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/BSS84LT1G?qs=vNc2DXHODiKIGu9QIvMAfw%3D%3D" x="23.749" y="40.132" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R79" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="19.304" y="36.322" smashed="yes"/>
-<element name="R80" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="3.3k" x="26.162" y="35.814" smashed="yes" rot="R270"/>
-<element name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="" x="8.128" y="34.798" smashed="yes" rot="R180">
-<attribute name="VALUE" x="8.763" y="36.703" size="1.27" layer="27" rot="R180"/>
+<element name="R79" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="19.304" y="40.386" smashed="yes"/>
+<element name="R80" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="3.3k" x="26.162" y="39.878" smashed="yes" rot="R270"/>
+<element name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="" x="8.128" y="38.862" smashed="yes" rot="R180">
+<attribute name="VALUE" x="8.763" y="40.767" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="LED15" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/1" value="KT-0603R" x="20.574" y="34.798" smashed="yes" rot="R90"/>
-<element name="R81" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="470R" x="17.907" y="34.798" smashed="yes" rot="R180"/>
-<element name="R83" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="100R" x="11.176" y="34.798" smashed="yes"/>
-<element name="R84" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="9.144" y="39.878" smashed="yes"/>
-<element name="R85" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="14.224" y="39.878" smashed="yes"/>
-<element name="Q12" library="SamacSys_Parts" package="SOT96P237X111-3N" value="BSS84LT1G" x="23.749" y="39.624" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value="MOSFET 50V 130mA P-Channel" x="23.749" y="39.624" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="1.11mm" x="23.749" y="39.624" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="ON Semiconductor" x="23.749" y="39.624" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="BSS84LT1G" x="23.749" y="39.624" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="863-BSS84LT1G" x="23.749" y="39.624" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/BSS84LT1G?qs=vNc2DXHODiKIGu9QIvMAfw%3D%3D" x="23.749" y="39.624" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="LED15" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/1" value="KT-0603R" x="20.574" y="38.862" smashed="yes" rot="R90"/>
+<element name="R81" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="470R" x="17.907" y="38.862" smashed="yes" rot="R180"/>
+<element name="R83" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="100R" x="11.176" y="38.862" smashed="yes"/>
+<element name="R84" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="9.144" y="43.942" smashed="yes"/>
+<element name="R85" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="14.224" y="43.942" smashed="yes"/>
+<element name="Q12" library="SamacSys_Parts" package="SOT96P237X111-3N" value="BSS84LT1G" x="23.749" y="43.688" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="MOSFET 50V 130mA P-Channel" x="23.749" y="43.688" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="1.11mm" x="23.749" y="43.688" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="ON Semiconductor" x="23.749" y="43.688" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="BSS84LT1G" x="23.749" y="43.688" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="863-BSS84LT1G" x="23.749" y="43.688" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/BSS84LT1G?qs=vNc2DXHODiKIGu9QIvMAfw%3D%3D" x="23.749" y="43.688" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R86" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="19.304" y="39.878" smashed="yes"/>
-<element name="R87" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="3.3k" x="26.162" y="39.37" smashed="yes" rot="R270"/>
-<element name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="" x="8.128" y="38.354" smashed="yes" rot="R180">
-<attribute name="VALUE" x="8.763" y="40.259" size="1.27" layer="27" rot="R180"/>
+<element name="R86" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="19.304" y="43.942" smashed="yes"/>
+<element name="R87" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="3.3k" x="26.162" y="43.434" smashed="yes" rot="R270"/>
+<element name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="" x="8.128" y="42.418" smashed="yes" rot="R180">
+<attribute name="VALUE" x="8.763" y="44.323" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="LED16" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/1" value="KT-0603R" x="20.574" y="38.354" smashed="yes" rot="R90"/>
-<element name="R88" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="470R" x="17.907" y="38.354" smashed="yes" rot="R180"/>
-<element name="R89" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="100R" x="11.176" y="38.354" smashed="yes"/>
-<element name="R90" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="9.144" y="43.434" smashed="yes"/>
-<element name="R91" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="14.224" y="43.434" smashed="yes"/>
-<element name="Q13" library="SamacSys_Parts" package="SOT96P237X111-3N" value="BSS84LT1G" x="23.749" y="43.18" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value="MOSFET 50V 130mA P-Channel" x="23.749" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="1.11mm" x="23.749" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="ON Semiconductor" x="23.749" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="BSS84LT1G" x="23.749" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="863-BSS84LT1G" x="23.749" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/BSS84LT1G?qs=vNc2DXHODiKIGu9QIvMAfw%3D%3D" x="23.749" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="LED16" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/1" value="KT-0603R" x="20.574" y="42.418" smashed="yes" rot="R90"/>
+<element name="R88" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="470R" x="17.907" y="42.418" smashed="yes" rot="R180"/>
+<element name="R89" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="100R" x="11.176" y="42.418" smashed="yes"/>
+<element name="R90" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="9.144" y="47.498" smashed="yes"/>
+<element name="R91" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="14.224" y="47.498" smashed="yes"/>
+<element name="Q13" library="SamacSys_Parts" package="SOT96P237X111-3N" value="BSS84LT1G" x="23.749" y="47.244" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="MOSFET 50V 130mA P-Channel" x="23.749" y="47.244" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="1.11mm" x="23.749" y="47.244" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="ON Semiconductor" x="23.749" y="47.244" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="BSS84LT1G" x="23.749" y="47.244" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="863-BSS84LT1G" x="23.749" y="47.244" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/BSS84LT1G?qs=vNc2DXHODiKIGu9QIvMAfw%3D%3D" x="23.749" y="47.244" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R92" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="19.304" y="43.434" smashed="yes"/>
-<element name="R93" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="3.3k" x="26.162" y="42.926" smashed="yes" rot="R270"/>
-<element name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="" x="8.128" y="41.91" smashed="yes" rot="R180">
-<attribute name="VALUE" x="8.763" y="43.815" size="1.27" layer="27" rot="R180"/>
+<element name="R92" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="19.304" y="47.498" smashed="yes"/>
+<element name="R93" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="3.3k" x="26.162" y="46.99" smashed="yes" rot="R270"/>
+<element name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="" x="8.128" y="45.974" smashed="yes" rot="R180">
+<attribute name="VALUE" x="8.763" y="47.879" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="LED17" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/1" value="KT-0603R" x="20.574" y="41.91" smashed="yes" rot="R90"/>
-<element name="R94" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="470R" x="17.907" y="41.91" smashed="yes" rot="R180"/>
-<element name="R95" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="100R" x="11.176" y="41.91" smashed="yes"/>
+<element name="LED17" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/1" value="KT-0603R" x="20.574" y="45.974" smashed="yes" rot="R90"/>
+<element name="R94" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="470R" x="17.907" y="45.974" smashed="yes" rot="R180"/>
+<element name="R95" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="100R" x="11.176" y="45.974" smashed="yes"/>
 <element name="JP5" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="2X20" package3d_urn="urn:adsk.eagle:package:22443/2" value="" x="31.242" y="25.908" smashed="yes" rot="R270">
 <attribute name="VALUE" x="26.797" y="51.308" size="1.27" layer="27" rot="R270"/>
 </element>
@@ -2691,7 +2688,6 @@ design rules under a new name.</description>
 <signal name="BAT+">
 <contactref element="R15" pad="2"/>
 <contactref element="R59" pad="2"/>
-<wire x1="31.242" y1="73.572" x2="33.274" y2="77.89" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="5VDC">
 <contactref element="U$1" pad="OUT+"/>
@@ -2702,20 +2698,11 @@ design rules under a new name.</description>
 <contactref element="JP5" pad="10"/>
 <contactref element="R1" pad="2"/>
 <contactref element="C19" pad="1"/>
-<wire x1="40.728" y1="77.978" x2="40.728" y2="82.042" width="0" layer="19" extent="1-1"/>
-<wire x1="24.13" y1="83.947" x2="40.728" y2="82.042" width="0" layer="19" extent="1-1"/>
-<wire x1="14.651" y1="85.695" x2="24.13" y2="83.947" width="0" layer="19" extent="1-1"/>
-<wire x1="20.066" y1="58.536" x2="14.651" y2="85.695" width="0" layer="19" extent="1-1"/>
-<wire x1="36.83" y1="53.848" x2="20.066" y2="58.536" width="0" layer="19" extent="1-1"/>
-<wire x1="32.512" y1="39.878" x2="36.83" y2="53.848" width="0" layer="19" extent="1-1"/>
-<wire x1="35.814" y1="41.526" x2="32.512" y2="39.878" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MISO">
 <contactref element="R61" pad="2"/>
 <contactref element="R2" pad="1"/>
 <contactref element="JP5" pad="2"/>
-<wire x1="39.028" y1="82.042" x2="39.028" y2="84.074" width="0" layer="19" extent="1-1"/>
-<wire x1="32.512" y1="50.038" x2="39.028" y2="82.042" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <contactref element="R16" pad="1"/>
@@ -2745,32 +2732,6 @@ design rules under a new name.</description>
 <contactref element="C4" pad="2"/>
 <contactref element="C18" pad="2"/>
 <contactref element="C19" pad="2"/>
-<wire x1="31.242" y1="77.89" x2="24.13" y2="81.407" width="0" layer="19" extent="1-1"/>
-<wire x1="33.274" y1="73.572" x2="31.242" y2="77.89" width="0" layer="19" extent="1-1"/>
-<wire x1="31.242" y1="70.7" x2="33.274" y2="73.572" width="0" layer="19" extent="1-1"/>
-<wire x1="47.498" y1="55.13" x2="31.242" y2="70.7" width="0" layer="19" extent="1-1"/>
-<wire x1="46.228" y1="55.13" x2="47.498" y2="55.13" width="0" layer="19" extent="1-1"/>
-<wire x1="44.958" y1="55.13" x2="46.228" y2="55.13" width="0" layer="19" extent="1-1"/>
-<wire x1="43.688" y1="55.13" x2="44.958" y2="55.13" width="0" layer="19" extent="1-1"/>
-<wire x1="30.988" y1="56.388" x2="43.688" y2="55.13" width="0" layer="19" extent="1-1"/>
-<wire x1="36.83" y1="56.388" x2="30.988" y2="56.388" width="0" layer="19" extent="1-1"/>
-<wire x1="25.146" y1="56.388" x2="36.83" y2="56.388" width="0" layer="19" extent="1-1"/>
-<wire x1="2.286" y1="58.536" x2="25.146" y2="56.388" width="0" layer="19" extent="1-1"/>
-<wire x1="35.814" y1="44.326" x2="30.988" y2="56.388" width="0" layer="19" extent="1-1"/>
-<wire x1="35.814" y1="39.246" x2="35.814" y2="44.326" width="0" layer="19" extent="1-1"/>
-<wire x1="32.512" y1="32.258" x2="35.814" y2="39.246" width="0" layer="19" extent="1-1"/>
-<wire x1="32.512" y1="29.718" x2="32.512" y2="32.258" width="0" layer="19" extent="1-1"/>
-<wire x1="35.814" y1="31.366" x2="32.512" y2="32.258" width="0" layer="19" extent="1-1"/>
-<wire x1="14.605" y1="74.383" x2="24.13" y2="81.407" width="0" layer="19" extent="1-1"/>
-<wire x1="9.525" y1="74.129" x2="14.605" y2="74.383" width="0" layer="19" extent="1-1"/>
-<wire x1="2.286" y1="97.536" x2="24.13" y2="81.407" width="0" layer="19" extent="1-1"/>
-<wire x1="2.54" y1="24.003" x2="25.146" y2="56.388" width="0" layer="19" extent="1-1"/>
-<wire x1="1.988" y1="9.349" x2="2.54" y2="24.003" width="0" layer="19" extent="1-1"/>
-<wire x1="7.722" y1="4.318" x2="1.988" y2="9.349" width="0" layer="19" extent="1-1"/>
-<wire x1="7.478" y1="2.794" x2="7.722" y2="4.318" width="0" layer="19" extent="1-1"/>
-<wire x1="17.257" y1="2.794" x2="7.722" y2="4.318" width="0" layer="19" extent="1-1"/>
-<wire x1="17.638" y1="1.524" x2="17.257" y2="2.794" width="0" layer="19" extent="1-1"/>
-<wire x1="21.702" y1="1.524" x2="17.638" y2="1.524" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$202">
 </signal>
@@ -2847,37 +2808,30 @@ design rules under a new name.</description>
 <signal name="N$1">
 <contactref element="LED1" pad="A"/>
 <contactref element="R53" pad="1"/>
-<wire x1="43.688" y1="56.63" x2="20.916" y2="79.756" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="LED2" pad="A"/>
 <contactref element="R54" pad="1"/>
-<wire x1="44.958" y1="56.63" x2="20.916" y2="81.788" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="LED3" pad="A"/>
 <contactref element="R55" pad="1"/>
-<wire x1="46.228" y1="56.63" x2="20.916" y2="83.82" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$4">
 <contactref element="LED4" pad="A"/>
 <contactref element="R56" pad="1"/>
-<wire x1="47.498" y1="56.63" x2="20.916" y2="85.852" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$70">
 <contactref element="R53" pad="2"/>
 <contactref element="U$2" pad="JP2.3"/>
-<wire x1="19.216" y1="79.756" x2="24.13" y2="71.247" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VTEMP2">
 <contactref element="JP2" pad="4"/>
 <contactref element="R58" pad="2"/>
-<wire x1="2.54" y1="20.574" x2="9.525" y2="72.429" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VTEMP1">
 <contactref element="JP2" pad="2"/>
 <contactref element="R57" pad="2"/>
-<wire x1="2.54" y1="15.494" x2="14.605" y2="72.683" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="P6">
 <contactref element="JP1" pad="6"/>
@@ -2886,11 +2840,6 @@ design rules under a new name.</description>
 <contactref element="C11" pad="2"/>
 <contactref element="R43" pad="1"/>
 <contactref element="R47" pad="2"/>
-<wire x1="17.257" y1="20.574" x2="24.949" y2="19.243" width="0" layer="19" extent="1-1"/>
-<wire x1="11.826" y1="17.018" x2="17.257" y2="20.574" width="0" layer="19" extent="1-1"/>
-<wire x1="7.478" y1="20.574" x2="11.826" y2="17.018" width="0" layer="19" extent="1-1"/>
-<wire x1="7.722" y1="22.098" x2="7.478" y2="20.574" width="0" layer="19" extent="1-1"/>
-<wire x1="2.54" y1="36.703" x2="7.722" y2="22.098" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="P5">
 <contactref element="JP1" pad="5"/>
@@ -2899,11 +2848,6 @@ design rules under a new name.</description>
 <contactref element="C10" pad="2"/>
 <contactref element="R37" pad="1"/>
 <contactref element="R41" pad="2"/>
-<wire x1="17.257" y1="17.018" x2="24.949" y2="15.687" width="0" layer="19" extent="1-1"/>
-<wire x1="11.826" y1="13.462" x2="17.257" y2="17.018" width="0" layer="19" extent="1-1"/>
-<wire x1="7.478" y1="17.018" x2="11.826" y2="13.462" width="0" layer="19" extent="1-1"/>
-<wire x1="7.722" y1="18.542" x2="7.478" y2="17.018" width="0" layer="19" extent="1-1"/>
-<wire x1="2.54" y1="34.163" x2="7.722" y2="18.542" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="P4">
 <contactref element="JP1" pad="4"/>
@@ -2912,11 +2856,6 @@ design rules under a new name.</description>
 <contactref element="C8" pad="2"/>
 <contactref element="R25" pad="1"/>
 <contactref element="R29" pad="2"/>
-<wire x1="7.722" y1="14.986" x2="2.54" y2="31.623" width="0" layer="19" extent="1-1"/>
-<wire x1="7.478" y1="13.462" x2="7.722" y2="14.986" width="0" layer="19" extent="1-1"/>
-<wire x1="11.826" y1="9.906" x2="7.478" y2="13.462" width="0" layer="19" extent="1-1"/>
-<wire x1="17.257" y1="13.462" x2="11.826" y2="9.906" width="0" layer="19" extent="1-1"/>
-<wire x1="24.949" y1="12.131" x2="17.257" y2="13.462" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="P3">
 <contactref element="JP1" pad="3"/>
@@ -2925,11 +2864,6 @@ design rules under a new name.</description>
 <contactref element="C9" pad="2"/>
 <contactref element="R31" pad="1"/>
 <contactref element="R35" pad="2"/>
-<wire x1="7.722" y1="11.43" x2="2.54" y2="29.083" width="0" layer="19" extent="1-1"/>
-<wire x1="7.478" y1="9.906" x2="7.722" y2="11.43" width="0" layer="19" extent="1-1"/>
-<wire x1="11.826" y1="6.35" x2="7.478" y2="9.906" width="0" layer="19" extent="1-1"/>
-<wire x1="17.257" y1="9.906" x2="11.826" y2="6.35" width="0" layer="19" extent="1-1"/>
-<wire x1="24.949" y1="8.575" x2="17.257" y2="9.906" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="P2">
 <contactref element="JP1" pad="2"/>
@@ -2939,86 +2873,61 @@ design rules under a new name.</description>
 <contactref element="C7" pad="2"/>
 <contactref element="R14" pad="1"/>
 <contactref element="R23" pad="2"/>
-<wire x1="5.538" y1="9.349" x2="2.54" y2="26.543" width="0" layer="19" extent="1-1"/>
-<wire x1="7.722" y1="7.874" x2="5.538" y2="9.349" width="0" layer="19" extent="1-1"/>
-<wire x1="7.478" y1="6.35" x2="7.722" y2="7.874" width="0" layer="19" extent="1-1"/>
-<wire x1="11.826" y1="2.794" x2="7.478" y2="6.35" width="0" layer="19" extent="1-1"/>
-<wire x1="17.257" y1="6.35" x2="11.826" y2="2.794" width="0" layer="19" extent="1-1"/>
-<wire x1="24.949" y1="5.019" x2="17.257" y2="6.35" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VREF1">
 <contactref element="C1" pad="+"/>
 <contactref element="JP2" pad="3"/>
 <contactref element="JP5" pad="12"/>
 <contactref element="C18" pad="1"/>
-<wire x1="32.512" y1="37.338" x2="35.814" y2="36.446" width="0" layer="19" extent="1-1"/>
-<wire x1="25.146" y1="53.848" x2="32.512" y2="37.338" width="0" layer="19" extent="1-1"/>
-<wire x1="2.54" y1="18.034" x2="25.146" y2="53.848" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MOSI">
 <contactref element="R62" pad="2"/>
 <contactref element="R1" pad="1"/>
 <contactref element="JP5" pad="4"/>
-<wire x1="39.028" y1="77.978" x2="39.028" y2="80.01" width="0" layer="19" extent="1-1"/>
-<wire x1="32.512" y1="47.498" x2="39.028" y2="77.978" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$30">
 <contactref element="U$2" pad="JP2.6"/>
 <contactref element="R56" pad="2"/>
-<wire x1="19.216" y1="85.852" x2="24.13" y2="78.867" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$120">
 <contactref element="U$2" pad="JP2.5"/>
 <contactref element="R55" pad="2"/>
-<wire x1="19.216" y1="83.82" x2="24.13" y2="76.327" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$124">
 <contactref element="U$2" pad="JP2.4"/>
 <contactref element="R54" pad="2"/>
-<wire x1="19.216" y1="81.788" x2="24.13" y2="73.787" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="A0IN">
 <contactref element="U$2" pad="JP1.2"/>
 <contactref element="R15" pad="1"/>
 <contactref element="R16" pad="2"/>
-<wire x1="33.274" y1="79.59" x2="46.99" y2="68.707" width="0" layer="19" extent="1-1"/>
-<wire x1="31.242" y1="79.59" x2="33.274" y2="79.59" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VREF2">
 <contactref element="C2" pad="+"/>
 <contactref element="JP2" pad="1"/>
 <contactref element="JP5" pad="14"/>
 <contactref element="C4" pad="1"/>
-<wire x1="32.512" y1="34.798" x2="30.988" y2="53.848" width="0" layer="19" extent="1-1"/>
-<wire x1="35.814" y1="34.166" x2="32.512" y2="34.798" width="0" layer="19" extent="1-1"/>
-<wire x1="2.54" y1="12.954" x2="32.512" y2="34.798" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPIO1">
 <contactref element="R59" pad="1"/>
 <contactref element="R60" pad="2"/>
 <contactref element="JP5" pad="28"/>
-<wire x1="31.242" y1="75.272" x2="33.274" y2="75.272" width="0" layer="19" extent="1-1"/>
-<wire x1="32.512" y1="17.018" x2="33.274" y2="75.272" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$73">
 <contactref element="U$2" pad="JP1.5"/>
 <contactref element="R61" pad="1"/>
-<wire x1="40.728" y1="84.074" x2="46.99" y2="76.327" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$119">
 <contactref element="U$2" pad="JP1.6"/>
 <contactref element="R62" pad="1"/>
-<wire x1="40.728" y1="80.01" x2="46.99" y2="78.867" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="U$2" pad="JP1.1"/>
 <contactref element="JP3" pad="2"/>
-<wire x1="41.402" y1="56.134" x2="46.99" y2="66.167" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$6">
 <contactref element="U$2" pad="JP1.3"/>
 <contactref element="JP3" pad="1"/>
-<wire x1="41.402" y1="53.594" x2="46.99" y2="71.247" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="P13">
 <contactref element="JP1" pad="13"/>
@@ -3027,11 +2936,6 @@ design rules under a new name.</description>
 <contactref element="Q13" pad="2"/>
 <contactref element="R95" pad="2"/>
 <contactref element="JP5" pad="1"/>
-<wire x1="11.101" y1="85.695" x2="20.066" y2="97.536" width="0" layer="19" extent="1-1"/>
-<wire x1="2.54" y1="54.483" x2="11.101" y2="85.695" width="0" layer="19" extent="1-1"/>
-<wire x1="11.826" y1="41.91" x2="2.54" y2="54.483" width="0" layer="19" extent="1-1"/>
-<wire x1="24.949" y1="44.135" x2="11.826" y2="41.91" width="0" layer="19" extent="1-1"/>
-<wire x1="29.972" y1="50.038" x2="24.949" y2="44.135" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="P12">
 <contactref element="JP1" pad="12"/>
@@ -3040,11 +2944,6 @@ design rules under a new name.</description>
 <contactref element="C17" pad="2"/>
 <contactref element="R90" pad="1"/>
 <contactref element="R94" pad="2"/>
-<wire x1="17.257" y1="41.91" x2="24.949" y2="40.579" width="0" layer="19" extent="1-1"/>
-<wire x1="11.826" y1="38.354" x2="17.257" y2="41.91" width="0" layer="19" extent="1-1"/>
-<wire x1="7.478" y1="41.91" x2="11.826" y2="38.354" width="0" layer="19" extent="1-1"/>
-<wire x1="7.722" y1="43.434" x2="7.478" y2="41.91" width="0" layer="19" extent="1-1"/>
-<wire x1="2.54" y1="51.943" x2="7.722" y2="43.434" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="P11">
 <contactref element="JP1" pad="11"/>
@@ -3053,11 +2952,6 @@ design rules under a new name.</description>
 <contactref element="C16" pad="2"/>
 <contactref element="R84" pad="1"/>
 <contactref element="R88" pad="2"/>
-<wire x1="17.257" y1="38.354" x2="24.949" y2="37.023" width="0" layer="19" extent="1-1"/>
-<wire x1="11.826" y1="34.798" x2="17.257" y2="38.354" width="0" layer="19" extent="1-1"/>
-<wire x1="7.478" y1="38.354" x2="11.826" y2="34.798" width="0" layer="19" extent="1-1"/>
-<wire x1="7.722" y1="39.878" x2="7.478" y2="38.354" width="0" layer="19" extent="1-1"/>
-<wire x1="2.54" y1="49.403" x2="7.722" y2="39.878" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="P10">
 <contactref element="JP1" pad="10"/>
@@ -3066,11 +2960,6 @@ design rules under a new name.</description>
 <contactref element="C15" pad="2"/>
 <contactref element="R77" pad="1"/>
 <contactref element="R81" pad="2"/>
-<wire x1="17.257" y1="34.798" x2="24.949" y2="33.467" width="0" layer="19" extent="1-1"/>
-<wire x1="11.826" y1="31.242" x2="17.257" y2="34.798" width="0" layer="19" extent="1-1"/>
-<wire x1="7.478" y1="34.798" x2="11.826" y2="31.242" width="0" layer="19" extent="1-1"/>
-<wire x1="7.722" y1="36.322" x2="7.478" y2="34.798" width="0" layer="19" extent="1-1"/>
-<wire x1="2.54" y1="46.863" x2="7.722" y2="36.322" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="P9">
 <contactref element="JP1" pad="9"/>
@@ -3079,11 +2968,6 @@ design rules under a new name.</description>
 <contactref element="C14" pad="2"/>
 <contactref element="R71" pad="1"/>
 <contactref element="R75" pad="2"/>
-<wire x1="17.257" y1="31.242" x2="24.949" y2="29.911" width="0" layer="19" extent="1-1"/>
-<wire x1="11.826" y1="27.686" x2="17.257" y2="31.242" width="0" layer="19" extent="1-1"/>
-<wire x1="7.478" y1="31.242" x2="11.826" y2="27.686" width="0" layer="19" extent="1-1"/>
-<wire x1="7.722" y1="32.766" x2="7.478" y2="31.242" width="0" layer="19" extent="1-1"/>
-<wire x1="2.54" y1="44.323" x2="7.722" y2="32.766" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="P8">
 <contactref element="JP1" pad="8"/>
@@ -3092,11 +2976,6 @@ design rules under a new name.</description>
 <contactref element="C13" pad="2"/>
 <contactref element="R65" pad="1"/>
 <contactref element="R69" pad="2"/>
-<wire x1="17.257" y1="27.686" x2="24.949" y2="26.355" width="0" layer="19" extent="1-1"/>
-<wire x1="11.826" y1="24.13" x2="17.257" y2="27.686" width="0" layer="19" extent="1-1"/>
-<wire x1="7.478" y1="27.686" x2="11.826" y2="24.13" width="0" layer="19" extent="1-1"/>
-<wire x1="7.722" y1="29.21" x2="7.478" y2="27.686" width="0" layer="19" extent="1-1"/>
-<wire x1="2.54" y1="41.783" x2="7.722" y2="29.21" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="P7">
 <contactref element="JP1" pad="7"/>
@@ -3105,162 +2984,119 @@ design rules under a new name.</description>
 <contactref element="C12" pad="2"/>
 <contactref element="R49" pad="1"/>
 <contactref element="R63" pad="2"/>
-<wire x1="17.257" y1="24.13" x2="24.949" y2="22.799" width="0" layer="19" extent="1-1"/>
-<wire x1="11.826" y1="20.574" x2="17.257" y2="24.13" width="0" layer="19" extent="1-1"/>
-<wire x1="7.478" y1="24.13" x2="11.826" y2="20.574" width="0" layer="19" extent="1-1"/>
-<wire x1="7.722" y1="25.654" x2="7.478" y2="24.13" width="0" layer="19" extent="1-1"/>
-<wire x1="2.54" y1="39.243" x2="7.722" y2="25.654" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="S1">
 <contactref element="R10" pad="1"/>
 <contactref element="JP5" pad="32"/>
-<wire x1="26.162" y1="4.46" x2="32.512" y2="11.938" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="C1">
 <contactref element="C6" pad="1"/>
 <contactref element="R12" pad="1"/>
 <contactref element="JP5" pad="34"/>
-<wire x1="10.526" y1="2.794" x2="32.512" y2="9.398" width="0" layer="19" extent="1-1"/>
-<wire x1="8.778" y1="2.794" x2="10.526" y2="2.794" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="S2">
 <contactref element="R22" pad="1"/>
 <contactref element="JP5" pad="36"/>
-<wire x1="26.162" y1="8.016" x2="32.512" y2="6.858" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="C2">
 <contactref element="C7" pad="1"/>
 <contactref element="R24" pad="1"/>
 <contactref element="JP5" pad="38"/>
-<wire x1="10.526" y1="6.35" x2="32.512" y2="4.318" width="0" layer="19" extent="1-1"/>
-<wire x1="8.778" y1="6.35" x2="10.526" y2="6.35" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="S3">
 <contactref element="R34" pad="1"/>
 <contactref element="JP5" pad="40"/>
-<wire x1="32.512" y1="1.778" x2="26.162" y2="11.572" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="C3">
 <contactref element="C9" pad="1"/>
 <contactref element="R36" pad="1"/>
 <contactref element="JP5" pad="39"/>
-<wire x1="10.526" y1="9.906" x2="29.972" y2="1.778" width="0" layer="19" extent="1-1"/>
-<wire x1="8.778" y1="9.906" x2="10.526" y2="9.906" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="S4">
 <contactref element="R28" pad="1"/>
 <contactref element="JP5" pad="37"/>
-<wire x1="29.972" y1="4.318" x2="26.162" y2="15.128" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="C4">
 <contactref element="C8" pad="1"/>
 <contactref element="R30" pad="1"/>
 <contactref element="JP5" pad="35"/>
-<wire x1="10.526" y1="13.462" x2="29.972" y2="6.858" width="0" layer="19" extent="1-1"/>
-<wire x1="8.778" y1="13.462" x2="10.526" y2="13.462" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="S5">
 <contactref element="R40" pad="1"/>
 <contactref element="JP5" pad="33"/>
-<wire x1="29.972" y1="9.398" x2="26.162" y2="18.684" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="C5">
 <contactref element="C10" pad="1"/>
 <contactref element="R42" pad="1"/>
 <contactref element="JP5" pad="31"/>
-<wire x1="10.526" y1="17.018" x2="29.972" y2="11.938" width="0" layer="19" extent="1-1"/>
-<wire x1="8.778" y1="17.018" x2="10.526" y2="17.018" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="S6">
 <contactref element="R46" pad="1"/>
 <contactref element="JP5" pad="29"/>
-<wire x1="29.972" y1="14.478" x2="26.162" y2="22.24" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="C6">
 <contactref element="C11" pad="1"/>
 <contactref element="R48" pad="1"/>
 <contactref element="JP5" pad="27"/>
-<wire x1="10.526" y1="20.574" x2="29.972" y2="17.018" width="0" layer="19" extent="1-1"/>
-<wire x1="8.778" y1="20.574" x2="10.526" y2="20.574" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="S7">
 <contactref element="R52" pad="1"/>
 <contactref element="JP5" pad="25"/>
-<wire x1="29.972" y1="19.558" x2="26.162" y2="25.796" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="C7">
 <contactref element="C12" pad="1"/>
 <contactref element="R64" pad="1"/>
 <contactref element="JP5" pad="23"/>
-<wire x1="10.526" y1="24.13" x2="29.972" y2="22.098" width="0" layer="19" extent="1-1"/>
-<wire x1="8.778" y1="24.13" x2="10.526" y2="24.13" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="S8">
 <contactref element="R68" pad="1"/>
 <contactref element="JP5" pad="21"/>
-<wire x1="29.972" y1="24.638" x2="26.162" y2="29.352" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="C8">
 <contactref element="C13" pad="1"/>
 <contactref element="R70" pad="1"/>
 <contactref element="JP5" pad="19"/>
-<wire x1="10.526" y1="27.686" x2="29.972" y2="27.178" width="0" layer="19" extent="1-1"/>
-<wire x1="8.778" y1="27.686" x2="10.526" y2="27.686" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="S9">
 <contactref element="R74" pad="1"/>
 <contactref element="JP5" pad="17"/>
-<wire x1="29.972" y1="29.718" x2="26.162" y2="32.908" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="C9">
 <contactref element="C14" pad="1"/>
 <contactref element="R76" pad="1"/>
 <contactref element="JP5" pad="15"/>
-<wire x1="10.526" y1="31.242" x2="29.972" y2="32.258" width="0" layer="19" extent="1-1"/>
-<wire x1="8.778" y1="31.242" x2="10.526" y2="31.242" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="S10">
 <contactref element="R80" pad="1"/>
 <contactref element="JP5" pad="13"/>
-<wire x1="29.972" y1="34.798" x2="26.162" y2="36.464" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="C10">
 <contactref element="C15" pad="1"/>
 <contactref element="R83" pad="1"/>
 <contactref element="JP5" pad="11"/>
-<wire x1="10.526" y1="34.798" x2="29.972" y2="37.338" width="0" layer="19" extent="1-1"/>
-<wire x1="8.778" y1="34.798" x2="10.526" y2="34.798" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="S11">
 <contactref element="R87" pad="1"/>
 <contactref element="JP5" pad="9"/>
-<wire x1="26.162" y1="40.02" x2="29.972" y2="39.878" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="C11">
 <contactref element="C16" pad="1"/>
 <contactref element="R89" pad="1"/>
 <contactref element="JP5" pad="7"/>
-<wire x1="10.526" y1="38.354" x2="29.972" y2="42.418" width="0" layer="19" extent="1-1"/>
-<wire x1="8.778" y1="38.354" x2="10.526" y2="38.354" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="S12">
 <contactref element="R93" pad="1"/>
 <contactref element="JP5" pad="5"/>
-<wire x1="26.162" y1="43.576" x2="29.972" y2="44.958" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="C12">
 <contactref element="C17" pad="1"/>
 <contactref element="R95" pad="1"/>
 <contactref element="JP5" pad="3"/>
-<wire x1="10.526" y1="41.91" x2="29.972" y2="47.498" width="0" layer="19" extent="1-1"/>
-<wire x1="8.778" y1="41.91" x2="10.526" y2="41.91" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="C0">
 <contactref element="R3" pad="1"/>
 <contactref element="C5" pad="1"/>
 <contactref element="JP5" pad="30"/>
-<wire x1="23.002" y1="1.524" x2="32.512" y2="14.478" width="0" layer="19" extent="1-1"/>
-<wire x1="18.938" y1="1.524" x2="23.002" y2="1.524" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="IPB">
 <contactref element="R5" pad="1"/>
@@ -3274,12 +3110,10 @@ design rules under a new name.</description>
 <signal name="SCK">
 <contactref element="U$2" pad="JP1.4"/>
 <contactref element="JP5" pad="6"/>
-<wire x1="32.512" y1="44.958" x2="46.99" y2="73.787" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CSB">
 <contactref element="U$2" pad="JP1.7"/>
 <contactref element="JP5" pad="8"/>
-<wire x1="32.512" y1="42.418" x2="46.99" y2="81.407" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="3V3">
 <contactref element="U$2" pad="JP1.8"/>
@@ -3287,326 +3121,254 @@ design rules under a new name.</description>
 <signal name="N$13">
 <contactref element="R14" pad="2"/>
 <contactref element="R20" pad="1"/>
-<wire x1="10.566" y1="7.874" x2="12.802" y2="7.874" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$14">
 <contactref element="R21" pad="1"/>
 <contactref element="R20" pad="2"/>
-<wire x1="15.646" y1="7.874" x2="17.882" y2="7.874" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$16">
 <contactref element="Q3" pad="3"/>
 <contactref element="R21" pad="2"/>
 <contactref element="LED6" pad="A"/>
-<wire x1="21.324" y1="6.35" x2="22.549" y2="7.62" width="0" layer="19" extent="1-1"/>
-<wire x1="20.726" y1="7.874" x2="21.324" y2="6.35" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$19">
 <contactref element="Q3" pad="1"/>
 <contactref element="R22" pad="2"/>
-<wire x1="24.949" y1="6.665" x2="26.162" y2="6.716" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$20">
 <contactref element="LED6" pad="C"/>
 <contactref element="R23" pad="1"/>
-<wire x1="18.557" y1="6.35" x2="19.824" y2="6.35" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$8">
 <contactref element="R4" pad="2"/>
 <contactref element="R7" pad="1"/>
-<wire x1="10.566" y1="4.318" x2="12.802" y2="4.318" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$9">
 <contactref element="R8" pad="1"/>
 <contactref element="R7" pad="2"/>
-<wire x1="15.646" y1="4.318" x2="17.882" y2="4.318" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$10">
 <contactref element="Q2" pad="3"/>
 <contactref element="R8" pad="2"/>
 <contactref element="LED5" pad="A"/>
-<wire x1="21.324" y1="2.794" x2="22.549" y2="4.064" width="0" layer="19" extent="1-1"/>
-<wire x1="20.726" y1="4.318" x2="21.324" y2="2.794" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$11">
 <contactref element="Q2" pad="1"/>
 <contactref element="R10" pad="2"/>
-<wire x1="24.949" y1="3.109" x2="26.162" y2="3.16" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$12">
 <contactref element="LED5" pad="C"/>
 <contactref element="R11" pad="1"/>
-<wire x1="18.557" y1="2.794" x2="19.824" y2="2.794" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$27">
 <contactref element="R31" pad="2"/>
 <contactref element="R32" pad="1"/>
-<wire x1="10.566" y1="11.43" x2="12.802" y2="11.43" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$28">
 <contactref element="R33" pad="1"/>
 <contactref element="R32" pad="2"/>
-<wire x1="15.646" y1="11.43" x2="17.882" y2="11.43" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$29">
 <contactref element="Q5" pad="3"/>
 <contactref element="R33" pad="2"/>
 <contactref element="LED8" pad="A"/>
-<wire x1="21.324" y1="9.906" x2="22.549" y2="11.176" width="0" layer="19" extent="1-1"/>
-<wire x1="20.726" y1="11.43" x2="21.324" y2="9.906" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$31">
 <contactref element="Q5" pad="1"/>
 <contactref element="R34" pad="2"/>
-<wire x1="24.949" y1="10.221" x2="26.162" y2="10.272" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$32">
 <contactref element="LED8" pad="C"/>
 <contactref element="R35" pad="1"/>
-<wire x1="18.557" y1="9.906" x2="19.824" y2="9.906" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$21">
 <contactref element="R25" pad="2"/>
 <contactref element="R26" pad="1"/>
-<wire x1="10.566" y1="14.986" x2="12.802" y2="14.986" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$22">
 <contactref element="R27" pad="1"/>
 <contactref element="R26" pad="2"/>
-<wire x1="15.646" y1="14.986" x2="17.882" y2="14.986" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$23">
 <contactref element="Q4" pad="3"/>
 <contactref element="R27" pad="2"/>
 <contactref element="LED7" pad="A"/>
-<wire x1="21.324" y1="13.462" x2="22.549" y2="14.732" width="0" layer="19" extent="1-1"/>
-<wire x1="20.726" y1="14.986" x2="21.324" y2="13.462" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$24">
 <contactref element="Q4" pad="1"/>
 <contactref element="R28" pad="2"/>
-<wire x1="24.949" y1="13.777" x2="26.162" y2="13.828" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$26">
 <contactref element="LED7" pad="C"/>
 <contactref element="R29" pad="1"/>
-<wire x1="18.557" y1="13.462" x2="19.824" y2="13.462" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$33">
 <contactref element="R37" pad="2"/>
 <contactref element="R38" pad="1"/>
-<wire x1="10.566" y1="18.542" x2="12.802" y2="18.542" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$34">
 <contactref element="R39" pad="1"/>
 <contactref element="R38" pad="2"/>
-<wire x1="15.646" y1="18.542" x2="17.882" y2="18.542" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$35">
 <contactref element="Q6" pad="3"/>
 <contactref element="R39" pad="2"/>
 <contactref element="LED9" pad="A"/>
-<wire x1="21.324" y1="17.018" x2="22.549" y2="18.288" width="0" layer="19" extent="1-1"/>
-<wire x1="20.726" y1="18.542" x2="21.324" y2="17.018" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$36">
 <contactref element="Q6" pad="1"/>
 <contactref element="R40" pad="2"/>
-<wire x1="24.949" y1="17.333" x2="26.162" y2="17.384" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$37">
 <contactref element="LED9" pad="C"/>
 <contactref element="R41" pad="1"/>
-<wire x1="18.557" y1="17.018" x2="19.824" y2="17.018" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$38">
 <contactref element="R43" pad="2"/>
 <contactref element="R44" pad="1"/>
-<wire x1="10.566" y1="22.098" x2="12.802" y2="22.098" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$39">
 <contactref element="R45" pad="1"/>
 <contactref element="R44" pad="2"/>
-<wire x1="15.646" y1="22.098" x2="17.882" y2="22.098" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$40">
 <contactref element="Q7" pad="3"/>
 <contactref element="R45" pad="2"/>
 <contactref element="LED11" pad="A"/>
-<wire x1="21.324" y1="20.574" x2="22.549" y2="21.844" width="0" layer="19" extent="1-1"/>
-<wire x1="20.726" y1="22.098" x2="21.324" y2="20.574" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$41">
 <contactref element="Q7" pad="1"/>
 <contactref element="R46" pad="2"/>
-<wire x1="24.949" y1="20.889" x2="26.162" y2="20.94" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$42">
 <contactref element="LED11" pad="C"/>
 <contactref element="R47" pad="1"/>
-<wire x1="18.557" y1="20.574" x2="19.824" y2="20.574" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$43">
 <contactref element="R49" pad="2"/>
 <contactref element="R50" pad="1"/>
-<wire x1="10.566" y1="25.654" x2="12.802" y2="25.654" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$44">
 <contactref element="R51" pad="1"/>
 <contactref element="R50" pad="2"/>
-<wire x1="15.646" y1="25.654" x2="17.882" y2="25.654" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$45">
 <contactref element="Q8" pad="3"/>
 <contactref element="R51" pad="2"/>
 <contactref element="LED12" pad="A"/>
-<wire x1="21.324" y1="24.13" x2="22.549" y2="25.4" width="0" layer="19" extent="1-1"/>
-<wire x1="20.726" y1="25.654" x2="21.324" y2="24.13" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$46">
 <contactref element="Q8" pad="1"/>
 <contactref element="R52" pad="2"/>
-<wire x1="24.949" y1="24.445" x2="26.162" y2="24.496" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$47">
 <contactref element="LED12" pad="C"/>
 <contactref element="R63" pad="1"/>
-<wire x1="18.557" y1="24.13" x2="19.824" y2="24.13" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$48">
 <contactref element="R65" pad="2"/>
 <contactref element="R66" pad="1"/>
-<wire x1="10.566" y1="29.21" x2="12.802" y2="29.21" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$49">
 <contactref element="R67" pad="1"/>
 <contactref element="R66" pad="2"/>
-<wire x1="15.646" y1="29.21" x2="17.882" y2="29.21" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$50">
 <contactref element="Q9" pad="3"/>
 <contactref element="R67" pad="2"/>
 <contactref element="LED13" pad="A"/>
-<wire x1="21.324" y1="27.686" x2="22.549" y2="28.956" width="0" layer="19" extent="1-1"/>
-<wire x1="20.726" y1="29.21" x2="21.324" y2="27.686" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$51">
 <contactref element="Q9" pad="1"/>
 <contactref element="R68" pad="2"/>
-<wire x1="24.949" y1="28.001" x2="26.162" y2="28.052" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$52">
 <contactref element="LED13" pad="C"/>
 <contactref element="R69" pad="1"/>
-<wire x1="18.557" y1="27.686" x2="19.824" y2="27.686" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$53">
 <contactref element="R71" pad="2"/>
 <contactref element="R72" pad="1"/>
-<wire x1="10.566" y1="32.766" x2="12.802" y2="32.766" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$54">
 <contactref element="R73" pad="1"/>
 <contactref element="R72" pad="2"/>
-<wire x1="15.646" y1="32.766" x2="17.882" y2="32.766" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$55">
 <contactref element="Q10" pad="3"/>
 <contactref element="R73" pad="2"/>
 <contactref element="LED14" pad="A"/>
-<wire x1="21.324" y1="31.242" x2="22.549" y2="32.512" width="0" layer="19" extent="1-1"/>
-<wire x1="20.726" y1="32.766" x2="21.324" y2="31.242" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$56">
 <contactref element="Q10" pad="1"/>
 <contactref element="R74" pad="2"/>
-<wire x1="24.949" y1="31.557" x2="26.162" y2="31.608" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$57">
 <contactref element="LED14" pad="C"/>
 <contactref element="R75" pad="1"/>
-<wire x1="18.557" y1="31.242" x2="19.824" y2="31.242" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$58">
 <contactref element="R77" pad="2"/>
 <contactref element="R78" pad="1"/>
-<wire x1="10.566" y1="36.322" x2="12.802" y2="36.322" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$59">
 <contactref element="R79" pad="1"/>
 <contactref element="R78" pad="2"/>
-<wire x1="15.646" y1="36.322" x2="17.882" y2="36.322" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$60">
 <contactref element="Q11" pad="3"/>
 <contactref element="R79" pad="2"/>
 <contactref element="LED15" pad="A"/>
-<wire x1="21.324" y1="34.798" x2="22.549" y2="36.068" width="0" layer="19" extent="1-1"/>
-<wire x1="20.726" y1="36.322" x2="21.324" y2="34.798" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$61">
 <contactref element="Q11" pad="1"/>
 <contactref element="R80" pad="2"/>
-<wire x1="24.949" y1="35.113" x2="26.162" y2="35.164" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$62">
 <contactref element="LED15" pad="C"/>
 <contactref element="R81" pad="1"/>
-<wire x1="18.557" y1="34.798" x2="19.824" y2="34.798" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$63">
 <contactref element="R84" pad="2"/>
 <contactref element="R85" pad="1"/>
-<wire x1="10.566" y1="39.878" x2="12.802" y2="39.878" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$64">
 <contactref element="R86" pad="1"/>
 <contactref element="R85" pad="2"/>
-<wire x1="15.646" y1="39.878" x2="17.882" y2="39.878" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$65">
 <contactref element="Q12" pad="3"/>
 <contactref element="R86" pad="2"/>
 <contactref element="LED16" pad="A"/>
-<wire x1="21.324" y1="38.354" x2="22.549" y2="39.624" width="0" layer="19" extent="1-1"/>
-<wire x1="20.726" y1="39.878" x2="21.324" y2="38.354" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$66">
 <contactref element="Q12" pad="1"/>
 <contactref element="R87" pad="2"/>
-<wire x1="24.949" y1="38.669" x2="26.162" y2="38.72" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$67">
 <contactref element="LED16" pad="C"/>
 <contactref element="R88" pad="1"/>
-<wire x1="18.557" y1="38.354" x2="19.824" y2="38.354" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$68">
 <contactref element="R90" pad="2"/>
 <contactref element="R91" pad="1"/>
-<wire x1="10.566" y1="43.434" x2="12.802" y2="43.434" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$69">
 <contactref element="R92" pad="1"/>
 <contactref element="R91" pad="2"/>
-<wire x1="15.646" y1="43.434" x2="17.882" y2="43.434" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$71">
 <contactref element="Q13" pad="3"/>
 <contactref element="R92" pad="2"/>
 <contactref element="LED17" pad="A"/>
-<wire x1="21.324" y1="41.91" x2="22.549" y2="43.18" width="0" layer="19" extent="1-1"/>
-<wire x1="20.726" y1="43.434" x2="21.324" y2="41.91" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$72">
 <contactref element="Q13" pad="1"/>
 <contactref element="R93" pad="2"/>
-<wire x1="24.949" y1="42.225" x2="26.162" y2="42.276" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$74">
 <contactref element="LED17" pad="C"/>
 <contactref element="R94" pad="1"/>
-<wire x1="18.557" y1="41.91" x2="19.824" y2="41.91" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPIO2">
 <contactref element="JP5" pad="26"/>
