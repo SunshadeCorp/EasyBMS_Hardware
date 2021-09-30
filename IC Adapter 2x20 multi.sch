@@ -5172,6 +5172,10 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="JP4" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X20" device="" package3d_urn="urn:adsk.eagle:package:22443/2"/>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100R"/>
 <part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="20k"/>
+<part name="IC5" library="SamacSys_Parts" deviceset="LTC6804IG-1#PBF" device=""/>
+<part name="JP5" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X20" device="" package3d_urn="urn:adsk.eagle:package:22443/2"/>
+<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100R"/>
+<part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="20k"/>
 </parts>
 <sheets>
 <sheet>
@@ -5226,6 +5230,22 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <attribute name="NAME" x="621.03" y="247.8786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="621.03" y="243.078" size="1.778" layer="96"/>
 </instance>
+<instance part="IC5" gate="G$1" x="718.82" y="251.46" smashed="yes">
+<attribute name="NAME" x="748.03" y="259.08" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="748.03" y="256.54" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="JP5" gate="A" x="736.6" y="312.42" smashed="yes">
+<attribute name="NAME" x="730.25" y="338.455" size="1.778" layer="95"/>
+<attribute name="VALUE" x="730.25" y="281.94" size="1.778" layer="96"/>
+</instance>
+<instance part="R9" gate="G$1" x="777.24" y="251.46" smashed="yes">
+<attribute name="NAME" x="773.43" y="252.9586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="773.43" y="248.158" size="1.778" layer="96"/>
+</instance>
+<instance part="R10" gate="G$1" x="777.24" y="246.38" smashed="yes">
+<attribute name="NAME" x="773.43" y="247.8786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="773.43" y="243.078" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -5261,6 +5281,16 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="581.66" y1="335.28" x2="566.42" y2="335.28" width="0.1524" layer="91"/>
 <label x="566.42" y="335.28" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="V+"/>
+<wire x1="718.82" y1="251.46" x2="693.42" y2="251.46" width="0.1524" layer="91"/>
+<label x="711.2" y="251.46" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP5" gate="A" pin="1"/>
+<wire x1="734.06" y1="335.28" x2="718.82" y2="335.28" width="0.1524" layer="91"/>
+<label x="718.82" y="335.28" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="C12" class="0">
 <segment>
@@ -5292,6 +5322,16 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="JP4" gate="A" pin="3"/>
 <wire x1="581.66" y1="332.74" x2="566.42" y2="332.74" width="0.1524" layer="91"/>
 <label x="566.42" y="332.74" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="C12"/>
+<wire x1="718.82" y1="248.92" x2="693.42" y2="248.92" width="0.1524" layer="91"/>
+<label x="711.2" y="248.92" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP5" gate="A" pin="3"/>
+<wire x1="734.06" y1="332.74" x2="718.82" y2="332.74" width="0.1524" layer="91"/>
+<label x="718.82" y="332.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="S12" class="0">
@@ -5325,6 +5365,16 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="581.66" y1="330.2" x2="566.42" y2="330.2" width="0.1524" layer="91"/>
 <label x="566.42" y="330.2" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="S12"/>
+<wire x1="693.42" y1="246.38" x2="718.82" y2="246.38" width="0.1524" layer="91"/>
+<label x="711.2" y="246.38" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP5" gate="A" pin="5"/>
+<wire x1="734.06" y1="330.2" x2="718.82" y2="330.2" width="0.1524" layer="91"/>
+<label x="718.82" y="330.2" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="C11" class="0">
 <segment>
@@ -5356,6 +5406,16 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="JP4" gate="A" pin="7"/>
 <wire x1="581.66" y1="327.66" x2="566.42" y2="327.66" width="0.1524" layer="91"/>
 <label x="566.42" y="327.66" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="C11"/>
+<wire x1="718.82" y1="243.84" x2="693.42" y2="243.84" width="0.1524" layer="91"/>
+<label x="711.2" y="243.84" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP5" gate="A" pin="7"/>
+<wire x1="734.06" y1="327.66" x2="718.82" y2="327.66" width="0.1524" layer="91"/>
+<label x="718.82" y="327.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="S11" class="0">
@@ -5389,6 +5449,16 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="581.66" y1="325.12" x2="566.42" y2="325.12" width="0.1524" layer="91"/>
 <label x="566.42" y="325.12" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="S11"/>
+<wire x1="693.42" y1="241.3" x2="718.82" y2="241.3" width="0.1524" layer="91"/>
+<label x="711.2" y="241.3" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP5" gate="A" pin="9"/>
+<wire x1="734.06" y1="325.12" x2="718.82" y2="325.12" width="0.1524" layer="91"/>
+<label x="718.82" y="325.12" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="C10" class="0">
 <segment>
@@ -5420,6 +5490,16 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="JP4" gate="A" pin="11"/>
 <wire x1="581.66" y1="322.58" x2="566.42" y2="322.58" width="0.1524" layer="91"/>
 <label x="566.42" y="322.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="C10"/>
+<wire x1="718.82" y1="238.76" x2="693.42" y2="238.76" width="0.1524" layer="91"/>
+<label x="711.2" y="238.76" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP5" gate="A" pin="11"/>
+<wire x1="734.06" y1="322.58" x2="718.82" y2="322.58" width="0.1524" layer="91"/>
+<label x="718.82" y="322.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="S10" class="0">
@@ -5453,6 +5533,16 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="581.66" y1="320.04" x2="566.42" y2="320.04" width="0.1524" layer="91"/>
 <label x="566.42" y="320.04" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="S10"/>
+<wire x1="693.42" y1="236.22" x2="718.82" y2="236.22" width="0.1524" layer="91"/>
+<label x="711.2" y="236.22" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP5" gate="A" pin="13"/>
+<wire x1="734.06" y1="320.04" x2="718.82" y2="320.04" width="0.1524" layer="91"/>
+<label x="718.82" y="320.04" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="C9" class="0">
 <segment>
@@ -5484,6 +5574,16 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="JP4" gate="A" pin="15"/>
 <wire x1="581.66" y1="317.5" x2="566.42" y2="317.5" width="0.1524" layer="91"/>
 <label x="566.42" y="317.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="C9"/>
+<wire x1="718.82" y1="233.68" x2="693.42" y2="233.68" width="0.1524" layer="91"/>
+<label x="711.2" y="233.68" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP5" gate="A" pin="15"/>
+<wire x1="734.06" y1="317.5" x2="718.82" y2="317.5" width="0.1524" layer="91"/>
+<label x="718.82" y="317.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="S9" class="0">
@@ -5517,6 +5617,16 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="581.66" y1="314.96" x2="566.42" y2="314.96" width="0.1524" layer="91"/>
 <label x="566.42" y="314.96" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="S9"/>
+<wire x1="718.82" y1="231.14" x2="693.42" y2="231.14" width="0.1524" layer="91"/>
+<label x="711.2" y="231.14" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP5" gate="A" pin="17"/>
+<wire x1="734.06" y1="314.96" x2="718.82" y2="314.96" width="0.1524" layer="91"/>
+<label x="718.82" y="314.96" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="C8" class="0">
 <segment>
@@ -5548,6 +5658,16 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="JP4" gate="A" pin="19"/>
 <wire x1="581.66" y1="312.42" x2="566.42" y2="312.42" width="0.1524" layer="91"/>
 <label x="566.42" y="312.42" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="C8"/>
+<wire x1="693.42" y1="228.6" x2="718.82" y2="228.6" width="0.1524" layer="91"/>
+<label x="711.2" y="228.6" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP5" gate="A" pin="19"/>
+<wire x1="734.06" y1="312.42" x2="718.82" y2="312.42" width="0.1524" layer="91"/>
+<label x="718.82" y="312.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="S8" class="0">
@@ -5581,6 +5701,16 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="581.66" y1="309.88" x2="566.42" y2="309.88" width="0.1524" layer="91"/>
 <label x="566.42" y="309.88" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="S8"/>
+<wire x1="718.82" y1="226.06" x2="693.42" y2="226.06" width="0.1524" layer="91"/>
+<label x="711.2" y="226.06" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP5" gate="A" pin="21"/>
+<wire x1="734.06" y1="309.88" x2="718.82" y2="309.88" width="0.1524" layer="91"/>
+<label x="718.82" y="309.88" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="C7" class="0">
 <segment>
@@ -5612,6 +5742,16 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="JP4" gate="A" pin="23"/>
 <wire x1="581.66" y1="307.34" x2="566.42" y2="307.34" width="0.1524" layer="91"/>
 <label x="566.42" y="307.34" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="C7"/>
+<wire x1="693.42" y1="223.52" x2="718.82" y2="223.52" width="0.1524" layer="91"/>
+<label x="711.2" y="223.52" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP5" gate="A" pin="23"/>
+<wire x1="734.06" y1="307.34" x2="718.82" y2="307.34" width="0.1524" layer="91"/>
+<label x="718.82" y="307.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="S6" class="0">
@@ -5645,6 +5785,16 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="581.66" y1="299.72" x2="566.42" y2="299.72" width="0.1524" layer="91"/>
 <label x="566.42" y="299.72" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="718.82" y1="215.9" x2="693.42" y2="215.9" width="0.1524" layer="91"/>
+<pinref part="IC5" gate="G$1" pin="S6"/>
+<label x="711.2" y="215.9" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP5" gate="A" pin="29"/>
+<wire x1="734.06" y1="299.72" x2="718.82" y2="299.72" width="0.1524" layer="91"/>
+<label x="718.82" y="299.72" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="C5" class="0">
 <segment>
@@ -5676,6 +5826,16 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="JP4" gate="A" pin="31"/>
 <wire x1="581.66" y1="297.18" x2="566.42" y2="297.18" width="0.1524" layer="91"/>
 <label x="566.42" y="297.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="718.82" y1="213.36" x2="693.42" y2="213.36" width="0.1524" layer="91"/>
+<pinref part="IC5" gate="G$1" pin="C5"/>
+<label x="711.2" y="213.36" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP5" gate="A" pin="31"/>
+<wire x1="734.06" y1="297.18" x2="718.82" y2="297.18" width="0.1524" layer="91"/>
+<label x="718.82" y="297.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="S5" class="0">
@@ -5709,6 +5869,16 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="581.66" y1="294.64" x2="566.42" y2="294.64" width="0.1524" layer="91"/>
 <label x="566.42" y="294.64" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="718.82" y1="210.82" x2="693.42" y2="210.82" width="0.1524" layer="91"/>
+<pinref part="IC5" gate="G$1" pin="S5"/>
+<label x="711.2" y="210.82" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP5" gate="A" pin="33"/>
+<wire x1="734.06" y1="294.64" x2="718.82" y2="294.64" width="0.1524" layer="91"/>
+<label x="718.82" y="294.64" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="C4" class="0">
 <segment>
@@ -5740,6 +5910,16 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="JP4" gate="A" pin="35"/>
 <wire x1="581.66" y1="292.1" x2="566.42" y2="292.1" width="0.1524" layer="91"/>
 <label x="566.42" y="292.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="718.82" y1="208.28" x2="693.42" y2="208.28" width="0.1524" layer="91"/>
+<pinref part="IC5" gate="G$1" pin="C4"/>
+<label x="711.2" y="208.28" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP5" gate="A" pin="35"/>
+<wire x1="734.06" y1="292.1" x2="718.82" y2="292.1" width="0.1524" layer="91"/>
+<label x="718.82" y="292.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="S4" class="0">
@@ -5773,6 +5953,16 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="581.66" y1="289.56" x2="566.42" y2="289.56" width="0.1524" layer="91"/>
 <label x="566.42" y="289.56" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="718.82" y1="205.74" x2="693.42" y2="205.74" width="0.1524" layer="91"/>
+<pinref part="IC5" gate="G$1" pin="S4"/>
+<label x="711.2" y="205.74" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP5" gate="A" pin="37"/>
+<wire x1="734.06" y1="289.56" x2="718.82" y2="289.56" width="0.1524" layer="91"/>
+<label x="718.82" y="289.56" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="C3" class="0">
 <segment>
@@ -5804,6 +5994,16 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="JP4" gate="A" pin="39"/>
 <wire x1="581.66" y1="287.02" x2="566.42" y2="287.02" width="0.1524" layer="91"/>
 <label x="566.42" y="287.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="718.82" y1="203.2" x2="693.42" y2="203.2" width="0.1524" layer="91"/>
+<pinref part="IC5" gate="G$1" pin="C3"/>
+<label x="711.2" y="203.2" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP5" gate="A" pin="39"/>
+<wire x1="734.06" y1="287.02" x2="718.82" y2="287.02" width="0.1524" layer="91"/>
+<label x="718.82" y="287.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="S3" class="0">
@@ -5837,6 +6037,16 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="589.28" y1="287.02" x2="604.52" y2="287.02" width="0.1524" layer="91"/>
 <label x="604.52" y="287.02" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="718.82" y1="200.66" x2="693.42" y2="200.66" width="0.1524" layer="91"/>
+<pinref part="IC5" gate="G$1" pin="S3"/>
+<label x="711.2" y="200.66" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP5" gate="A" pin="40"/>
+<wire x1="741.68" y1="287.02" x2="756.92" y2="287.02" width="0.1524" layer="91"/>
+<label x="756.92" y="287.02" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="C2" class="0">
 <segment>
@@ -5868,6 +6078,16 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="JP4" gate="A" pin="38"/>
 <wire x1="589.28" y1="289.56" x2="604.52" y2="289.56" width="0.1524" layer="91"/>
 <label x="604.52" y="289.56" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="718.82" y1="198.12" x2="693.42" y2="198.12" width="0.1524" layer="91"/>
+<pinref part="IC5" gate="G$1" pin="C2"/>
+<label x="711.2" y="198.12" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP5" gate="A" pin="38"/>
+<wire x1="741.68" y1="289.56" x2="756.92" y2="289.56" width="0.1524" layer="91"/>
+<label x="756.92" y="289.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="S2" class="0">
@@ -5901,6 +6121,16 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="589.28" y1="292.1" x2="604.52" y2="292.1" width="0.1524" layer="91"/>
 <label x="604.52" y="292.1" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="718.82" y1="195.58" x2="693.42" y2="195.58" width="0.1524" layer="91"/>
+<pinref part="IC5" gate="G$1" pin="S2"/>
+<label x="711.2" y="195.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP5" gate="A" pin="36"/>
+<wire x1="741.68" y1="292.1" x2="756.92" y2="292.1" width="0.1524" layer="91"/>
+<label x="756.92" y="292.1" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="C1" class="0">
 <segment>
@@ -5932,6 +6162,16 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="JP4" gate="A" pin="34"/>
 <wire x1="589.28" y1="294.64" x2="604.52" y2="294.64" width="0.1524" layer="91"/>
 <label x="604.52" y="294.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="718.82" y1="193.04" x2="693.42" y2="193.04" width="0.1524" layer="91"/>
+<pinref part="IC5" gate="G$1" pin="C1"/>
+<label x="711.2" y="193.04" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP5" gate="A" pin="34"/>
+<wire x1="741.68" y1="294.64" x2="756.92" y2="294.64" width="0.1524" layer="91"/>
+<label x="756.92" y="294.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ICMP" class="0">
@@ -5975,6 +6215,16 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="589.28" y1="335.28" x2="604.52" y2="335.28" width="0.1524" layer="91"/>
 <label x="604.52" y="335.28" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="SDO_(NC)"/>
+<label x="759.46" y="241.3" size="1.778" layer="95"/>
+<wire x1="772.16" y1="241.3" x2="751.84" y2="241.3" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP5" gate="A" pin="2"/>
+<wire x1="741.68" y1="335.28" x2="756.92" y2="335.28" width="0.1524" layer="91"/>
+<label x="756.92" y="335.28" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SDI" class="0">
 <segment>
@@ -6006,6 +6256,16 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="JP4" gate="A" pin="4"/>
 <wire x1="589.28" y1="332.74" x2="604.52" y2="332.74" width="0.1524" layer="91"/>
 <label x="604.52" y="332.74" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="SDI_(NC)"/>
+<label x="759.46" y="238.76" size="1.778" layer="95"/>
+<wire x1="772.16" y1="238.76" x2="751.84" y2="238.76" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP5" gate="A" pin="4"/>
+<wire x1="741.68" y1="332.74" x2="756.92" y2="332.74" width="0.1524" layer="91"/>
+<label x="756.92" y="332.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCK" class="0">
@@ -6039,6 +6299,16 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="589.28" y1="330.2" x2="604.52" y2="330.2" width="0.1524" layer="91"/>
 <label x="604.52" y="330.2" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="SCK_(IPA)"/>
+<label x="759.46" y="236.22" size="1.778" layer="95"/>
+<wire x1="772.16" y1="236.22" x2="751.84" y2="236.22" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP5" gate="A" pin="6"/>
+<wire x1="741.68" y1="330.2" x2="756.92" y2="330.2" width="0.1524" layer="91"/>
+<label x="756.92" y="330.2" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="CSB" class="0">
 <segment>
@@ -6070,6 +6340,16 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="JP4" gate="A" pin="8"/>
 <wire x1="589.28" y1="327.66" x2="604.52" y2="327.66" width="0.1524" layer="91"/>
 <label x="604.52" y="327.66" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="CSB_(IMA)"/>
+<label x="759.46" y="233.68" size="1.778" layer="95"/>
+<wire x1="772.16" y1="233.68" x2="751.84" y2="233.68" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP5" gate="A" pin="8"/>
+<wire x1="741.68" y1="327.66" x2="756.92" y2="327.66" width="0.1524" layer="91"/>
+<label x="756.92" y="327.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="C0" class="0">
@@ -6103,6 +6383,16 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="589.28" y1="299.72" x2="604.52" y2="299.72" width="0.1524" layer="91"/>
 <label x="604.52" y="299.72" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="777.24" y1="195.58" x2="751.84" y2="195.58" width="0.1524" layer="91"/>
+<pinref part="IC5" gate="G$1" pin="C0"/>
+<label x="759.46" y="195.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP5" gate="A" pin="30"/>
+<wire x1="741.68" y1="299.72" x2="756.92" y2="299.72" width="0.1524" layer="91"/>
+<label x="756.92" y="299.72" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="S1" class="0">
 <segment>
@@ -6134,6 +6424,16 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="JP4" gate="A" pin="32"/>
 <wire x1="589.28" y1="297.18" x2="604.52" y2="297.18" width="0.1524" layer="91"/>
 <label x="604.52" y="297.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="777.24" y1="193.04" x2="751.84" y2="193.04" width="0.1524" layer="91"/>
+<pinref part="IC5" gate="G$1" pin="S1"/>
+<label x="759.46" y="193.04" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP5" gate="A" pin="32"/>
+<wire x1="741.68" y1="297.18" x2="756.92" y2="297.18" width="0.1524" layer="91"/>
+<label x="756.92" y="297.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="S7" class="0">
@@ -6167,6 +6467,16 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="581.66" y1="304.8" x2="566.42" y2="304.8" width="0.1524" layer="91"/>
 <label x="566.42" y="304.8" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="S7"/>
+<wire x1="718.82" y1="220.98" x2="693.42" y2="220.98" width="0.1524" layer="91"/>
+<label x="711.2" y="220.98" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP5" gate="A" pin="25"/>
+<wire x1="734.06" y1="304.8" x2="718.82" y2="304.8" width="0.1524" layer="91"/>
+<label x="718.82" y="304.8" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="C6" class="0">
 <segment>
@@ -6198,6 +6508,16 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="JP4" gate="A" pin="27"/>
 <wire x1="581.66" y1="302.26" x2="566.42" y2="302.26" width="0.1524" layer="91"/>
 <label x="566.42" y="302.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="718.82" y1="218.44" x2="693.42" y2="218.44" width="0.1524" layer="91"/>
+<pinref part="IC5" gate="G$1" pin="C6"/>
+<label x="711.2" y="218.44" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP5" gate="A" pin="27"/>
+<wire x1="734.06" y1="302.26" x2="718.82" y2="302.26" width="0.1524" layer="91"/>
+<label x="718.82" y="302.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -6304,6 +6624,35 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="589.28" y1="314.96" x2="604.52" y2="314.96" width="0.1524" layer="91"/>
 <label x="604.52" y="314.96" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="R10" gate="G$1" pin="2"/>
+<wire x1="782.32" y1="246.38" x2="789.94" y2="246.38" width="0.1524" layer="91"/>
+<label x="784.86" y="246.38" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="777.24" y1="208.28" x2="751.84" y2="208.28" width="0.1524" layer="91"/>
+<pinref part="IC5" gate="G$1" pin="V-_2"/>
+<label x="759.46" y="208.28" size="1.778" layer="95"/>
+<wire x1="777.24" y1="205.74" x2="751.84" y2="205.74" width="0.1524" layer="91"/>
+<pinref part="IC5" gate="G$1" pin="V-_1"/>
+<label x="759.46" y="205.74" size="1.778" layer="95"/>
+<wire x1="777.24" y1="208.28" x2="777.24" y2="205.74" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="772.16" y1="231.14" x2="751.84" y2="231.14" width="0.1524" layer="91"/>
+<pinref part="IC5" gate="G$1" pin="ISOMD"/>
+<label x="759.46" y="231.14" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP5" gate="A" pin="16"/>
+<wire x1="741.68" y1="317.5" x2="756.92" y2="317.5" width="0.1524" layer="91"/>
+<label x="756.92" y="317.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP5" gate="A" pin="18"/>
+<wire x1="741.68" y1="314.96" x2="756.92" y2="314.96" width="0.1524" layer="91"/>
+<label x="756.92" y="314.96" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="GPIO1" class="0">
 <segment>
@@ -6335,6 +6684,16 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="JP4" gate="A" pin="28"/>
 <wire x1="589.28" y1="302.26" x2="604.52" y2="302.26" width="0.1524" layer="91"/>
 <label x="604.52" y="302.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="GPIO1"/>
+<wire x1="751.84" y1="198.12" x2="777.24" y2="198.12" width="0.1524" layer="91"/>
+<label x="759.46" y="198.12" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP5" gate="A" pin="28"/>
+<wire x1="741.68" y1="302.26" x2="756.92" y2="302.26" width="0.1524" layer="91"/>
+<label x="756.92" y="302.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VREG" class="0">
@@ -6383,6 +6742,21 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="589.28" y1="325.12" x2="604.52" y2="325.12" width="0.1524" layer="91"/>
 <label x="604.52" y="325.12" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="SWTEN"/>
+<wire x1="751.84" y1="220.98" x2="772.16" y2="220.98" width="0.1524" layer="91"/>
+<label x="759.46" y="220.98" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="VREG"/>
+<wire x1="751.84" y1="223.52" x2="772.16" y2="223.52" width="0.1524" layer="91"/>
+<label x="759.46" y="223.52" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP5" gate="A" pin="10"/>
+<wire x1="741.68" y1="325.12" x2="756.92" y2="325.12" width="0.1524" layer="91"/>
+<label x="756.92" y="325.12" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="VREF1" class="0">
 <segment>
@@ -6414,6 +6788,16 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="JP4" gate="A" pin="12"/>
 <wire x1="589.28" y1="322.58" x2="604.52" y2="322.58" width="0.1524" layer="91"/>
 <label x="604.52" y="322.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="VREF1"/>
+<wire x1="751.84" y1="218.44" x2="772.16" y2="218.44" width="0.1524" layer="91"/>
+<label x="759.46" y="218.44" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP5" gate="A" pin="12"/>
+<wire x1="741.68" y1="322.58" x2="756.92" y2="322.58" width="0.1524" layer="91"/>
+<label x="756.92" y="322.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VREF2" class="0">
@@ -6447,6 +6831,16 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="589.28" y1="320.04" x2="604.52" y2="320.04" width="0.1524" layer="91"/>
 <label x="604.52" y="320.04" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="VREF2"/>
+<wire x1="751.84" y1="215.9" x2="772.16" y2="215.9" width="0.1524" layer="91"/>
+<label x="759.46" y="215.9" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP5" gate="A" pin="14"/>
+<wire x1="741.68" y1="320.04" x2="756.92" y2="320.04" width="0.1524" layer="91"/>
+<label x="756.92" y="320.04" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="GPIO2" class="0">
 <segment>
@@ -6478,6 +6872,16 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="JP4" gate="A" pin="26"/>
 <wire x1="589.28" y1="304.8" x2="604.52" y2="304.8" width="0.1524" layer="91"/>
 <label x="604.52" y="304.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="GPIO2"/>
+<wire x1="751.84" y1="200.66" x2="777.24" y2="200.66" width="0.1524" layer="91"/>
+<label x="759.46" y="200.66" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP5" gate="A" pin="26"/>
+<wire x1="741.68" y1="304.8" x2="756.92" y2="304.8" width="0.1524" layer="91"/>
+<label x="756.92" y="304.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO3" class="0">
@@ -6511,6 +6915,16 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="589.28" y1="307.34" x2="604.52" y2="307.34" width="0.1524" layer="91"/>
 <label x="604.52" y="307.34" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="GPIO3"/>
+<wire x1="751.84" y1="203.2" x2="777.24" y2="203.2" width="0.1524" layer="91"/>
+<label x="759.46" y="203.2" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP5" gate="A" pin="24"/>
+<wire x1="741.68" y1="307.34" x2="756.92" y2="307.34" width="0.1524" layer="91"/>
+<label x="756.92" y="307.34" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="GPIO4" class="0">
 <segment>
@@ -6543,6 +6957,16 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="589.28" y1="309.88" x2="604.52" y2="309.88" width="0.1524" layer="91"/>
 <label x="604.52" y="309.88" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="GPIO4"/>
+<wire x1="751.84" y1="210.82" x2="777.24" y2="210.82" width="0.1524" layer="91"/>
+<label x="759.46" y="210.82" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP5" gate="A" pin="22"/>
+<wire x1="741.68" y1="309.88" x2="756.92" y2="309.88" width="0.1524" layer="91"/>
+<label x="756.92" y="309.88" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="GPIO5" class="0">
 <segment>
@@ -6574,6 +6998,16 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="JP4" gate="A" pin="20"/>
 <wire x1="589.28" y1="312.42" x2="604.52" y2="312.42" width="0.1524" layer="91"/>
 <label x="604.52" y="312.42" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="GPIO5"/>
+<wire x1="751.84" y1="213.36" x2="777.24" y2="213.36" width="0.1524" layer="91"/>
+<label x="759.46" y="213.36" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP5" gate="A" pin="20"/>
+<wire x1="741.68" y1="312.42" x2="756.92" y2="312.42" width="0.1524" layer="91"/>
+<label x="756.92" y="312.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ICMP2" class="0">
@@ -6626,6 +7060,32 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="637.54" y1="248.92" x2="637.54" y2="251.46" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="637.54" y1="251.46" x2="629.92" y2="251.46" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="ICMP4" class="0">
+<segment>
+<pinref part="IC5" gate="G$1" pin="ICMP"/>
+<pinref part="IC5" gate="G$1" pin="IBIAS"/>
+<wire x1="751.84" y1="246.38" x2="751.84" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="751.84" y1="246.38" x2="772.16" y2="246.38" width="0.1524" layer="91"/>
+<junction x="751.84" y="246.38"/>
+<pinref part="R10" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="IC5" gate="G$1" pin="IPB"/>
+<wire x1="751.84" y1="251.46" x2="772.16" y2="251.46" width="0.1524" layer="91"/>
+<pinref part="R9" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="IC5" gate="G$1" pin="IMB"/>
+<wire x1="751.84" y1="248.92" x2="789.94" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="789.94" y1="248.92" x2="789.94" y2="251.46" width="0.1524" layer="91"/>
+<pinref part="R9" gate="G$1" pin="2"/>
+<wire x1="789.94" y1="251.46" x2="782.32" y2="251.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
