@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -17260,12 +17260,6 @@ Source: AVX .. aphvc.pdf</description>
 <packageinstance name="1X02"/>
 </packageinstances>
 </package3d>
-<package3d name="1X02/90" urn="urn:adsk.eagle:package:22437/2" type="model" library_version="4">
-<description>PIN HEADER</description>
-<packageinstances>
-<packageinstance name="1X02/90"/>
-</packageinstances>
-</package3d>
 <package3d name="2X05" urn="urn:adsk.eagle:package:22470/2" type="model" library_version="4">
 <description>PIN HEADER</description>
 <packageinstances>
@@ -17276,6 +17270,12 @@ Source: AVX .. aphvc.pdf</description>
 <description>PIN HEADER</description>
 <packageinstances>
 <packageinstance name="2X05/90"/>
+</packageinstances>
+</package3d>
+<package3d name="1X02/90" urn="urn:adsk.eagle:package:22437/1" type="box" library_version="4">
+<description>PIN HEADER</description>
+<packageinstances>
+<packageinstance name="1X02/90"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -17655,7 +17655,7 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PINHD-1X2" urn="urn:adsk.eagle:component:22516/4" prefix="JP" uservalue="yes" library_version="4">
+<deviceset name="PINHD-1X2" urn="urn:adsk.eagle:component:22516/2" prefix="JP" uservalue="yes" library_version="4">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="PINHD2" x="0" y="0"/>
@@ -17670,9 +17670,7 @@ Source: AVX .. aphvc.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:22435/2"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="98" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="/90" package="1X02/90">
@@ -17681,12 +17679,10 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:22437/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:22437/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="24" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -19706,9 +19702,15 @@ Source: www.kingbright.com</description>
 <packages3d>
 <package3d name="1X02" urn="urn:adsk.eagle:package:22435/2" type="model">
 <description>PIN HEADER</description>
+<packageinstances>
+<packageinstance name="1X02"/>
+</packageinstances>
 </package3d>
 <package3d name="1X02/90" urn="urn:adsk.eagle:package:22437/1" type="box">
 <description>PIN HEADER</description>
+<packageinstances>
+<packageinstance name="1X02/90"/>
+</packageinstances>
 </package3d>
 </packages3d>
 <symbols>
@@ -19915,6 +19917,21 @@ Source: www.kingbright.com</description>
 <part name="JP6" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X5" device="" package3d_urn="urn:adsk.eagle:package:22470/2"/>
 <part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="100R"/>
 <part name="C20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="100n"/>
+<part name="JP22" library="pinhead_own" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+<part name="JP23" library="pinhead_own" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+<part name="JP24" library="pinhead_own" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+<part name="JP25" library="pinhead_own" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+<part name="JP26" library="pinhead_own" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+<part name="JP27" library="pinhead_own" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+<part name="JP28" library="pinhead_own" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+<part name="JP29" library="pinhead_own" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+<part name="JP30" library="pinhead_own" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+<part name="JP31" library="pinhead_own" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+<part name="JP32" library="pinhead_own" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+<part name="JP33" library="pinhead_own" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+<part name="JP34" library="pinhead_own" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+<part name="JP35" library="pinhead_own" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+<part name="JP36" library="pinhead_own" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -20507,6 +20524,66 @@ Source: www.kingbright.com</description>
 <instance part="C20" gate="G$1" x="62.865" y="354.33" smashed="yes">
 <attribute name="NAME" x="64.389" y="354.711" size="1.778" layer="95"/>
 <attribute name="VALUE" x="64.389" y="349.631" size="1.778" layer="96"/>
+</instance>
+<instance part="JP22" gate="G$1" x="-30.48" y="574.04" smashed="yes">
+<attribute name="NAME" x="-36.83" y="579.755" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-36.83" y="568.96" size="1.778" layer="96"/>
+</instance>
+<instance part="JP23" gate="G$1" x="-5.08" y="571.5" smashed="yes">
+<attribute name="NAME" x="-11.43" y="577.215" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-11.43" y="566.42" size="1.778" layer="96"/>
+</instance>
+<instance part="JP24" gate="G$1" x="20.32" y="574.04" smashed="yes">
+<attribute name="NAME" x="13.97" y="579.755" size="1.778" layer="95"/>
+<attribute name="VALUE" x="13.97" y="568.96" size="1.778" layer="96"/>
+</instance>
+<instance part="JP25" gate="G$1" x="45.72" y="571.5" smashed="yes">
+<attribute name="NAME" x="39.37" y="577.215" size="1.778" layer="95"/>
+<attribute name="VALUE" x="39.37" y="566.42" size="1.778" layer="96"/>
+</instance>
+<instance part="JP26" gate="G$1" x="53.34" y="571.5" smashed="yes">
+<attribute name="NAME" x="46.99" y="577.215" size="1.778" layer="95"/>
+<attribute name="VALUE" x="46.99" y="566.42" size="1.778" layer="96"/>
+</instance>
+<instance part="JP27" gate="G$1" x="76.2" y="571.5" smashed="yes">
+<attribute name="NAME" x="69.85" y="577.215" size="1.778" layer="95"/>
+<attribute name="VALUE" x="69.85" y="566.42" size="1.778" layer="96"/>
+</instance>
+<instance part="JP28" gate="G$1" x="86.36" y="571.5" smashed="yes">
+<attribute name="NAME" x="80.01" y="577.215" size="1.778" layer="95"/>
+<attribute name="VALUE" x="80.01" y="566.42" size="1.778" layer="96"/>
+</instance>
+<instance part="JP29" gate="G$1" x="114.3" y="571.5" smashed="yes">
+<attribute name="NAME" x="107.95" y="577.215" size="1.778" layer="95"/>
+<attribute name="VALUE" x="107.95" y="566.42" size="1.778" layer="96"/>
+</instance>
+<instance part="JP30" gate="G$1" x="127" y="571.5" smashed="yes">
+<attribute name="NAME" x="120.65" y="577.215" size="1.778" layer="95"/>
+<attribute name="VALUE" x="120.65" y="566.42" size="1.778" layer="96"/>
+</instance>
+<instance part="JP31" gate="G$1" x="144.78" y="571.5" smashed="yes">
+<attribute name="NAME" x="138.43" y="577.215" size="1.778" layer="95"/>
+<attribute name="VALUE" x="138.43" y="566.42" size="1.778" layer="96"/>
+</instance>
+<instance part="JP32" gate="G$1" x="154.94" y="574.04" smashed="yes">
+<attribute name="NAME" x="148.59" y="579.755" size="1.778" layer="95"/>
+<attribute name="VALUE" x="148.59" y="568.96" size="1.778" layer="96"/>
+</instance>
+<instance part="JP33" gate="G$1" x="175.26" y="574.04" smashed="yes">
+<attribute name="NAME" x="168.91" y="579.755" size="1.778" layer="95"/>
+<attribute name="VALUE" x="168.91" y="568.96" size="1.778" layer="96"/>
+</instance>
+<instance part="JP34" gate="G$1" x="182.88" y="574.04" smashed="yes">
+<attribute name="NAME" x="176.53" y="579.755" size="1.778" layer="95"/>
+<attribute name="VALUE" x="176.53" y="568.96" size="1.778" layer="96"/>
+</instance>
+<instance part="JP35" gate="G$1" x="205.74" y="574.04" smashed="yes">
+<attribute name="NAME" x="199.39" y="579.755" size="1.778" layer="95"/>
+<attribute name="VALUE" x="199.39" y="568.96" size="1.778" layer="96"/>
+</instance>
+<instance part="JP36" gate="G$1" x="233.68" y="571.5" smashed="yes">
+<attribute name="NAME" x="227.33" y="577.215" size="1.778" layer="95"/>
+<attribute name="VALUE" x="227.33" y="566.42" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
