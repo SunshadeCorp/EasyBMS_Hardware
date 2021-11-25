@@ -20345,6 +20345,11 @@ Source: www.kingbright.com</description>
 <wire x1="-642.62" y1="30.48" x2="-642.62" y2="22.86" width="0.1524" layer="91"/>
 <label x="-645.16" y="20.32" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP7" gate="G$1" pin="TOTAL-"/>
+<wire x1="-601.98" y1="50.8" x2="-624.84" y2="50.8" width="0.1524" layer="91"/>
+<label x="-629.92" y="50.8" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$202" class="0">
 </net>
@@ -21406,13 +21411,6 @@ Source: www.kingbright.com</description>
 <label x="-401.32" y="106.68" size="1.778" layer="95"/>
 <junction x="-401.32" y="109.22"/>
 <wire x1="-401.32" y1="109.22" x2="-419.1" y2="109.22" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="GNDPOWER" class="0">
-<segment>
-<pinref part="JP7" gate="G$1" pin="TOTAL-"/>
-<wire x1="-601.98" y1="50.8" x2="-624.84" y2="50.8" width="0.1524" layer="91"/>
-<label x="-640.08" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="C1-" class="0">
