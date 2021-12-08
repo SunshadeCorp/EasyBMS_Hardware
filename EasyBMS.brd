@@ -2847,7 +2847,7 @@ design rules under a new name.</description>
 <via x="35.614" y="10.878" extent="1-16" drill="0.3"/>
 <via x="35.614" y="7.278" extent="1-16" drill="0.3"/>
 <via x="35.514" y="2.478" extent="1-16" drill="0.3"/>
-<via x="24.818" y="4.77" extent="1-16" drill="0.3"/>
+<via x="26.818" y="4.37" extent="1-16" drill="0.3"/>
 <via x="13.618" y="4.67" extent="1-16" drill="0.3"/>
 <via x="24.676" y="6.852" extent="1-16" drill="0.3"/>
 <via x="24.876" y="28.352" extent="1-16" drill="0.3"/>
@@ -3324,16 +3324,16 @@ design rules under a new name.</description>
 <wire x1="15.5575" y1="7.493" x2="15.5575" y2="8.763" width="0.2794" layer="1"/>
 <wire x1="15.6845" y1="7.366" x2="15.5575" y2="7.493" width="0.2794" layer="1"/>
 <wire x1="15.6845" y1="5.715" x2="15.6845" y2="7.366" width="0.2794" layer="1"/>
-<wire x1="15.6845" y1="5.715" x2="15.113" y2="5.1435" width="0.2794" layer="1"/>
-<wire x1="15.113" y1="4.3815" x2="15.113" y2="5.1435" width="0.2794" layer="1"/>
+<wire x1="15.6845" y1="5.715" x2="15.213" y2="5.2435" width="0.2794" layer="1"/>
+<wire x1="15.213" y1="5.0815" x2="15.213" y2="5.2435" width="0.2794" layer="1"/>
 <wire x1="9.8425" y1="17.3355" x2="10.048" y2="17.526" width="0.2794" layer="1"/>
 <via x="7.62" y="16.7005" extent="1-16" drill="0.2"/>
 <via x="15.5575" y="8.763" extent="1-16" drill="0.2"/>
-<via x="15.113" y="4.3815" extent="1-16" drill="0.2"/>
-<wire x1="15.113" y1="4.3815" x2="15.4305" y2="4.064" width="0.2794" layer="16"/>
-<wire x1="15.4305" y1="4.064" x2="25.616" y2="4.064" width="0.2794" layer="16"/>
+<via x="15.213" y="5.0815" extent="1-16" drill="0.2"/>
+<wire x1="15.213" y1="5.0815" x2="15.3305" y2="4.964" width="0.2794" layer="16"/>
+<wire x1="15.3305" y1="4.964" x2="26.516" y2="4.964" width="0.2794" layer="16"/>
 <wire x1="30.48" y1="7.874" x2="29.426" y2="7.874" width="0.2794" layer="16"/>
-<wire x1="29.426" y1="7.874" x2="25.616" y2="4.064" width="0.2794" layer="16"/>
+<wire x1="29.426" y1="7.874" x2="26.516" y2="4.964" width="0.2794" layer="16"/>
 </signal>
 <signal name="S5">
 <contactref element="JP5" pad="33"/>
