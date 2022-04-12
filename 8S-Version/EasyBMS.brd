@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -179,8 +179,8 @@
 <text x="12.5" y="43" size="3.81" layer="25">8S</text>
 <text x="14.6" y="47" size="1.778" layer="25">EasyBMS
 MEB8S
-v1.2
-18.01.2022</text>
+v1.3
+13.04.2022</text>
 </plain>
 <libraries>
 <library name="SamacSys_Parts">
