@@ -211,6 +211,63 @@
 <wire x1="-2.145" y1="0.825" x2="1.412" y2="0.825" width="0.2" layer="21"/>
 <wire x1="-1.412" y1="-0.825" x2="1.412" y2="-0.825" width="0.2" layer="21"/>
 </package>
+<package name="SSM-120-XXX-DV">
+<description>&lt;b&gt;SSM-120-XXX-DV&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="24.13" y="-2.825" dx="2.22" dy="1.02" layer="1" rot="R90"/>
+<smd name="2" x="24.13" y="2.825" dx="2.22" dy="1.02" layer="1" rot="R90"/>
+<smd name="3" x="21.59" y="-2.825" dx="2.22" dy="1.02" layer="1" rot="R90"/>
+<smd name="4" x="21.59" y="2.825" dx="2.22" dy="1.02" layer="1" rot="R90"/>
+<smd name="5" x="19.05" y="-2.825" dx="2.22" dy="1.02" layer="1" rot="R90"/>
+<smd name="6" x="19.05" y="2.825" dx="2.22" dy="1.02" layer="1" rot="R90"/>
+<smd name="7" x="16.51" y="-2.825" dx="2.22" dy="1.02" layer="1" rot="R90"/>
+<smd name="8" x="16.51" y="2.825" dx="2.22" dy="1.02" layer="1" rot="R90"/>
+<smd name="9" x="13.97" y="-2.825" dx="2.22" dy="1.02" layer="1" rot="R90"/>
+<smd name="10" x="13.97" y="2.825" dx="2.22" dy="1.02" layer="1" rot="R90"/>
+<smd name="11" x="11.43" y="-2.825" dx="2.22" dy="1.02" layer="1" rot="R90"/>
+<smd name="12" x="11.43" y="2.825" dx="2.22" dy="1.02" layer="1" rot="R90"/>
+<smd name="13" x="8.89" y="-2.825" dx="2.22" dy="1.02" layer="1" rot="R90"/>
+<smd name="14" x="8.89" y="2.825" dx="2.22" dy="1.02" layer="1" rot="R90"/>
+<smd name="15" x="6.35" y="-2.825" dx="2.22" dy="1.02" layer="1" rot="R90"/>
+<smd name="16" x="6.35" y="2.825" dx="2.22" dy="1.02" layer="1" rot="R90"/>
+<smd name="17" x="3.81" y="-2.825" dx="2.22" dy="1.02" layer="1" rot="R90"/>
+<smd name="18" x="3.81" y="2.825" dx="2.22" dy="1.02" layer="1" rot="R90"/>
+<smd name="19" x="1.27" y="-2.825" dx="2.22" dy="1.02" layer="1" rot="R90"/>
+<smd name="20" x="1.27" y="2.825" dx="2.22" dy="1.02" layer="1" rot="R90"/>
+<smd name="21" x="-1.27" y="-2.825" dx="2.22" dy="1.02" layer="1" rot="R90"/>
+<smd name="22" x="-1.27" y="2.825" dx="2.22" dy="1.02" layer="1" rot="R90"/>
+<smd name="23" x="-3.81" y="-2.825" dx="2.22" dy="1.02" layer="1" rot="R90"/>
+<smd name="24" x="-3.81" y="2.825" dx="2.22" dy="1.02" layer="1" rot="R90"/>
+<smd name="25" x="-6.35" y="-2.825" dx="2.22" dy="1.02" layer="1" rot="R90"/>
+<smd name="26" x="-6.35" y="2.825" dx="2.22" dy="1.02" layer="1" rot="R90"/>
+<smd name="27" x="-8.89" y="-2.825" dx="2.22" dy="1.02" layer="1" rot="R90"/>
+<smd name="28" x="-8.89" y="2.825" dx="2.22" dy="1.02" layer="1" rot="R90"/>
+<smd name="29" x="-11.43" y="-2.825" dx="2.22" dy="1.02" layer="1" rot="R90"/>
+<smd name="30" x="-11.43" y="2.825" dx="2.22" dy="1.02" layer="1" rot="R90"/>
+<smd name="31" x="-13.97" y="-2.825" dx="2.22" dy="1.02" layer="1" rot="R90"/>
+<smd name="32" x="-13.97" y="2.825" dx="2.22" dy="1.02" layer="1" rot="R90"/>
+<smd name="33" x="-16.51" y="-2.825" dx="2.22" dy="1.02" layer="1" rot="R90"/>
+<smd name="34" x="-16.51" y="2.825" dx="2.22" dy="1.02" layer="1" rot="R90"/>
+<smd name="35" x="-19.05" y="-2.825" dx="2.22" dy="1.02" layer="1" rot="R90"/>
+<smd name="36" x="-19.05" y="2.825" dx="2.22" dy="1.02" layer="1" rot="R90"/>
+<smd name="37" x="-21.59" y="-2.825" dx="2.22" dy="1.02" layer="1" rot="R90"/>
+<smd name="38" x="-21.59" y="2.825" dx="2.22" dy="1.02" layer="1" rot="R90"/>
+<smd name="39" x="-24.13" y="-2.825" dx="2.22" dy="1.02" layer="1" rot="R90"/>
+<smd name="40" x="-24.13" y="2.825" dx="2.22" dy="1.02" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-25.4" y1="2.54" x2="25.4" y2="2.54" width="0.2" layer="51"/>
+<wire x1="25.4" y1="2.54" x2="25.4" y2="-2.54" width="0.2" layer="51"/>
+<wire x1="25.4" y1="-2.54" x2="-25.4" y2="-2.54" width="0.2" layer="51"/>
+<wire x1="-25.4" y1="-2.54" x2="-25.4" y2="2.54" width="0.2" layer="51"/>
+<wire x1="25.4" y1="2.54" x2="25.4" y2="-2.54" width="0.1" layer="21"/>
+<wire x1="-25.4" y1="-2.54" x2="-25.4" y2="2.54" width="0.1" layer="21"/>
+<circle x="24.13" y="-4.575" radius="0.05" width="0.2" layer="25"/>
+<wire x1="-26.6" y1="4.935" x2="26.6" y2="4.935" width="0.05" layer="51"/>
+<wire x1="26.6" y1="4.935" x2="26.6" y2="-5.675" width="0.05" layer="51"/>
+<wire x1="26.6" y1="-5.675" x2="-26.6" y2="-5.675" width="0.05" layer="51"/>
+<wire x1="-26.6" y1="-5.675" x2="-26.6" y2="4.935" width="0.05" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="BSS84LT1G">
@@ -247,6 +304,54 @@
 <vertex x="10.16" y="2.54"/>
 <vertex x="10.16" y="-2.54"/>
 </polygon>
+</symbol>
+<symbol name="SSM-120-SM-DV">
+<wire x1="5.08" y1="2.54" x2="17.78" y2="2.54" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-50.8" x2="17.78" y2="2.54" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-50.8" x2="5.08" y2="-50.8" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-50.8" width="0.254" layer="94"/>
+<text x="19.05" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="19.05" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="-48.26" length="middle"/>
+<pin name="2" x="22.86" y="-48.26" length="middle" rot="R180"/>
+<pin name="3" x="0" y="-45.72" length="middle"/>
+<pin name="4" x="22.86" y="-45.72" length="middle" rot="R180"/>
+<pin name="5" x="0" y="-43.18" length="middle"/>
+<pin name="6" x="22.86" y="-43.18" length="middle" rot="R180"/>
+<pin name="7" x="0" y="-40.64" length="middle"/>
+<pin name="8" x="22.86" y="-40.64" length="middle" rot="R180"/>
+<pin name="9" x="0" y="-38.1" length="middle"/>
+<pin name="10" x="22.86" y="-38.1" length="middle" rot="R180"/>
+<pin name="11" x="0" y="-35.56" length="middle"/>
+<pin name="12" x="22.86" y="-35.56" length="middle" rot="R180"/>
+<pin name="13" x="0" y="-33.02" length="middle"/>
+<pin name="14" x="22.86" y="-33.02" length="middle" rot="R180"/>
+<pin name="15" x="0" y="-30.48" length="middle"/>
+<pin name="16" x="22.86" y="-30.48" length="middle" rot="R180"/>
+<pin name="17" x="0" y="-27.94" length="middle"/>
+<pin name="18" x="22.86" y="-27.94" length="middle" rot="R180"/>
+<pin name="19" x="0" y="-25.4" length="middle"/>
+<pin name="20" x="22.86" y="-25.4" length="middle" rot="R180"/>
+<pin name="21" x="0" y="-22.86" length="middle"/>
+<pin name="22" x="22.86" y="-22.86" length="middle" rot="R180"/>
+<pin name="23" x="0" y="-20.32" length="middle"/>
+<pin name="24" x="22.86" y="-20.32" length="middle" rot="R180"/>
+<pin name="25" x="0" y="-17.78" length="middle"/>
+<pin name="26" x="22.86" y="-17.78" length="middle" rot="R180"/>
+<pin name="27" x="0" y="-15.24" length="middle"/>
+<pin name="28" x="22.86" y="-15.24" length="middle" rot="R180"/>
+<pin name="29" x="0" y="-12.7" length="middle"/>
+<pin name="30" x="22.86" y="-12.7" length="middle" rot="R180"/>
+<pin name="31" x="0" y="-10.16" length="middle"/>
+<pin name="32" x="22.86" y="-10.16" length="middle" rot="R180"/>
+<pin name="33" x="0" y="-7.62" length="middle"/>
+<pin name="34" x="22.86" y="-7.62" length="middle" rot="R180"/>
+<pin name="35" x="0" y="-5.08" length="middle"/>
+<pin name="36" x="22.86" y="-5.08" length="middle" rot="R180"/>
+<pin name="37" x="0" y="-2.54" length="middle"/>
+<pin name="38" x="22.86" y="-2.54" length="middle" rot="R180"/>
+<pin name="39" x="0" y="0" length="middle"/>
+<pin name="40" x="22.86" y="0" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -296,6 +401,69 @@ Source: &lt;a href="http://www.mccsemi.com/up_pdf/SM4001PL-SM4007PL(SOD-123FL).P
 <attribute name="MANUFACTURER_PART_NUMBER" value="SM4007PL-TP" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="833-SM4007PL-TP" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Micro-Commercial-Components-MCC/SM4007PL-TP?qs=SdqRYZZ9IxCh9ylwm1K3UA%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SSM-120-SM-DV" prefix="J">
+<description>&lt;b&gt;40 Position, Dual Row, Surface Mount PCB Socket Strip, 0.100&amp;quot; pitch&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://suddendocs.samtec.com/prints/ssm-1xx-xxx-dv-xx-xx-xxx-xx-mkt.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="SSM-120-SM-DV" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SSM-120-XXX-DV">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="21" pad="21"/>
+<connect gate="G$1" pin="22" pad="22"/>
+<connect gate="G$1" pin="23" pad="23"/>
+<connect gate="G$1" pin="24" pad="24"/>
+<connect gate="G$1" pin="25" pad="25"/>
+<connect gate="G$1" pin="26" pad="26"/>
+<connect gate="G$1" pin="27" pad="27"/>
+<connect gate="G$1" pin="28" pad="28"/>
+<connect gate="G$1" pin="29" pad="29"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="30" pad="30"/>
+<connect gate="G$1" pin="31" pad="31"/>
+<connect gate="G$1" pin="32" pad="32"/>
+<connect gate="G$1" pin="33" pad="33"/>
+<connect gate="G$1" pin="34" pad="34"/>
+<connect gate="G$1" pin="35" pad="35"/>
+<connect gate="G$1" pin="36" pad="36"/>
+<connect gate="G$1" pin="37" pad="37"/>
+<connect gate="G$1" pin="38" pad="38"/>
+<connect gate="G$1" pin="39" pad="39"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="40" pad="40"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="40 Position, Dual Row, Surface Mount PCB Socket Strip, 0.100&amp;quot; pitch" constant="no"/>
+<attribute name="HEIGHT" value="mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="SAMTEC" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SSM-120-SM-DV" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -19715,6 +19883,7 @@ Source: www.kingbright.com</description>
 <part name="H3" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.2" package3d_urn="urn:adsk.eagle:package:14275/1"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k"/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k"/>
+<part name="J1" library="SamacSys_Parts" deviceset="SSM-120-SM-DV" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -20311,6 +20480,10 @@ Source: www.kingbright.com</description>
 <instance part="R6" gate="G$1" x="96.52" y="312.42" smashed="yes" rot="R180">
 <attribute name="NAME" x="100.33" y="310.9214" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="100.33" y="315.722" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="J1" gate="G$1" x="-35.56" y="571.5" smashed="yes">
+<attribute name="NAME" x="-16.51" y="579.12" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-16.51" y="576.58" size="1.778" layer="96" align="center-left"/>
 </instance>
 </instances>
 <busses>
