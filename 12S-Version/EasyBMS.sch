@@ -192,25 +192,6 @@
 <wire x1="-0.35" y1="-1.46" x2="-0.35" y2="1.46" width="0.2" layer="21"/>
 <wire x1="-1.7" y1="1.505" x2="-0.7" y2="1.505" width="0.2" layer="21"/>
 </package>
-<package name="SODFL3616X135N">
-<description>&lt;b&gt;SOD-123FL_&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-1.775" y="0" dx="1.07" dy="0.74" layer="1" rot="R90"/>
-<smd name="2" x="1.775" y="0" dx="1.07" dy="0.74" layer="1" rot="R90"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-2.295" y1="1.1" x2="2.295" y2="1.1" width="0.05" layer="51"/>
-<wire x1="2.295" y1="1.1" x2="2.295" y2="-1.1" width="0.05" layer="51"/>
-<wire x1="2.295" y1="-1.1" x2="-2.295" y2="-1.1" width="0.05" layer="51"/>
-<wire x1="-2.295" y1="-1.1" x2="-2.295" y2="1.1" width="0.05" layer="51"/>
-<wire x1="-1.412" y1="0.825" x2="1.412" y2="0.825" width="0.1" layer="51"/>
-<wire x1="1.412" y1="0.825" x2="1.412" y2="-0.825" width="0.1" layer="51"/>
-<wire x1="1.412" y1="-0.825" x2="-1.412" y2="-0.825" width="0.1" layer="51"/>
-<wire x1="-1.412" y1="-0.825" x2="-1.412" y2="0.825" width="0.1" layer="51"/>
-<wire x1="-1.412" y1="0.455" x2="-1.042" y2="0.825" width="0.1" layer="51"/>
-<wire x1="-2.145" y1="0.825" x2="1.412" y2="0.825" width="0.2" layer="21"/>
-<wire x1="-1.412" y1="-0.825" x2="1.412" y2="-0.825" width="0.2" layer="21"/>
-</package>
 <package name="SOP50P780X200-48N">
 <description>&lt;b&gt;48-Lead Plastic SSOP (5.3mm) - G package_1&lt;/b&gt;&lt;br&gt;
 </description>
@@ -304,18 +285,6 @@
 <vertex x="6.604" y="2.032"/>
 </polygon>
 </symbol>
-<symbol name="SM4007PL-TP">
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<text x="11.43" y="5.08" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="11.43" y="2.54" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="K" x="0" y="0" visible="pad" length="middle"/>
-<pin name="A" x="15.24" y="0" visible="pad" length="middle" rot="R180"/>
-<polygon width="0.254" layer="94">
-<vertex x="5.08" y="0"/>
-<vertex x="10.16" y="2.54"/>
-<vertex x="10.16" y="-2.54"/>
-</polygon>
-</symbol>
 <symbol name="LTC6811IG-2#PBF">
 <wire x1="5.08" y1="2.54" x2="30.48" y2="2.54" width="0.254" layer="94"/>
 <wire x1="30.48" y1="-60.96" x2="30.48" y2="2.54" width="0.254" layer="94"/>
@@ -395,31 +364,6 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/BSS84LT1-D.PDF"&gt; Dat
 <attribute name="MANUFACTURER_PART_NUMBER" value="BSS84LT1G" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="863-BSS84LT1G" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/BSS84LT1G?qs=vNc2DXHODiKIGu9QIvMAfw%3D%3D" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="SM4007PL-TP" prefix="D">
-<description>&lt;b&gt;Rectifiers 1A, 1000V 1A, 1000V&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="http://www.mccsemi.com/up_pdf/SM4001PL-SM4007PL(SOD-123FL).PDF"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="SM4007PL-TP" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SODFL3616X135N">
-<connects>
-<connect gate="G$1" pin="A" pad="2"/>
-<connect gate="G$1" pin="K" pad="1"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="Rectifiers 1A, 1000V 1A, 1000V" constant="no"/>
-<attribute name="HEIGHT" value="1.35mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Micro Commercial Components (MCC)" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SM4007PL-TP" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="833-SM4007PL-TP" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Micro-Commercial-Components-MCC/SM4007PL-TP?qs=SdqRYZZ9IxCh9ylwm1K3UA%3D%3D" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -10980,7 +10924,6 @@ Source: www.kingbright.com</description>
 <part name="JP3" library="pinhead_own" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="100R"/>
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="10nF"/>
-<part name="D2" library="SamacSys_Parts" deviceset="SM4007PL-TP" device=""/>
 <part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0"/>
 <part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0"/>
 <part name="Q3" library="SamacSys_Parts" deviceset="BSS84LT1G" device=""/>
@@ -11187,10 +11130,6 @@ Source: www.kingbright.com</description>
 <instance part="C5" gate="G$1" x="-182.88" y="73.66" smashed="yes">
 <attribute name="NAME" x="-181.356" y="74.041" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-181.356" y="68.961" size="1.778" layer="96"/>
-</instance>
-<instance part="D2" gate="G$1" x="99.06" y="426.72" smashed="yes">
-<attribute name="NAME" x="110.49" y="431.8" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="110.49" y="429.26" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="R14" gate="G$1" x="-393.7" y="114.3" smashed="yes">
 <attribute name="NAME" x="-397.51" y="115.7986" size="1.778" layer="95"/>
@@ -11703,12 +11642,8 @@ Source: www.kingbright.com</description>
 <net name="5VDC" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="OUT+"/>
-<wire x1="129.54" y1="406.4" x2="137.16" y2="406.4" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="406.4" x2="195.58" y2="406.4" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="406.4" x2="195.58" y2="406.4" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="406.4" x2="195.58" y2="299.72" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="426.72" x2="137.16" y2="426.72" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="426.72" x2="137.16" y2="406.4" width="0.1524" layer="91"/>
-<junction x="137.16" y="406.4"/>
 <wire x1="195.58" y1="299.72" x2="170.18" y2="299.72" width="0.1524" layer="91"/>
 <label x="177.8" y="297.18" size="1.778" layer="95"/>
 <pinref part="U$2" gate="G$1" pin="5V"/>
@@ -11717,7 +11652,6 @@ Source: www.kingbright.com</description>
 <wire x1="152.4" y1="302.26" x2="152.4" y2="309.88" width="0.1524" layer="91"/>
 <label x="154.94" y="304.8" size="1.778" layer="95"/>
 <wire x1="170.18" y1="299.72" x2="170.18" y2="302.26" width="0.1524" layer="91"/>
-<pinref part="D2" gate="G$1" pin="A"/>
 </segment>
 <segment>
 <wire x1="15.24" y1="363.22" x2="33.02" y2="363.22" width="0.1524" layer="91"/>
@@ -13080,12 +13014,7 @@ Source: www.kingbright.com</description>
 <segment>
 <label x="66.04" y="408.94" size="1.778" layer="95"/>
 <pinref part="U$1" gate="G$1" pin="IN+"/>
-<wire x1="93.98" y1="406.4" x2="86.36" y2="406.4" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="406.4" x2="45.72" y2="406.4" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="426.72" x2="86.36" y2="426.72" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="426.72" x2="86.36" y2="406.4" width="0.1524" layer="91"/>
-<junction x="86.36" y="406.4"/>
-<pinref part="D2" gate="G$1" pin="K"/>
+<wire x1="93.98" y1="406.4" x2="45.72" y2="406.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R15" gate="G$1" pin="2"/>
