@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -22714,7 +22714,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="100R"/>
 <part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="20k"/>
 <part name="IC2" library="SamacSys_Parts" deviceset="LTC6811IG-1#PBF" device=""/>
-<part name="IC1" library="SamacSys_Parts" deviceset="LM2596S-5.0_NOPB" device=""/>
+<part name="IC1" library="SamacSys_Parts" deviceset="LM2596S-5.0_NOPB" device="">
+<attribute name="JLCPART" value="C347445"/>
+</part>
 <part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="DO214BA" package3d_urn="urn:adsk.eagle:package:43453/2" value="C16015"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -22723,7 +22725,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="L1" library="SamacSys_Parts" deviceset="CY75-100UH" device="" value="C2929443"/>
+<part name="L1" library="SamacSys_Parts" deviceset="CY75-100UH" device="" value="C2929443">
+<attribute name="JLCPART" value="C2929443"/>
+</part>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="UD-8X10" package3d_urn="urn:adsk.eagle:package:23473/1" value="C249880"/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="UD-10X10" package3d_urn="urn:adsk.eagle:package:23469/1" value="C249836"/>
 <part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="C1017"/>
@@ -23334,6 +23338,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="IC1" gate="G$1" x="45.72" y="391.16" smashed="yes" rot="R180">
 <attribute name="NAME" x="29.21" y="383.54" size="1.778" layer="95" rot="R180" align="center-left"/>
 <attribute name="VALUE" x="39.37" y="386.08" size="1.778" layer="96" rot="R180" align="center-left"/>
+<attribute name="JLCPART" x="45.72" y="391.16" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="D1" gate="G$1" x="53.34" y="388.62" smashed="yes" rot="R90">
 <attribute name="NAME" x="50.3174" y="386.08" size="1.778" layer="95" rot="R90"/>
@@ -23363,6 +23368,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="L1" gate="G$1" x="63.5" y="393.7" smashed="yes">
 <attribute name="NAME" x="59.69" y="395.986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="59.563" y="390.652" size="1.778" layer="96"/>
+<attribute name="JLCPART" x="63.5" y="398.78" size="1.778" layer="96"/>
 </instance>
 <instance part="C2" gate="G$1" x="78.74" y="388.62" smashed="yes">
 <attribute name="NAME" x="79.883" y="389.1026" size="1.778" layer="95"/>
