@@ -260,7 +260,7 @@
 <wire x1="-2.3" y1="-6.4" x2="-2.3" y2="6.4" width="0.2" layer="21"/>
 <wire x1="-4.45" y1="6.25" x2="-2.65" y2="6.25" width="0.2" layer="21"/>
 </package>
-<package name="KTT0005B">
+<package name="KTT0005B" urn="urn:adsk.eagle:footprint:38933034/1">
 <description>&lt;b&gt;KTT0005B&lt;/b&gt;&lt;br&gt;
 </description>
 <smd name="1" x="6.111" y="-3.4" dx="2.5" dy="1.02" layer="1"/>
@@ -287,21 +287,45 @@
 <text x="-3.81" y="-6.35" size="1.778" layer="25">&gt;NAME</text>
 <text x="-5.08" y="5.08" size="1.778" layer="27">&gt;VALUE</text>
 </package>
-<package name="VZH471M1JTR-1616">
-<smd name="+" x="6.3" y="0" dx="7" dy="2" layer="1"/>
-<smd name="-" x="-6.3" y="0" dx="7" dy="2" layer="1"/>
-<wire x1="-8.5" y1="8.5" x2="-8.5" y2="-8.5" width="0.1524" layer="21"/>
-<wire x1="-8.5" y1="-8.5" x2="6.5" y2="-8.5" width="0.1524" layer="21"/>
-<wire x1="6.5" y1="-8.5" x2="8.5" y2="-6.5" width="0.1524" layer="21"/>
-<wire x1="8.5" y1="-6.5" x2="8.5" y2="6.5" width="0.1524" layer="21"/>
-<wire x1="8.5" y1="6.5" x2="6.5" y2="8.5" width="0.1524" layer="21"/>
-<wire x1="6.5" y1="8.5" x2="-8.5" y2="8.5" width="0.1524" layer="21"/>
-<circle x="0" y="0" radius="8" width="0.1524" layer="21"/>
-<wire x1="-6.5" y1="4.5" x2="-6.5" y2="-4.5" width="0.1524" layer="21"/>
-<text x="-3.81" y="-11.43" size="1.778" layer="25">&gt;NAME</text>
-<text x="-5.08" y="8.89" size="1.778" layer="27">&gt;VALUE</text>
+<package name="WCAP-ASLI_16X17(DXL)" urn="urn:adsk.eagle:footprint:18353970/1" locally_modified="yes">
+<description>&lt;B&gt;WCAP-ASLI&lt;/B&gt;&lt;BR&gt; Aluminium Electrolytic Capacitors,16X17X6.6(DiameterXLengthXP)</description>
+<smd name="2" x="-6.25" y="0" dx="6.5" dy="3.5" layer="1"/>
+<smd name="1" x="6.25" y="0" dx="6.5" dy="3.5" layer="1"/>
+<wire x1="-8.65" y1="8.65" x2="6.1" y2="8.65" width="0.2" layer="21"/>
+<wire x1="-8.65" y1="-8.65" x2="-8.65" y2="-2.1" width="0.2" layer="21"/>
+<wire x1="-8.65" y1="-8.65" x2="6.1" y2="-8.65" width="0.2" layer="21"/>
+<wire x1="-8.65" y1="8.65" x2="-8.65" y2="2.1" width="0.2" layer="21"/>
+<wire x1="6.1" y1="8.65" x2="8.65" y2="6.1" width="0.2" layer="21"/>
+<wire x1="6.1" y1="-8.65" x2="8.65" y2="-6.1" width="0.2" layer="21"/>
+<wire x1="8.65" y1="6.1" x2="8.65" y2="2.1" width="0.2" layer="21"/>
+<wire x1="8.65" y1="-6.1" x2="8.65" y2="-2.1" width="0.2" layer="21"/>
+<wire x1="-8.55" y1="8.55" x2="-8.55" y2="-8.55" width="0.1" layer="51"/>
+<wire x1="-8.55" y1="-8.55" x2="6.05" y2="-8.55" width="0.1" layer="51"/>
+<wire x1="6.05" y1="-8.55" x2="8.55" y2="-6.05" width="0.1" layer="51"/>
+<wire x1="8.55" y1="-6.05" x2="8.55" y2="6.05" width="0.1" layer="51"/>
+<wire x1="8.55" y1="6.05" x2="6.05" y2="8.55" width="0.1" layer="51"/>
+<wire x1="6.05" y1="8.55" x2="-8.55" y2="8.55" width="0.1" layer="51"/>
+<text x="-0.8" y="9.7" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-1.5" y="-10.7" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="9.6" y="-3.5" size="1.27" layer="21" align="bottom-center">+</text>
+<text x="9.6" y="-3.5" size="1.27" layer="51" align="bottom-center">+</text>
+<circle x="0" y="0" radius="8" width="0.1" layer="21"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="WCAP-ASLI_16X17(DXL)" urn="urn:adsk.eagle:package:18353981/3" type="model">
+<description>&lt;B&gt;WCAP-ASLI&lt;/B&gt;&lt;BR&gt; Aluminium Electrolytic Capacitors,16X17X6.6(DiameterXLengthXP)</description>
+<packageinstances>
+<packageinstance name="WCAP-ASLI_16X17(DXL)"/>
+</packageinstances>
+</package3d>
+<package3d name="KTT0005B" urn="urn:adsk.eagle:package:38933033/2" type="model">
+<description>&lt;b&gt;KTT0005B&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="KTT0005B"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
 <symbol name="BSS84LT1G">
 <wire x1="7.62" y1="2.54" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
@@ -531,6 +555,9 @@ Source: &lt;a href="https://www.ti.com/lit/gpn/LM2596"&gt; Datasheet &lt;/a&gt;<
 <connect gate="G$1" pin="OUT" pad="2"/>
 <connect gate="G$1" pin="VIN" pad="1"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:38933033/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="Switching Voltage Regulators 150 KHZ 3A STEP-DOWN VLTG REG" constant="no"/>
@@ -565,11 +592,14 @@ Source: &lt;a href="https://www.ti.com/lit/gpn/LM2596"&gt; Datasheet &lt;/a&gt;<
 <gate name="G$1" symbol="CPOL" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="VZH471M1JTR-1616">
+<device name="" package="WCAP-ASLI_16X17(DXL)">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18353981/3"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -22753,7 +22783,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="100R"/>
 <part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="20k"/>
 <part name="IC2" library="SamacSys_Parts" deviceset="LTC6811IG-1#PBF" device=""/>
-<part name="IC1" library="SamacSys_Parts" deviceset="LM2596S-5.0_NOPB" device=""/>
+<part name="IC1" library="SamacSys_Parts" deviceset="LM2596S-5.0_NOPB" device="" package3d_urn="urn:adsk.eagle:package:38933033/2"/>
 <part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="DO214AC" package3d_urn="urn:adsk.eagle:package:43417/2" value="C16015"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -22777,7 +22807,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+5V/1" device=""/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+5V/1" device=""/>
 <part name="C21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="1uF"/>
-<part name="C24" library="SamacSys_Parts" deviceset="VZH471M1JTR-1616" device="" value="C249935"/>
+<part name="C24" library="SamacSys_Parts" deviceset="VZH471M1JTR-1616" device="" package3d_urn="urn:adsk.eagle:package:18353981/3" value="C249935"/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 </parts>
 <sheets>
