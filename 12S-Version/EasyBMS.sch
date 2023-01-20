@@ -263,12 +263,12 @@
 <package name="KTT0005B">
 <description>&lt;b&gt;KTT0005B&lt;/b&gt;&lt;br&gt;
 </description>
-<smd name="1" x="6.111" y="-3.4" dx="2.16" dy="1.02" layer="1"/>
-<smd name="2" x="6.111" y="-1.7" dx="2.16" dy="1.02" layer="1"/>
-<smd name="3" x="6.111" y="0" dx="2.16" dy="1.02" layer="1"/>
-<smd name="4" x="6.111" y="1.7" dx="2.16" dy="1.02" layer="1"/>
-<smd name="5" x="6.111" y="3.4" dx="2.16" dy="1.02" layer="1"/>
-<smd name="6" x="-4.564" y="0" dx="10" dy="9.5" layer="1" rot="R90"/>
+<smd name="1" x="6.111" y="-3.4" dx="2.5" dy="1.02" layer="1"/>
+<smd name="2" x="6.111" y="-1.7" dx="2.5" dy="1.02" layer="1"/>
+<smd name="3" x="6.111" y="0" dx="2.5" dy="1.02" layer="1"/>
+<smd name="4" x="6.111" y="1.7" dx="2.5" dy="1.02" layer="1"/>
+<smd name="5" x="6.111" y="3.4" dx="2.5" dy="1.02" layer="1"/>
+<smd name="6" x="-4.564" y="0" dx="10.5" dy="10" layer="1" rot="R90"/>
 <text x="-4.743" y="-7.677" size="1.27" layer="25">&gt;NAME</text>
 <text x="-4.743" y="6.293" size="1.27" layer="27">&gt;VALUE</text>
 <wire x1="-6.35" y1="5.08" x2="2.29" y2="5.08" width="0.2" layer="21"/>
