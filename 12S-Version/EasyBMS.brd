@@ -285,9 +285,7 @@ v1.5
 <smd name="3" x="6.111" y="0" dx="2.16" dy="1.02" layer="1"/>
 <smd name="4" x="6.111" y="1.7" dx="2.16" dy="1.02" layer="1"/>
 <smd name="5" x="6.111" y="3.4" dx="2.16" dy="1.02" layer="1"/>
-<smd name="6" x="-4.564" y="0" dx="8.33" dy="6.99" layer="1" rot="R90"/>
-<smd name="7" x="-7.104" y="4.7825" dx="1.91" dy="1.235" layer="1"/>
-<smd name="8" x="-7.104" y="-4.7825" dx="1.91" dy="1.235" layer="1"/>
+<smd name="6" x="-4.564" y="0" dx="10" dy="9.5" layer="1" rot="R90"/>
 <text x="-4.743" y="-7.677" size="1.27" layer="25">&gt;NAME</text>
 <text x="-4.743" y="6.293" size="1.27" layer="27">&gt;VALUE</text>
 <wire x1="-6.35" y1="5.08" x2="2.29" y2="5.08" width="0.2" layer="21"/>
@@ -2521,22 +2519,22 @@ Based on the following sources:
 <attribute name="NAME" x="44.6278" y="45.593" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="39.8018" y="41.7576" size="1.27" layer="27" align="center"/>
 </element>
-<element name="IC1" library="SamacSys_Parts" package="KTT0005B" value="LM2596S-5.0_NOPB" x="8.8392" y="73.66" smashed="yes" rot="R270">
-<attribute name="DESCRIPTION" value="Switching Voltage Regulators 150 KHZ 3A STEP-DOWN VLTG REG" x="8.8392" y="73.66" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="HEIGHT" value="mm" x="8.8392" y="73.66" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="8.8392" y="73.66" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="LM2596S-5.0/NOPB" x="8.8392" y="73.66" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="926-LM2596S-5.0/NOPB" x="8.8392" y="73.66" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM2596S-5.0-NOPB?qs=X1J7HmVL2ZHVjCOmW%252BYINA%3D%3D" x="8.8392" y="73.66" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="2.5338" y="71.8244" size="1.27" layer="25" rot="R270" align="center"/>
-<attribute name="VALUE" x="8.7822" y="70.783" size="1.27" layer="27" rot="R270" align="center"/>
+<element name="IC1" library="SamacSys_Parts" package="KTT0005B" value="LM2596S-5.0_NOPB" x="8.9916" y="73.2028" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="Switching Voltage Regulators 150 KHZ 3A STEP-DOWN VLTG REG" x="8.9916" y="73.2028" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="mm" x="8.9916" y="73.2028" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="8.9916" y="73.2028" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LM2596S-5.0/NOPB" x="8.9916" y="73.2028" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="926-LM2596S-5.0/NOPB" x="8.9916" y="73.2028" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM2596S-5.0-NOPB?qs=X1J7HmVL2ZHVjCOmW%252BYINA%3D%3D" x="8.9916" y="73.2028" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="2.6862" y="71.3672" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="VALUE" x="8.9346" y="70.3258" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
 <element name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" package="DO214AC" package3d_urn="urn:adsk.eagle:package:43417/2" value="C16015" x="3.5052" y="59.5884" smashed="yes" rot="R270">
 <attribute name="NAME" x="5.2412" y="62.2284" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="POPULARITY" value="14" x="3.5052" y="59.5884" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="0.4492" y="62.2284" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="L1" library="SamacSys_Parts" package="CY75-100UH" value="C2929443" x="8.8646" y="61.6204" smashed="yes"/>
+<element name="L1" library="SamacSys_Parts" package="CY75-100UH" value="C2929443" x="9.1948" y="61.468" smashed="yes"/>
 <element name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="UD-8X10_NICHICON" package3d_urn="urn:adsk.eagle:package:23473/1" value="C249880" x="19.0246" y="73.0758" smashed="yes" rot="R270">
 <attribute name="NAME" x="15.0114" y="79.248" size="1.016" layer="25" rot="R270"/>
 <attribute name="POPULARITY" value="0" x="19.0246" y="73.0758" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2561,16 +2559,16 @@ Based on the following sources:
 <attribute name="SPICEPREFIX" value="C" x="35.0012" y="58.9026" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="29.2862" y="62.7126" size="1.016" layer="27" rot="R270"/>
 </element>
-<element name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" package="DO214AC" package3d_urn="urn:adsk.eagle:package:43417/2" value="C16015" x="21.9202" y="84.8106" smashed="yes" rot="R270">
-<attribute name="NAME" x="23.6562" y="87.4506" size="1.27" layer="25" ratio="10" rot="R270"/>
-<attribute name="POPULARITY" value="14" x="21.9202" y="84.8106" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="18.8642" y="87.4506" size="1.27" layer="27" ratio="10" rot="R270"/>
+<element name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" package="DO214AC" package3d_urn="urn:adsk.eagle:package:43417/2" value="C16015" x="21.5392" y="84.9122" smashed="yes" rot="R270">
+<attribute name="NAME" x="23.2752" y="87.5522" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="POPULARITY" value="14" x="21.5392" y="84.9122" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="18.4832" y="87.5522" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C21" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="1uF" x="14.7574" y="66.1416" smashed="yes" rot="R90">
 <attribute name="NAME" x="15.4432" y="59.8932" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="17.2974" y="64.8716" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C24" library="SamacSys_Parts" package="VZH471M1JTR-1616" value="C249935" x="10.5156" y="90.932" smashed="yes" rot="R180"/>
+<element name="C24" library="SamacSys_Parts" package="VZH471M1JTR-1616" value="C249935" x="10.541" y="91.2622" smashed="yes" rot="R180"/>
 </elements>
 <signals>
 <signal name="MISO">
@@ -2699,8 +2697,8 @@ Based on the following sources:
 <via x="7.6962" y="19.7866" extent="1-16" drill="0.3"/>
 <via x="1.9304" y="64.4652" extent="1-16" drill="0.3"/>
 <via x="8.636" y="71.12" extent="1-16" drill="0.3"/>
-<via x="14.0208" y="78.7146" extent="1-16" drill="0.3"/>
-<via x="8.89" y="82.8294" extent="1-16" drill="0.3"/>
+<via x="14.6558" y="78.74" extent="1-16" drill="0.3"/>
+<via x="8.9662" y="83.5152" extent="1-16" drill="0.3"/>
 <via x="4.572" y="93.472" extent="1-16" drill="0.3"/>
 <via x="2.54" y="54.356" extent="1-16" drill="0.3"/>
 <via x="36.068" y="94.488" extent="1-16" drill="0.3"/>
@@ -2718,7 +2716,6 @@ Based on the following sources:
 <contactref element="C1" pad="2"/>
 <contactref element="C5" pad="2"/>
 <wire x1="20.1041" y1="5.0927" x2="20.1826" y2="4.9022" width="0.2794" layer="1"/>
-<wire x1="20.1041" y1="4.7752" x2="20.1826" y2="4.9022" width="0.2794" layer="1"/>
 <contactref element="R13" pad="2"/>
 <via x="44.831" y="38.8874" extent="1-16" drill="0.35"/>
 <wire x1="46.8854" y1="40.3098" x2="47.1678" y2="40.0274" width="0.2794" layer="1"/>
@@ -2790,8 +2787,6 @@ Based on the following sources:
 <contactref element="LED4" pad="C"/>
 <contactref element="C21" pad="2"/>
 <contactref element="C24" pad="-"/>
-<contactref element="IC1" pad="7"/>
-<contactref element="IC1" pad="8"/>
 <via x="39.8272" y="41.4274" extent="1-16" drill="0.35"/>
 <via x="39.2176" y="45.847" extent="1-16" drill="0.35"/>
 <wire x1="43.3518" y1="43.5076" x2="41.5824" y2="43.5076" width="0.2794" layer="1"/>
@@ -2811,14 +2806,14 @@ Based on the following sources:
 <via x="10.3632" y="69.9516" extent="1-16" drill="0.3"/>
 <via x="8.6868" y="69.8754" extent="1-16" drill="0.3"/>
 <via x="9.525" y="69.9008" extent="1-16" drill="0.3"/>
-<via x="8.636" y="72.1868" extent="1-16" drill="0.3"/>
-<via x="8.6106" y="73.0504" extent="1-16" drill="0.3"/>
-<via x="8.636" y="74.0156" extent="1-16" drill="0.3"/>
-<via x="9.5504" y="74.1934" extent="1-16" drill="0.3"/>
-<via x="10.5156" y="74.1934" extent="1-16" drill="0.3"/>
-<via x="11.5062" y="74.2188" extent="1-16" drill="0.3"/>
-<via x="12.3952" y="74.2188" extent="1-16" drill="0.3"/>
-<via x="13.2334" y="74.1934" extent="1-16" drill="0.3"/>
+<via x="8.636" y="71.882" extent="1-16" drill="0.3"/>
+<via x="9.0932" y="71.9836" extent="1-16" drill="0.3"/>
+<via x="9.7536" y="71.9074" extent="1-16" drill="0.3"/>
+<via x="10.3886" y="71.9074" extent="1-16" drill="0.3"/>
+<via x="11.176" y="71.9328" extent="1-16" drill="0.3"/>
+<via x="11.9634" y="71.9836" extent="1-16" drill="0.3"/>
+<via x="12.5984" y="72.0344" extent="1-16" drill="0.3"/>
+<via x="13.3096" y="72.1106" extent="1-16" drill="0.3"/>
 <via x="2.7432" y="64.4906" extent="1-16" drill="0.3"/>
 <via x="3.3528" y="65.2018" extent="1-16" drill="0.3"/>
 <via x="8.0264" y="97.536" extent="1-16" drill="0.3"/>
@@ -2840,7 +2835,6 @@ Based on the following sources:
 <via x="32.4104" y="54.1782" extent="1-16" drill="0.35"/>
 <via x="29.337" y="55.0926" extent="1-16" drill="0.35"/>
 <via x="41.4274" y="90.8304" extent="1-16" drill="0.3"/>
-<wire x1="8.89" y1="82.8294" x2="4.0567" y2="80.764" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$202">
 </signal>
@@ -3985,19 +3979,18 @@ Based on the following sources:
 <vertex x="6.0198" y="66.1162"/>
 <vertex x="2.5908" y="66.1162"/>
 <vertex x="-0.0762" y="68.7832"/>
-<vertex x="-0.0762" y="92.0496"/>
-<vertex x="7.6962" y="92.0496"/>
-<vertex x="7.747" y="91.9988"/>
+<vertex x="-0.0762" y="92.3544"/>
+<vertex x="7.493" y="92.3544"/>
 </polygon>
 <wire x1="2.396" y1="43.308" x2="2.396" y2="44.646075" width="1.016" layer="1"/>
 <wire x1="2.396" y1="44.646075" x2="0.708" y2="46.334075" width="1.016" layer="1"/>
 <wire x1="0.708" y1="46.334075" x2="0.708" y2="68.2752" width="1.016" layer="1"/>
 <wire x1="0.708" y1="68.2752" x2="0.9802" y2="68.2752" width="1.016" layer="1"/>
 <wire x1="0.9802" y1="68.2752" x2="2.5146" y2="66.7408" width="1.016" layer="1"/>
-<wire x1="4.2156" y1="90.932" x2="12.5214" y2="99.2378" width="0.2794" layer="1"/>
+<wire x1="4.241" y1="91.2622" x2="12.2166" y2="99.2378" width="0.2794" layer="1"/>
 <wire x1="34.04726875" y1="99.2378" x2="40.259" y2="93.02606875" width="0.2794" layer="1"/>
 <wire x1="40.259" y1="93.02606875" x2="40.259" y2="77.0754" width="0.2794" layer="1"/>
-<wire x1="12.5214" y1="99.2378" x2="34.04726875" y2="99.2378" width="0.2794" layer="1"/>
+<wire x1="12.2166" y1="99.2378" x2="34.04726875" y2="99.2378" width="0.2794" layer="1"/>
 <wire x1="26.162" y1="49.276" x2="26.67" y2="49.784" width="0.508" layer="1"/>
 <wire x1="26.67" y1="49.784" x2="32.5732" y2="49.784" width="0.508" layer="1"/>
 </signal>
@@ -4461,8 +4454,8 @@ Based on the following sources:
 <vertex x="6.604" y="68.9356"/>
 <vertex x="7.7724" y="68.9356"/>
 <vertex x="7.7724" y="57.7088"/>
-<vertex x="5.08" y="57.7088"/>
-<vertex x="5.08" y="59.8932"/>
+<vertex x="5.2832" y="57.7088"/>
+<vertex x="5.2832" y="59.890415625"/>
 <vertex x="3.2258" y="59.9186"/>
 <vertex x="2.804584375" y="60.339815625"/>
 <vertex x="2.804584375" y="62.951784375"/>
@@ -4507,8 +4500,8 @@ Based on the following sources:
 <signal name="N$25">
 <contactref element="U$2" pad="JP2.8"/>
 <contactref element="D2" pad="C"/>
-<wire x1="21.9202" y1="86.8606" x2="21.9202" y2="87.8708" width="0.508" layer="1"/>
-<wire x1="21.9202" y1="87.8708" x2="24.6126" y2="90.5632" width="0.508" layer="1"/>
+<wire x1="21.5392" y1="86.9622" x2="21.5392" y2="87.4898" width="0.508" layer="1"/>
+<wire x1="21.5392" y1="87.4898" x2="24.6126" y2="90.5632" width="0.508" layer="1"/>
 </signal>
 <signal name="+5V/1">
 <contactref element="IC1" pad="4"/>
@@ -4533,8 +4526,8 @@ Based on the following sources:
 </polygon>
 <wire x1="19.0246" y1="69.9508" x2="19.0246" y2="70.358" width="0.508" layer="1"/>
 <wire x1="23.0632" y1="74.3966" x2="23.0632" y2="81.534" width="0.508" layer="1"/>
-<wire x1="23.0632" y1="81.534" x2="21.9202" y2="82.677" width="0.508" layer="1"/>
-<wire x1="21.9202" y1="82.677" x2="21.9202" y2="82.7606" width="0.508" layer="1"/>
+<wire x1="23.0632" y1="81.534" x2="21.735" y2="82.8622" width="0.508" layer="1"/>
+<wire x1="21.735" y1="82.8622" x2="21.5392" y2="82.8622" width="0.508" layer="1"/>
 <wire x1="19.0246" y1="70.358" x2="23.0632" y2="74.3966" width="0.508" layer="1"/>
 </signal>
 </signals>
