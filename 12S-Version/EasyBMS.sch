@@ -22735,6 +22735,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <sheets>
 <sheet>
 <plain>
+<text x="80.645" y="345.44" size="1.778" layer="91">SPI ok/lost</text>
+<text x="80.645" y="335.28" size="1.778" layer="91">Balance active</text>
+<text x="80.645" y="314.96" size="1.778" layer="91">LED builtin - Heartbeat?</text>
+<text x="80.645" y="325.12" size="1.778" layer="91">Used for Display control in Future</text>
 </plain>
 <instances>
 <instance part="U$2" gate="G$1" x="11.43" y="313.055" smashed="yes">
