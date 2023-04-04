@@ -19134,34 +19134,36 @@ Source: www.kingbright.com</description>
 <packages>
 <package name="2X11_MEB12S">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<pad name="1_TOTAL+" x="15" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="2_TOTAL+2" x="15" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="3_C10+" x="12" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="4_C11+" x="12" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="5_C8+" x="9" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="6_C9+" x="9" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="7_C6+" x="6" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="8_C7+" x="6" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="9" x="3" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="10_C5+" x="3" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="11_C4+" x="0" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="12" x="0" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="13_C2+" x="-3" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="14_C3+" x="-3" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="15_TOTAL-" x="-6" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="16_C1+" x="-6" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="17_TOTAL-" x="-9" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="18" x="-9" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="19_THERMO1_IN" x="-12" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="20_THERMO2_IN" x="-12" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="21_THERMO1_OUT" x="-15" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="22_THERMO2_OUT" x="-15" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="1_TOTAL+" x="15" y="-1.35" drill="1.016" shape="octagon"/>
+<pad name="2_TOTAL+2" x="15" y="1.35" drill="1.016" shape="octagon"/>
+<pad name="3_C10+" x="12" y="-1.35" drill="1.016" shape="octagon"/>
+<pad name="4_C11+" x="12" y="1.35" drill="1.016" shape="octagon"/>
+<pad name="5_C8+" x="9" y="-1.35" drill="1.016" shape="octagon"/>
+<pad name="6_C9+" x="9" y="1.35" drill="1.016" shape="octagon"/>
+<pad name="7_C6+" x="6" y="-1.35" drill="1.016" shape="octagon"/>
+<pad name="8_C7+" x="6" y="1.35" drill="1.016" shape="octagon"/>
+<pad name="9" x="3" y="-1.35" drill="1.016" shape="octagon"/>
+<pad name="10_C5+" x="3" y="1.35" drill="1.016" shape="octagon"/>
+<pad name="11_C4+" x="0" y="-1.35" drill="1.016" shape="octagon"/>
+<pad name="12" x="0" y="1.35" drill="1.016" shape="octagon"/>
+<pad name="13_C2+" x="-3" y="-1.35" drill="1.016" shape="octagon"/>
+<pad name="14_C3+" x="-3" y="1.35" drill="1.016" shape="octagon"/>
+<pad name="15_TOTAL-" x="-6" y="-1.35" drill="1.016" shape="octagon"/>
+<pad name="16_C1+" x="-6" y="1.35" drill="1.016" shape="octagon"/>
+<pad name="17_TOTAL-" x="-9" y="-1.35" drill="1.016" shape="octagon"/>
+<pad name="18" x="-9" y="1.35" drill="1.016" shape="octagon"/>
+<pad name="19_THERMO1_IN" x="-12" y="-1.35" drill="1.016" shape="octagon"/>
+<pad name="20_THERMO2_IN" x="-12" y="1.35" drill="1.016" shape="octagon"/>
+<pad name="21_THERMO1_OUT" x="-15" y="-1.35" drill="1.016" shape="octagon"/>
+<pad name="22_THERMO2_OUT" x="-15" y="1.35" drill="1.016" shape="octagon"/>
 <text x="-15.5" y="4.5" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-15.5" y="-5.5" size="1.27" layer="27">&gt;VALUE</text>
 <wire x1="-17.5" y1="4" x2="17.5" y2="4" width="0.127" layer="21"/>
 <wire x1="17.5" y1="4" x2="17.5" y2="-4" width="0.127" layer="21"/>
 <wire x1="17.5" y1="-4" x2="-17.5" y2="-4" width="0.127" layer="21"/>
 <wire x1="-17.5" y1="-4" x2="-17.5" y2="4" width="0.127" layer="21"/>
+<wire x1="-15" y1="1.3" x2="-15" y2="-1.3" width="0" layer="21"/>
+<wire x1="17.2" y1="-1.3" x2="17.2" y2="1.2" width="0" layer="21"/>
 </package>
 </packages>
 <symbols>
