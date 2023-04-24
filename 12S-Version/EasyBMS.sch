@@ -25267,6 +25267,16 @@ http://www.zetex.com&lt;p&gt;
 <wire x1="184.785" y1="374.65" x2="170.815" y2="374.65" width="0.1524" layer="91"/>
 <label x="170.815" y="375.285" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="R55" gate="G$1" pin="2"/>
+<wire x1="-5.08" y1="224.155" x2="-5.08" y2="227.965" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="227.965" x2="-5.08" y2="234.95" width="0.1524" layer="91"/>
+<pinref part="T1" gate="A" pin="G"/>
+<wire x1="10.16" y1="213.995" x2="10.16" y2="227.965" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="227.965" x2="-5.08" y2="227.965" width="0.1524" layer="91"/>
+<junction x="-5.08" y="227.965"/>
+<label x="-7.62" y="236.22" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="IPB" class="0">
 <segment>
@@ -25360,6 +25370,11 @@ http://www.zetex.com&lt;p&gt;
 <pinref part="JP1" gate="A" pin="8"/>
 <wire x1="184.785" y1="356.87" x2="170.815" y2="356.87" width="0.1524" layer="91"/>
 <label x="170.815" y="356.87" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R59" gate="G$1" pin="2"/>
+<wire x1="29.21" y1="223.52" x2="29.21" y2="234.95" width="0.1524" layer="91"/>
+<label x="24.765" y="235.585" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="+5V/1" class="0">
@@ -25500,17 +25515,6 @@ http://www.zetex.com&lt;p&gt;
 <wire x1="78.105" y1="335.915" x2="74.93" y2="335.915" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="R55" gate="G$1" pin="2"/>
-<wire x1="-5.08" y1="224.155" x2="-5.08" y2="227.965" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="227.965" x2="-5.08" y2="234.95" width="0.1524" layer="91"/>
-<pinref part="T1" gate="A" pin="G"/>
-<wire x1="10.16" y1="213.995" x2="10.16" y2="227.965" width="0.1524" layer="91"/>
-<wire x1="10.16" y1="227.965" x2="-5.08" y2="227.965" width="0.1524" layer="91"/>
-<junction x="-5.08" y="227.965"/>
-</segment>
-</net>
 <net name="N$6" class="0">
 <segment>
 <pinref part="R55" gate="G$1" pin="1"/>
@@ -25529,12 +25533,6 @@ http://www.zetex.com&lt;p&gt;
 <wire x1="29.21" y1="208.915" x2="29.21" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="29.21" y1="208.915" x2="38.735" y2="208.915" width="0.1524" layer="91"/>
 <junction x="29.21" y="208.915"/>
-</segment>
-</net>
-<net name="N$18" class="0">
-<segment>
-<pinref part="R59" gate="G$1" pin="2"/>
-<wire x1="29.21" y1="223.52" x2="29.21" y2="234.95" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
