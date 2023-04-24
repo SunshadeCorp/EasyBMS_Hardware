@@ -22681,6 +22681,98 @@ In this library the device names are the same as the pin names of the symbols, t
 </deviceset>
 </devicesets>
 </library>
+<library name="zetex" urn="urn:adsk.eagle:library:418">
+<description>&lt;b&gt;Zetex Power MOS FETs, Bridges, Diodes&lt;/b&gt;&lt;p&gt;
+http://www.zetex.com&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="SOT-23" urn="urn:adsk.eagle:footprint:30948/1" library_version="5">
+<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
+<wire x1="-1.4224" y1="0.381" x2="1.4732" y2="0.381" width="0.1524" layer="21"/>
+<wire x1="1.4732" y1="0.381" x2="1.4732" y2="-0.381" width="0.1524" layer="21"/>
+<wire x1="1.4732" y1="-0.381" x2="-1.4224" y2="-0.381" width="0.1524" layer="21"/>
+<wire x1="-1.4224" y1="-0.381" x2="-1.4224" y2="0.381" width="0.1524" layer="21"/>
+<smd name="3" x="0.9906" y="1.016" dx="0.7874" dy="0.889" layer="1"/>
+<smd name="2" x="-0.9398" y="1.016" dx="0.7874" dy="0.889" layer="1"/>
+<smd name="1" x="0.0254" y="-1.016" dx="0.7874" dy="0.889" layer="1"/>
+<text x="-1.397" y="1.778" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-1.397" y="3.302" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<rectangle x1="0.7874" y1="0.4318" x2="1.1684" y2="0.9398" layer="51"/>
+<rectangle x1="-1.143" y1="0.4318" x2="-0.762" y2="0.9398" layer="51"/>
+<rectangle x1="-0.1778" y1="-0.9398" x2="0.2032" y2="-0.4318" layer="51"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="SOT-23" urn="urn:adsk.eagle:package:30981/1" type="box" library_version="5">
+<description>Small Outline Transistor</description>
+<packageinstances>
+<packageinstance name="SOT-23"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="N_MOSFET" urn="urn:adsk.eagle:symbol:30955/1" library_version="5">
+<wire x1="-0.508" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.524" y1="-2.159" x2="0" y2="-2.159" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-2.159" width="0.1524" layer="94"/>
+<wire x1="1.397" y1="-0.254" x2="1.397" y2="-3.048" width="0.1524" layer="94"/>
+<wire x1="1.397" y1="-3.048" x2="0" y2="-3.048" width="0.1524" layer="94"/>
+<wire x1="-1.524" y1="2.159" x2="0" y2="2.159" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.159" x2="0" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="3.048" x2="1.397" y2="3.048" width="0.1524" layer="94"/>
+<wire x1="1.397" y1="3.048" x2="1.397" y2="0.762" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.159" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<text x="2.54" y="0" size="1.778" layer="96">&gt;VALUE</text>
+<text x="2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<rectangle x1="-2.032" y1="1.397" x2="-1.524" y2="2.921" layer="94"/>
+<rectangle x1="-2.032" y1="-0.762" x2="-1.524" y2="0.762" layer="94"/>
+<rectangle x1="-2.032" y1="-2.921" x2="-1.524" y2="-1.397" layer="94"/>
+<rectangle x1="0.762" y1="0.762" x2="2.032" y2="0.889" layer="94"/>
+<pin name="D" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="S" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="G" x="-5.08" y="-2.54" visible="off" length="short" direction="pas"/>
+<polygon width="0.1016" layer="94">
+<vertex x="-1.524" y="0"/>
+<vertex x="-0.508" y="0.635"/>
+<vertex x="-0.508" y="-0.635"/>
+</polygon>
+<polygon width="0.1016" layer="94">
+<vertex x="1.397" y="0.762"/>
+<vertex x="2.032" y="-0.254"/>
+<vertex x="0.762" y="-0.254"/>
+</polygon>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="NMOSSOT23" urn="urn:adsk.eagle:component:31000/1" prefix="T" uservalue="yes" library_version="5">
+<description>&lt;b&gt;MOS FET&lt;/b&gt;</description>
+<gates>
+<gate name="A" symbol="N_MOSFET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT-23">
+<connects>
+<connect gate="A" pin="D" pad="1"/>
+<connect gate="A" pin="G" pad="3"/>
+<connect gate="A" pin="S" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30981/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -22855,6 +22947,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="100n"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X8" device="" package3d_urn="urn:adsk.eagle:package:22409/2"/>
+<part name="T1" library="zetex" library_urn="urn:adsk.eagle:library:418" deviceset="NMOSSOT23" device="" package3d_urn="urn:adsk.eagle:package:30981/1" value="C8545"/>
+<part name="R55" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
+<part name="R59" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
 </parts>
 <sheets>
 <sheet>
@@ -22870,6 +22965,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="189.865" y="361.95" size="1.778" layer="91">CS</text>
 <text x="189.865" y="359.41" size="1.778" layer="91">GND</text>
 <text x="189.865" y="356.87" size="1.778" layer="91">VCC</text>
+<text x="-2.54" y="232.41" size="1.778" layer="91">3,3</text>
+<text x="32.385" y="232.41" size="1.778" layer="91">5</text>
 </plain>
 <instances>
 <instance part="U$2" gate="G$1" x="11.43" y="313.055" smashed="yes">
@@ -23516,6 +23613,18 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="JP1" gate="A" x="187.325" y="364.49" smashed="yes">
 <attribute name="NAME" x="180.975" y="377.825" size="1.778" layer="95"/>
 <attribute name="VALUE" x="180.975" y="351.79" size="1.778" layer="96"/>
+</instance>
+<instance part="T1" gate="A" x="12.7" y="208.915" smashed="yes" rot="R270">
+<attribute name="VALUE" x="12.7" y="206.375" size="1.778" layer="96" rot="R270"/>
+<attribute name="NAME" x="15.24" y="206.375" size="1.778" layer="95" rot="R270"/>
+</instance>
+<instance part="R55" gate="G$1" x="-5.08" y="219.075" smashed="yes" rot="R90">
+<attribute name="NAME" x="-6.5786" y="215.265" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-1.778" y="215.265" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R59" gate="G$1" x="29.21" y="218.44" smashed="yes" rot="R90">
+<attribute name="NAME" x="27.7114" y="214.63" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="32.512" y="214.63" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -25389,6 +25498,43 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="74.93" y1="346.075" x2="78.105" y2="346.075" width="0.1524" layer="91"/>
 <wire x1="78.105" y1="346.075" x2="78.105" y2="335.915" width="0.1524" layer="91"/>
 <wire x1="78.105" y1="335.915" x2="74.93" y2="335.915" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="R55" gate="G$1" pin="2"/>
+<wire x1="-5.08" y1="224.155" x2="-5.08" y2="227.965" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="227.965" x2="-5.08" y2="234.95" width="0.1524" layer="91"/>
+<pinref part="T1" gate="A" pin="G"/>
+<wire x1="10.16" y1="213.995" x2="10.16" y2="227.965" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="227.965" x2="-5.08" y2="227.965" width="0.1524" layer="91"/>
+<junction x="-5.08" y="227.965"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="R55" gate="G$1" pin="1"/>
+<pinref part="T1" gate="A" pin="S"/>
+<wire x1="-5.08" y1="213.995" x2="-5.08" y2="208.915" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="208.915" x2="7.62" y2="208.915" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="208.915" x2="-19.05" y2="208.915" width="0.1524" layer="91"/>
+<junction x="-5.08" y="208.915"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="T1" gate="A" pin="D"/>
+<pinref part="R59" gate="G$1" pin="1"/>
+<wire x1="17.78" y1="208.915" x2="29.21" y2="208.915" width="0.1524" layer="91"/>
+<wire x1="29.21" y1="208.915" x2="29.21" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="29.21" y1="208.915" x2="38.735" y2="208.915" width="0.1524" layer="91"/>
+<junction x="29.21" y="208.915"/>
+</segment>
+</net>
+<net name="N$18" class="0">
+<segment>
+<pinref part="R59" gate="G$1" pin="2"/>
+<wire x1="29.21" y1="223.52" x2="29.21" y2="234.95" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
