@@ -3028,6 +3028,10 @@ http://www.zetex.com&lt;p&gt;
 <via x="44.958" y="82.4324" extent="1-16" drill="0.3"/>
 <via x="44.958" y="79.74" extent="1-16" drill="0.3"/>
 <via x="44.8056" y="76.6158" extent="1-16" drill="0.3"/>
+<contactref element="LED2" pad="C"/>
+<contactref element="LED1" pad="C"/>
+<wire x1="10.2944" y1="50.2718" x2="8.2624" y2="50.2718" width="0.254" layer="1"/>
+<wire x1="10.2944" y1="50.2718" x2="14.3584" y2="50.2718" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$202">
 </signal>
@@ -4950,17 +4954,16 @@ http://www.zetex.com&lt;p&gt;
 <wire x1="47.1678" y1="40.0274" x2="47.1678" y2="40.6654" width="0.254" layer="1"/>
 <wire x1="47.1678" y1="40.6654" x2="47.8282" y2="41.3258" width="0.254" layer="1"/>
 <via x="47.8282" y="41.3258" extent="1-16" drill="0.35"/>
-<wire x1="47.8282" y1="41.3258" x2="48.0822" y2="41.5798" width="0.254" layer="16"/>
 <via x="47.7012" y="46.6344" extent="1-16" drill="0.35"/>
 <via x="46.863" y="41.3004" extent="1-16" drill="0.35"/>
 <via x="46.609" y="36.2204" extent="1-16" drill="0.35"/>
 <via x="38.3032" y="48.514" extent="1-16" drill="0.35"/>
 <via x="38.5826" y="42.0878" extent="1-16" drill="0.35"/>
-</signal>
-<signal name="N$3">
-<contactref element="LED2" pad="C"/>
-<contactref element="LED1" pad="C"/>
-<wire x1="10.2944" y1="50.2718" x2="8.2624" y2="50.2718" width="0.254" layer="1"/>
+<via x="12.9794" y="51.3842" extent="1-16" drill="0.35"/>
+<via x="11.5824" y="51.0286" extent="1-16" drill="0.35"/>
+<via x="31.6992" y="43.2816" extent="1-16" drill="0.35"/>
+<via x="29.6926" y="41.1734" extent="1-16" drill="0.35"/>
+<via x="31.7246" y="46.8122" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="A0DC">
 <contactref element="JP1" pad="4"/>

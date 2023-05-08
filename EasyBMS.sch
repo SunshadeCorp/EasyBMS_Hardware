@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -23755,6 +23755,14 @@ http://www.zetex.com&lt;p&gt;
 <wire x1="78.105" y1="315.595" x2="74.93" y2="315.595" width="0.1524" layer="91"/>
 <wire x1="78.105" y1="315.595" x2="78.105" y2="307.975" width="0.1524" layer="91"/>
 <label x="75.565" y="305.435" size="1.778" layer="95"/>
+<pinref part="LED2" gate="G$1" pin="C"/>
+<pinref part="LED1" gate="G$1" pin="C"/>
+<wire x1="74.93" y1="346.075" x2="78.105" y2="346.075" width="0.1524" layer="91"/>
+<wire x1="78.105" y1="346.075" x2="78.105" y2="335.915" width="0.1524" layer="91"/>
+<wire x1="78.105" y1="335.915" x2="74.93" y2="335.915" width="0.1524" layer="91"/>
+<wire x1="74.93" y1="315.595" x2="74.93" y2="335.915" width="0.1524" layer="91"/>
+<junction x="74.93" y="315.595"/>
+<junction x="74.93" y="335.915"/>
 </segment>
 <segment>
 <pinref part="JP7" gate="G$1" pin="15_TOTAL-"/>
@@ -25684,15 +25692,6 @@ http://www.zetex.com&lt;p&gt;
 <wire x1="-12.7" y1="434.34" x2="-13.335" y2="434.34" width="0.1524" layer="91"/>
 <wire x1="-12.7" y1="434.34" x2="-12.065" y2="434.34" width="0.1524" layer="91"/>
 <label x="-11.43" y="433.705" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="LED2" gate="G$1" pin="C"/>
-<pinref part="LED1" gate="G$1" pin="C"/>
-<wire x1="74.93" y1="346.075" x2="78.105" y2="346.075" width="0.1524" layer="91"/>
-<wire x1="78.105" y1="346.075" x2="78.105" y2="335.915" width="0.1524" layer="91"/>
-<wire x1="78.105" y1="335.915" x2="74.93" y2="335.915" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A0DC" class="0">
