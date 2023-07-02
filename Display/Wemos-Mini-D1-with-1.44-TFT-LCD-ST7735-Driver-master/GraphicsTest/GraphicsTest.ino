@@ -29,12 +29,12 @@ as well as Adafruit raw 1.8" TFT display
 
 // For the breakout, you can use any 2 or 3 pins
 // These pins will also work for the 1.8" TFT shield
-#define TFT_CS     D8
-#define TFT_RST    D7  // you can also connect this to the Arduino reset
+#define TFT_CS     D0
+#define TFT_RST    -1  // you can also connect this to the Arduino reset
                        // in which case, set this #define pin to -1!
-#define TFT_DC   D6
-#define TFT_SCLK D1   // set these to be whatever pins you like!
-#define TFT_MOSI D2   // set these to be whatever pins you like!
+#define TFT_DC   D3
+#define TFT_SCLK D5   // set these to be whatever pins you like!
+#define TFT_MOSI D7   // set these to be whatever pins you like!
 
 // Option 1 (recommended): must use the hardware SPI pins
 // (for UNO thats sclk = 13 and sid = 11) and pin 10 must be
