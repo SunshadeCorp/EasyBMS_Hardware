@@ -387,6 +387,31 @@
 <wire x1="-10.1" y1="5.51" x2="-10.1" y2="5.51" width="0.2" layer="21"/>
 <wire x1="-10.1" y1="5.51" x2="-10" y2="5.51" width="0.2" layer="21" curve="180"/>
 </package>
+<package name="SOIC127P600X170-9N">
+<description>&lt;b&gt;DDA (R-PDSO-G8)+&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-2.712" y="1.905" dx="1.525" dy="0.65" layer="1"/>
+<smd name="2" x="-2.712" y="0.635" dx="1.525" dy="0.65" layer="1"/>
+<smd name="3" x="-2.712" y="-0.635" dx="1.525" dy="0.65" layer="1"/>
+<smd name="4" x="-2.712" y="-1.905" dx="1.525" dy="0.65" layer="1"/>
+<smd name="5" x="2.712" y="-1.905" dx="1.525" dy="0.65" layer="1"/>
+<smd name="6" x="2.712" y="-0.635" dx="1.525" dy="0.65" layer="1"/>
+<smd name="7" x="2.712" y="0.635" dx="1.525" dy="0.65" layer="1"/>
+<smd name="8" x="2.712" y="1.905" dx="1.525" dy="0.65" layer="1"/>
+<smd name="9" x="0" y="0" dx="2.28" dy="2.28" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-3.725" y1="2.75" x2="3.725" y2="2.75" width="0.05" layer="51"/>
+<wire x1="3.725" y1="2.75" x2="3.725" y2="-2.75" width="0.05" layer="51"/>
+<wire x1="3.725" y1="-2.75" x2="-3.725" y2="-2.75" width="0.05" layer="51"/>
+<wire x1="-3.725" y1="-2.75" x2="-3.725" y2="2.75" width="0.05" layer="51"/>
+<wire x1="-1.95" y1="2.45" x2="1.95" y2="2.45" width="0.1" layer="51"/>
+<wire x1="1.95" y1="2.45" x2="1.95" y2="-2.45" width="0.1" layer="51"/>
+<wire x1="1.95" y1="-2.45" x2="-1.95" y2="-2.45" width="0.1" layer="51"/>
+<wire x1="-1.95" y1="-2.45" x2="-1.95" y2="2.45" width="0.1" layer="51"/>
+<wire x1="-1.95" y1="1.18" x2="-0.68" y2="2.45" width="0.1" layer="51"/>
+<wire x1="-3.475" y1="2.58" x2="-1.95" y2="2.58" width="0.2" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="WCAP-ASLI_16X17(DXL)" urn="urn:adsk.eagle:package:18353981/3" type="model">
@@ -572,6 +597,23 @@
 <pin name="GND_9" x="33.02" y="-53.34" length="middle" rot="R180"/>
 <pin name="GND_10" x="33.02" y="-55.88" length="middle" rot="R180"/>
 <pin name="GND_11" x="33.02" y="-58.42" length="middle" rot="R180"/>
+</symbol>
+<symbol name="DRV103H">
+<wire x1="5.08" y1="2.54" x2="50.8" y2="2.54" width="0.254" layer="94"/>
+<wire x1="50.8" y1="-15.24" x2="50.8" y2="2.54" width="0.254" layer="94"/>
+<wire x1="50.8" y1="-15.24" x2="5.08" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-15.24" width="0.254" layer="94"/>
+<text x="52.07" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="52.07" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="DUTY_CYCLE_ADJ" x="0" y="0" length="middle"/>
+<pin name="DELAY_ADJ" x="0" y="-2.54" length="middle"/>
+<pin name="OSC_FREQ_ADJ" x="0" y="-5.08" length="middle"/>
+<pin name="GND" x="0" y="-7.62" length="middle"/>
+<pin name="EP" x="27.94" y="-20.32" length="middle" rot="R90"/>
+<pin name="INPUT" x="55.88" y="0" length="middle" rot="R180"/>
+<pin name="STATUS_OK_FLAG" x="55.88" y="-2.54" length="middle" rot="R180"/>
+<pin name="+VS" x="55.88" y="-5.08" length="middle" rot="R180"/>
+<pin name="OUT" x="55.88" y="-7.62" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -806,6 +848,38 @@ Source: &lt;a href="https://www.espressif.com/sites/default/files/documentation/
 <attribute name="MANUFACTURER_PART_NUMBER" value="ESP32-S3-WROOM-1-N4R2" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="356-ESP32S3WROM1N4R2" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Espressif-Systems/ESP32-S3-WROOM-1-N4R2?qs=Li%252BoUPsLEns3eX9krmrDyw%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DRV103H" prefix="IC">
+<description>&lt;b&gt;PWM Low-Side Driver 3A for Coils HSOP8 DRV103H, MOSFET Power Driver, 1.5A, Non-Inverting, 8 ??? 32 V, 8-Pin SO PowerPAD&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="DRV103H" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOIC127P600X170-9N">
+<connects>
+<connect gate="G$1" pin="+VS" pad="6"/>
+<connect gate="G$1" pin="DELAY_ADJ" pad="2"/>
+<connect gate="G$1" pin="DUTY_CYCLE_ADJ" pad="1"/>
+<connect gate="G$1" pin="EP" pad="9"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="INPUT" pad="8"/>
+<connect gate="G$1" pin="OSC_FREQ_ADJ" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="5"/>
+<connect gate="G$1" pin="STATUS_OK_FLAG" pad="7"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="PWM Low-Side Driver 3A for Coils HSOP8 DRV103H, MOSFET Power Driver, 1.5A, Non-Inverting, 8 ??? 32 V, 8-Pin SO PowerPAD" constant="no"/>
+<attribute name="HEIGHT" value="1.7mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="DRV103H" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-DRV103H" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/DRV103H/?qs=VBduBm9rCJQEx63T3F6Ttg%3D%3D" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -23057,6 +23131,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10k"/>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="IC3" library="SamacSys_Parts" deviceset="ESP32-S3-WROOM-1-N4R2" device=""/>
+<part name="IC4" library="SamacSys_Parts" deviceset="DRV103H" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -23706,6 +23781,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="IC3" gate="G$1" x="132.08" y="627.38" smashed="yes">
 <attribute name="NAME" x="161.29" y="635" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="161.29" y="632.46" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="IC4" gate="G$1" x="-38.1" y="596.9" smashed="yes">
+<attribute name="NAME" x="13.97" y="604.52" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="13.97" y="601.98" size="1.778" layer="96" align="center-left"/>
 </instance>
 </instances>
 <busses>

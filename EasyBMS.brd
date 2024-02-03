@@ -406,6 +406,31 @@ v2.0
 <wire x1="-10.1" y1="5.51" x2="-10.1" y2="5.51" width="0.2" layer="21"/>
 <wire x1="-10.1" y1="5.51" x2="-10" y2="5.51" width="0.2" layer="21" curve="180"/>
 </package>
+<package name="SOIC127P600X170-9N">
+<description>&lt;b&gt;DDA (R-PDSO-G8)+&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-2.712" y="1.905" dx="1.525" dy="0.65" layer="1"/>
+<smd name="2" x="-2.712" y="0.635" dx="1.525" dy="0.65" layer="1"/>
+<smd name="3" x="-2.712" y="-0.635" dx="1.525" dy="0.65" layer="1"/>
+<smd name="4" x="-2.712" y="-1.905" dx="1.525" dy="0.65" layer="1"/>
+<smd name="5" x="2.712" y="-1.905" dx="1.525" dy="0.65" layer="1"/>
+<smd name="6" x="2.712" y="-0.635" dx="1.525" dy="0.65" layer="1"/>
+<smd name="7" x="2.712" y="0.635" dx="1.525" dy="0.65" layer="1"/>
+<smd name="8" x="2.712" y="1.905" dx="1.525" dy="0.65" layer="1"/>
+<smd name="9" x="0" y="0" dx="2.28" dy="2.28" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-3.725" y1="2.75" x2="3.725" y2="2.75" width="0.05" layer="51"/>
+<wire x1="3.725" y1="2.75" x2="3.725" y2="-2.75" width="0.05" layer="51"/>
+<wire x1="3.725" y1="-2.75" x2="-3.725" y2="-2.75" width="0.05" layer="51"/>
+<wire x1="-3.725" y1="-2.75" x2="-3.725" y2="2.75" width="0.05" layer="51"/>
+<wire x1="-1.95" y1="2.45" x2="1.95" y2="2.45" width="0.1" layer="51"/>
+<wire x1="1.95" y1="2.45" x2="1.95" y2="-2.45" width="0.1" layer="51"/>
+<wire x1="1.95" y1="-2.45" x2="-1.95" y2="-2.45" width="0.1" layer="51"/>
+<wire x1="-1.95" y1="-2.45" x2="-1.95" y2="2.45" width="0.1" layer="51"/>
+<wire x1="-1.95" y1="1.18" x2="-0.68" y2="2.45" width="0.1" layer="51"/>
+<wire x1="-3.475" y1="2.58" x2="-1.95" y2="2.58" width="0.2" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="WCAP-ASLI_16X17(DXL)" urn="urn:adsk.eagle:package:18353981/3" type="model">
@@ -2829,6 +2854,16 @@ Based on the following sources:
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Espressif-Systems/ESP32-S3-WROOM-1-N4R2?qs=Li%252BoUPsLEns3eX9krmrDyw%3D%3D" x="-11.1506" y="13.6144" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-11.3284" y="19.05" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="-11.1506" y="13.6144" size="1.27" layer="27" align="center"/>
+</element>
+<element name="IC4" library="SamacSys_Parts" package="SOIC127P600X170-9N" value="DRV103H" x="-19.3802" y="-3.2512" smashed="yes">
+<attribute name="DESCRIPTION" value="PWM Low-Side Driver 3A for Coils HSOP8 DRV103H, MOSFET Power Driver, 1.5A, Non-Inverting, 8 ??? 32 V, 8-Pin SO PowerPAD" x="-19.3802" y="-3.2512" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.7mm" x="-19.3802" y="-3.2512" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="-19.3802" y="-3.2512" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="DRV103H" x="-19.3802" y="-3.2512" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-DRV103H" x="-19.3802" y="-3.2512" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/DRV103H/?qs=VBduBm9rCJQEx63T3F6Ttg%3D%3D" x="-19.3802" y="-3.2512" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-19.3802" y="-3.2512" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-19.3802" y="-3.2512" size="1.27" layer="27" align="center"/>
 </element>
 </elements>
 <signals>
