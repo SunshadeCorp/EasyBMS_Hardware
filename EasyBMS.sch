@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -22849,6 +22849,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="100n"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X8" device="" package3d_urn="urn:adsk.eagle:package:22409/2"/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10k"/>
+<part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -23488,6 +23490,13 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="NAME" x="180.975" y="377.825" size="1.778" layer="95"/>
 <attribute name="VALUE" x="180.975" y="351.79" size="1.778" layer="96"/>
 </instance>
+<instance part="R2" gate="G$1" x="-60.96" y="323.215" smashed="yes" rot="R90">
+<attribute name="NAME" x="-62.4586" y="319.405" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-57.658" y="319.405" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="+3V1" gate="G$1" x="-62.23" y="338.455" smashed="yes">
+<attribute name="VALUE" x="-64.77" y="333.375" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -23508,8 +23517,10 @@ In this library the device names are the same as the pin names of the symbols, t
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="D6"/>
-<wire x1="-6.35" y1="313.055" x2="-16.51" y2="313.055" width="0.1524" layer="91"/>
 <label x="-27.94" y="312.42" size="1.778" layer="95"/>
+<wire x1="-6.35" y1="313.055" x2="-60.96" y2="313.055" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="-60.96" y1="318.135" x2="-60.96" y2="313.055" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -25133,6 +25144,13 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="JP1" gate="A" pin="1"/>
 <wire x1="184.785" y1="374.65" x2="170.815" y2="374.65" width="0.1524" layer="91"/>
 <label x="170.815" y="375.285" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R2" gate="G$1" pin="2"/>
+<wire x1="-60.96" y1="328.295" x2="-60.96" y2="332.74" width="0.1524" layer="91"/>
+<pinref part="+3V1" gate="G$1" pin="+3V3"/>
+<wire x1="-62.23" y1="335.915" x2="-62.23" y2="332.74" width="0.1524" layer="91"/>
+<wire x1="-62.23" y1="332.74" x2="-60.96" y2="332.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="IPB" class="0">
