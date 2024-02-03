@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -311,6 +311,82 @@
 <text x="9.6" y="-3.5" size="1.27" layer="51" align="bottom-center">+</text>
 <circle x="0" y="0" radius="8" width="0.1" layer="21"/>
 </package>
+<package name="ESP32S3WROOM1N4R2">
+<description>&lt;b&gt;ESP32-S3-WROOM-1-N4R2-1&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-8.75" y="5.51" dx="1.5" dy="0.9" layer="1"/>
+<smd name="2" x="-8.75" y="4.24" dx="1.5" dy="0.9" layer="1"/>
+<smd name="3" x="-8.75" y="2.97" dx="1.5" dy="0.9" layer="1"/>
+<smd name="4" x="-8.75" y="1.7" dx="1.5" dy="0.9" layer="1"/>
+<smd name="5" x="-8.75" y="0.43" dx="1.5" dy="0.9" layer="1"/>
+<smd name="6" x="-8.75" y="-0.84" dx="1.5" dy="0.9" layer="1"/>
+<smd name="7" x="-8.75" y="-2.11" dx="1.5" dy="0.9" layer="1"/>
+<smd name="8" x="-8.75" y="-3.38" dx="1.5" dy="0.9" layer="1"/>
+<smd name="9" x="-8.75" y="-4.65" dx="1.5" dy="0.9" layer="1"/>
+<smd name="10" x="-8.75" y="-5.92" dx="1.5" dy="0.9" layer="1"/>
+<smd name="11" x="-8.75" y="-7.19" dx="1.5" dy="0.9" layer="1"/>
+<smd name="12" x="-8.75" y="-8.46" dx="1.5" dy="0.9" layer="1"/>
+<smd name="13" x="-8.75" y="-9.73" dx="1.5" dy="0.9" layer="1"/>
+<smd name="14" x="-8.75" y="-11" dx="1.5" dy="0.9" layer="1"/>
+<smd name="15" x="-6.985" y="-12.25" dx="1.5" dy="0.9" layer="1" rot="R90"/>
+<smd name="16" x="-5.715" y="-12.25" dx="1.5" dy="0.9" layer="1" rot="R90"/>
+<smd name="17" x="-4.445" y="-12.25" dx="1.5" dy="0.9" layer="1" rot="R90"/>
+<smd name="18" x="-3.175" y="-12.25" dx="1.5" dy="0.9" layer="1" rot="R90"/>
+<smd name="19" x="-1.905" y="-12.25" dx="1.5" dy="0.9" layer="1" rot="R90"/>
+<smd name="20" x="-0.635" y="-12.25" dx="1.5" dy="0.9" layer="1" rot="R90"/>
+<smd name="21" x="0.635" y="-12.25" dx="1.5" dy="0.9" layer="1" rot="R90"/>
+<smd name="22" x="1.905" y="-12.25" dx="1.5" dy="0.9" layer="1" rot="R90"/>
+<smd name="23" x="3.175" y="-12.25" dx="1.5" dy="0.9" layer="1" rot="R90"/>
+<smd name="24" x="4.445" y="-12.25" dx="1.5" dy="0.9" layer="1" rot="R90"/>
+<smd name="25" x="5.715" y="-12.25" dx="1.5" dy="0.9" layer="1" rot="R90"/>
+<smd name="26" x="6.985" y="-12.25" dx="1.5" dy="0.9" layer="1" rot="R90"/>
+<smd name="27" x="8.75" y="-11" dx="1.5" dy="0.9" layer="1"/>
+<smd name="28" x="8.75" y="-9.73" dx="1.5" dy="0.9" layer="1"/>
+<smd name="29" x="8.75" y="-8.46" dx="1.5" dy="0.9" layer="1"/>
+<smd name="30" x="8.75" y="-7.19" dx="1.5" dy="0.9" layer="1"/>
+<smd name="31" x="8.75" y="-5.92" dx="1.5" dy="0.9" layer="1"/>
+<smd name="32" x="8.75" y="-4.65" dx="1.5" dy="0.9" layer="1"/>
+<smd name="33" x="8.75" y="-3.38" dx="1.5" dy="0.9" layer="1"/>
+<smd name="34" x="8.75" y="-2.11" dx="1.5" dy="0.9" layer="1"/>
+<smd name="35" x="8.75" y="-0.84" dx="1.5" dy="0.9" layer="1"/>
+<smd name="36" x="8.75" y="0.43" dx="1.5" dy="0.9" layer="1"/>
+<smd name="37" x="8.75" y="1.7" dx="1.5" dy="0.9" layer="1"/>
+<smd name="38" x="8.75" y="2.97" dx="1.5" dy="0.9" layer="1"/>
+<smd name="39" x="8.75" y="4.24" dx="1.5" dy="0.9" layer="1"/>
+<smd name="40" x="8.75" y="5.51" dx="1.5" dy="0.9" layer="1"/>
+<smd name="41" x="-1.5" y="-2.21" dx="0.9" dy="0.9" layer="1"/>
+<smd name="42" x="-1.5" y="-0.81" dx="0.9" dy="0.9" layer="1"/>
+<smd name="43" x="-2.9" y="-0.81" dx="0.9" dy="0.9" layer="1"/>
+<smd name="44" x="-2.9" y="-2.21" dx="0.9" dy="0.9" layer="1"/>
+<smd name="45" x="-2.9" y="-3.61" dx="0.9" dy="0.9" layer="1"/>
+<smd name="46" x="-1.5" y="-3.61" dx="0.9" dy="0.9" layer="1"/>
+<smd name="47" x="-0.1" y="-3.61" dx="0.9" dy="0.9" layer="1"/>
+<smd name="48" x="-0.1" y="-2.21" dx="0.9" dy="0.9" layer="1"/>
+<smd name="49" x="-0.1" y="-0.81" dx="0.9" dy="0.9" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-9" y1="-12.5" x2="9" y2="-12.5" width="0.1" layer="51"/>
+<wire x1="9" y1="-12.5" x2="9" y2="13" width="0.1" layer="51"/>
+<wire x1="9" y1="13" x2="-9" y2="13" width="0.1" layer="51"/>
+<wire x1="-9" y1="13" x2="-9" y2="-12.5" width="0.1" layer="51"/>
+<wire x1="-10.5" y1="14" x2="10.5" y2="14" width="0.1" layer="51"/>
+<wire x1="10.5" y1="14" x2="10.5" y2="-14" width="0.1" layer="51"/>
+<wire x1="10.5" y1="-14" x2="-10.5" y2="-14" width="0.1" layer="51"/>
+<wire x1="-10.5" y1="-14" x2="-10.5" y2="14" width="0.1" layer="51"/>
+<wire x1="-9" y1="-11.75" x2="-9" y2="-12.5" width="0.2" layer="21"/>
+<wire x1="-9" y1="-12.5" x2="-7.8" y2="-12.5" width="0.2" layer="21"/>
+<wire x1="7.8" y1="-12.5" x2="9" y2="-12.5" width="0.2" layer="21"/>
+<wire x1="9" y1="-12.5" x2="9" y2="-11.75" width="0.2" layer="21"/>
+<wire x1="9" y1="6.25" x2="9" y2="13" width="0.2" layer="21"/>
+<wire x1="9" y1="13" x2="-9" y2="13" width="0.2" layer="21"/>
+<wire x1="-9" y1="13" x2="-9" y2="6.25" width="0.2" layer="21"/>
+<wire x1="-10.1" y1="5.51" x2="-10.1" y2="5.51" width="0.2" layer="21"/>
+<wire x1="-10.1" y1="5.51" x2="-10" y2="5.51" width="0.2" layer="21" curve="180"/>
+<wire x1="-10" y1="5.51" x2="-10" y2="5.51" width="0.2" layer="21"/>
+<wire x1="-10" y1="5.51" x2="-10.1" y2="5.51" width="0.2" layer="21" curve="180"/>
+<wire x1="-10.1" y1="5.51" x2="-10.1" y2="5.51" width="0.2" layer="21"/>
+<wire x1="-10.1" y1="5.51" x2="-10" y2="5.51" width="0.2" layer="21" curve="180"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="WCAP-ASLI_16X17(DXL)" urn="urn:adsk.eagle:package:18353981/3" type="model">
@@ -439,6 +515,63 @@
 <rectangle x1="-1.651" y1="-2.54" x2="1.651" y2="-1.651" layer="94"/>
 <pin name="-" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
 <pin name="+" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
+</symbol>
+<symbol name="ESP32-S3-WROOM-1-N4R2">
+<wire x1="5.08" y1="2.54" x2="27.94" y2="2.54" width="0.254" layer="94"/>
+<wire x1="27.94" y1="-63.5" x2="27.94" y2="2.54" width="0.254" layer="94"/>
+<wire x1="27.94" y1="-63.5" x2="5.08" y2="-63.5" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-63.5" width="0.254" layer="94"/>
+<text x="29.21" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="29.21" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="GND_1" x="0" y="0" length="middle"/>
+<pin name="3V3" x="0" y="-2.54" length="middle"/>
+<pin name="EN" x="0" y="-5.08" length="middle"/>
+<pin name="IO4" x="0" y="-7.62" length="middle"/>
+<pin name="IO5" x="0" y="-10.16" length="middle"/>
+<pin name="IO6" x="0" y="-12.7" length="middle"/>
+<pin name="IO7" x="0" y="-15.24" length="middle"/>
+<pin name="IO15" x="0" y="-17.78" length="middle"/>
+<pin name="IO16" x="0" y="-20.32" length="middle"/>
+<pin name="IO17" x="0" y="-22.86" length="middle"/>
+<pin name="IO18" x="0" y="-25.4" length="middle"/>
+<pin name="IO8" x="0" y="-27.94" length="middle"/>
+<pin name="IO19" x="0" y="-30.48" length="middle"/>
+<pin name="IO20" x="0" y="-33.02" length="middle"/>
+<pin name="IO3" x="0" y="-35.56" length="middle"/>
+<pin name="IO46" x="0" y="-38.1" length="middle"/>
+<pin name="IO9" x="0" y="-40.64" length="middle"/>
+<pin name="IO10" x="0" y="-43.18" length="middle"/>
+<pin name="IO11" x="0" y="-45.72" length="middle"/>
+<pin name="IO12" x="0" y="-48.26" length="middle"/>
+<pin name="IO13" x="0" y="-50.8" length="middle"/>
+<pin name="IO14" x="0" y="-53.34" length="middle"/>
+<pin name="IO21" x="0" y="-55.88" length="middle"/>
+<pin name="IO47" x="0" y="-58.42" length="middle"/>
+<pin name="IO48" x="0" y="-60.96" length="middle"/>
+<pin name="IO45" x="33.02" y="0" length="middle" rot="R180"/>
+<pin name="IO0" x="33.02" y="-2.54" length="middle" rot="R180"/>
+<pin name="IO35" x="33.02" y="-5.08" length="middle" rot="R180"/>
+<pin name="IO36" x="33.02" y="-7.62" length="middle" rot="R180"/>
+<pin name="IO37" x="33.02" y="-10.16" length="middle" rot="R180"/>
+<pin name="IO38" x="33.02" y="-12.7" length="middle" rot="R180"/>
+<pin name="IO39" x="33.02" y="-15.24" length="middle" rot="R180"/>
+<pin name="IO40" x="33.02" y="-17.78" length="middle" rot="R180"/>
+<pin name="IO41" x="33.02" y="-20.32" length="middle" rot="R180"/>
+<pin name="IO42" x="33.02" y="-22.86" length="middle" rot="R180"/>
+<pin name="RXD0" x="33.02" y="-25.4" length="middle" rot="R180"/>
+<pin name="TXD0" x="33.02" y="-27.94" length="middle" rot="R180"/>
+<pin name="IO2" x="33.02" y="-30.48" length="middle" rot="R180"/>
+<pin name="IO1" x="33.02" y="-33.02" length="middle" rot="R180"/>
+<pin name="GND_2" x="33.02" y="-35.56" length="middle" rot="R180"/>
+<pin name="GND_3" x="33.02" y="-38.1" length="middle" rot="R180"/>
+<pin name="GND_4" x="33.02" y="-40.64" length="middle" rot="R180"/>
+<pin name="GND_5" x="33.02" y="-43.18" length="middle" rot="R180"/>
+<pin name="GND_6" x="33.02" y="-45.72" length="middle" rot="R180"/>
+<pin name="GND_7" x="33.02" y="-48.26" length="middle" rot="R180"/>
+<pin name="GND_8" x="33.02" y="-50.8" length="middle" rot="R180"/>
+<pin name="GND_9" x="33.02" y="-53.34" length="middle" rot="R180"/>
+<pin name="GND_10" x="33.02" y="-55.88" length="middle" rot="R180"/>
+<pin name="GND_11" x="33.02" y="-58.42" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -602,6 +735,78 @@ Source: &lt;a href="https://www.ti.com/lit/gpn/LM2596"&gt; Datasheet &lt;/a&gt;<
 </package3dinstances>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ESP32-S3-WROOM-1-N4R2" prefix="IC">
+<description>&lt;b&gt;Bluetooth, WiFi 802.11b/g/n, Bluetooth v5.0 Transceiver Module 2.4GHz PCB Trace Surface Mount&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="ESP32-S3-WROOM-1-N4R2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ESP32S3WROOM1N4R2">
+<connects>
+<connect gate="G$1" pin="3V3" pad="2"/>
+<connect gate="G$1" pin="EN" pad="3"/>
+<connect gate="G$1" pin="GND_1" pad="1"/>
+<connect gate="G$1" pin="GND_10" pad="48"/>
+<connect gate="G$1" pin="GND_11" pad="49"/>
+<connect gate="G$1" pin="GND_2" pad="40"/>
+<connect gate="G$1" pin="GND_3" pad="41"/>
+<connect gate="G$1" pin="GND_4" pad="42"/>
+<connect gate="G$1" pin="GND_5" pad="43"/>
+<connect gate="G$1" pin="GND_6" pad="44"/>
+<connect gate="G$1" pin="GND_7" pad="45"/>
+<connect gate="G$1" pin="GND_8" pad="46"/>
+<connect gate="G$1" pin="GND_9" pad="47"/>
+<connect gate="G$1" pin="IO0" pad="27"/>
+<connect gate="G$1" pin="IO1" pad="39"/>
+<connect gate="G$1" pin="IO10" pad="18"/>
+<connect gate="G$1" pin="IO11" pad="19"/>
+<connect gate="G$1" pin="IO12" pad="20"/>
+<connect gate="G$1" pin="IO13" pad="21"/>
+<connect gate="G$1" pin="IO14" pad="22"/>
+<connect gate="G$1" pin="IO15" pad="8"/>
+<connect gate="G$1" pin="IO16" pad="9"/>
+<connect gate="G$1" pin="IO17" pad="10"/>
+<connect gate="G$1" pin="IO18" pad="11"/>
+<connect gate="G$1" pin="IO19" pad="13"/>
+<connect gate="G$1" pin="IO2" pad="38"/>
+<connect gate="G$1" pin="IO20" pad="14"/>
+<connect gate="G$1" pin="IO21" pad="23"/>
+<connect gate="G$1" pin="IO3" pad="15"/>
+<connect gate="G$1" pin="IO35" pad="28"/>
+<connect gate="G$1" pin="IO36" pad="29"/>
+<connect gate="G$1" pin="IO37" pad="30"/>
+<connect gate="G$1" pin="IO38" pad="31"/>
+<connect gate="G$1" pin="IO39" pad="32"/>
+<connect gate="G$1" pin="IO4" pad="4"/>
+<connect gate="G$1" pin="IO40" pad="33"/>
+<connect gate="G$1" pin="IO41" pad="34"/>
+<connect gate="G$1" pin="IO42" pad="35"/>
+<connect gate="G$1" pin="IO45" pad="26"/>
+<connect gate="G$1" pin="IO46" pad="16"/>
+<connect gate="G$1" pin="IO47" pad="24"/>
+<connect gate="G$1" pin="IO48" pad="25"/>
+<connect gate="G$1" pin="IO5" pad="5"/>
+<connect gate="G$1" pin="IO6" pad="6"/>
+<connect gate="G$1" pin="IO7" pad="7"/>
+<connect gate="G$1" pin="IO8" pad="12"/>
+<connect gate="G$1" pin="IO9" pad="17"/>
+<connect gate="G$1" pin="RXD0" pad="36"/>
+<connect gate="G$1" pin="TXD0" pad="37"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Bluetooth, WiFi 802.11b/g/n, Bluetooth v5.0 Transceiver Module 2.4GHz PCB Trace Surface Mount" constant="no"/>
+<attribute name="HEIGHT" value="3.25mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Espressif Systems" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ESP32-S3-WROOM-1-N4R2" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="356-ESP32S3WROM1N4R2" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Espressif-Systems/ESP32-S3-WROOM-1-N4R2?qs=Li%252BoUPsLEns3eX9krmrDyw%3D%3D" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -22851,6 +23056,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X8" device="" package3d_urn="urn:adsk.eagle:package:22409/2"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10k"/>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="IC3" library="SamacSys_Parts" deviceset="ESP32-S3-WROOM-1-N4R2" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -23496,6 +23702,10 @@ In this library the device names are the same as the pin names of the symbols, t
 </instance>
 <instance part="+3V1" gate="G$1" x="-62.23" y="338.455" smashed="yes">
 <attribute name="VALUE" x="-64.77" y="333.375" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="IC3" gate="G$1" x="132.08" y="627.38" smashed="yes">
+<attribute name="NAME" x="161.29" y="635" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="161.29" y="632.46" size="1.778" layer="96" align="center-left"/>
 </instance>
 </instances>
 <busses>
