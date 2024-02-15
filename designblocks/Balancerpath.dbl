@@ -5,7 +5,7 @@
 <description></description>
 <attributes>
 <attribute name="AIRWIRES" value="YES"/>
-<attribute name="BOARDSIZE" value="23.4 x 6.7 mm"/>
+<attribute name="BOARDSIZE" value="20.3 x 6.2 mm"/>
 <attribute name="LAYERS" value="2: 1, 16"/>
 </attributes>
 <drawings>
@@ -7582,7 +7582,7 @@ Source: AVX .. aphvc.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="semicon-smd-ipc" urn="urn:adsk.eagle:library:353">
+<library name="semicon-smd-ipc_jonathan">
 <description>&lt;b&gt;IPC Standard SMD Semiconductors&lt;/b&gt;&lt;p&gt;
 A few devices defined according to the IPC standard.&lt;p&gt;
 Based on:&lt;p&gt;
@@ -7591,13 +7591,13 @@ IRevision A, August 1993&lt;br&gt;
 Includes Amendment 1, October 1996&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="MELF-MLL34" urn="urn:adsk.eagle:footprint:26286/1" library_version="5">
+<package name="MELF-MLL34" urn="urn:adsk.eagle:footprint:26286/1" locally_modified="yes">
 <description>&lt;b&gt;DIODE&lt;/b&gt;&lt;p&gt;
 metal electrode face (MELF)</description>
-<wire x1="-2.973" y1="1.483" x2="2.973" y2="1.483" width="0.0508" layer="39"/>
-<wire x1="2.973" y1="-1.483" x2="-2.973" y2="-1.483" width="0.0508" layer="39"/>
-<wire x1="-2.973" y1="-1.483" x2="-2.973" y2="1.483" width="0.0508" layer="39"/>
-<wire x1="2.973" y1="1.483" x2="2.973" y2="-1.483" width="0.0508" layer="39"/>
+<wire x1="-2.719" y1="1.483" x2="2.719" y2="1.483" width="0.0508" layer="39"/>
+<wire x1="2.719" y1="-1.483" x2="-2.719" y2="-1.483" width="0.0508" layer="39"/>
+<wire x1="-2.719" y1="-1.483" x2="-2.719" y2="1.483" width="0.0508" layer="39"/>
+<wire x1="2.719" y1="1.483" x2="2.719" y2="-1.483" width="0.0508" layer="39"/>
 <wire x1="1.3208" y1="0.7874" x2="-1.3208" y2="0.7874" width="0.1524" layer="51"/>
 <wire x1="1.3208" y1="-0.7874" x2="-1.3208" y2="-0.7874" width="0.1524" layer="51"/>
 <wire x1="0.5" y1="0.5" x2="-0.5" y2="0" width="0.2032" layer="51"/>
@@ -7612,7 +7612,7 @@ metal electrode face (MELF)</description>
 <rectangle x1="-0.9906" y1="-0.7874" x2="-0.381" y2="0.7874" layer="51"/>
 <rectangle x1="-0.5001" y1="-0.5999" x2="0.4001" y2="0.5999" layer="35"/>
 </package>
-<package name="MELF-MLL41" urn="urn:adsk.eagle:footprint:26287/1" library_version="5">
+<package name="MELF-MLL41" urn="urn:adsk.eagle:footprint:26287/1">
 <description>&lt;b&gt;DIODE&lt;/b&gt;&lt;p&gt;
 metal electrode face (MELF)</description>
 <wire x1="-3.473" y1="1.483" x2="3.473" y2="1.483" width="0.0508" layer="39"/>
@@ -7633,7 +7633,7 @@ metal electrode face (MELF)</description>
 <rectangle x1="-1.7018" y1="-1.1938" x2="-0.8128" y2="1.1938" layer="51"/>
 <rectangle x1="-0.5001" y1="-1" x2="0.5001" y2="1" layer="35"/>
 </package>
-<package name="SOD80" urn="urn:adsk.eagle:footprint:26288/1" library_version="5">
+<package name="SOD80" urn="urn:adsk.eagle:footprint:26288/1">
 <description>&lt;b&gt;SMALL OUTLINE DIODE&lt;/b&gt;</description>
 <wire x1="-2.973" y1="1.483" x2="2.973" y2="1.483" width="0.0508" layer="39"/>
 <wire x1="2.973" y1="-1.483" x2="-2.973" y2="-1.483" width="0.0508" layer="39"/>
@@ -7653,7 +7653,7 @@ metal electrode face (MELF)</description>
 <rectangle x1="-0.9906" y1="-0.7874" x2="-0.381" y2="0.7874" layer="51"/>
 <rectangle x1="-0.4001" y1="-0.5999" x2="0.4001" y2="0.5999" layer="35"/>
 </package>
-<package name="SOD87" urn="urn:adsk.eagle:footprint:26289/1" library_version="5">
+<package name="SOD87" urn="urn:adsk.eagle:footprint:26289/1">
 <description>&lt;b&gt;SMALL OUTLINE DIODE&lt;/b&gt;</description>
 <wire x1="-3.473" y1="1.483" x2="3.473" y2="1.483" width="0.0508" layer="39"/>
 <wire x1="3.473" y1="-1.483" x2="-3.473" y2="-1.483" width="0.0508" layer="39"/>
@@ -7673,7 +7673,7 @@ metal electrode face (MELF)</description>
 <rectangle x1="-1.7018" y1="-1.1938" x2="-0.8128" y2="1.1938" layer="51"/>
 <rectangle x1="-0.5001" y1="-1" x2="0.5001" y2="1" layer="35"/>
 </package>
-<package name="SMB" urn="urn:adsk.eagle:footprint:26290/1" library_version="5">
+<package name="SMB" urn="urn:adsk.eagle:footprint:26290/1">
 <description>&lt;b&gt;DIODE&lt;/b&gt;</description>
 <wire x1="-2.2352" y1="1.7272" x2="1.9812" y2="1.7272" width="0.1524" layer="21"/>
 <wire x1="1.9812" y1="-1.9812" x2="-2.2352" y2="-1.9812" width="0.1524" layer="21"/>
@@ -7701,7 +7701,7 @@ metal electrode face (MELF)</description>
 <rectangle x1="2.032" y1="-1.143" x2="2.6162" y2="0.889" layer="51"/>
 <rectangle x1="-2.8702" y1="-1.143" x2="-2.286" y2="0.889" layer="51"/>
 </package>
-<package name="SOD123" urn="urn:adsk.eagle:footprint:26291/1" library_version="5">
+<package name="SOD123" urn="urn:adsk.eagle:footprint:26291/1">
 <description>&lt;b&gt;SMALL OUTLINE DIODE&lt;/b&gt;</description>
 <wire x1="-2.973" y1="0.983" x2="2.973" y2="0.983" width="0.0508" layer="39"/>
 <wire x1="2.973" y1="-0.983" x2="-2.973" y2="-0.983" width="0.0508" layer="39"/>
@@ -7724,7 +7724,7 @@ metal electrode face (MELF)</description>
 <rectangle x1="1.3716" y1="-0.3048" x2="1.9558" y2="0.3048" layer="51"/>
 <rectangle x1="-0.4001" y1="-0.7" x2="0.4001" y2="0.7" layer="35"/>
 </package>
-<package name="SOT23" urn="urn:adsk.eagle:footprint:28669/1" library_version="5">
+<package name="SOT23" urn="urn:adsk.eagle:footprint:26292/1">
 <description>&lt;b&gt;SOT-23&lt;/b&gt;</description>
 <wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
 <wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
@@ -7741,45 +7741,45 @@ metal electrode face (MELF)</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="MELF-MLL34" urn="urn:adsk.eagle:package:26305/2" type="model" library_version="5">
+<package3d name="MELF-MLL34" urn="urn:adsk.eagle:package:26305/1" type="box">
 <description>DIODE
 metal electrode face (MELF)</description>
 <packageinstances>
 <packageinstance name="MELF-MLL34"/>
 </packageinstances>
 </package3d>
-<package3d name="MELF-MLL41" urn="urn:adsk.eagle:package:26306/2" type="model" library_version="5">
+<package3d name="MELF-MLL41" urn="urn:adsk.eagle:package:26306/1" type="box">
 <description>DIODE
 metal electrode face (MELF)</description>
 <packageinstances>
 <packageinstance name="MELF-MLL41"/>
 </packageinstances>
 </package3d>
-<package3d name="SOD80" urn="urn:adsk.eagle:package:26309/2" type="model" library_version="5">
+<package3d name="SOD80" urn="urn:adsk.eagle:package:26309/1" type="box">
 <description>SMALL OUTLINE DIODE</description>
 <packageinstances>
 <packageinstance name="SOD80"/>
 </packageinstances>
 </package3d>
-<package3d name="SOD87" urn="urn:adsk.eagle:package:26307/2" type="model" library_version="5">
+<package3d name="SOD87" urn="urn:adsk.eagle:package:26307/1" type="box">
 <description>SMALL OUTLINE DIODE</description>
 <packageinstances>
 <packageinstance name="SOD87"/>
 </packageinstances>
 </package3d>
-<package3d name="SMB" urn="urn:adsk.eagle:package:26311/2" type="model" library_version="5">
+<package3d name="SMB" urn="urn:adsk.eagle:package:26311/1" type="box">
 <description>DIODE</description>
 <packageinstances>
 <packageinstance name="SMB"/>
 </packageinstances>
 </package3d>
-<package3d name="SOD123" urn="urn:adsk.eagle:package:26308/2" type="model" library_version="5">
+<package3d name="SOD123" urn="urn:adsk.eagle:package:26308/1" type="box">
 <description>SMALL OUTLINE DIODE</description>
 <packageinstances>
 <packageinstance name="SOD123"/>
 </packageinstances>
 </package3d>
-<package3d name="SOT23" urn="urn:adsk.eagle:package:28738/2" type="model" library_version="5">
+<package3d name="SOT23" urn="urn:adsk.eagle:package:26310/1" type="box">
 <description>SOT-23</description>
 <packageinstances>
 <packageinstance name="SOT23"/>
@@ -7787,27 +7787,29 @@ metal electrode face (MELF)</description>
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="D" urn="urn:adsk.eagle:symbol:26285/2" library_version="5">
+<symbol name="D-FILL">
 <wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
 <wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
 <wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="0" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="0.635" y1="0" x2="-1.016" y2="0.889" width="0.6096" layer="94"/>
+<wire x1="-1.016" y1="0.889" x2="-1.016" y2="-0.889" width="0.6096" layer="94"/>
+<wire x1="-1.016" y1="-0.889" x2="0.254" y2="-0.127" width="0.6096" layer="94"/>
+<wire x1="0.254" y1="-0.127" x2="-0.635" y2="0.254" width="0.6096" layer="94"/>
+<wire x1="-0.635" y1="0.254" x2="-0.635" y2="-0.254" width="0.6096" layer="94"/>
 <text x="-2.54" y="1.778" size="1.778" layer="95">&gt;NAME</text>
 <text x="-2.54" y="-3.683" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="A" x="-2.54" y="0" visible="off" length="point" direction="pas"/>
-<pin name="C" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
+<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="D-" urn="urn:adsk.eagle:component:26321/5" prefix="D" uservalue="yes" library_version="5">
+<deviceset name="D-FILL-" prefix="D" uservalue="yes">
 <description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
-unfilled</description>
+filled</description>
 <gates>
-<gate name="G$1" symbol="D" x="0" y="0"/>
+<gate name="G$1" symbol="D-FILL" x="0" y="0"/>
 </gates>
 <devices>
 <device name="MLL-34" package="MELF-MLL34">
@@ -7816,12 +7818,10 @@ unfilled</description>
 <connect gate="G$1" pin="C" pad="1"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26305/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26305/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="MLL-41" package="MELF-MLL41">
@@ -7830,12 +7830,10 @@ unfilled</description>
 <connect gate="G$1" pin="C" pad="1"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26306/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26306/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="SOD-80" package="SOD80">
@@ -7844,12 +7842,10 @@ unfilled</description>
 <connect gate="G$1" pin="C" pad="1"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26309/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26309/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="2" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="SOD-87" package="SOD87">
@@ -7858,12 +7854,10 @@ unfilled</description>
 <connect gate="G$1" pin="C" pad="1"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26307/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26307/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="SMB" package="SMB">
@@ -7872,12 +7866,10 @@ unfilled</description>
 <connect gate="G$1" pin="C" pad="1"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26311/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26311/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="1" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="SOD123" package="SOD123">
@@ -7886,12 +7878,10 @@ unfilled</description>
 <connect gate="G$1" pin="C" pad="1"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26308/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26308/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="A1-C3" package="SOT23">
@@ -7900,12 +7890,10 @@ unfilled</description>
 <connect gate="G$1" pin="C" pad="3"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:28738/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26310/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="A2-C3" package="SOT23">
@@ -7914,12 +7902,10 @@ unfilled</description>
 <connect gate="G$1" pin="C" pad="3"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:28738/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26310/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -7942,7 +7928,7 @@ unfilled</description>
 <part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="3.3k"/>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="10nF"/>
 <part name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="100R"/>
-<part name="D1" library="semicon-smd-ipc" library_urn="urn:adsk.eagle:library:353" deviceset="D-" device="MLL-34" package3d_urn="urn:adsk.eagle:package:26305/2">
+<part name="D1" library="semicon-smd-ipc_jonathan" deviceset="D-FILL-" device="MLL-34" package3d_urn="urn:adsk.eagle:package:26305/1">
 <attribute name="LCSC" value="C8062"/>
 </part>
 </parts>
@@ -8068,7 +8054,7 @@ unfilled</description>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="5" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -8227,10 +8213,11 @@ unfilled</description>
 </layers>
 <board>
 <plain>
-<wire x1="31.623" y1="14.605" x2="8.382" y2="14.605" width="0.1524" layer="51"/>
-<wire x1="8.382" y1="14.605" x2="8.382" y2="20.701" width="0.1524" layer="51"/>
-<wire x1="8.382" y1="20.701" x2="31.623" y2="20.701" width="0.1524" layer="51"/>
-<wire x1="31.623" y1="20.701" x2="31.623" y2="14.605" width="0.1524" layer="51"/>
+<wire x1="28.5" y1="14.6" x2="8.4" y2="14.6" width="0.1524" layer="51"/>
+<wire x1="8.4" y1="14.6" x2="8.4" y2="20.2" width="0.1524" layer="51"/>
+<wire x1="8.4" y1="20.2" x2="28.5" y2="20.2" width="0.1524" layer="51"/>
+<wire x1="28.5" y1="20.2" x2="28.5" y2="14.6" width="0.1524" layer="51"/>
+<wire x1="8.4" y1="17.4" x2="28.5" y2="17.4" width="0" layer="21"/>
 </plain>
 <libraries>
 <library name="SamacSys_Parts">
@@ -9377,7 +9364,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 </package3d>
 </packages3d>
 </library>
-<library name="semicon-smd-ipc" urn="urn:adsk.eagle:library:353">
+<library name="semicon-smd-ipc_jonathan">
 <description>&lt;b&gt;IPC Standard SMD Semiconductors&lt;/b&gt;&lt;p&gt;
 A few devices defined according to the IPC standard.&lt;p&gt;
 Based on:&lt;p&gt;
@@ -9386,13 +9373,13 @@ IRevision A, August 1993&lt;br&gt;
 Includes Amendment 1, October 1996&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="MELF-MLL34" urn="urn:adsk.eagle:footprint:26286/1" library_version="5">
+<package name="MELF-MLL34" urn="urn:adsk.eagle:footprint:26286/1" locally_modified="yes">
 <description>&lt;b&gt;DIODE&lt;/b&gt;&lt;p&gt;
 metal electrode face (MELF)</description>
-<wire x1="-2.973" y1="1.483" x2="2.973" y2="1.483" width="0.0508" layer="39"/>
-<wire x1="2.973" y1="-1.483" x2="-2.973" y2="-1.483" width="0.0508" layer="39"/>
-<wire x1="-2.973" y1="-1.483" x2="-2.973" y2="1.483" width="0.0508" layer="39"/>
-<wire x1="2.973" y1="1.483" x2="2.973" y2="-1.483" width="0.0508" layer="39"/>
+<wire x1="-2.719" y1="1.483" x2="2.719" y2="1.483" width="0.0508" layer="39"/>
+<wire x1="2.719" y1="-1.483" x2="-2.719" y2="-1.483" width="0.0508" layer="39"/>
+<wire x1="-2.719" y1="-1.483" x2="-2.719" y2="1.483" width="0.0508" layer="39"/>
+<wire x1="2.719" y1="1.483" x2="2.719" y2="-1.483" width="0.0508" layer="39"/>
 <wire x1="1.3208" y1="0.7874" x2="-1.3208" y2="0.7874" width="0.1524" layer="51"/>
 <wire x1="1.3208" y1="-0.7874" x2="-1.3208" y2="-0.7874" width="0.1524" layer="51"/>
 <wire x1="0.5" y1="0.5" x2="-0.5" y2="0" width="0.2032" layer="51"/>
@@ -9409,7 +9396,7 @@ metal electrode face (MELF)</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="MELF-MLL34" urn="urn:adsk.eagle:package:26305/2" type="model" library_version="5">
+<package3d name="MELF-MLL34" urn="urn:adsk.eagle:package:26305/1" type="box">
 <description>DIODE
 metal electrode face (MELF)</description>
 <packageinstances>
@@ -9611,23 +9598,22 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="11.049" y="17.653" smashed="yes"/>
-<element name="Q3" library="SamacSys_Parts" package="PG-SOT-23" value="C8547" x="22.606" y="17.653" smashed="yes">
-<attribute name="DESCRIPTION" value="Infineon BSS308PEH6327XTSA1 P-channel MOSFET, 1.6 A, 30 V OptiMOS P, 3-Pin SOT-23" x="22.606" y="17.653" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="mm" x="22.606" y="17.653" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Infineon" x="22.606" y="17.653" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="BSS308PEH6327XTSA1" x="22.606" y="17.653" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="726-BSS308PEH6327XTS" x="22.606" y="17.653" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSS308PEH6327XTSA1?qs=K00xGehIljswKa%252BUULwt9w%3D%3D" x="22.606" y="17.653" size="1.778" layer="27" display="off"/>
+<element name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="10.9" y="17.4" smashed="yes"/>
+<element name="Q3" library="SamacSys_Parts" package="PG-SOT-23" value="C8547" x="22.1" y="17.4" smashed="yes">
+<attribute name="DESCRIPTION" value="Infineon BSS308PEH6327XTSA1 P-channel MOSFET, 1.6 A, 30 V OptiMOS P, 3-Pin SOT-23" x="22.1" y="17.4" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="22.1" y="17.4" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Infineon" x="22.1" y="17.4" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="BSS308PEH6327XTSA1" x="22.1" y="17.4" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="726-BSS308PEH6327XTS" x="22.1" y="17.4" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSS308PEH6327XTSA1?qs=K00xGehIljswKa%252BUULwt9w%3D%3D" x="22.1" y="17.4" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="18.161" y="17.653" smashed="yes"/>
-<element name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="3.3k" x="26.416" y="16.637" smashed="yes" rot="R180"/>
-<element name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="10nF" x="28.575" y="17.907" smashed="yes" rot="R270"/>
-<element name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="100R" x="26.416" y="18.669" smashed="yes" rot="R180"/>
-<element name="D1" library="semicon-smd-ipc" library_urn="urn:adsk.eagle:library:353" package="MELF-MLL34" package3d_urn="urn:adsk.eagle:package:26305/2" value="" x="30.099" y="17.653" smashed="yes" rot="R270">
-<attribute name="LCSC" value="C8062" x="30.099" y="17.653" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="POPULARITY" value="0" x="30.099" y="17.653" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="27.559" y="20.193" size="1.27" layer="27" rot="R270"/>
+<element name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0" x="18.1" y="17.4" smashed="yes"/>
+<element name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="3.3k" x="23.8" y="15.3" smashed="yes" rot="R180"/>
+<element name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="10nF" x="24.6" y="17.5" smashed="yes" rot="R270"/>
+<element name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="100R" x="23.8" y="19.5" smashed="yes" rot="R180"/>
+<element name="D1" library="semicon-smd-ipc_jonathan" package="MELF-MLL34" package3d_urn="urn:adsk.eagle:package:26305/1" value="" x="26.9" y="17.4" smashed="yes" rot="R270">
+<attribute name="LCSC" value="C8062" x="26.9" y="17.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="24.36" y="19.94" size="1.27" layer="27" rot="R270"/>
 </element>
 </elements>
 <signals>
@@ -9635,76 +9621,74 @@ design rules under a new name.</description>
 <contactref element="R12" pad="2"/>
 <contactref element="R20" pad="1"/>
 <polygon width="0.1524" layer="1" thermals="no">
-<vertex x="8.382" y="20.701"/>
-<vertex x="31.623" y="20.701"/>
-<vertex x="31.623" y="14.605"/>
-<vertex x="8.382" y="14.605"/>
+<vertex x="8.4" y="20.2"/>
+<vertex x="28.5" y="20.2"/>
+<vertex x="28.5" y="14.605"/>
+<vertex x="8.4" y="14.605"/>
 </polygon>
 <polygon width="0.1524" layer="16">
-<vertex x="31.623" y="20.701"/>
-<vertex x="31.623" y="14.605"/>
-<vertex x="8.382" y="14.605"/>
-<vertex x="8.382" y="20.701"/>
+<vertex x="28.5" y="20.2"/>
+<vertex x="28.5" y="14.605"/>
+<vertex x="8.4" y="14.605"/>
+<vertex x="8.4" y="20.2"/>
 </polygon>
-<via x="11.303" y="19.05" extent="1-16" drill="0.3"/>
-<via x="12.192" y="19.05" extent="1-16" drill="0.3"/>
-<via x="13.081" y="19.05" extent="1-16" drill="0.3"/>
-<via x="13.97" y="18.923" extent="1-16" drill="0.3"/>
-<via x="13.97" y="18.034" extent="1-16" drill="0.3"/>
-<via x="13.97" y="17.145" extent="1-16" drill="0.3"/>
-<via x="13.97" y="16.256" extent="1-16" drill="0.3"/>
-<via x="13.081" y="16.129" extent="1-16" drill="0.3"/>
-<via x="12.192" y="16.129" extent="1-16" drill="0.3"/>
-<via x="11.303" y="16.129" extent="1-16" drill="0.3"/>
-<via x="17.78" y="19.05" extent="1-16" drill="0.3"/>
-<via x="16.891" y="19.05" extent="1-16" drill="0.3"/>
-<via x="16.002" y="19.05" extent="1-16" drill="0.3"/>
-<via x="15.113" y="18.923" extent="1-16" drill="0.3"/>
-<via x="15.113" y="18.034" extent="1-16" drill="0.3"/>
-<via x="15.113" y="17.145" extent="1-16" drill="0.3"/>
-<via x="15.113" y="16.256" extent="1-16" drill="0.3"/>
-<via x="16.002" y="16.129" extent="1-16" drill="0.3"/>
-<via x="16.891" y="16.129" extent="1-16" drill="0.3"/>
-<via x="17.78" y="16.129" extent="1-16" drill="0.3"/>
+<via x="11.4" y="19" extent="1-16" drill="0.3"/>
+<via x="12.2" y="19" extent="1-16" drill="0.3"/>
+<via x="13" y="19" extent="1-16" drill="0.3"/>
+<via x="13.8" y="19" extent="1-16" drill="0.3"/>
+<via x="13.8" y="18.2" extent="1-16" drill="0.3"/>
+<via x="13.8" y="17.4" extent="1-16" drill="0.3"/>
+<via x="13.8" y="16.6" extent="1-16" drill="0.3"/>
+<via x="13.8" y="15.8" extent="1-16" drill="0.3"/>
+<via x="13" y="15.8" extent="1-16" drill="0.3"/>
+<via x="12.2" y="15.8" extent="1-16" drill="0.3"/>
+<via x="17.6" y="19" extent="1-16" drill="0.3"/>
+<via x="16.8" y="19" extent="1-16" drill="0.3"/>
+<via x="16" y="19" extent="1-16" drill="0.3"/>
+<via x="15.2" y="19" extent="1-16" drill="0.3"/>
+<via x="15.2" y="18.2" extent="1-16" drill="0.3"/>
+<via x="15.2" y="17.4" extent="1-16" drill="0.3"/>
+<via x="15.2" y="16.6" extent="1-16" drill="0.3"/>
+<via x="15.2" y="15.8" extent="1-16" drill="0.3"/>
+<via x="16" y="15.8" extent="1-16" drill="0.3"/>
+<via x="16.8" y="15.8" extent="1-16" drill="0.3"/>
+<via x="11.4" y="15.8" extent="1-16" drill="0.3"/>
+<via x="17.6" y="15.8" extent="1-16" drill="0.3"/>
 </signal>
 <signal name="N$19">
 <contactref element="Q3" pad="3"/>
 <contactref element="R20" pad="2"/>
-<wire x1="19.8" y1="17.436" x2="19.583" y2="17.653" width="0.6096" layer="1"/>
-<wire x1="21.606" y1="17.653" x2="19.583" y2="17.653" width="0.8128" layer="1"/>
+<wire x1="19.739" y1="17.183" x2="19.522" y2="17.4" width="0.6096" layer="1"/>
+<wire x1="21.1" y1="17.4" x2="19.522" y2="17.4" width="0.8128" layer="1"/>
 </signal>
 <signal name="N$20">
 <contactref element="Q3" pad="1"/>
 <contactref element="R21" pad="2"/>
-<wire x1="25.766" y1="16.637" x2="23.622" y2="16.637" width="0.6096" layer="1"/>
-<wire x1="23.622" y1="16.637" x2="23.606" y2="16.653" width="0.6096" layer="1"/>
+<wire x1="23.1" y1="16.4" x2="23.15" y2="16.35" width="0.5" layer="1"/>
+<wire x1="23.15" y1="16.35" x2="23.15" y2="15.3" width="0.5" layer="1"/>
 </signal>
 <signal name="LOWER">
 <contactref element="C6" pad="2"/>
 <contactref element="R12" pad="1"/>
 <contactref element="D1" pad="2"/>
-<wire x1="28.575" y1="17.257" x2="29.879" y2="15.953" width="0.6096" layer="1"/>
-<wire x1="29.879" y1="15.953" x2="30.099" y2="15.953" width="0.6096" layer="1"/>
-<wire x1="9.627" y1="17.653" x2="28.575" y2="17.257" width="0" layer="19" extent="1-1"/>
+<wire x1="24.6" y1="16.85" x2="25.75" y2="16.85" width="0.5" layer="1"/>
+<wire x1="25.75" y1="16.85" x2="26.9" y2="15.7" width="0.5" layer="1"/>
+<wire x1="9.478" y1="17.4" x2="24.6" y2="16.85" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="UPPER">
 <contactref element="Q3" pad="2"/>
 <contactref element="R23" pad="2"/>
-<wire x1="23.606" y1="18.653" x2="25.75" y2="18.653" width="0.6096" layer="1"/>
-<wire x1="25.75" y1="18.653" x2="25.766" y2="18.669" width="0.6096" layer="1"/>
-<wire x1="23.606" y1="18.653" x2="23.638" y2="18.653" width="0.6096" layer="1"/>
-<wire x1="23.638" y1="18.653" x2="24.638" y2="17.653" width="0.6096" layer="1"/>
-<via x="24.638" y="17.653" extent="1-16" drill="0.35"/>
-<wire x1="24.638" y1="17.653" x2="24.638" y2="20.574" width="1.016" layer="16"/>
+<wire x1="23.1" y1="18.4" x2="23.15" y2="18.45" width="0.5" layer="1"/>
+<wire x1="23.15" y1="18.45" x2="23.15" y2="19.5" width="0.5" layer="1"/>
 </signal>
 <signal name="C">
 <contactref element="C6" pad="1"/>
 <contactref element="R23" pad="1"/>
-<wire x1="28.575" y1="18.557" x2="27.178" y2="18.557" width="0.6096" layer="1"/>
-<wire x1="27.178" y1="18.557" x2="27.066" y2="18.669" width="0.6096" layer="1"/>
 <contactref element="D1" pad="1"/>
-<wire x1="28.575" y1="18.557" x2="29.303" y2="18.557" width="0.6096" layer="1"/>
-<wire x1="29.303" y1="18.557" x2="30.099" y2="19.353" width="0.6096" layer="1"/>
+<wire x1="24.6" y1="18.15" x2="24.45" y2="18.3" width="0.5" layer="1"/>
+<wire x1="24.45" y1="18.3" x2="24.45" y2="19.5" width="0.5" layer="1"/>
+<wire x1="24.6" y1="18.15" x2="25.95" y2="18.15" width="0.5" layer="1"/>
+<wire x1="25.95" y1="18.15" x2="26.9" y2="19.1" width="0.5" layer="1"/>
 </signal>
 <signal name="S">
 <contactref element="R21" pad="1"/>
