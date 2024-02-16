@@ -348,26 +348,6 @@
 <text x="-3.81" y="-6.35" size="1.778" layer="25">&gt;NAME</text>
 <text x="-5.08" y="5.08" size="1.778" layer="27">&gt;VALUE</text>
 </package>
-<package name="HDRV2W46P0X254_1X2_508X254X851">
-<description>&lt;b&gt;BBS-102-T-A&lt;/b&gt;&lt;br&gt;
-</description>
-<pad name="1" x="0" y="0" drill="0.65" diameter="1.05" shape="square"/>
-<pad name="2" x="2.54" y="0" drill="0.65" diameter="1.05"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-1.52" y1="-1.52" x2="-1.52" y2="1.52" width="0.05" layer="51"/>
-<wire x1="-1.52" y1="1.52" x2="4.06" y2="1.52" width="0.05" layer="51"/>
-<wire x1="4.06" y1="1.52" x2="4.06" y2="-1.52" width="0.05" layer="51"/>
-<wire x1="4.06" y1="-1.52" x2="-1.52" y2="-1.52" width="0.05" layer="51"/>
-<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="1.27" width="0.1" layer="51"/>
-<wire x1="-1.27" y1="1.27" x2="3.81" y2="1.27" width="0.1" layer="51"/>
-<wire x1="3.81" y1="1.27" x2="3.81" y2="-1.27" width="0.1" layer="51"/>
-<wire x1="3.81" y1="-1.27" x2="-1.27" y2="-1.27" width="0.1" layer="51"/>
-<wire x1="-1.27" y1="0" x2="-1.27" y2="-1.27" width="0.2" layer="21"/>
-<wire x1="-1.27" y1="-1.27" x2="3.81" y2="-1.27" width="0.2" layer="21"/>
-<wire x1="3.81" y1="-1.27" x2="3.81" y2="1.27" width="0.2" layer="21"/>
-<wire x1="3.81" y1="1.27" x2="0" y2="1.27" width="0.2" layer="21"/>
-</package>
 <package name="PG-SOT-23">
 <description>&lt;b&gt;PG-SOT-23&lt;/b&gt;&lt;br&gt;
 </description>
@@ -526,16 +506,6 @@
 <rectangle x1="-3.81" y1="-0.889" x2="3.81" y2="0.889" layer="94"/>
 <pin name="2" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1"/>
-</symbol>
-<symbol name="BBS-102-T-A">
-<wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-5.08" x2="15.24" y2="2.54" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
-<text x="16.51" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="16.51" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="1" x="0" y="0" length="middle"/>
-<pin name="2" x="0" y="-2.54" length="middle"/>
 </symbol>
 <symbol name="BSS308PEH6327XTSA1">
 <wire x1="7.62" y1="2.54" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
@@ -758,31 +728,6 @@ fixed-frequency oscillator. &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 </connects>
 <technologies>
 <technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="BBS-102-T-A" prefix="J">
-<description>&lt;b&gt;Conn Unshrouded Header HDR 2 POS 2.54mm Solder ST Thru-Hole Tube&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://www.arrow.com/en/products/bbs-102-t-a/samtec"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="BBS-102-T-A" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="HDRV2W46P0X254_1X2_508X254X851">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="Conn Unshrouded Header HDR 2 POS 2.54mm Solder ST Thru-Hole Tube" constant="no"/>
-<attribute name="HEIGHT" value="8.51mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="SAMTEC" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="BBS-102-T-A" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="200-BBS102TA" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Samtec/BBS-102-T-A?qs=0lQeLiL1qybEiCus7%2Filuw%3D%3D" constant="no"/>
-</technology>
 </technologies>
 </device>
 </devices>
@@ -22295,20 +22240,20 @@ filled</description>
 </class>
 </classes>
 <parts>
-<part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="470k"/>
-<part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="27K"/>
+<part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="470k"/>
+<part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="27K"/>
 <part name="LED4" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/1" value="KT-0603R"/>
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/1" value="KT-0603R"/>
 <part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/1" value="KT-0603R"/>
-<part name="R53" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="200R0"/>
-<part name="R54" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="200R0"/>
-<part name="R56" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="200R0"/>
+<part name="R53" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="200R0"/>
+<part name="R54" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="200R0"/>
+<part name="R56" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="200R0"/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="1uF"/>
 <part name="C19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="1uF"/>
 <part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="100R"/>
 <part name="C20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="100n"/>
-<part name="R57" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="12k"/>
-<part name="R58" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="12k"/>
+<part name="R57" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="12k"/>
+<part name="R58" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="12k"/>
 <part name="H1" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.2" package3d_urn="urn:adsk.eagle:package:14275/1"/>
 <part name="H2" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.2" package3d_urn="urn:adsk.eagle:package:14275/1"/>
 <part name="H3" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.2" package3d_urn="urn:adsk.eagle:package:14275/1"/>
@@ -22373,7 +22318,6 @@ filled</description>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="100n"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="J1" library="TYPE-C-31-M-12" deviceset="TYPE-C-31-M-12" device=""/>
-<part name="J2" library="SamacSys_Parts" deviceset="BBS-102-T-A" device=""/>
 <part name="R82" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0"/>
 <part name="Q14" library="SamacSys_Parts" deviceset="BSS308PEH6327XTSA1" device="" value="C8547"/>
 <part name="R96" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0"/>
@@ -22739,10 +22683,6 @@ filled</description>
 <instance part="J1" gate="G$1" x="-68.58" y="718.82" smashed="yes" rot="R90">
 <attribute name="NAME" x="-82.042" y="706.12" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-55.118" y="706.12" size="1.778" layer="96" rot="MR90"/>
-</instance>
-<instance part="J2" gate="G$1" x="-27.94" y="594.36" smashed="yes">
-<attribute name="NAME" x="-11.43" y="601.98" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-11.43" y="599.44" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="R82" gate="G$1" x="-655.32" y="71.12" smashed="yes">
 <attribute name="NAME" x="-659.13" y="72.6186" size="1.778" layer="95"/>
