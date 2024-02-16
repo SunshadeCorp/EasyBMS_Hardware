@@ -113,8 +113,16 @@
 <layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="133" name="bottom_silk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="134" name="silk_top" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="135" name="silk_bottom" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="136" name="silktop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="137" name="silkbottom" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
 <layer number="145" name="DrillLegend_01-16" color="2" fill="9" visible="no" active="yes"/>
+<layer number="146" name="DrillLegend_01-15" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="147" name="DrillLegend_01-16" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="148" name="DrillLegend_01-20" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="149" name="DrillLegend_02-15" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
 <layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -1706,46 +1714,6 @@ http://www.bccomponents.com/</description>
 </package3d>
 </packages3d>
 </library>
-<library name="led" urn="urn:adsk.eagle:library:259">
-<description>&lt;b&gt;LEDs&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;&lt;br&gt;
-Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternational.com&amp;gt;&lt;/author&gt; with DUOLED</description>
-<packages>
-<package name="CHIPLED_0603" urn="urn:adsk.eagle:footprint:15676/1" library_version="1">
-<description>&lt;b&gt;CHIPLED&lt;/b&gt;&lt;p&gt;
-Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
-<wire x1="-0.3" y1="0.8" x2="0.3" y2="0.8" width="0.1016" layer="51" curve="170.055574"/>
-<wire x1="-0.275" y1="-0.825" x2="0.275" y2="-0.825" width="0.0508" layer="51" curve="-180"/>
-<wire x1="-0.4" y1="0.375" x2="-0.4" y2="-0.35" width="0.1016" layer="51"/>
-<wire x1="0.4" y1="0.35" x2="0.4" y2="-0.35" width="0.1016" layer="51"/>
-<circle x="-0.35" y="0.625" radius="0.075" width="0.0508" layer="51"/>
-<smd name="C" x="0" y="0.75" dx="0.8" dy="0.8" layer="1"/>
-<smd name="A" x="0" y="-0.75" dx="0.8" dy="0.8" layer="1"/>
-<text x="-0.635" y="-1.27" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="1.905" y="-1.27" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-0.45" y1="0.7" x2="-0.25" y2="0.85" layer="51"/>
-<rectangle x1="-0.275" y1="0.55" x2="-0.225" y2="0.6" layer="51"/>
-<rectangle x1="-0.45" y1="0.35" x2="-0.4" y2="0.725" layer="51"/>
-<rectangle x1="0.25" y1="0.55" x2="0.45" y2="0.85" layer="51"/>
-<rectangle x1="-0.45" y1="0.35" x2="0.45" y2="0.575" layer="51"/>
-<rectangle x1="-0.45" y1="-0.85" x2="-0.25" y2="-0.35" layer="51"/>
-<rectangle x1="0.25" y1="-0.85" x2="0.45" y2="-0.35" layer="51"/>
-<rectangle x1="-0.275" y1="-0.575" x2="0.275" y2="-0.35" layer="51"/>
-<rectangle x1="-0.275" y1="-0.65" x2="-0.175" y2="-0.55" layer="51"/>
-<rectangle x1="0.175" y1="-0.65" x2="0.275" y2="-0.55" layer="51"/>
-<rectangle x1="-0.125" y1="0" x2="0.125" y2="0.25" layer="21"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="CHIPLED_0603" urn="urn:adsk.eagle:package:15822/1" type="box" library_version="5">
-<description>CHIPLED
-Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
-<packageinstances>
-<packageinstance name="CHIPLED_0603"/>
-</packageinstances>
-</package3d>
-</packages3d>
-</library>
 <library name="pinhead_own">
 <description>&lt;b&gt;Pin Header Connectors&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
@@ -2190,6 +2158,23 @@ metal electrode face (MELF)</description>
 </package3d>
 </packages3d>
 </library>
+<library name="WS2812B">
+<packages>
+<package name="XL-1615RGBC-WS2812B">
+<smd name="VDD" x="-0.62" y="-0.42" dx="0.65" dy="0.45" layer="1" rot="R90"/>
+<smd name="DOUT" x="-0.62" y="0.42" dx="0.65" dy="0.45" layer="1" rot="R90"/>
+<smd name="VSS" x="0.62" y="0.42" dx="0.65" dy="0.45" layer="1" rot="R90"/>
+<smd name="DIN" x="0.62" y="-0.42" dx="0.65" dy="0.45" layer="1" rot="R90"/>
+<text x="-0.43" y="1.63" size="0.4064" layer="25" font="vector">&gt;NAME</text>
+<text x="-0.73" y="-1.56" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
+<wire x1="-0.88" y1="0.78" x2="0.88" y2="0.78" width="0.05" layer="21"/>
+<wire x1="0.88" y1="0.78" x2="0.88" y2="-0.78" width="0.05" layer="21"/>
+<wire x1="0.88" y1="-0.78" x2="-0.88" y2="-0.78" width="0.05" layer="21"/>
+<wire x1="-0.88" y1="-0.78" x2="-0.88" y2="0.78" width="0.05" layer="21"/>
+<rectangle x1="-0.83" y1="-0.07" x2="-0.7" y2="0.07" layer="21"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2380,12 +2365,6 @@ metal electrode face (MELF)</description>
 <elements>
 <element name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="470k" x="39.2308" y="64.4208" smashed="yes" rot="R180"/>
 <element name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="27K" x="39.1308" y="59.7388" smashed="yes"/>
-<element name="LED4" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/1" value="KT-0603R" x="62.15" y="75.85" smashed="yes" rot="R270"/>
-<element name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/1" value="KT-0603R" x="23.7056" y="96.4878" smashed="yes" rot="R180"/>
-<element name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/1" value="KT-0603R" x="25.6868" y="97.7832" smashed="yes" rot="R180"/>
-<element name="R53" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="200R0" x="28.6586" y="94.5828" smashed="yes" rot="R90"/>
-<element name="R54" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="200R0" x="25.509" y="94.2272" smashed="yes" rot="R90"/>
-<element name="R56" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="200R0" x="58.2406" y="79.235" smashed="yes" rot="R90"/>
 <element name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="1uF" x="45.2" y="32.65" smashed="yes">
 <attribute name="VALUE" x="43.93" y="30.11" size="1.27" layer="27"/>
 </element>
@@ -2420,14 +2399,14 @@ metal electrode face (MELF)</description>
 <attribute name="MOUSER_PART_NUMBER" value="584-LTC6811IG-1#PBF" x="37.9018" y="35.4576" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Analog-Devices/LTC6811IG-1PBF?qs=oahfZPh6IAL9qJ0YPEk6qg%3D%3D" x="37.9018" y="35.4576" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="C370100" x="-15.4102" y="90.905" smashed="yes">
-<attribute name="VALUE" x="-18.0264" y="89.4064" size="1.27" layer="27"/>
+<element name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="C370100" x="44.0398" y="85.905" smashed="yes">
+<attribute name="VALUE" x="41.4236" y="84.4064" size="1.27" layer="27"/>
 </element>
 <element name="C22" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="1uF" x="37.2646" y="48.9942" smashed="yes" rot="R90">
 <attribute name="VALUE" x="39.8046" y="47.7242" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" package="DO214AC" package3d_urn="urn:adsk.eagle:package:43417/2" value="C16015" x="-19.8044" y="110.6408" smashed="yes" rot="R270">
-<attribute name="VALUE" x="-22.8604" y="113.2808" size="1.27" layer="27" ratio="10" rot="R270"/>
+<element name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" package="DO214AC" package3d_urn="urn:adsk.eagle:package:43417/2" value="C16015" x="45.5408" y="90.1544" smashed="yes" rot="R180">
+<attribute name="VALUE" x="48.1808" y="93.2104" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X08" package3d_urn="urn:adsk.eagle:package:22409/2" value="" x="45.2506" y="57.004" smashed="yes" rot="R270">
 <attribute name="POPULARITY" value="67" x="45.2506" y="57.004" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2446,57 +2425,57 @@ metal electrode face (MELF)</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Espressif-Systems/ESP32-S3-WROOM-1-N4R2?qs=Li%252BoUPsLEns3eX9krmrDyw%3D%3D" x="10.5566" y="85.9488" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="9.8962" y="94.0514" size="1.27" layer="27" align="center"/>
 </element>
-<element name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="153CLV-0405" package3d_urn="urn:adsk.eagle:package:23397/1" value="" x="-34.829" y="87.4512" smashed="yes" rot="R90">
-<attribute name="LCSC" value="C3001198" x="-34.829" y="87.4512" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="-31.094" y="85.1762" size="1.27" layer="27" rot="R90"/>
+<element name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="153CLV-0405" package3d_urn="urn:adsk.eagle:package:23397/1" value="" x="46.171" y="77.4012" smashed="yes" rot="R90">
+<attribute name="LCSC" value="C3001198" x="46.171" y="77.4012" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="49.906" y="75.1262" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="IC1" library="SamacSys_Parts" package="SOIC127P600X170-9N" value="XL7046" x="27.7604" y="80.9706" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value="PWM Low-Side Driver 3A for Coils HSOP8 DRV103H, MOSFET Power Driver, 1.5A, Non-Inverting, 8 ??? 32 V, 8-Pin SO PowerPAD" x="27.7604" y="80.9706" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="1.7mm" x="27.7604" y="80.9706" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="27.7604" y="80.9706" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="DRV103H" x="27.7604" y="80.9706" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="595-DRV103H" x="27.7604" y="80.9706" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/DRV103H/?qs=VBduBm9rCJQEx63T3F6Ttg%3D%3D" x="27.7604" y="80.9706" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="28.3192" y="78.7354" size="1.27" layer="27" rot="R180" align="center"/>
+<element name="IC1" library="SamacSys_Parts" package="SOIC127P600X170-9N" value="XL7046" x="27.8706" y="78.3396" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="PWM Low-Side Driver 3A for Coils HSOP8 DRV103H, MOSFET Power Driver, 1.5A, Non-Inverting, 8 ??? 32 V, 8-Pin SO PowerPAD" x="27.8706" y="78.3396" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="1.7mm" x="27.8706" y="78.3396" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="27.8706" y="78.3396" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="DRV103H" x="27.8706" y="78.3396" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-DRV103H" x="27.8706" y="78.3396" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/DRV103H/?qs=VBduBm9rCJQEx63T3F6Ttg%3D%3D" x="27.8706" y="78.3396" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="25.6354" y="77.7808" size="1.27" layer="27" rot="R90" align="center"/>
 </element>
-<element name="D3" library="diode" library_urn="urn:adsk.eagle:library:210" package="DO214AC" package3d_urn="urn:adsk.eagle:package:43417/2" value="C16015" x="-45.171" y="117.0038" smashed="yes" rot="R270">
-<attribute name="VALUE" x="-47.727" y="119.6438" size="1.27" layer="27" ratio="10" rot="R270"/>
+<element name="D3" library="diode" library_urn="urn:adsk.eagle:library:210" package="DO214AC" package3d_urn="urn:adsk.eagle:package:43417/2" value="C16015" x="37.6462" y="83.879" smashed="yes">
+<attribute name="VALUE" x="35.0062" y="81.323" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="L1" library="SamacSys_Parts" package="CY75-100UH" value="C2929443" x="-40.9228" y="124.3622" smashed="yes" rot="R90">
-<attribute name="VALUE" x="-46.0028" y="119.2822" size="1.778" layer="27" rot="R90"/>
+<element name="L1" library="SamacSys_Parts" package="CY75-100UH" value="C2929443" x="28.2772" y="86.7122" smashed="yes" rot="R90">
+<attribute name="VALUE" x="23.1972" y="81.6322" size="1.778" layer="27" rot="R90"/>
 </element>
-<element name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="R082" x="-30.7264" y="123.5948" smashed="yes">
-<attribute name="LCSC" value="C270902" x="-30.7264" y="123.5948" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-31.9964" y="121.0548" size="1.27" layer="27"/>
+<element name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="C270902" x="34.9236" y="89.0948" smashed="yes">
+<attribute name="LCSC" value="C270902" x="34.9236" y="89.0948" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="33.6536" y="86.5548" size="1.27" layer="27"/>
 </element>
-<element name="C24" library="rcl" library_urn="urn:adsk.eagle:library:334" package="153CLV-0405" package3d_urn="urn:adsk.eagle:package:23397/1" value="" x="-33.0078" y="116.978" smashed="yes" rot="R270">
-<attribute name="LCSC" value="C3001198" x="-24.4226" y="125.233" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="-36.7428" y="119.253" size="1.27" layer="27" rot="R270"/>
+<element name="C24" library="rcl" library_urn="urn:adsk.eagle:library:334" package="153CLV-0405" package3d_urn="urn:adsk.eagle:package:23397/1" value="" x="39.9422" y="88.978" smashed="yes" rot="R270">
+<attribute name="LCSC" value="C3001198" x="48.5274" y="97.233" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="36.2072" y="91.253" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="C21" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF" x="-20.2616" y="106.0688" smashed="yes">
-<attribute name="VALUE" x="-21.5316" y="103.5288" size="1.27" layer="27"/>
+<element name="C21" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF" x="44.6384" y="82.9688" smashed="yes">
+<attribute name="VALUE" x="43.3684" y="80.4288" size="1.27" layer="27"/>
 </element>
-<element name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="10k" x="-16.858" y="101.6492" smashed="yes">
-<attribute name="VALUE" x="-17.493" y="99.7442" size="1.27" layer="27"/>
+<element name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="10k" x="43.15" y="73.75" smashed="yes">
+<attribute name="VALUE" x="42.515" y="71.845" size="1.27" layer="27"/>
 </element>
-<element name="R55" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="3k3" x="-17.366" y="99.7696" smashed="yes">
-<attribute name="VALUE" x="-18.001" y="97.8646" size="1.27" layer="27"/>
+<element name="R55" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="3k3" x="43.134" y="72.4696" smashed="yes">
+<attribute name="VALUE" x="42.499" y="70.5646" size="1.27" layer="27"/>
 </element>
-<element name="C27" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="1uF" x="-15.4864" y="121.2834" smashed="yes">
-<attribute name="VALUE" x="-16.7564" y="118.7434" size="1.27" layer="27"/>
+<element name="C27" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="1uF" x="29.4364" y="73.5666" smashed="yes" rot="R180">
+<attribute name="VALUE" x="30.7064" y="76.1066" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="100n" x="-30.9296" y="120.6738" smashed="yes">
-<attribute name="VALUE" x="-31.5646" y="118.7688" size="1.27" layer="27"/>
+<element name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="100n" x="25.6204" y="91.8238" smashed="yes">
+<attribute name="VALUE" x="24.9854" y="89.9188" size="1.27" layer="27"/>
 </element>
-<element name="C26" library="rcl" library_urn="urn:adsk.eagle:library:334" package="140CLH-0810" package3d_urn="urn:adsk.eagle:package:23392/1" value="" x="36.695" y="82.0096" smashed="yes" rot="R180">
-<attribute name="LCSC" value="C18203173" x="36.695" y="82.0096" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="36.06" y="85.1846" size="1.27" layer="27" rot="R270"/>
+<element name="C26" library="rcl" library_urn="urn:adsk.eagle:library:334" package="140CLH-0810" package3d_urn="urn:adsk.eagle:package:23392/1" value="" x="36.4904" y="77.695" smashed="yes" rot="R270">
+<attribute name="LCSC" value="C18203173" x="36.4904" y="77.695" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="33.3154" y="77.06" size="1.27" layer="27"/>
 </element>
-<element name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="100R" x="-36.6464" y="115.133" smashed="yes" rot="R90">
-<attribute name="VALUE" x="-34.1064" y="113.863" size="1.27" layer="27" rot="R90"/>
+<element name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="100R" x="24.317" y="73.5536" smashed="yes" rot="R180">
+<attribute name="VALUE" x="25.587" y="76.0936" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="100n" x="-32.5552" y="95.8834" smashed="yes" rot="R90">
-<attribute name="VALUE" x="-30.6502" y="95.2484" size="1.27" layer="27" rot="R90"/>
+<element name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="100n" x="41.8948" y="79.8834" smashed="yes" rot="R90">
+<attribute name="VALUE" x="43.7998" y="79.2484" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="J1" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="35.687" y="95.8198" smashed="yes" rot="R180">
 <attribute name="AVAILABILITY" value="Not in stock" x="35.687" y="95.8198" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2778,6 +2757,16 @@ metal electrode face (MELF)</description>
 <element name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="C13564" x="5.15" y="10" smashed="yes" rot="R180">
 <attribute name="VALUE" x="5.785" y="11.905" size="1.27" layer="27" rot="R180"/>
 </element>
+<element name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="5K1" x="30.05" y="97.55" smashed="yes" rot="R270">
+<attribute name="VALUE" x="28.145" y="98.185" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="5K1" x="28.95" y="97.55" smashed="yes" rot="R270">
+<attribute name="VALUE" x="27.045" y="98.185" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="LED2" library="WS2812B" package="XL-1615RGBC-WS2812B" value="XL-1615RGBC-WS2812B" x="23.05" y="98.35" smashed="yes" rot="R270">
+<attribute name="LCSC" value="C5349954" x="27.4" y="101.15" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="21.49" y="99.08" size="0.4064" layer="27" font="vector" rot="R270"/>
+</element>
 </elements>
 <signals>
 <signal name="MISO">
@@ -2786,6 +2775,8 @@ metal electrode face (MELF)</description>
 <wire x1="41.4518" y1="39.2076" x2="40.4424" y2="39.2076" width="0.2" layer="1"/>
 <wire x1="40.4424" y1="39.2076" x2="40.05" y2="39.6" width="0.2" layer="1"/>
 <wire x1="40.05" y1="39.6" x2="40.05" y2="41" width="0.2" layer="1"/>
+<contactref element="IC3" pad="20"/>
+<wire x1="35.5718" y1="44.7834" x2="9.9216" y2="73.6988" width="0" layer="19" extent="1-1"/>
 <wire x1="40.05" y1="41" x2="35.5718" y2="44.7834" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
@@ -2802,7 +2793,6 @@ metal electrode face (MELF)</description>
 <vertex x="-0.8038" y="100.2664"/>
 <vertex x="-4.354" y="100.2664"/>
 </polygon>
-<contactref element="LED4" pad="C"/>
 <contactref element="JP1" pad="7"/>
 <polygon width="0.127" layer="1" isolate="0.4" rank="3">
 <vertex x="20.6502" y="111.5808"/>
@@ -2810,8 +2800,6 @@ metal electrode face (MELF)</description>
 <vertex x="49.23" y="108.4156"/>
 <vertex x="20.6502" y="108.4156"/>
 </polygon>
-<contactref element="LED2" pad="C"/>
-<contactref element="LED1" pad="C"/>
 <contactref element="IC1" pad="7"/>
 <contactref element="D3" pad="A"/>
 <contactref element="R55" pad="1"/>
@@ -2828,23 +2816,56 @@ metal electrode face (MELF)</description>
 <wire x1="2.43" y1="22.4" x2="2.43" y2="23.36155" width="0.8" layer="16"/>
 <wire x1="2.43" y1="23.36155" x2="0.6" y2="25.19155" width="0.8" layer="16"/>
 <wire x1="0.6" y1="25.19155" x2="0.6" y2="74.85" width="0.8" layer="16"/>
-<wire x1="39.945" y1="82.0096" x2="62.9" y2="75.85" width="0" layer="19" extent="1-1"/>
-<wire x1="38.887" y1="93.1018" x2="39.945" y2="82.0096" width="0" layer="19" extent="1-1"/>
+<contactref element="R10" pad="1"/>
+<contactref element="R11" pad="1"/>
+<contactref element="J1" pad="S1"/>
+<contactref element="J1" pad="S2"/>
+<contactref element="J1" pad="S4"/>
+<contactref element="J1" pad="S3"/>
+<contactref element="IC3" pad="40"/>
+<contactref element="IC3" pad="41"/>
+<contactref element="IC3" pad="42"/>
+<contactref element="IC3" pad="43"/>
+<contactref element="IC3" pad="44"/>
+<contactref element="IC3" pad="45"/>
+<contactref element="IC3" pad="46"/>
+<contactref element="IC3" pad="47"/>
+<contactref element="IC3" pad="48"/>
+<contactref element="IC3" pad="49"/>
+<contactref element="IC3" pad="1"/>
+<contactref element="LED2" pad="VSS"/>
+<wire x1="40.012" y1="93.6818" x2="40.012" y2="97.8518" width="0" layer="19" extent="1-1"/>
+<wire x1="38.887" y1="93.1018" x2="40.012" y2="93.6818" width="0" layer="19" extent="1-1"/>
+<wire x1="39.9422" y1="90.778" x2="38.887" y2="93.1018" width="0" layer="19" extent="1-1"/>
 <wire x1="32.487" y1="93.1018" x2="38.887" y2="93.1018" width="0" layer="19" extent="1-1"/>
-<wire x1="25.6868" y1="97.0332" x2="32.487" y2="93.1018" width="0" layer="19" extent="1-1"/>
-<wire x1="23.7056" y1="95.7378" x2="25.6868" y2="97.0332" width="0" layer="19" extent="1-1"/>
-<wire x1="27.7604" y1="80.9706" x2="39.945" y2="82.0096" width="0" layer="19" extent="1-1"/>
-<wire x1="25.0484" y1="81.6056" x2="27.7604" y2="80.9706" width="0" layer="19" extent="1-1"/>
-<wire x1="25.0484" y1="80.3356" x2="25.0484" y2="81.6056" width="0" layer="19" extent="1-1"/>
-<wire x1="38.4808" y1="59.7388" x2="39.945" y2="82.0096" width="0" layer="19" extent="1-1"/>
+<wire x1="31.362" y1="93.6818" x2="32.487" y2="93.1018" width="0" layer="19" extent="1-1"/>
+<wire x1="31.362" y1="97.8518" x2="31.362" y2="93.6818" width="0" layer="19" extent="1-1"/>
+<wire x1="30.05" y1="98.2" x2="31.362" y2="97.8518" width="0" layer="19" extent="1-1"/>
+<wire x1="28.95" y1="98.2" x2="30.05" y2="98.2" width="0" layer="19" extent="1-1"/>
+<wire x1="26.2704" y1="91.8238" x2="31.362" y2="93.6818" width="0" layer="19" extent="1-1"/>
+<wire x1="23.47" y1="97.73" x2="28.95" y2="98.2" width="0" layer="19" extent="1-1"/>
+<wire x1="39.6962" y1="83.879" x2="39.9422" y2="90.778" width="0" layer="19" extent="1-1"/>
+<wire x1="41.8948" y1="80.5334" x2="39.6962" y2="83.879" width="0" layer="19" extent="1-1"/>
+<wire x1="36.4904" y1="80.945" x2="39.6962" y2="83.879" width="0" layer="19" extent="1-1"/>
+<wire x1="45.5884" y1="82.9688" x2="41.8948" y2="80.5334" width="0" layer="19" extent="1-1"/>
+<wire x1="19.3066" y1="91.4588" x2="26.2704" y2="91.8238" width="0" layer="19" extent="1-1"/>
+<wire x1="28.5056" y1="81.0516" x2="36.4904" y2="80.945" width="0" layer="19" extent="1-1"/>
+<wire x1="27.2356" y1="81.0516" x2="28.5056" y2="81.0516" width="0" layer="19" extent="1-1"/>
+<wire x1="27.8706" y1="78.3396" x2="28.5056" y2="81.0516" width="0" layer="19" extent="1-1"/>
+<wire x1="42.484" y1="72.4696" x2="41.8948" y2="80.5334" width="0" layer="19" extent="1-1"/>
+<wire x1="10.4566" y1="85.1388" x2="19.3066" y2="91.4588" width="0" layer="19" extent="1-1"/>
+<wire x1="9.0566" y1="85.1388" x2="10.4566" y2="85.1388" width="0" layer="19" extent="1-1"/>
+<wire x1="7.6566" y1="85.1388" x2="9.0566" y2="85.1388" width="0" layer="19" extent="1-1"/>
+<wire x1="10.4566" y1="83.7388" x2="10.4566" y2="85.1388" width="0" layer="19" extent="1-1"/>
+<wire x1="10.4566" y1="82.3388" x2="10.4566" y2="83.7388" width="0" layer="19" extent="1-1"/>
+<wire x1="9.0566" y1="83.7388" x2="9.0566" y2="85.1388" width="0" layer="19" extent="1-1"/>
+<wire x1="7.6566" y1="83.7388" x2="7.6566" y2="85.1388" width="0" layer="19" extent="1-1"/>
+<wire x1="7.6566" y1="82.3388" x2="7.6566" y2="83.7388" width="0" layer="19" extent="1-1"/>
+<wire x1="9.0566" y1="82.3388" x2="10.4566" y2="82.3388" width="0" layer="19" extent="1-1"/>
+<wire x1="1.8066" y1="91.4588" x2="7.6566" y2="85.1388" width="0" layer="19" extent="1-1"/>
+<wire x1="0.6" y1="74.85" x2="7.6566" y2="82.3388" width="0" layer="19" extent="1-16"/>
+<wire x1="38.4808" y1="59.7388" x2="42.484" y2="72.4696" width="0" layer="19" extent="1-1"/>
 <wire x1="45.2506" y1="50.654" x2="38.4808" y2="59.7388" width="0" layer="19" extent="1-1"/>
-<wire x1="0.6" y1="74.85" x2="25.0484" y2="80.3356" width="0" layer="19" extent="1-16"/>
-<wire x1="-18.016" y1="99.7696" x2="0.6" y2="74.85" width="0" layer="19" extent="1-16"/>
-<wire x1="-19.3116" y1="106.0688" x2="-18.016" y2="99.7696" width="0" layer="19" extent="1-1"/>
-<wire x1="-32.5552" y1="96.5334" x2="-18.016" y2="99.7696" width="0" layer="19" extent="1-1"/>
-<wire x1="-30.2796" y1="120.6738" x2="-19.3116" y2="106.0688" width="0" layer="19" extent="1-1"/>
-<wire x1="-33.0078" y1="118.778" x2="-30.2796" y2="120.6738" width="0" layer="19" extent="1-1"/>
-<wire x1="-45.171" y1="114.9538" x2="-33.0078" y2="118.778" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$202">
 </signal>
@@ -2918,24 +2939,6 @@ metal electrode face (MELF)</description>
 </signal>
 <signal name="N$238">
 </signal>
-<signal name="N$1">
-<contactref element="LED1" pad="A"/>
-<contactref element="R53" pad="1"/>
-<wire x1="28.6586" y1="93.9328" x2="23.7056" y2="97.2378" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$2">
-<contactref element="LED2" pad="A"/>
-<contactref element="R54" pad="1"/>
-<wire x1="25.509" y1="93.5772" x2="25.6868" y2="98.5332" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$4">
-<contactref element="LED4" pad="A"/>
-<contactref element="R56" pad="1"/>
-<wire x1="58.2406" y1="78.585" x2="61.4" y2="75.85" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$70">
-<contactref element="R53" pad="2"/>
-</signal>
 <signal name="VTEMP2">
 <contactref element="R58" pad="2"/>
 <contactref element="IC2" pad="28"/>
@@ -2987,21 +2990,19 @@ metal electrode face (MELF)</description>
 <wire x1="41.4518" y1="38.7076" x2="40.47995" y2="38.7076" width="0.2" layer="1"/>
 <wire x1="40.47995" y1="38.7076" x2="39.723" y2="39.46455" width="0.2" layer="1"/>
 <wire x1="39.723" y1="39.46455" x2="39.723" y2="40.6" width="0.2" layer="1"/>
+<contactref element="IC3" pad="21"/>
 <wire x1="39.723" y1="40.6" x2="45.2506" y2="60.814" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$30">
-<contactref element="R56" pad="2"/>
+<wire x1="11.1916" y1="73.6988" x2="45.2506" y2="60.814" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D3">
 <contactref element="JP1" pad="4"/>
 </signal>
-<signal name="N$124">
-<contactref element="R54" pad="2"/>
-</signal>
-<signal name="A0IN">
+<signal name="MODULEVOLTAGE">
 <contactref element="R15" pad="1"/>
 <contactref element="R16" pad="2"/>
+<contactref element="IC3" pad="29"/>
 <wire x1="39.7808" y1="59.7388" x2="39.8808" y2="64.4208" width="0" layer="19" extent="1-1"/>
+<wire x1="19.3066" y1="77.4888" x2="39.8808" y2="64.4208" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VREF2">
 <contactref element="C4" pad="1"/>
@@ -3799,6 +3800,10 @@ metal electrode face (MELF)</description>
 <wire x1="39.069" y1="39.16855" x2="39.069" y2="39.7" width="0.2" layer="1"/>
 <wire x1="41.4518" y1="37.7076" x2="40.52995" y2="37.7076" width="0.2" layer="1"/>
 <wire x1="40.52995" y1="37.7076" x2="39.069" y2="39.16855" width="0.2" layer="1"/>
+<contactref element="IC3" pad="8"/>
+<contactref element="IC3" pad="23"/>
+<wire x1="1.8066" y1="82.5688" x2="13.7316" y2="73.6988" width="0" layer="19" extent="1-1"/>
+<wire x1="39.069" y1="39.7" x2="13.7316" y2="73.6988" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="C1-">
 <contactref element="C25" pad="2"/>
@@ -3881,14 +3886,18 @@ metal electrode face (MELF)</description>
 <wire x1="41.4518" y1="35.2076" x2="41.4518" y2="35.7076" width="0.3" layer="1"/>
 <wire x1="41.4518" y1="35.7076" x2="42.7076" y2="35.7076" width="0.3" layer="1"/>
 <wire x1="42.7076" y1="35.7076" x2="43.75" y2="36.75" width="0.3" layer="1"/>
+<wire x1="46.171" y1="79.2012" x2="45.4618" y2="85.905" width="0" layer="19" extent="1-1"/>
+<wire x1="37.2646" y1="47.5942" x2="46.171" y2="79.2012" width="0" layer="19" extent="1-1"/>
 <wire x1="43.4" y1="36.75" x2="37.2646" y2="47.5942" width="0" layer="19" extent="1-1"/>
-<wire x1="-13.9882" y1="90.905" x2="37.2646" y2="47.5942" width="0" layer="19" extent="1-1"/>
-<wire x1="-34.829" y1="89.2512" x2="-13.9882" y2="90.905" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="5VINESP">
 <contactref element="D2" pad="C"/>
 <contactref element="JP1" pad="8"/>
-<wire x1="45.2506" y1="48.114" x2="-19.8044" y2="112.6908" width="0" layer="19" extent="1-1"/>
+<contactref element="J1" pad="A4_B9"/>
+<contactref element="J1" pad="B4_A9"/>
+<wire x1="38.087" y1="93.1018" x2="47.5908" y2="90.1544" width="0" layer="19" extent="1-1"/>
+<wire x1="33.287" y1="93.1018" x2="38.087" y2="93.1018" width="0" layer="19" extent="1-1"/>
+<wire x1="45.2506" y1="48.114" x2="47.5908" y2="90.1544" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+5V/1">
 <contactref element="D2" pad="A"/>
@@ -3898,21 +3907,21 @@ metal electrode face (MELF)</description>
 <contactref element="R6" pad="2"/>
 <contactref element="C21" pad="1"/>
 <contactref element="C24" pad="+"/>
-<wire x1="-16.8322" y1="90.905" x2="30.4724" y2="79.0656" width="0" layer="19" extent="1-1"/>
-<wire x1="-16.208" y1="101.6492" x2="-16.8322" y2="90.905" width="0" layer="19" extent="1-1"/>
-<wire x1="-21.2116" y1="106.0688" x2="-16.208" y2="101.6492" width="0" layer="19" extent="1-1"/>
-<wire x1="-19.8044" y1="108.5908" x2="-21.2116" y2="106.0688" width="0" layer="19" extent="1-1"/>
-<wire x1="-33.0078" y1="115.178" x2="-19.8044" y2="108.5908" width="0" layer="19" extent="1-1"/>
-<wire x1="-29.3044" y1="123.5948" x2="-33.0078" y2="115.178" width="0" layer="19" extent="1-1"/>
+<contactref element="LED2" pad="VDD"/>
+<wire x1="42.6178" y1="85.905" x2="43.4908" y2="90.1544" width="0" layer="19" extent="1-1"/>
+<wire x1="39.9422" y1="87.178" x2="42.6178" y2="85.905" width="0" layer="19" extent="1-1"/>
+<wire x1="43.6884" y1="82.9688" x2="42.6178" y2="85.905" width="0" layer="19" extent="1-1"/>
+<wire x1="36.3456" y1="89.0948" x2="39.9422" y2="87.178" width="0" layer="19" extent="1-1"/>
+<wire x1="43.8" y1="73.75" x2="43.6884" y2="82.9688" width="0" layer="19" extent="1-1"/>
+<wire x1="22.63" y1="98.97" x2="36.3456" y2="89.0948" width="0" layer="19" extent="1-1"/>
+<wire x1="25.9656" y1="75.6276" x2="36.3456" y2="89.0948" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="C12+POWER">
 <contactref element="R19" pad="2"/>
 <contactref element="JP2" pad="2"/>
 <wire x1="4.97" y1="43.4" x2="1.527" y2="46.843" width="0.8" layer="16"/>
 <wire x1="1.527" y1="46.843" x2="1.527" y2="75.23398125" width="0.8" layer="16"/>
-<wire x1="1.527" y1="75.23398125" x2="0.98398125" y2="75.777" width="0.8" layer="16"/>
-<wire x1="0.98398125" y1="75.777" x2="0.6" y2="75.777" width="0.8" layer="16"/>
-<wire x1="0.6" y1="75.777" x2="-36.6464" y2="116.555" width="0" layer="19" extent="1-16"/>
+<wire x1="1.527" y1="75.23398125" x2="22.895" y2="73.5536" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="GND2">
 <contactref element="C4" pad="2"/>
@@ -3955,33 +3964,33 @@ metal electrode face (MELF)</description>
 <wire x1="38.5424" y1="37.2076" x2="38.1" y2="37.65" width="0.2" layer="1"/>
 <contactref element="R4" pad="1"/>
 <contactref element="R8" pad="1"/>
-<wire x1="-34.829" y1="85.6512" x2="-32.5552" y2="95.2334" width="0" layer="19" extent="1-1"/>
-<wire x1="1.7778" y1="68.75" x2="-34.829" y2="85.6512" width="0" layer="19" extent="1-1"/>
-<wire x1="4.8" y1="66.9" x2="1.7778" y2="68.75" width="0" layer="19" extent="1-1"/>
-<wire x1="37.2646" y1="50.3942" x2="4.8" y2="66.9" width="0" layer="19" extent="1-1"/>
+<wire x1="41.8948" y1="79.2334" x2="46.171" y2="75.6012" width="0" layer="19" extent="1-1"/>
+<wire x1="37.2646" y1="50.3942" x2="46.171" y2="75.6012" width="0" layer="19" extent="1-1"/>
 <wire x1="41.4518" y1="32.2076" x2="44.85" y2="31.1" width="0" layer="19" extent="1-1"/>
 <wire x1="6" y1="10" x2="31.25" y2="3.2" width="0" layer="19" extent="1-1"/>
+<wire x1="4.8" y1="66.9" x2="37.2646" y2="50.3942" width="0" layer="19" extent="1-1"/>
+<wire x1="1.7778" y1="68.75" x2="4.8" y2="66.9" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$7">
 <contactref element="IC1" pad="5"/>
 <contactref element="D3" pad="C"/>
 <contactref element="L1" pad="P$1"/>
-<wire x1="-40.9228" y1="121.8622" x2="25.0484" y2="82.8756" width="0" layer="19" extent="1-1"/>
-<wire x1="-45.171" y1="119.0538" x2="-40.9228" y2="121.8622" width="0" layer="19" extent="1-1"/>
+<wire x1="29.7756" y1="81.0516" x2="35.5962" y2="83.879" width="0" layer="19" extent="1-1"/>
+<wire x1="28.2772" y1="84.2122" x2="29.7756" y2="81.0516" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$15">
 <contactref element="L1" pad="P$2"/>
 <contactref element="R5" pad="1"/>
 <contactref element="IC1" pad="2"/>
-<wire x1="-32.1484" y1="123.5948" x2="30.4724" y2="80.3356" width="0" layer="19" extent="1-1"/>
-<wire x1="-40.9228" y1="126.8622" x2="-32.1484" y2="123.5948" width="0" layer="19" extent="1-1"/>
+<wire x1="28.2772" y1="89.2122" x2="33.5016" y2="89.0948" width="0" layer="19" extent="1-1"/>
+<wire x1="27.2356" y1="75.6276" x2="28.2772" y2="89.2122" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$25">
 <contactref element="R6" pad="1"/>
 <contactref element="R55" pad="2"/>
 <contactref element="IC1" pad="8"/>
-<wire x1="-16.716" y1="99.7696" x2="25.0484" y2="79.0656" width="0" layer="19" extent="1-1"/>
-<wire x1="-17.508" y1="101.6492" x2="-16.716" y2="99.7696" width="0" layer="19" extent="1-1"/>
+<wire x1="43.784" y1="72.4696" x2="42.5" y2="73.75" width="0" layer="19" extent="1-1"/>
+<wire x1="25.9656" y1="81.0516" x2="42.5" y2="73.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$73">
 <contactref element="IC1" pad="4"/>
@@ -3989,20 +3998,15 @@ metal electrode face (MELF)</description>
 <contactref element="C18" pad="1"/>
 <contactref element="C26" pad="+"/>
 <contactref element="R19" pad="1"/>
-<wire x1="30.4724" y1="82.8756" x2="33.445" y2="82.0096" width="0" layer="19" extent="1-1"/>
-<wire x1="-16.8864" y1="121.2834" x2="30.4724" y2="82.8756" width="0" layer="19" extent="1-1"/>
-<wire x1="-31.5796" y1="120.6738" x2="-16.8864" y2="121.2834" width="0" layer="19" extent="1-1"/>
-<wire x1="-36.6464" y1="113.711" x2="-31.5796" y2="120.6738" width="0" layer="19" extent="1-1"/>
+<wire x1="29.7756" y1="75.6276" x2="24.9704" y2="91.8238" width="0" layer="19" extent="1-1"/>
+<wire x1="30.8364" y1="73.5666" x2="29.7756" y2="75.6276" width="0" layer="19" extent="1-1"/>
+<wire x1="25.739" y1="73.5536" x2="29.7756" y2="75.6276" width="0" layer="19" extent="1-1"/>
+<wire x1="36.4904" y1="74.445" x2="30.8364" y2="73.5666" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$6">
 <contactref element="IC1" pad="3"/>
 <contactref element="C27" pad="2"/>
-<wire x1="-14.0864" y1="121.2834" x2="30.4724" y2="81.6056" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="VBUS">
-<contactref element="J1" pad="A4_B9"/>
-<contactref element="J1" pad="B4_A9"/>
-<wire x1="33.287" y1="93.1018" x2="38.087" y2="93.1018" width="0" layer="19" extent="1-1"/>
+<wire x1="28.0364" y1="73.5666" x2="28.5056" y2="75.6276" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$18">
 <contactref element="R82" pad="2"/>
@@ -4666,6 +4670,125 @@ metal electrode face (MELF)</description>
 <wire x1="31.95" y1="18.15" x2="32.4206" y2="18.6206" width="0.2" layer="1"/>
 <wire x1="7.55" y1="17.75" x2="31.55" y2="17.75" width="0.2" layer="16"/>
 <wire x1="32.4206" y1="18.6206" x2="32.4206" y2="24.60815" width="0.2" layer="1"/>
+</signal>
+<signal name="N$8">
+<contactref element="J1" pad="A5"/>
+<contactref element="R10" pad="2"/>
+<wire x1="30.05" y1="96.9" x2="36.937" y2="93.1018" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$9">
+<contactref element="J1" pad="B5"/>
+<contactref element="R11" pad="2"/>
+<wire x1="28.95" y1="96.9" x2="33.937" y2="93.1018" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D+">
+<contactref element="J1" pad="A6"/>
+<contactref element="J1" pad="B6"/>
+<contactref element="IC3" pad="14"/>
+<wire x1="34.937" y1="93.1018" x2="35.937" y2="93.1018" width="0" layer="19" extent="1-1"/>
+<wire x1="1.8066" y1="74.9488" x2="34.937" y2="93.1018" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D-">
+<contactref element="J1" pad="A7"/>
+<contactref element="J1" pad="B7"/>
+<contactref element="IC3" pad="13"/>
+<wire x1="35.437" y1="93.1018" x2="36.437" y2="93.1018" width="0" layer="19" extent="1-1"/>
+<wire x1="1.8066" y1="76.2188" x2="35.437" y2="93.1018" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$11">
+<contactref element="IC3" pad="2"/>
+</signal>
+<signal name="N$12">
+<contactref element="IC3" pad="3"/>
+</signal>
+<signal name="N$13">
+<contactref element="IC3" pad="4"/>
+</signal>
+<signal name="N$14">
+<contactref element="IC3" pad="5"/>
+</signal>
+<signal name="N$16">
+<contactref element="IC3" pad="6"/>
+</signal>
+<signal name="N$17">
+<contactref element="IC3" pad="7"/>
+</signal>
+<signal name="LEDDATA">
+<contactref element="IC3" pad="9"/>
+<contactref element="LED2" pad="DIN"/>
+<wire x1="1.8066" y1="81.2988" x2="22.63" y2="97.73" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$26">
+<contactref element="IC3" pad="12"/>
+</signal>
+<signal name="N$29">
+<contactref element="IC3" pad="15"/>
+</signal>
+<signal name="N$31">
+<contactref element="IC3" pad="16"/>
+</signal>
+<signal name="N$32">
+<contactref element="IC3" pad="17"/>
+</signal>
+<signal name="N$33">
+<contactref element="IC3" pad="18"/>
+</signal>
+<signal name="N$34">
+<contactref element="IC3" pad="19"/>
+</signal>
+<signal name="SCLK">
+<contactref element="IC3" pad="22"/>
+</signal>
+<signal name="N$39">
+<contactref element="IC3" pad="24"/>
+</signal>
+<signal name="N$40">
+<contactref element="IC3" pad="25"/>
+</signal>
+<signal name="N$41">
+<contactref element="IC3" pad="26"/>
+</signal>
+<signal name="N$42">
+<contactref element="IC3" pad="27"/>
+</signal>
+<signal name="N$43">
+<contactref element="IC3" pad="28"/>
+</signal>
+<signal name="N$45">
+<contactref element="IC3" pad="30"/>
+</signal>
+<signal name="N$46">
+<contactref element="IC3" pad="31"/>
+</signal>
+<signal name="N$47">
+<contactref element="IC3" pad="32"/>
+</signal>
+<signal name="N$48">
+<contactref element="IC3" pad="33"/>
+</signal>
+<signal name="N$49">
+<contactref element="IC3" pad="34"/>
+</signal>
+<signal name="N$50">
+<contactref element="IC3" pad="35"/>
+</signal>
+<signal name="N$51">
+<contactref element="IC3" pad="36"/>
+</signal>
+<signal name="N$52">
+<contactref element="IC3" pad="37"/>
+</signal>
+<signal name="N$53">
+<contactref element="IC3" pad="38"/>
+</signal>
+<signal name="N$54">
+<contactref element="IC3" pad="39"/>
+</signal>
+<signal name="N$1">
+<contactref element="IC3" pad="10"/>
+</signal>
+<signal name="N$2">
+<contactref element="IC3" pad="11"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
