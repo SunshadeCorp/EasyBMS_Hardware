@@ -22462,6 +22462,10 @@ filled</description>
 <part name="JP13" library="pinhead_own" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2">
 <attribute name="LCSC" value="C3337950"/>
 </part>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="10k"/>
+<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="C13564"/>
+<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="10k"/>
+<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="C13564"/>
 </parts>
 <sheets>
 <sheet>
@@ -22480,6 +22484,8 @@ filled</description>
 <text x="195.58" y="703.58" size="1.778" layer="91">Pinheader für Display</text>
 <text x="33.02" y="744.22" size="1.778" layer="91">Microcontroller</text>
 <text x="-12.7" y="548.64" size="1.778" layer="91">LTC BMS Chip</text>
+<text x="-73.66" y="647.7" size="1.778" layer="91">Temperature PCB northern Balancer part</text>
+<text x="-121.92" y="647.7" size="1.778" layer="91">Temperature PCB southern Balancer part</text>
 </plain>
 <instances>
 <instance part="R15" gate="G$1" x="8.89" y="711.835" smashed="yes" rot="R90">
@@ -23099,6 +23105,22 @@ filled</description>
 <attribute name="VALUE" x="266.7" y="430.53" size="1.778" layer="96" rot="R90"/>
 <attribute name="LCSC" x="261.62" y="436.88" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
+<instance part="R3" gate="G$1" x="-60.96" y="627.38" smashed="yes" rot="R90">
+<attribute name="NAME" x="-62.4586" y="623.57" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-57.658" y="623.57" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R4" gate="G$1" x="-60.96" y="612.14" smashed="yes" rot="R90">
+<attribute name="NAME" x="-62.4586" y="608.33" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-57.658" y="608.33" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R7" gate="G$1" x="-99.06" y="627.38" smashed="yes" rot="R90">
+<attribute name="NAME" x="-100.5586" y="623.57" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-95.758" y="623.57" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R8" gate="G$1" x="-99.06" y="612.14" smashed="yes" rot="R90">
+<attribute name="NAME" x="-100.5586" y="608.33" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-95.758" y="608.33" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -23434,6 +23456,16 @@ filled</description>
 <pinref part="JP12" gate="G$1" pin="2"/>
 <wire x1="261.62" y1="444.5" x2="271.78" y2="444.5" width="0.1524" layer="91"/>
 <label x="266.7" y="444.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="-99.06" y1="632.46" x2="-99.06" y2="642.62" width="0.1524" layer="91"/>
+<label x="-101.6" y="642.62" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="-60.96" y1="632.46" x2="-60.96" y2="642.62" width="0.1524" layer="91"/>
+<label x="-63.5" y="642.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RESET" class="0">
@@ -23941,13 +23973,6 @@ filled</description>
 <label x="5.08" y="662.94" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="GPIO4" class="0">
-<segment>
-<label x="45.72" y="469.9" size="1.778" layer="95"/>
-<wire x1="48.26" y1="469.9" x2="10.16" y2="469.9" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="GPIO4"/>
-</segment>
-</net>
 <net name="GPIO5" class="0">
 <segment>
 <label x="45.72" y="472.44" size="1.778" layer="95"/>
@@ -23960,13 +23985,6 @@ filled</description>
 <wire x1="38.735" y1="53.975" x2="-19.05" y2="53.975" width="0.1524" layer="91"/>
 <label x="-22.86" y="55.88" size="1.778" layer="95"/>
 <label x="38.1" y="55.88" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="ISIGNAL" class="0">
-<segment>
-<label x="45.72" y="462.28" size="1.778" layer="95"/>
-<wire x1="48.26" y1="462.28" x2="10.16" y2="462.28" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="GPIO3"/>
 </segment>
 </net>
 <net name="V+" class="0">
@@ -24523,6 +24541,16 @@ filled</description>
 <wire x1="-457.2" y1="68.58" x2="-457.2" y2="66.04" width="0.1524" layer="91"/>
 <junction x="-457.2" y="66.04"/>
 </segment>
+<segment>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="-60.96" y1="607.06" x2="-60.96" y2="599.44" width="0.1524" layer="91"/>
+<label x="-63.5" y="596.9" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="-99.06" y1="607.06" x2="-99.06" y2="599.44" width="0.1524" layer="91"/>
+<label x="-101.6" y="596.9" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$7" class="0">
 <segment>
@@ -24850,6 +24878,48 @@ filled</description>
 <segment>
 <pinref part="JP8" gate="G$1" pin="2"/>
 <wire x1="261.62" y1="485.14" x2="271.78" y2="485.14" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="VTEMPNORTH" class="0">
+<segment>
+<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="-60.96" y1="617.22" x2="-60.96" y2="619.76" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="619.76" x2="-60.96" y2="622.3" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="619.76" x2="-45.72" y2="619.76" width="0.1524" layer="91"/>
+<junction x="-60.96" y="619.76"/>
+<label x="-55.88" y="622.3" size="1.778" layer="95"/>
+</segment>
+<segment>
+<label x="45.72" y="469.9" size="1.778" layer="95"/>
+<wire x1="48.26" y1="469.9" x2="10.16" y2="469.9" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="GPIO4"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<junction x="-60.96" y="619.76"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<junction x="-99.06" y="619.76"/>
+</segment>
+</net>
+<net name="VTEMPSOUTH" class="0">
+<segment>
+<pinref part="R8" gate="G$1" pin="2"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="-99.06" y1="617.22" x2="-99.06" y2="619.76" width="0.1524" layer="91"/>
+<wire x1="-99.06" y1="619.76" x2="-99.06" y2="622.3" width="0.1524" layer="91"/>
+<wire x1="-99.06" y1="619.76" x2="-83.82" y2="619.76" width="0.1524" layer="91"/>
+<junction x="-99.06" y="619.76"/>
+<label x="-93.98" y="622.3" size="1.778" layer="95"/>
+</segment>
+<segment>
+<label x="45.72" y="462.28" size="1.778" layer="95"/>
+<wire x1="48.26" y1="462.28" x2="10.16" y2="462.28" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="GPIO3"/>
 </segment>
 </net>
 </nets>
