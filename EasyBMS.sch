@@ -20490,7 +20490,7 @@ Input voltage:  VI -0.5V..VDD+0.5V</description>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="10k"/>
 <part name="R55" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="3k3"/>
 <part name="C27" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="1uF"/>
-<part name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="100n"/>
+<part name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="100nF"/>
 <part name="C26" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="140CLH-0810" package3d_urn="urn:adsk.eagle:package:23392/1">
 <spice>
 <pinmapping spiceprefix="C">
@@ -20811,9 +20811,9 @@ Input voltage:  VI -0.5V..VDD+0.5V</description>
 <attribute name="VALUE" x="112.903" y="287.5026" size="1.778" layer="96"/>
 <attribute name="LCSC" x="115.57" y="289.56" size="1.778" layer="96"/>
 </instance>
-<instance part="C21" gate="G$1" x="129.54" y="292.1" smashed="yes">
-<attribute name="NAME" x="131.064" y="292.481" size="1.778" layer="95"/>
-<attribute name="VALUE" x="131.064" y="287.401" size="1.778" layer="96"/>
+<instance part="C21" gate="G$1" x="-55.88" y="292.1" smashed="yes">
+<attribute name="NAME" x="-54.356" y="292.481" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-54.356" y="287.401" size="1.778" layer="96"/>
 </instance>
 <instance part="R6" gate="G$1" x="144.78" y="297.18" smashed="yes" rot="R90">
 <attribute name="NAME" x="143.2814" y="293.37" size="1.778" layer="95" rot="R90"/>
@@ -20827,9 +20827,9 @@ Input voltage:  VI -0.5V..VDD+0.5V</description>
 <attribute name="NAME" x="-21.336" y="297.561" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-21.336" y="292.481" size="1.778" layer="96"/>
 </instance>
-<instance part="C18" gate="G$1" x="-55.88" y="292.1" smashed="yes">
-<attribute name="NAME" x="-54.356" y="292.481" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-54.356" y="287.401" size="1.778" layer="96"/>
+<instance part="C18" gate="G$1" x="99.06" y="292.1" smashed="yes">
+<attribute name="NAME" x="100.584" y="292.481" size="1.778" layer="95"/>
+<attribute name="VALUE" x="100.584" y="287.401" size="1.778" layer="96"/>
 </instance>
 <instance part="C26" gate="G$1" x="-43.18" y="292.1" smashed="yes">
 <attribute name="NAME" x="-42.037" y="292.5826" size="1.778" layer="95"/>
@@ -21343,30 +21343,24 @@ Input voltage:  VI -0.5V..VDD+0.5V</description>
 <wire x1="20.32" y1="276.86" x2="50.8" y2="276.86" width="0.1524" layer="91"/>
 <junction x="20.32" y="276.86"/>
 <pinref part="D3" gate="G$1" pin="A"/>
-<wire x1="50.8" y1="276.86" x2="111.76" y2="276.86" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="276.86" x2="129.54" y2="276.86" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="276.86" x2="144.78" y2="276.86" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="276.86" x2="99.06" y2="276.86" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="276.86" x2="111.76" y2="276.86" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="276.86" x2="144.78" y2="276.86" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="276.86" x2="160.02" y2="276.86" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="287.02" x2="50.8" y2="276.86" width="0.1524" layer="91"/>
 <junction x="50.8" y="276.86"/>
 <pinref part="R55" gate="G$1" pin="1"/>
 <wire x1="144.78" y1="279.4" x2="144.78" y2="276.86" width="0.1524" layer="91"/>
 <junction x="144.78" y="276.86"/>
-<pinref part="C21" gate="G$1" pin="2"/>
-<wire x1="129.54" y1="287.02" x2="129.54" y2="276.86" width="0.1524" layer="91"/>
-<junction x="129.54" y="276.86"/>
 <pinref part="C24" gate="G$1" pin="-"/>
 <wire x1="111.76" y1="287.02" x2="111.76" y2="276.86" width="0.1524" layer="91"/>
 <junction x="111.76" y="276.86"/>
 <wire x1="20.32" y1="276.86" x2="15.24" y2="276.86" width="0.1524" layer="91"/>
-<pinref part="C18" gate="G$1" pin="2"/>
 <wire x1="15.24" y1="276.86" x2="10.16" y2="276.86" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="276.86" x2="-43.18" y2="276.86" width="0.1524" layer="91"/>
 <wire x1="-43.18" y1="276.86" x2="-55.88" y2="276.86" width="0.1524" layer="91"/>
-<wire x1="-55.88" y1="276.86" x2="-68.58" y2="276.86" width="0.1524" layer="91"/>
-<wire x1="-55.88" y1="287.02" x2="-55.88" y2="276.86" width="0.1524" layer="91"/>
-<junction x="-55.88" y="276.86"/>
 <pinref part="C26" gate="G$1" pin="-"/>
+<wire x1="-55.88" y1="276.86" x2="-68.58" y2="276.86" width="0.1524" layer="91"/>
 <wire x1="-43.18" y1="287.02" x2="-43.18" y2="276.86" width="0.1524" layer="91"/>
 <junction x="-43.18" y="276.86"/>
 <pinref part="IC1" gate="G$1" pin="EP"/>
@@ -21375,6 +21369,12 @@ Input voltage:  VI -0.5V..VDD+0.5V</description>
 <pinref part="IC1" gate="G$1" pin="EN"/>
 <wire x1="10.16" y1="284.48" x2="10.16" y2="276.86" width="0.1524" layer="91"/>
 <junction x="10.16" y="276.86"/>
+<pinref part="C21" gate="G$1" pin="2"/>
+<wire x1="-55.88" y1="287.02" x2="-55.88" y2="276.86" width="0.1524" layer="91"/>
+<junction x="-55.88" y="276.86"/>
+<pinref part="C18" gate="G$1" pin="2"/>
+<wire x1="99.06" y1="287.02" x2="99.06" y2="276.86" width="0.1524" layer="91"/>
+<junction x="99.06" y="276.86"/>
 </segment>
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
@@ -22604,8 +22604,7 @@ Input voltage:  VI -0.5V..VDD+0.5V</description>
 <wire x1="95.885" y1="304.8" x2="99.06" y2="304.8" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="99.06" y1="304.8" x2="111.76" y2="304.8" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="304.8" x2="129.54" y2="304.8" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="304.8" x2="144.78" y2="304.8" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="304.8" x2="144.78" y2="304.8" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="304.8" x2="152.4" y2="304.8" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="304.8" x2="159.385" y2="304.8" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="304.8" x2="99.06" y2="325.12" width="0.1524" layer="91"/>
@@ -22619,12 +22618,11 @@ Input voltage:  VI -0.5V..VDD+0.5V</description>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="144.78" y1="302.26" x2="144.78" y2="304.8" width="0.1524" layer="91"/>
 <junction x="144.78" y="304.8"/>
-<pinref part="C21" gate="G$1" pin="1"/>
-<wire x1="129.54" y1="294.64" x2="129.54" y2="304.8" width="0.1524" layer="91"/>
-<junction x="129.54" y="304.8"/>
 <pinref part="C24" gate="G$1" pin="+"/>
 <wire x1="111.76" y1="294.64" x2="111.76" y2="304.8" width="0.1524" layer="91"/>
 <junction x="111.76" y="304.8"/>
+<pinref part="C18" gate="G$1" pin="1"/>
+<wire x1="99.06" y1="294.64" x2="99.06" y2="304.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="LED2" gate="G$1" pin="VDD"/>
@@ -22773,13 +22771,13 @@ Input voltage:  VI -0.5V..VDD+0.5V</description>
 <wire x1="-55.88" y1="304.8" x2="-68.58" y2="304.8" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="299.72" x2="-22.86" y2="304.8" width="0.1524" layer="91"/>
 <junction x="-22.86" y="304.8"/>
-<pinref part="C18" gate="G$1" pin="1"/>
-<wire x1="-55.88" y1="294.64" x2="-55.88" y2="304.8" width="0.1524" layer="91"/>
-<junction x="-55.88" y="304.8"/>
 <pinref part="C26" gate="G$1" pin="+"/>
 <wire x1="-43.18" y1="294.64" x2="-43.18" y2="304.8" width="0.1524" layer="91"/>
 <junction x="-43.18" y="304.8"/>
 <pinref part="R19" gate="G$1" pin="1"/>
+<pinref part="C21" gate="G$1" pin="1"/>
+<wire x1="-55.88" y1="294.64" x2="-55.88" y2="304.8" width="0.1524" layer="91"/>
+<junction x="-55.88" y="304.8"/>
 </segment>
 </net>
 <net name="N$6" class="0">
