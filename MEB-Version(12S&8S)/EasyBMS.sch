@@ -23455,6 +23455,437 @@ Source: &lt;a href="https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-1
 </deviceset>
 </devicesets>
 </library>
+<library name="Diode" urn="urn:adsk.eagle:library:16378169">
+<description>&lt;B&gt;PN Junction, BridgeRectifier, Zener, Schottky, Switching</description>
+<packages>
+<package name="DIOMELF3516" urn="urn:adsk.eagle:footprint:16378178/3" library_version="18">
+<description>MELF, 3.50 mm length, 1.65 mm diameter
+&lt;p&gt;MELF Diode package with 3.50 mm length and 1.65 mm diameter&lt;/p&gt;</description>
+<wire x1="0.983" y1="1.239" x2="-2.5717" y2="1.239" width="0.12" layer="21"/>
+<wire x1="-2.5717" y1="1.239" x2="-2.5717" y2="-1.239" width="0.12" layer="21"/>
+<wire x1="-2.5717" y1="-1.239" x2="0.983" y2="-1.239" width="0.12" layer="21"/>
+<wire x1="1.85" y1="-0.85" x2="-1.85" y2="-0.85" width="0.12" layer="51"/>
+<wire x1="-1.85" y1="-0.85" x2="-1.85" y2="0.85" width="0.12" layer="51"/>
+<wire x1="-1.85" y1="0.85" x2="1.85" y2="0.85" width="0.12" layer="51"/>
+<wire x1="1.85" y1="0.85" x2="1.85" y2="-0.85" width="0.12" layer="51"/>
+<smd name="1" x="-1.6203" y="0" dx="1.2747" dy="1.85" layer="1"/>
+<smd name="2" x="1.6203" y="0" dx="1.2747" dy="1.85" layer="1"/>
+<text x="0" y="1.874" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.874" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="SOD3715X135" urn="urn:adsk.eagle:footprint:9427064/1" library_version="18">
+<description>SOD, 3.70 mm span, 2.70 X 1.55 X 1.35 mm body
+&lt;p&gt;SOD package with 3.70 mm span with body size 2.70 X 1.55 X 1.35 mm&lt;/p&gt;</description>
+<wire x1="1.425" y1="0.85" x2="-2.5991" y2="0.85" width="0.12" layer="21"/>
+<wire x1="-2.5991" y1="0.85" x2="-2.5991" y2="-0.85" width="0.12" layer="21"/>
+<wire x1="-2.5991" y1="-0.85" x2="1.425" y2="-0.85" width="0.12" layer="21"/>
+<wire x1="1.425" y1="-0.85" x2="-1.425" y2="-0.85" width="0.12" layer="51"/>
+<wire x1="-1.425" y1="-0.85" x2="-1.425" y2="0.85" width="0.12" layer="51"/>
+<wire x1="-1.425" y1="0.85" x2="1.425" y2="0.85" width="0.12" layer="51"/>
+<wire x1="1.425" y1="0.85" x2="1.425" y2="-0.85" width="0.12" layer="51"/>
+<smd name="1" x="-1.7215" y="0" dx="1.1272" dy="0.7839" layer="1"/>
+<smd name="2" x="1.7215" y="0" dx="1.1272" dy="0.7839" layer="1"/>
+<text x="0" y="1.485" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.485" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="DIOM5226X290N" urn="urn:adsk.eagle:footprint:16378179/3" library_version="18">
+<description>Molded Body, 5.20 X 2.60 X 2.90 mm body
+&lt;p&gt;Molded Body package with body size 5.20 X 2.60 X 2.90 mm&lt;/p&gt;</description>
+<wire x1="2.8" y1="1.475" x2="-3.6179" y2="1.475" width="0.12" layer="21"/>
+<wire x1="-3.6179" y1="1.475" x2="-3.6179" y2="-1.475" width="0.12" layer="21"/>
+<wire x1="-3.6179" y1="-1.475" x2="2.8" y2="-1.475" width="0.12" layer="21"/>
+<wire x1="2.8" y1="-1.475" x2="-2.8" y2="-1.475" width="0.12" layer="51"/>
+<wire x1="-2.8" y1="-1.475" x2="-2.8" y2="1.475" width="0.12" layer="51"/>
+<wire x1="-2.8" y1="1.475" x2="2.8" y2="1.475" width="0.12" layer="51"/>
+<wire x1="2.8" y1="1.475" x2="2.8" y2="-1.475" width="0.12" layer="51"/>
+<smd name="1" x="-2.1079" y="0" dx="2.392" dy="1.5653" layer="1"/>
+<smd name="2" x="2.1079" y="0" dx="2.392" dy="1.5653" layer="1"/>
+<text x="0" y="2.11" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.11" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="DIOMELF3516L" urn="urn:adsk.eagle:package:16378190/4" type="model" library_version="18">
+<description>MELF, 3.50 mm length, 1.65 mm diameter
+&lt;p&gt;MELF Diode package with 3.50 mm length and 1.65 mm diameter&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="DIOMELF3516"/>
+</packageinstances>
+</package3d>
+<package3d name="SOD3715X135" urn="urn:adsk.eagle:package:9427058/2" type="model" library_version="18">
+<description>SOD, 3.70 mm span, 2.70 X 1.55 X 1.35 mm body
+&lt;p&gt;SOD package with 3.70 mm span with body size 2.70 X 1.55 X 1.35 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOD3715X135"/>
+</packageinstances>
+</package3d>
+<package3d name="DIOM5226X290N" urn="urn:adsk.eagle:package:16378188/3" type="model" library_version="18">
+<description>Molded Body, 5.20 X 2.60 X 2.90 mm body
+&lt;p&gt;Molded Body package with body size 5.20 X 2.60 X 2.90 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="DIOM5226X290N"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="DIODE" urn="urn:adsk.eagle:symbol:16378170/3" library_version="18">
+<description>Diode</description>
+<pin name="A" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="C" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<text x="0" y="5.08" size="1.778" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="-5.08" size="1.778" layer="96" align="center">&gt;VALUE</text>
+<text x="0" y="-7.62" size="1.778" layer="95" align="center">&gt;SPICEMODEL</text>
+<text x="0" y="-10.16" size="1.778" layer="95" align="center">&gt;SPICEEXTRA</text>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="DIODE_" urn="urn:adsk.eagle:component:16378192/10" prefix="D" library_version="18">
+<description>&lt;B&gt;Diode Rectifier - Popular parts</description>
+<gates>
+<gate name="G$1" symbol="DIODE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_SOD-80" package="DIOMELF3516">
+<connects>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="C" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378190/4"/>
+</package3dinstances>
+<technologies>
+<technology name="LL4148">
+<attribute name="CATEGORY" value="Diode" constant="no"/>
+<attribute name="DATASHEET" value="https://www.onsemi.com/download/data-sheet/pdf/ll4148-d.pdf" constant="no"/>
+<attribute name="DESCRIPTION" value="Diode 100V 200mA Surface Mount DO-213AA (SOD-80 or MiniMELF)" constant="no"/>
+<attribute name="FORWARD_CURRENT" value="10mA" constant="no"/>
+<attribute name="FORWARD_VOLTAGE" value="1V" constant="no"/>
+<attribute name="MANUFACTURER" value="onsemi" constant="no"/>
+<attribute name="MPN" value="LL4148" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55°C ~ 175°C" constant="no"/>
+<attribute name="PACKAGE_SIZE" value="SOD-80" constant="no"/>
+<attribute name="PACKAGE_TYPE" value="SMD" constant="no"/>
+<attribute name="PART_STATUS" value="ACTIVE" constant="no"/>
+<attribute name="REVERSE_VOLTAGE" value="100V" constant="no"/>
+<attribute name="ROHS" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="LL4148" constant="no"/>
+<attribute name="SUBCATEGORY" value="Rectifiers" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TYPE" value="Small Signal Switching Diodes" constant="no"/>
+<attribute name="ZENER_VOLTAGE" value="NA" constant="no"/>
+</technology>
+<technology name="LL4148-GS08">
+<attribute name="CATEGORY" value="Diode" constant="no"/>
+<attribute name="DATASHEET" value="https://www.vishay.com/docs/85557/ll4148.pdf" constant="no"/>
+<attribute name="DESCRIPTION" value="Diode 75 V 300mA Surface Mount DO-213AA (SOD-80 or MiniMELF)" constant="no"/>
+<attribute name="FORWARD_CURRENT" value="50mA" constant="no"/>
+<attribute name="FORWARD_VOLTAGE" value="1V" constant="no"/>
+<attribute name="MANUFACTURER" value="Vishay General Semiconductor - Diodes Division" constant="no"/>
+<attribute name="MPN" value="LL4148-GS08" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-65°C ~ 175°C" constant="no"/>
+<attribute name="PACKAGE_SIZE" value="SOD-80" constant="no"/>
+<attribute name="PACKAGE_TYPE" value="SMD" constant="no"/>
+<attribute name="PART_STATUS" value="ACTIVE" constant="no"/>
+<attribute name="REVERSE_VOLTAGE" value="75V" constant="no"/>
+<attribute name="ROHS" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="NA" constant="no"/>
+<attribute name="SUBCATEGORY" value="Rectifiers" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TYPE" value="Small Signal Switching Diodes" constant="no"/>
+<attribute name="ZENER_VOLTAGE" value="NA" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_SOD123G" package="SOD3715X135">
+<connects>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="C" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:9427058/2"/>
+</package3dinstances>
+<technologies>
+<technology name="1N4148W-7-F">
+<attribute name="CATEGORY" value="Diode" constant="no"/>
+<attribute name="DATASHEET" value="https://www.diodes.com/datasheet/download/1N4148W.pdf" constant="no"/>
+<attribute name="DESCRIPTION" value="Diode 100 V 300mA Surface Mount SOD-123" constant="no"/>
+<attribute name="FORWARD_CURRENT" value="150mA" constant="no"/>
+<attribute name="FORWARD_VOLTAGE" value="1.25V" constant="no"/>
+<attribute name="MANUFACTURER" value="Diodes Incorporated" constant="no"/>
+<attribute name="MPN" value="1N4148W-7-F" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55°C ~ 150°C" constant="no"/>
+<attribute name="PACKAGE_SIZE" value="SOD-123" constant="no"/>
+<attribute name="PACKAGE_TYPE" value="SMD" constant="no"/>
+<attribute name="PART_STATUS" value="ACTIVE" constant="no"/>
+<attribute name="REVERSE_VOLTAGE" value="100V" constant="no"/>
+<attribute name="ROHS" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="1N4148" constant="no"/>
+<attribute name="SUBCATEGORY" value="Rectifiers" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TYPE" value="Small Signal Switching Diodes" constant="no"/>
+<attribute name="ZENER_VOLTAGE" value="NA" constant="no"/>
+</technology>
+<technology name="1N4148W-TP">
+<attribute name="CATEGORY" value="Diode" constant="no"/>
+<attribute name="DATASHEET" value="https://www.mccsemi.com/pdf/products/1N4148W(SOD-123).pdf" constant="no"/>
+<attribute name="DESCRIPTION" value="Diode 100 V 150mA Surface Mount SOD-123" constant="no"/>
+<attribute name="FORWARD_CURRENT" value="150mA" constant="no"/>
+<attribute name="FORWARD_VOLTAGE" value="1.25V" constant="no"/>
+<attribute name="MANUFACTURER" value="Micro Commercial Co" constant="no"/>
+<attribute name="MPN" value="1N4148W-TP" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-65°C ~ 150°C" constant="no"/>
+<attribute name="PACKAGE_SIZE" value="SOD-123" constant="no"/>
+<attribute name="PACKAGE_TYPE" value="SMD" constant="no"/>
+<attribute name="PART_STATUS" value="ACTIVE" constant="no"/>
+<attribute name="REVERSE_VOLTAGE" value="100V" constant="no"/>
+<attribute name="ROHS" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="1N4148" constant="no"/>
+<attribute name="SUBCATEGORY" value="Rectifiers" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TYPE" value="Small Signal Switching Diodes" constant="no"/>
+<attribute name="ZENER_VOLTAGE" value="NA" constant="no"/>
+</technology>
+<technology name="1N4448W-TP">
+<attribute name="CATEGORY" value="Diode" constant="no"/>
+<attribute name="DATASHEET" value="https://www.mccsemi.com/pdf/products/1N4448W(SOD-123).pdf" constant="no"/>
+<attribute name="DESCRIPTION" value="Diode 75 V 250mA Surface Mount SOD-123" constant="no"/>
+<attribute name="FORWARD_CURRENT" value="100mA" constant="no"/>
+<attribute name="FORWARD_VOLTAGE" value="1V" constant="no"/>
+<attribute name="MANUFACTURER" value="Micro Commercial Co" constant="no"/>
+<attribute name="MPN" value="1N4448W-TP" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55°C ~ 150°C" constant="no"/>
+<attribute name="PACKAGE_SIZE" value="SOD-123" constant="no"/>
+<attribute name="PACKAGE_TYPE" value="SMD" constant="no"/>
+<attribute name="PART_STATUS" value="ACTIVE" constant="no"/>
+<attribute name="REVERSE_VOLTAGE" value="75V" constant="no"/>
+<attribute name="ROHS" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="1N4148" constant="no"/>
+<attribute name="SUBCATEGORY" value="Rectifiers" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TYPE" value="Small Signal Switching Diodes" constant="no"/>
+<attribute name="ZENER_VOLTAGE" value="NA" constant="no"/>
+</technology>
+<technology name="MMSD4148T1G">
+<attribute name="CATEGORY" value="Diode" constant="no"/>
+<attribute name="DATASHEET" value="https://www.onsemi.com/download/data-sheet/pdf/mmsd4148t1-d.pdf" constant="no"/>
+<attribute name="DESCRIPTION" value="Diode 100 V 200mA Surface Mount SOD-123" constant="no"/>
+<attribute name="FORWARD_CURRENT" value="10mA" constant="no"/>
+<attribute name="FORWARD_VOLTAGE" value="1V" constant="no"/>
+<attribute name="MANUFACTURER" value="onsemi" constant="no"/>
+<attribute name="MPN" value="MMSD4148T1G" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55°C ~ 150°C" constant="no"/>
+<attribute name="PACKAGE_SIZE" value="SOD-123" constant="no"/>
+<attribute name="PACKAGE_TYPE" value="SMD" constant="no"/>
+<attribute name="PART_STATUS" value="ACTIVE" constant="no"/>
+<attribute name="REVERSE_VOLTAGE" value="100V" constant="no"/>
+<attribute name="ROHS" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="MMSD4148" constant="no"/>
+<attribute name="SUBCATEGORY" value="Rectifiers" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TYPE" value="Small Signal Switching Diodes" constant="no"/>
+<attribute name="ZENER_VOLTAGE" value="NA" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_SMA" package="DIOM5226X290N">
+<connects>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="C" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378188/3"/>
+</package3dinstances>
+<technologies>
+<technology name="ES1D">
+<attribute name="CATEGORY" value="Diode" constant="no"/>
+<attribute name="DATASHEET" value="https://www.onsemi.com/download/data-sheet/pdf/es1d-d.pdf" constant="no"/>
+<attribute name="DESCRIPTION" value="Diode 200 V 1A Surface Mount DO-214AC (SMA)" constant="no"/>
+<attribute name="FORWARD_CURRENT" value="1A" constant="no"/>
+<attribute name="FORWARD_VOLTAGE" value="920mV" constant="no"/>
+<attribute name="MANUFACTURER" value="onsemi" constant="no"/>
+<attribute name="MPN" value="ES1D" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55°C ~ 150°C" constant="no"/>
+<attribute name="PACKAGE_SIZE" value="SMA" constant="no"/>
+<attribute name="PACKAGE_TYPE" value="SMD" constant="no"/>
+<attribute name="PART_STATUS" value="ACTIVE" constant="no"/>
+<attribute name="REVERSE_VOLTAGE" value="200V" constant="no"/>
+<attribute name="ROHS" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="ES1D" constant="no"/>
+<attribute name="SUBCATEGORY" value="Rectifiers" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TYPE" value="Ultra Fast Recovery Rectifiers" constant="no"/>
+<attribute name="ZENER_VOLTAGE" value="NA" constant="no"/>
+</technology>
+<technology name="ES1G-13-F">
+<attribute name="CATEGORY" value="Diode" constant="no"/>
+<attribute name="DATASHEET" value="https://www.diodes.com/datasheet/download/ES1G.pdf" constant="no"/>
+<attribute name="DESCRIPTION" value="Diode 400 V 1A Surface Mount DO-214AC (SMA)" constant="no"/>
+<attribute name="FORWARD_CURRENT" value="1A" constant="no"/>
+<attribute name="FORWARD_VOLTAGE" value="1.25V" constant="no"/>
+<attribute name="MANUFACTURER" value="Diodes Incorporated" constant="no"/>
+<attribute name="MPN" value="ES1G-13-F" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55°C ~ 150°C" constant="no"/>
+<attribute name="PACKAGE_SIZE" value="SMA" constant="no"/>
+<attribute name="PACKAGE_TYPE" value="SMD" constant="no"/>
+<attribute name="PART_STATUS" value="ACTIVE" constant="no"/>
+<attribute name="REVERSE_VOLTAGE" value="400V" constant="no"/>
+<attribute name="ROHS" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="ES1G" constant="no"/>
+<attribute name="SUBCATEGORY" value="Rectifiers" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TYPE" value="Fast Recovery Rectifiers" constant="no"/>
+<attribute name="ZENER_VOLTAGE" value="NA" constant="no"/>
+</technology>
+<technology name="MRA4003T3G">
+<attribute name="CATEGORY" value="Diode" constant="no"/>
+<attribute name="DATASHEET" value="https://www.onsemi.com/download/data-sheet/pdf/mra4003t3-d.pdf" constant="no"/>
+<attribute name="DESCRIPTION" value="Diode 300 V 1A Surface Mount DO-214AC (SMA)" constant="no"/>
+<attribute name="FORWARD_CURRENT" value="1A" constant="no"/>
+<attribute name="FORWARD_VOLTAGE" value="1.1V" constant="no"/>
+<attribute name="MANUFACTURER" value="onsemi" constant="no"/>
+<attribute name="MPN" value="MRA4003T3G" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55°C ~ 150°C" constant="no"/>
+<attribute name="PACKAGE_SIZE" value="SMA" constant="no"/>
+<attribute name="PACKAGE_TYPE" value="SMD" constant="no"/>
+<attribute name="PART_STATUS" value="ACTIVE" constant="no"/>
+<attribute name="REVERSE_VOLTAGE" value="300V" constant="no"/>
+<attribute name="ROHS" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="MRA4003T3" constant="no"/>
+<attribute name="SUBCATEGORY" value="Rectifiers" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TYPE" value="Standard Recovery Rectifier" constant="no"/>
+<attribute name="ZENER_VOLTAGE" value="NA" constant="no"/>
+</technology>
+<technology name="MRA4007T3G">
+<attribute name="CATEGORY" value="Diode" constant="no"/>
+<attribute name="DATASHEET" value="https://www.onsemi.com/download/data-sheet/pdf/mra4003t3-d.pdf" constant="no"/>
+<attribute name="DESCRIPTION" value="Diode 1000 V 1A Surface Mount DO-214AC (SMA)" constant="no"/>
+<attribute name="FORWARD_CURRENT" value="1A" constant="no"/>
+<attribute name="FORWARD_VOLTAGE" value="1.1V" constant="no"/>
+<attribute name="MANUFACTURER" value="onsemi" constant="no"/>
+<attribute name="MPN" value="MRA4007T3G" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55°C ~ 150°C" constant="no"/>
+<attribute name="PACKAGE_SIZE" value="SMA" constant="no"/>
+<attribute name="PACKAGE_TYPE" value="SMD" constant="no"/>
+<attribute name="PART_STATUS" value="ACTIVE" constant="no"/>
+<attribute name="REVERSE_VOLTAGE" value="1000V" constant="no"/>
+<attribute name="ROHS" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="MRA4007" constant="no"/>
+<attribute name="SUBCATEGORY" value="Rectifiers" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TYPE" value="Standard Recovery Rectifier" constant="no"/>
+<attribute name="ZENER_VOLTAGE" value="NA" constant="no"/>
+</technology>
+<technology name="RS1G-13-F">
+<attribute name="CATEGORY" value="Diode" constant="no"/>
+<attribute name="DATASHEET" value="https://www.diodes.com/datasheet/download/RS1G.pdf" constant="no"/>
+<attribute name="DESCRIPTION" value="Diode 400 V 1A Surface Mount DO-214AC (SMA)" constant="no"/>
+<attribute name="FORWARD_CURRENT" value="1A" constant="no"/>
+<attribute name="FORWARD_VOLTAGE" value="1.3V" constant="no"/>
+<attribute name="MANUFACTURER" value="Diodes Incorporated" constant="no"/>
+<attribute name="MPN" value="RS1G-13-F" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-65°C ~ 150°C" constant="no"/>
+<attribute name="PACKAGE_SIZE" value="SMA" constant="no"/>
+<attribute name="PACKAGE_TYPE" value="SMD" constant="no"/>
+<attribute name="PART_STATUS" value="ACTIVE" constant="no"/>
+<attribute name="REVERSE_VOLTAGE" value="400V" constant="no"/>
+<attribute name="ROHS" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="RS1G" constant="no"/>
+<attribute name="SUBCATEGORY" value="Rectifiers" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TYPE" value="Fast Recovery Rectifiers" constant="no"/>
+<attribute name="ZENER_VOLTAGE" value="NA" constant="no"/>
+</technology>
+<technology name="RS1M">
+<attribute name="CATEGORY" value="Diode" constant="no"/>
+<attribute name="DATASHEET" value="https://www.onsemi.com/download/data-sheet/pdf/rs1m-d.pdf" constant="no"/>
+<attribute name="DESCRIPTION" value="Diode 1000 V 1A Surface Mount DO-214AC (SMA)" constant="no"/>
+<attribute name="FORWARD_CURRENT" value="1A" constant="no"/>
+<attribute name="FORWARD_VOLTAGE" value="1.3V" constant="no"/>
+<attribute name="MANUFACTURER" value="onsemi" constant="no"/>
+<attribute name="MPN" value="RS1M" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55°C ~ 150°C" constant="no"/>
+<attribute name="PACKAGE_SIZE" value="SMA" constant="no"/>
+<attribute name="PACKAGE_TYPE" value="SMD" constant="no"/>
+<attribute name="PART_STATUS" value="ACTIVE" constant="no"/>
+<attribute name="REVERSE_VOLTAGE" value="1000V" constant="no"/>
+<attribute name="ROHS" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="RS1" constant="no"/>
+<attribute name="SUBCATEGORY" value="Rectifiers" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TYPE" value="Fast Recovery Rectifiers" constant="no"/>
+<attribute name="ZENER_VOLTAGE" value="NA" constant="no"/>
+</technology>
+<technology name="SS16">
+<attribute name="CATEGORY" value="Diode" constant="no"/>
+<attribute name="DATASHEET" value="https://www.onsemi.com/download/data-sheet/pdf/ss16-d.pdf" constant="no"/>
+<attribute name="DESCRIPTION" value="Diode 60 V 1A Surface Mount DO-214AC (SMA)" constant="no"/>
+<attribute name="FORWARD_CURRENT" value="1A" constant="no"/>
+<attribute name="FORWARD_VOLTAGE" value="700mV" constant="no"/>
+<attribute name="MANUFACTURER" value="onsemi" constant="no"/>
+<attribute name="MPN" value="SS16" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-65°C ~ 125°C" constant="no"/>
+<attribute name="PACKAGE_SIZE" value="SMA" constant="no"/>
+<attribute name="PACKAGE_TYPE" value="SMD" constant="no"/>
+<attribute name="PART_STATUS" value="OBSOLETE" constant="no"/>
+<attribute name="REVERSE_VOLTAGE" value="60V" constant="no"/>
+<attribute name="ROHS" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="SS16" constant="no"/>
+<attribute name="SUBCATEGORY" value="Rectifiers" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TYPE" value="Schottky Rectifiers" constant="no"/>
+<attribute name="ZENER_VOLTAGE" value="NA" constant="no"/>
+</technology>
+<technology name="US1G-13-F">
+<attribute name="CATEGORY" value="Diode" constant="no"/>
+<attribute name="DATASHEET" value="https://www.diodes.com/datasheet/download/US1G.pdf" constant="no"/>
+<attribute name="DESCRIPTION" value="Diode 400 V 1A Surface Mount DO-214AC (SMA)" constant="no"/>
+<attribute name="FORWARD_CURRENT" value="1A" constant="no"/>
+<attribute name="FORWARD_VOLTAGE" value="1.3V" constant="no"/>
+<attribute name="MANUFACTURER" value="Diodes Incorporated " constant="no"/>
+<attribute name="MPN" value="US1G-13-F" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-65°C ~ 150°C" constant="no"/>
+<attribute name="PACKAGE_SIZE" value="SMA" constant="no"/>
+<attribute name="PACKAGE_TYPE" value="SMD" constant="no"/>
+<attribute name="PART_STATUS" value="ACTIVE" constant="no"/>
+<attribute name="REVERSE_VOLTAGE" value="400V" constant="no"/>
+<attribute name="ROHS" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="US1G" constant="no"/>
+<attribute name="SUBCATEGORY" value="Rectifiers" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TYPE" value="Fast Recovery Rectifiers" constant="no"/>
+<attribute name="ZENER_VOLTAGE" value="NA" constant="no"/>
+</technology>
+<technology name="US1G-E3/61T">
+<attribute name="CATEGORY" value="Diode" constant="no"/>
+<attribute name="DATASHEET" value="https://www.vishay.com/docs/88768/us1_test_dcicons.pdf" constant="no"/>
+<attribute name="DESCRIPTION" value="Diode 400 V 1A Surface Mount DO-214AC (SMA)" constant="no"/>
+<attribute name="FORWARD_CURRENT" value="1A" constant="no"/>
+<attribute name="FORWARD_VOLTAGE" value="1V" constant="no"/>
+<attribute name="MANUFACTURER" value="Vishay General Semiconductor - Diodes Division" constant="no"/>
+<attribute name="MPN" value="US1G-E3/61T" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55°C ~ 150°C" constant="no"/>
+<attribute name="PACKAGE_SIZE" value="SMA" constant="no"/>
+<attribute name="PACKAGE_TYPE" value="SMD" constant="no"/>
+<attribute name="PART_STATUS" value="ACTIVE" constant="no"/>
+<attribute name="REVERSE_VOLTAGE" value="400V" constant="no"/>
+<attribute name="ROHS" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="US1" constant="no"/>
+<attribute name="SUBCATEGORY" value="Rectifiers" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TYPE" value="Fast Recovery Rectifiers" constant="no"/>
+<attribute name="ZENER_VOLTAGE" value="NA" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -23743,7 +24174,6 @@ Source: &lt;a href="https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-1
 <part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="120R"/>
 <part name="TERM" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
 <part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="47µF"/>
-<part name="+3V7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k"/>
 <part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1uF"/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -23777,6 +24207,11 @@ Source: &lt;a href="https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-1
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+5V/1" device=""/>
+<part name="D15" library="Diode" library_urn="urn:adsk.eagle:library:16378169" deviceset="DIODE_" device="_SOD123G" package3d_urn="urn:adsk.eagle:package:9427058/2" technology="1N4448W-TP">
+<attribute name="LCSC" value="C81598"/>
+</part>
+<part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k"/>
 </parts>
 <sheets>
 <sheet>
@@ -24528,9 +24963,6 @@ Source: &lt;a href="https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-1
 <attribute name="NAME" x="-9.906" y="451.231" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-9.906" y="446.151" size="1.778" layer="96"/>
 </instance>
-<instance part="+3V7" gate="G$1" x="-220.98" y="511.175" smashed="yes">
-<attribute name="VALUE" x="-223.52" y="506.095" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="R13" gate="G$1" x="-165.1" y="526.415" smashed="yes" rot="R90">
 <attribute name="NAME" x="-166.5986" y="522.605" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-161.798" y="522.605" size="1.778" layer="96" rot="R90"/>
@@ -24624,6 +25056,18 @@ Source: &lt;a href="https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-1
 </instance>
 <instance part="GND19" gate="1" x="-234.95" y="546.1" smashed="yes">
 <attribute name="VALUE" x="-237.49" y="543.56" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY3" gate="G$1" x="-220.98" y="511.81" smashed="yes">
+<attribute name="VALUE" x="-224.155" y="514.985" size="1.778" layer="96"/>
+</instance>
+<instance part="D15" gate="G$1" x="-256.54" y="480.06" smashed="yes" rot="R180">
+<attribute name="NAME" x="-256.54" y="474.98" size="1.778" layer="95" rot="R180" align="center"/>
+<attribute name="VALUE" x="-256.54" y="485.14" size="1.778" layer="96" rot="R180" align="center"/>
+<attribute name="LCSC" x="-256.54" y="480.06" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R21" gate="G$1" x="-242.57" y="492.125" smashed="yes" rot="R270">
+<attribute name="NAME" x="-241.0714" y="495.935" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="-245.872" y="495.935" size="1.778" layer="96" rot="R270"/>
 </instance>
 </instances>
 <busses>
@@ -25877,16 +26321,6 @@ Source: &lt;a href="https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-1
 <pinref part="+3V6" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<pinref part="LED2" gate="G$1" pin="VDD"/>
-<wire x1="-220.98" y1="497.84" x2="-220.98" y2="504.19" width="0.1524" layer="91"/>
-<pinref part="+3V7" gate="G$1" pin="+3V3"/>
-<pinref part="C17" gate="G$1" pin="1"/>
-<wire x1="-220.98" y1="504.19" x2="-220.98" y2="508.635" width="0.1524" layer="91"/>
-<wire x1="-220.98" y1="504.19" x2="-209.55" y2="504.19" width="0.1524" layer="91"/>
-<wire x1="-209.55" y1="504.19" x2="-209.55" y2="501.65" width="0.1524" layer="91"/>
-<junction x="-220.98" y="504.19"/>
-</segment>
-<segment>
 <pinref part="+3V5" gate="G$1" pin="+3V3"/>
 <pinref part="R13" gate="G$1" pin="2"/>
 <wire x1="-165.1" y1="532.765" x2="-165.1" y2="531.495" width="0.1524" layer="91"/>
@@ -26014,6 +26448,19 @@ Source: &lt;a href="https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-1
 <label x="-47.625" y="480.06" size="1.778" layer="95"/>
 <pinref part="SUPPLY5" gate="G$1" pin="+5V/1"/>
 <wire x1="-53.34" y1="480.06" x2="-53.34" y2="490.22" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="LED2" gate="G$1" pin="VDD"/>
+<wire x1="-220.98" y1="497.84" x2="-220.98" y2="504.19" width="0.1524" layer="91"/>
+<pinref part="C17" gate="G$1" pin="1"/>
+<wire x1="-220.98" y1="504.19" x2="-220.98" y2="509.27" width="0.1524" layer="91"/>
+<wire x1="-220.98" y1="504.19" x2="-209.55" y2="504.19" width="0.1524" layer="91"/>
+<wire x1="-209.55" y1="504.19" x2="-209.55" y2="501.65" width="0.1524" layer="91"/>
+<junction x="-220.98" y="504.19"/>
+<pinref part="SUPPLY3" gate="G$1" pin="+5V/1"/>
+<pinref part="R21" gate="G$1" pin="1"/>
+<wire x1="-242.57" y1="497.205" x2="-242.57" y2="504.19" width="0.1524" layer="91"/>
+<wire x1="-242.57" y1="504.19" x2="-220.98" y2="504.19" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="C12+POWER" class="0">
@@ -26539,14 +26986,14 @@ Source: &lt;a href="https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-1
 </net>
 <net name="LEDDATA" class="0">
 <segment>
-<pinref part="LED2" gate="G$1" pin="DI"/>
-<wire x1="-233.68" y1="480.06" x2="-245.11" y2="480.06" width="0.1524" layer="91"/>
-<label x="-242.57" y="482.6" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U1" gate="G$1" pin="IO14"/>
 <wire x1="-95.25" y1="488.95" x2="-85.09" y2="488.95" width="0.1524" layer="91"/>
 <label x="-95.25" y="488.95" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="D15" gate="G$1" pin="C"/>
+<wire x1="-261.62" y1="480.06" x2="-283.21" y2="480.06" width="0.1524" layer="91"/>
+<label x="-284.48" y="480.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCLK" class="0">
@@ -26750,6 +27197,17 @@ Source: &lt;a href="https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-1
 <pinref part="R20" gate="G$1" pin="2"/>
 <wire x1="-134.62" y1="493.395" x2="-134.62" y2="491.49" width="0.1524" layer="91"/>
 <junction x="-134.62" y="491.49"/>
+</segment>
+</net>
+<net name="N$24" class="0">
+<segment>
+<pinref part="LED2" gate="G$1" pin="DI"/>
+<pinref part="D15" gate="G$1" pin="A"/>
+<wire x1="-233.68" y1="480.06" x2="-242.57" y2="480.06" width="0.1524" layer="91"/>
+<pinref part="R21" gate="G$1" pin="2"/>
+<wire x1="-242.57" y1="480.06" x2="-251.46" y2="480.06" width="0.1524" layer="91"/>
+<wire x1="-242.57" y1="487.045" x2="-242.57" y2="480.06" width="0.1524" layer="91"/>
+<junction x="-242.57" y="480.06"/>
 </segment>
 </net>
 </nets>
