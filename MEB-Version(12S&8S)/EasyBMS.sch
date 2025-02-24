@@ -19413,119 +19413,119 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <packageinstance name="DO41-7.6"/>
 </packageinstances>
 </package3d>
-<package3d name="DO15-12" urn="urn:adsk.eagle:package:43369/1" type="box" library_version="8">
+<package3d name="DO15-12" urn="urn:adsk.eagle:package:43369/2" type="model" library_version="8">
 <description>DIODE
 diameter 3.5 mm, horizontal, grid 12.7 mm</description>
 <packageinstances>
 <packageinstance name="DO15-12"/>
 </packageinstances>
 </package3d>
-<package3d name="DO201-15" urn="urn:adsk.eagle:package:43365/1" type="box" library_version="8">
+<package3d name="DO201-15" urn="urn:adsk.eagle:package:43365/2" type="model" library_version="8">
 <description>DIODE
 diameter 5.6 mm, horizontal, grid 15.24 mm</description>
 <packageinstances>
 <packageinstance name="DO201-15"/>
 </packageinstances>
 </package3d>
-<package3d name="DO07" urn="urn:adsk.eagle:package:43394/1" type="box" library_version="8">
+<package3d name="DO07" urn="urn:adsk.eagle:package:43394/2" type="model" library_version="8">
 <description>DIODE
 diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <packageinstances>
 <packageinstance name="DO07"/>
 </packageinstances>
 </package3d>
-<package3d name="P2-15" urn="urn:adsk.eagle:package:43345/1" type="box" library_version="8">
+<package3d name="P2-15" urn="urn:adsk.eagle:package:43345/2" type="model" library_version="8">
 <description>DIODE
 diameter 5 mm, horizontal, grid 12.7 mm</description>
 <packageinstances>
 <packageinstance name="P2-15"/>
 </packageinstances>
 </package3d>
-<package3d name="SOD523" urn="urn:adsk.eagle:package:43410/1" type="box" library_version="8">
+<package3d name="SOD523" urn="urn:adsk.eagle:package:43410/4" type="model" library_version="8">
 <description>DIODE</description>
 <packageinstances>
 <packageinstance name="SOD523"/>
 </packageinstances>
 </package3d>
-<package3d name="DO27-15" urn="urn:adsk.eagle:package:43337/1" type="box" library_version="8">
+<package3d name="DO27-15" urn="urn:adsk.eagle:package:43337/3" type="model" library_version="8">
 <description>DIODE
 diameter 5 mm, horizontal, grid 15.24 mm</description>
 <packageinstances>
 <packageinstance name="DO27-15"/>
 </packageinstances>
 </package3d>
-<package3d name="SOD81" urn="urn:adsk.eagle:package:43363/1" type="box" library_version="8">
+<package3d name="SOD81" urn="urn:adsk.eagle:package:43363/2" type="model" library_version="8">
 <description>DIODE
 diameter 2.3 mm, vertical, grid 10.16 mm</description>
 <packageinstances>
 <packageinstance name="SOD81"/>
 </packageinstances>
 </package3d>
-<package3d name="SOD84" urn="urn:adsk.eagle:package:43376/1" type="box" library_version="8">
+<package3d name="SOD84" urn="urn:adsk.eagle:package:43376/2" type="model" library_version="8">
 <description>DIODE
 diameter 3.3 mm, vertical, grid 10.16 mm</description>
 <packageinstances>
 <packageinstance name="SOD84"/>
 </packageinstances>
 </package3d>
-<package3d name="F126-10" urn="urn:adsk.eagle:package:43396/1" type="box" library_version="8">
+<package3d name="F126-10" urn="urn:adsk.eagle:package:43396/2" type="model" library_version="8">
 <description>DIODE
 diameter 3 mm, horizontal, grid 10.16 mm</description>
 <packageinstances>
 <packageinstance name="F126-10"/>
 </packageinstances>
 </package3d>
-<package3d name="DO220S" urn="urn:adsk.eagle:package:43371/1" type="box" library_version="8">
+<package3d name="DO220S" urn="urn:adsk.eagle:package:43371/4" type="model" library_version="8">
 <description>DIODE
 2-lead molded, vertical</description>
 <packageinstances>
 <packageinstance name="DO220S"/>
 </packageinstances>
 </package3d>
-<package3d name="TO220ACS" urn="urn:adsk.eagle:package:43373/2" type="model" library_version="8">
+<package3d name="TO220ACS" urn="urn:adsk.eagle:package:43373/3" type="model" library_version="8">
 <description>DIODE
 2-lead molded, vertical</description>
 <packageinstances>
 <packageinstance name="TO220ACS"/>
 </packageinstances>
 </package3d>
-<package3d name="SOD106-W" urn="urn:adsk.eagle:package:43431/1" type="box" library_version="8">
+<package3d name="SOD106-W" urn="urn:adsk.eagle:package:43431/2" type="model" library_version="8">
 <description>SOD106 Wave soldering Philips SC01_Mounting_1996.pdf</description>
 <packageinstances>
 <packageinstance name="SOD106-W"/>
 </packageinstances>
 </package3d>
-<package3d name="SOD110-W" urn="urn:adsk.eagle:package:43428/1" type="box" library_version="8">
+<package3d name="SOD110-W" urn="urn:adsk.eagle:package:43428/2" type="model" library_version="8">
 <description>SOD110 Wave soldering Philips SC01_Mounting_1996.pdf</description>
 <packageinstances>
 <packageinstance name="SOD110-W"/>
 </packageinstances>
 </package3d>
-<package3d name="SOD110-R" urn="urn:adsk.eagle:package:43426/1" type="box" library_version="8">
+<package3d name="SOD110-R" urn="urn:adsk.eagle:package:43426/2" type="model" library_version="8">
 <description>SOD110 Reflow soldering Philips SC01_Mounting_1996.pdf</description>
 <packageinstances>
 <packageinstance name="SOD110-R"/>
 </packageinstances>
 </package3d>
-<package3d name="MINIMELF" urn="urn:adsk.eagle:package:43429/1" type="box" library_version="8">
+<package3d name="MINIMELF" urn="urn:adsk.eagle:package:43429/2" type="model" library_version="8">
 <description>Mini Melf Diode</description>
 <packageinstances>
 <packageinstance name="MINIMELF"/>
 </packageinstances>
 </package3d>
-<package3d name="MICROMELF-R" urn="urn:adsk.eagle:package:43436/1" type="box" library_version="8">
+<package3d name="MICROMELF-R" urn="urn:adsk.eagle:package:43436/2" type="model" library_version="8">
 <description>Micro Melf Diode Reflow soldering VISHAY mcl4148.pdf</description>
 <packageinstances>
 <packageinstance name="MICROMELF-R"/>
 </packageinstances>
 </package3d>
-<package3d name="MICROMELF-W" urn="urn:adsk.eagle:package:43441/1" type="box" library_version="8">
+<package3d name="MICROMELF-W" urn="urn:adsk.eagle:package:43441/2" type="model" library_version="8">
 <description>Micro Melf Diode Wave soldering VISHAY mcl4148.pdf</description>
 <packageinstances>
 <packageinstance name="MICROMELF-W"/>
 </packageinstances>
 </package3d>
-<package3d name="SC79_INFINEON" urn="urn:adsk.eagle:package:43432/1" type="box" library_version="8">
+<package3d name="SC79_INFINEON" urn="urn:adsk.eagle:package:43432/2" type="model" library_version="8">
 <description>Diode Package Reflow soldering
 INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <packageinstances>
@@ -19534,22 +19534,25 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="D" urn="urn:adsk.eagle:symbol:43091/1" library_version="8">
+<symbol name="D" urn="urn:adsk.eagle:symbol:43091/2" library_version="8">
 <wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
 <wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
 <wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
 <text x="2.54" y="0.4826" size="1.778" layer="95">&gt;NAME</text>
 <text x="2.54" y="-2.3114" size="1.778" layer="96">&gt;VALUE</text>
 <text x="-2.54" y="0" size="0.4064" layer="99" align="center">SpiceOrder 1</text>
 <text x="2.54" y="0" size="0.4064" layer="99" align="center">SpiceOrder 2</text>
-<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="A" x="-2.54" y="0" visible="off" length="point" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="DIODE-" urn="urn:adsk.eagle:component:43657/13" prefix="D" uservalue="yes" library_version="8">
+<deviceset name="DIODE-" urn="urn:adsk.eagle:component:43657/21" prefix="D" uservalue="yes" library_version="8">
 <description>&lt;b&gt;DIODE&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="D" x="0" y="0"/>
@@ -19564,7 +19567,9 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:43336/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="2" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="DO35-10" package="DO35-10">
@@ -19576,7 +19581,9 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:43344/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="DO204-10" package="DO204-10">
@@ -19588,7 +19595,9 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:43366/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="DO15-12" package="DO15-12">
@@ -19597,10 +19606,12 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:43369/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43369/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="SOD57-10" package="SOD57-10">
@@ -19612,7 +19623,9 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:43367/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="DO201-15" package="DO201-15">
@@ -19621,10 +19634,12 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:43365/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43365/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="DO07" package="DO07">
@@ -19633,10 +19648,12 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:43394/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43394/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="P1-10" package="P1-10">
@@ -19648,7 +19665,9 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:43375/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="P2-15" package="P2-15">
@@ -19657,10 +19676,12 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:43345/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43345/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="DO34-7" package="DO34-7">
@@ -19672,7 +19693,9 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:43348/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="2" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="SOT54H" package="SOT54H">
@@ -19684,7 +19707,9 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:43359/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="SOD523" package="SOD523">
@@ -19693,10 +19718,12 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:43410/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43410/4"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="3" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="TO18D" package="TO18D">
@@ -19708,7 +19735,9 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:43443/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="C1702-05" package="C1702-05">
@@ -19720,7 +19749,9 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:43430/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="C1702-15" package="C1702-15">
@@ -19732,7 +19763,9 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:43351/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="SGA-10" package="SGA-10">
@@ -19744,7 +19777,9 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:43388/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="SOD64-10" package="SOD64-10">
@@ -19756,7 +19791,9 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:43385/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="SOD61A" package="SOD61A">
@@ -19768,7 +19805,9 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:43377/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="SOD61B" package="SOD61B">
@@ -19780,7 +19819,9 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:43379/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="SOD61C" package="SOD61C">
@@ -19792,7 +19833,9 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:43378/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="SOD61D" package="SOD61D">
@@ -19804,7 +19847,9 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:43381/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="SOD61E" package="SOD61E">
@@ -19816,7 +19861,9 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:43380/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="DO27-15" package="DO27-15">
@@ -19825,10 +19872,12 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:43337/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43337/3"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="SOD81" package="SOD81">
@@ -19837,10 +19886,12 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:43363/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43363/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="SOD84" package="SOD84">
@@ -19849,10 +19900,12 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:43376/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43376/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="F126-10" package="F126-10">
@@ -19861,10 +19914,12 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:43396/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43396/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="DO220S" package="DO220S">
@@ -19873,10 +19928,12 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:43371/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43371/4"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="TO220H" package="TO220AC">
@@ -19888,7 +19945,9 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:43370/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="TO220V" package="TO220ACS">
@@ -19897,10 +19956,12 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:43373/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43373/3"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="G4-12" package="G4-12">
@@ -19912,7 +19973,9 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:43368/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="SOD83-12" package="SOD83-12">
@@ -19924,7 +19987,9 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:43382/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="SMB" package="SMB">
@@ -19936,7 +20001,9 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:43404/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="11" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="P6-15" package="P6-15">
@@ -19948,7 +20015,9 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:43343/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="C2673" package="C2673">
@@ -19960,7 +20029,9 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:43390/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="C221B1A" package="C221B1A">
@@ -19972,7 +20043,9 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:43391/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="SOD80C" package="SOD80C">
@@ -19984,7 +20057,9 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:43405/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="9" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="D-10" package="D-10">
@@ -19996,7 +20071,9 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:43434/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="D-12.5" package="D-12.5">
@@ -20008,7 +20085,9 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:43427/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="D-2.5" package="D-2.5">
@@ -20020,7 +20099,9 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:43419/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="10" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="D-5" package="D-5">
@@ -20032,7 +20113,9 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:43440/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="8" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="D-7.5" package="D-7.5">
@@ -20044,7 +20127,9 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:43423/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="4" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="SOD106-R" package="SOD106-R">
@@ -20056,7 +20141,9 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:43424/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="SMC" package="SMC">
@@ -20068,7 +20155,9 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:43425/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="SOD106-W" package="SOD106-W">
@@ -20077,10 +20166,12 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:43431/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43431/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="SOD106A-R" package="SOD106A-R">
@@ -20092,7 +20183,9 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:43438/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="SOD110-W" package="SOD110-W">
@@ -20101,10 +20194,12 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:43428/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43428/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="SOD110-R" package="SOD110-R">
@@ -20113,10 +20208,12 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:43426/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43426/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="SOD123" package="SOD123">
@@ -20128,7 +20225,9 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:43420/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="22" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="SOD323-R" package="SOD323-R">
@@ -20140,7 +20239,9 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:43437/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="4" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="SOD323-W" package="SOD323-W">
@@ -20152,7 +20253,9 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:43418/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="4" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="GF1" package="GF1">
@@ -20164,7 +20267,9 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:43422/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="MINIMELF" package="MINIMELF">
@@ -20173,10 +20278,12 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:43429/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43429/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="25" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="MELF-MLL41" package="MELF-MLL41">
@@ -20188,7 +20295,9 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:43444/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="3" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="MICROMELF-R" package="MICROMELF-R">
@@ -20197,10 +20306,12 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:43436/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43436/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="MICROMELF-W" package="MICROMELF-W">
@@ -20209,10 +20320,12 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:43441/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43441/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="SC79_INFINEON" package="SC79_INFINEON">
@@ -20221,10 +20334,12 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:43432/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43432/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="SCD80-INFINEON" package="SCD80_INFINEON">
@@ -20236,7 +20351,9 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:43414/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="DO214AA" package="DO214AA">
@@ -20248,7 +20365,9 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:43433/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="8" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="DO214AC" package="DO214AC">
@@ -20260,7 +20379,9 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:43417/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="14" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="DO214BA" package="DO214BA">
@@ -20272,7 +20393,9 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:43453/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="4" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="DO-214AC" package="DO-214AC">
@@ -20284,7 +20407,9 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:43416/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="25" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="DO41-7.6" package="DO41-7.6">
@@ -20296,7 +20421,9 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:43421/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="7" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -23358,7 +23485,9 @@ Source: &lt;a href="https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-1
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="DO214AC" package3d_urn="urn:adsk.eagle:package:43417/2" value="C16015"/>
+<part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="DO214AC" package3d_urn="urn:adsk.eagle:package:43417/2" value="SS210">
+<attribute name="LCSC" value="C14996"/>
+</part>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+5V/1" device=""/>
 <part name="JP1" library="Connector" library_urn="urn:adsk.eagle:library:16378166" deviceset="PINHD-1X8" device="" package3d_urn="urn:adsk.eagle:package:22409/2"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k"/>
@@ -23376,7 +23505,9 @@ Source: &lt;a href="https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-1
 <attribute name="LCSC" value="C2843193"/>
 </part>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="D3" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="DO214AC" package3d_urn="urn:adsk.eagle:package:43417/2" value="C16015"/>
+<part name="D3" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="DO214AC" package3d_urn="urn:adsk.eagle:package:43417/2" value="SS210">
+<attribute name="LCSC" value="C14996"/>
+</part>
 <part name="L1" library="SamacSys_Parts" deviceset="CY75-100UH" device="" value="C2929443">
 <attribute name="LCSC" value="C2929443"/>
 </part>
@@ -23416,7 +23547,7 @@ Source: &lt;a href="https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-1
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="100nF"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="J1" library="TYPE-C-31-M-12" deviceset="TYPE-C-31-M-12" device="">
-<attribute name="LCSC" value="C165948"/>
+<attribute name="LCSC" value="C2927039"/>
 </part>
 <part name="R82" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10R0"/>
 <part name="Q14" library="SamacSys_Parts" deviceset="BSS308PEH6327XTSA1" device="" value="C8547"/>
@@ -23569,13 +23700,19 @@ Source: &lt;a href="https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-1
 <part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5K1"/>
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5K1"/>
 <part name="LED2" library="WS2812B" deviceset="XL-1615RGBC-WS2812B" device=""/>
-<part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="DO214AC" package3d_urn="urn:adsk.eagle:package:43417/2" value="C16015"/>
-<part name="D7" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="DO214AC" package3d_urn="urn:adsk.eagle:package:43417/2" value="C16015"/>
+<part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="DO214AC" package3d_urn="urn:adsk.eagle:package:43417/2" value="SS210">
+<attribute name="LCSC" value="C14996"/>
+</part>
+<part name="D7" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="DO214AC" package3d_urn="urn:adsk.eagle:package:43417/2" value="SS210">
+<attribute name="LCSC" value="C14996"/>
+</part>
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1uF"/>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10nF"/>
-<part name="IC4" library="burr-brown" library_urn="urn:adsk.eagle:library:111" deviceset="REG1117" device="" package3d_urn="urn:adsk.eagle:package:4940/1" value="C98655"/>
+<part name="IC4" library="burr-brown" library_urn="urn:adsk.eagle:library:111" deviceset="REG1117" device="" package3d_urn="urn:adsk.eagle:package:4940/1" value="AMS1117-3.3">
+<attribute name="LCSC" value="C6186"/>
+</part>
 <part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1uF"/>
-<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1uF"/>
+<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="22uF"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -23610,7 +23747,7 @@ Source: &lt;a href="https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-1
 <part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k"/>
 <part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1uF"/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="47µF"/>
+<part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="47µF"/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="100nF"/>
 <part name="+3V8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -23624,8 +23761,22 @@ Source: &lt;a href="https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-1
 <part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="15pF"/>
 <part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="15pF"/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k"/>
+<part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10M"/>
 <part name="BOOT" library="Connector" library_urn="urn:adsk.eagle:library:16378166" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+<part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="100nF"/>
+<part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="D9" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="SOD523" package3d_urn="urn:adsk.eagle:package:43410/4" value="LESD5D5.0CT1G">
+<attribute name="LCSC" value="C5199850"/>
+</part>
+<part name="D11" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="SOD523" package3d_urn="urn:adsk.eagle:package:43410/4" value="LESD5D5.0CT1G">
+<attribute name="LCSC" value="C5199850"/>
+</part>
+<part name="D13" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="SOD523" package3d_urn="urn:adsk.eagle:package:43410/4" value="LESD5D5.0CT1G">
+<attribute name="LCSC" value="C5199850"/>
+</part>
+<part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -23722,12 +23873,13 @@ Source: &lt;a href="https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-1
 <instance part="P+4" gate="1" x="-1.27" y="276.86" smashed="yes">
 <attribute name="VALUE" x="-3.81" y="271.78" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="D2" gate="G$1" x="-257.81" y="575.31" smashed="yes">
-<attribute name="NAME" x="-260.35" y="578.3326" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-260.35" y="570.4586" size="1.778" layer="96"/>
+<instance part="D2" gate="G$1" x="-234.95" y="575.31" smashed="yes">
+<attribute name="NAME" x="-237.49" y="578.3326" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-237.49" y="570.4586" size="1.778" layer="96"/>
+<attribute name="LCSC" x="-233.68" y="576.58" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY2" gate="G$1" x="-244.475" y="581.025" smashed="yes">
-<attribute name="VALUE" x="-247.65" y="584.2" size="1.778" layer="96"/>
+<instance part="SUPPLY2" gate="G$1" x="-230.505" y="581.025" smashed="yes">
+<attribute name="VALUE" x="-233.68" y="584.2" size="1.778" layer="96"/>
 </instance>
 <instance part="JP1" gate="A" x="-31.115" y="487.68" smashed="yes">
 <attribute name="NAME" x="-37.465" y="501.015" size="1.778" layer="95"/>
@@ -23756,6 +23908,7 @@ Source: &lt;a href="https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-1
 <instance part="D3" gate="G$1" x="-246.38" y="650.24" smashed="yes" rot="R90">
 <attribute name="NAME" x="-249.4026" y="647.7" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-241.5286" y="647.7" size="1.778" layer="96" rot="R90"/>
+<attribute name="LCSC" x="-246.38" y="650.24" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="L1" gate="G$1" x="-228.6" y="665.48" smashed="yes">
 <attribute name="NAME" x="-232.41" y="667.766" size="1.778" layer="95"/>
@@ -24243,22 +24396,24 @@ Source: &lt;a href="https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-1
 <attribute name="NAME" x="-214.8586" y="334.01" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-210.058" y="334.01" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R10" gate="G$1" x="-336.55" y="557.53" smashed="yes" rot="R90">
-<attribute name="NAME" x="-338.0486" y="553.72" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-333.248" y="553.72" size="1.778" layer="96" rot="R90"/>
+<instance part="R10" gate="G$1" x="-326.39" y="557.53" smashed="yes" rot="R90">
+<attribute name="NAME" x="-327.8886" y="553.72" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-323.088" y="553.72" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R11" gate="G$1" x="-242.57" y="554.99" smashed="yes" rot="R90">
-<attribute name="NAME" x="-244.0686" y="551.18" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-239.268" y="551.18" size="1.778" layer="96" rot="R90"/>
+<instance part="R11" gate="G$1" x="-262.89" y="554.99" smashed="yes" rot="R90">
+<attribute name="NAME" x="-264.3886" y="551.18" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-264.668" y="556.26" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="LED2" gate="G$1" x="-220.98" y="482.6" smashed="yes"/>
 <instance part="D1" gate="G$1" x="-139.7" y="635" smashed="yes" rot="R180">
 <attribute name="NAME" x="-134.62" y="631.9774" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-139.7" y="632.2314" size="1.778" layer="96" rot="R180"/>
+<attribute name="LCSC" x="-139.7" y="635" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="D7" gate="G$1" x="-139.7" y="637.54" smashed="yes">
 <attribute name="NAME" x="-137.16" y="640.5626" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-147.32" y="640.3086" size="1.778" layer="96"/>
+<attribute name="LCSC" x="-139.7" y="637.54" size="1.778" layer="96"/>
 </instance>
 <instance part="C5" gate="G$1" x="-198.12" y="653.415" smashed="yes">
 <attribute name="NAME" x="-196.596" y="653.796" size="1.778" layer="95"/>
@@ -24270,7 +24425,8 @@ Source: &lt;a href="https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-1
 </instance>
 <instance part="IC4" gate="G$1" x="-163.83" y="603.25" smashed="yes">
 <attribute name="NAME" x="-171.45" y="608.965" size="1.778" layer="95" ratio="10"/>
-<attribute name="VALUE" x="-168.91" y="605.79" size="1.778" layer="96" ratio="10"/>
+<attribute name="VALUE" x="-171.45" y="593.09" size="1.778" layer="96" ratio="10"/>
+<attribute name="LCSC" x="-162.56" y="609.6" size="1.778" layer="96"/>
 </instance>
 <instance part="C7" gate="G$1" x="-185.42" y="597.535" smashed="yes">
 <attribute name="NAME" x="-183.896" y="597.916" size="1.778" layer="95"/>
@@ -24438,6 +24594,37 @@ Source: &lt;a href="https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-1
 <attribute name="NAME" x="-128.905" y="469.9" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-139.7" y="469.9" size="1.778" layer="96" rot="R270"/>
 </instance>
+<instance part="C17" gate="G$1" x="-209.55" y="499.11" smashed="yes">
+<attribute name="NAME" x="-208.026" y="499.491" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-208.026" y="494.411" size="1.778" layer="96"/>
+</instance>
+<instance part="GND16" gate="1" x="-209.55" y="487.68" smashed="yes">
+<attribute name="VALUE" x="-212.09" y="485.14" size="1.778" layer="96"/>
+</instance>
+<instance part="D9" gate="G$1" x="-255.27" y="553.72" smashed="yes" rot="R90">
+<attribute name="NAME" x="-255.7526" y="556.26" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-250.4186" y="548.64" size="1.778" layer="96" rot="R90"/>
+<attribute name="LCSC" x="-257.81" y="549.91" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="D11" gate="G$1" x="-245.11" y="553.72" smashed="yes" rot="R90">
+<attribute name="NAME" x="-245.5926" y="556.26" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-240.2586" y="548.64" size="1.778" layer="96" rot="R90"/>
+<attribute name="LCSC" x="-247.65" y="549.91" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="D13" gate="G$1" x="-234.95" y="553.72" smashed="yes" rot="R90">
+<attribute name="NAME" x="-235.4326" y="556.26" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-230.0986" y="548.64" size="1.778" layer="96" rot="R90"/>
+<attribute name="LCSC" x="-237.49" y="549.91" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND17" gate="1" x="-255.27" y="546.1" smashed="yes">
+<attribute name="VALUE" x="-257.81" y="543.56" size="1.778" layer="96"/>
+</instance>
+<instance part="GND18" gate="1" x="-245.11" y="546.1" smashed="yes">
+<attribute name="VALUE" x="-247.65" y="543.56" size="1.778" layer="96"/>
+</instance>
+<instance part="GND19" gate="1" x="-234.95" y="546.1" smashed="yes">
+<attribute name="VALUE" x="-237.49" y="543.56" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -24527,12 +24714,12 @@ Source: &lt;a href="https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-1
 </segment>
 <segment>
 <pinref part="R10" gate="G$1" pin="1"/>
-<wire x1="-336.55" y1="552.45" x2="-336.55" y2="534.67" width="0.1524" layer="91"/>
-<wire x1="-336.55" y1="534.67" x2="-273.05" y2="534.67" width="0.1524" layer="91"/>
+<wire x1="-326.39" y1="552.45" x2="-326.39" y2="534.67" width="0.1524" layer="91"/>
+<wire x1="-326.39" y1="534.67" x2="-273.05" y2="534.67" width="0.1524" layer="91"/>
 <pinref part="R11" gate="G$1" pin="1"/>
 <wire x1="-273.05" y1="534.67" x2="-270.51" y2="534.67" width="0.1524" layer="91"/>
-<wire x1="-270.51" y1="534.67" x2="-242.57" y2="534.67" width="0.1524" layer="91"/>
-<wire x1="-242.57" y1="534.67" x2="-242.57" y2="549.91" width="0.1524" layer="91"/>
+<wire x1="-270.51" y1="534.67" x2="-262.89" y2="534.67" width="0.1524" layer="91"/>
+<wire x1="-262.89" y1="534.67" x2="-262.89" y2="549.91" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="GND"/>
 <wire x1="-273.05" y1="554.99" x2="-273.05" y2="534.67" width="0.1524" layer="91"/>
 <junction x="-273.05" y="534.67"/>
@@ -24630,6 +24817,26 @@ Source: &lt;a href="https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-1
 <wire x1="-158.75" y1="491.49" x2="-158.75" y2="490.22" width="0.1524" layer="91"/>
 <wire x1="-154.94" y1="491.49" x2="-158.75" y2="491.49" width="0.1524" layer="91"/>
 <junction x="-158.75" y="491.49"/>
+</segment>
+<segment>
+<pinref part="C17" gate="G$1" pin="2"/>
+<pinref part="GND16" gate="1" pin="GND"/>
+<wire x1="-209.55" y1="494.03" x2="-209.55" y2="490.22" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND17" gate="1" pin="GND"/>
+<pinref part="D9" gate="G$1" pin="A"/>
+<wire x1="-255.27" y1="548.64" x2="-255.27" y2="551.18" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND18" gate="1" pin="GND"/>
+<pinref part="D11" gate="G$1" pin="A"/>
+<wire x1="-245.11" y1="548.64" x2="-245.11" y2="551.18" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND19" gate="1" pin="GND"/>
+<pinref part="D13" gate="G$1" pin="A"/>
+<wire x1="-234.95" y1="548.64" x2="-234.95" y2="551.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$202" class="0">
@@ -25671,8 +25878,13 @@ Source: &lt;a href="https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-1
 </segment>
 <segment>
 <pinref part="LED2" gate="G$1" pin="VDD"/>
-<wire x1="-220.98" y1="497.84" x2="-220.98" y2="508.635" width="0.1524" layer="91"/>
+<wire x1="-220.98" y1="497.84" x2="-220.98" y2="504.19" width="0.1524" layer="91"/>
 <pinref part="+3V7" gate="G$1" pin="+3V3"/>
+<pinref part="C17" gate="G$1" pin="1"/>
+<wire x1="-220.98" y1="504.19" x2="-220.98" y2="508.635" width="0.1524" layer="91"/>
+<wire x1="-220.98" y1="504.19" x2="-209.55" y2="504.19" width="0.1524" layer="91"/>
+<wire x1="-209.55" y1="504.19" x2="-209.55" y2="501.65" width="0.1524" layer="91"/>
+<junction x="-220.98" y="504.19"/>
 </segment>
 <segment>
 <pinref part="+3V5" gate="G$1" pin="+3V3"/>
@@ -25782,10 +25994,10 @@ Source: &lt;a href="https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-1
 </segment>
 <segment>
 <pinref part="D2" gate="G$1" pin="C"/>
-<wire x1="-255.27" y1="575.31" x2="-243.84" y2="575.31" width="0.1524" layer="91"/>
+<wire x1="-232.41" y1="575.31" x2="-229.87" y2="575.31" width="0.1524" layer="91"/>
 <pinref part="SUPPLY2" gate="G$1" pin="+5V/1"/>
-<wire x1="-243.84" y1="575.31" x2="-243.84" y2="578.485" width="0.1524" layer="91"/>
-<wire x1="-243.84" y1="578.485" x2="-244.475" y2="578.485" width="0.1524" layer="91"/>
+<wire x1="-229.87" y1="575.31" x2="-229.87" y2="578.485" width="0.1524" layer="91"/>
+<wire x1="-229.87" y1="578.485" x2="-230.505" y2="578.485" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC4" gate="G$1" pin="VIN"/>
@@ -26270,16 +26482,16 @@ Source: &lt;a href="https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-1
 <net name="N$8" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="CC1"/>
-<wire x1="-308.61" y1="570.23" x2="-336.55" y2="570.23" width="0.1524" layer="91"/>
-<wire x1="-336.55" y1="570.23" x2="-336.55" y2="562.61" width="0.1524" layer="91"/>
+<wire x1="-308.61" y1="570.23" x2="-326.39" y2="570.23" width="0.1524" layer="91"/>
+<wire x1="-326.39" y1="570.23" x2="-326.39" y2="562.61" width="0.1524" layer="91"/>
 <pinref part="R10" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="CC2"/>
-<wire x1="-273.05" y1="562.61" x2="-242.57" y2="562.61" width="0.1524" layer="91"/>
-<wire x1="-242.57" y1="562.61" x2="-242.57" y2="560.07" width="0.1524" layer="91"/>
+<wire x1="-273.05" y1="562.61" x2="-262.89" y2="562.61" width="0.1524" layer="91"/>
+<wire x1="-262.89" y1="562.61" x2="-262.89" y2="560.07" width="0.1524" layer="91"/>
 <pinref part="R11" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -26291,8 +26503,12 @@ Source: &lt;a href="https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-1
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="DP2"/>
-<wire x1="-273.05" y1="565.15" x2="-260.35" y2="565.15" width="0.1524" layer="91"/>
-<label x="-260.35" y="565.15" size="1.778" layer="95"/>
+<label x="-228.6" y="565.15" size="1.778" layer="95"/>
+<wire x1="-273.05" y1="565.15" x2="-234.95" y2="565.15" width="0.1524" layer="91"/>
+<pinref part="D13" gate="G$1" pin="C"/>
+<wire x1="-234.95" y1="565.15" x2="-228.6" y2="565.15" width="0.1524" layer="91"/>
+<wire x1="-234.95" y1="556.26" x2="-234.95" y2="565.15" width="0.1524" layer="91"/>
+<junction x="-234.95" y="565.15"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="IO13"/>
@@ -26308,8 +26524,12 @@ Source: &lt;a href="https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-1
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="DN2"/>
-<wire x1="-273.05" y1="567.69" x2="-260.35" y2="567.69" width="0.1524" layer="91"/>
-<label x="-260.35" y="567.69" size="1.778" layer="95"/>
+<wire x1="-273.05" y1="567.69" x2="-245.11" y2="567.69" width="0.1524" layer="91"/>
+<label x="-228.6" y="567.69" size="1.778" layer="95"/>
+<pinref part="D11" gate="G$1" pin="C"/>
+<wire x1="-245.11" y1="567.69" x2="-228.6" y2="567.69" width="0.1524" layer="91"/>
+<wire x1="-245.11" y1="556.26" x2="-245.11" y2="567.69" width="0.1524" layer="91"/>
+<junction x="-245.11" y="567.69"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="IO12"/>
@@ -26350,7 +26570,11 @@ Source: &lt;a href="https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-1
 <segment>
 <pinref part="J1" gate="G$1" pin="VBUS"/>
 <pinref part="D2" gate="G$1" pin="A"/>
-<wire x1="-273.05" y1="575.31" x2="-260.35" y2="575.31" width="0.1524" layer="91"/>
+<wire x1="-273.05" y1="575.31" x2="-255.27" y2="575.31" width="0.1524" layer="91"/>
+<pinref part="D9" gate="G$1" pin="C"/>
+<wire x1="-255.27" y1="575.31" x2="-237.49" y2="575.31" width="0.1524" layer="91"/>
+<wire x1="-255.27" y1="556.26" x2="-255.27" y2="575.31" width="0.1524" layer="91"/>
+<junction x="-255.27" y="575.31"/>
 </segment>
 </net>
 <net name="A0DSPL" class="0">
