@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "EasyBMS")(type "KiCad")(uri "$(KIPRJMOD)/../libraries/EasyBMS.pretty")(options "")(descr ""))
+)
