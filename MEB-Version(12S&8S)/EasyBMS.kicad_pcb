@@ -277,6 +277,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C28233"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8104d48f-b7e3-493b-9c57-0d9046246dad")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/697ae547-65f2-4ec2-9531-2168e822fb18")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
@@ -1058,6 +1070,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C15195"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "940e7373-7ea3-40b7-9d13-f6f4a982b411")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/8e530455-e566-47c7-ab4c-7b84f7a79bba")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
@@ -1238,6 +1262,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C17903"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "39ec9c4b-1f4c-42b4-b019-b09ed6b5142a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/f7ed0460-4c35-4ad3-bf56-b110ab7c58ee")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
@@ -1411,6 +1447,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3ebcf478-fc0c-4b6c-b8ab-fe2bad9c6d8b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C7250"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "285dd655-e6b6-4005-a4d8-1e8894cf5e80")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1966,6 +2014,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c4c6c8cb-5ada-4251-9bf1-dcc780a382ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/07b82585-8b8d-413f-9185-45cef50bd64d")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
@@ -2139,6 +2199,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e30b2251-ec52-44b0-9c07-2b0f5afa9c37")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C17903"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b9ef4248-2ac8-41b9-90e0-e82006b0d81e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2326,6 +2398,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C25890"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b24c444c-6b11-4fd5-b5ee-460da86ed160")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/040987b6-086b-44fc-a77f-c50832099eb5")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
@@ -2499,6 +2583,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6feebb69-e303-40ca-a6a4-65d21dca22ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C17903"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f8d44d31-0bd0-4c32-bbb1-78bbfc453696")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3914,6 +4010,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a5c4a029-002a-4dac-959b-2a2902b3de72")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25890"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "52440595-e3a5-4d72-ab3d-edbfd01832ab")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5413,6 +5521,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C25890"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "153afaed-e07e-430e-bc85-e8113863340b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/21ecdc42-6511-4eeb-b341-d44ec6534c12")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
@@ -5801,6 +5921,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C17903"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1df9c00c-52d4-4b21-90cf-8446c91d4099")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/efc40643-cc59-40ba-aca8-a462d1b47613")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
@@ -6182,6 +6314,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "22ae8ce5-9a9d-4bd1-8d54-2c5ae064796f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C15195"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "fd233b04-843a-41ff-aac4-a2d4bdd136f2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7199,6 +7343,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C52923"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "68ef6ea9-6d44-4b0a-a97e-e0c701665d6b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/c13ddd38-c36c-4ef7-9972-f563d639b134")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
@@ -7379,6 +7535,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C96123"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "250a98b6-e044-4d32-9f42-43ffcf3bb7d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/ca894a05-28de-43c2-842a-9103d0131747")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
@@ -7552,6 +7720,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9571ef74-4272-4aaa-aaf1-b70c94e4021e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25905"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c21fa5d4-83f1-4104-95f4-680576d3b884")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9598,6 +9778,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C52923"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2348a45d-580c-4d1b-9e1f-1ed70d6eb0f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/988e5b71-8d9e-45c7-a5b5-c558b2bc5e23")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
@@ -9771,6 +9963,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "eb8a897f-82dc-4a0b-a04c-1ca507f6ac91")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C16780"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "90aa9b79-c3f1-489b-8ad4-e8953969e87a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10585,6 +10789,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C307331"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c77728b1-800a-4cd3-83e6-0184b0282f7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/e0e3139f-eb5d-46e5-a3a0-a8093607829e")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
@@ -10999,6 +11215,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "08e82477-c0d3-4140-98bc-ae088cb76ee0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0a1002f8-477e-4fe7-a576-85d54ac4ca5a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11459,6 +11687,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3b9ae7cb-f31b-4d0c-8ec8-37d823e5245b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/03d101bb-b2ae-449c-8be2-4cb76d885d32")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
@@ -11632,6 +11872,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0c40cedc-e04a-4dd2-a989-3644924f4ff4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "02e4e61d-8995-493e-be72-b2cf778c0255")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11819,6 +12071,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C1548"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7115d91a-3a7d-4940-baac-8652276ae71f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/52c92b3d-eef1-44ca-8757-648fd1a60466")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
@@ -11992,6 +12256,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1bfd3070-6ab2-4414-92d3-03332f0fa130")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C17903"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c9d05cde-105c-46e7-8f9d-369cc4a80603")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12414,6 +12690,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C15195"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1d8082be-9089-4fa0-8428-4c53781c2202")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/b6094cef-cd70-4047-b789-90caf4dc7af4")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
@@ -12594,6 +12882,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C17903"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "55983991-f14b-4336-8dbb-245d926236dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/b8159eeb-46a7-4c29-ac87-4dde6274025d")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
@@ -12767,6 +13067,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bd561213-ca34-4144-b496-23d9c18c5307")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25890"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c41524ba-c807-4192-831e-18010f87c827")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13227,6 +13539,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C15195"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "69b4a5c8-cebd-492e-a08f-3e7c6fdf1e4f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/74141ff9-02dd-4cfe-bf17-f7139d9c2617")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
@@ -13615,6 +13939,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C25076"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c97699ff-a5fd-4888-b1ce-7b1ae191c2d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/fd29669f-33b7-4946-96d6-e5b46d6bc2aa")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
@@ -13788,6 +14124,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1a03a6be-9fca-4b36-91ad-a984f6bbf8e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25076"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "97ce7282-b0f9-4a91-8aa8-2e53206a8e24")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13975,6 +14323,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C307331"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6922eefa-6123-4a63-92a4-5d9313debbb3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/9b74b358-029e-4fa2-9d49-25b4e824d97c")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
@@ -14148,6 +14508,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9ccb46ae-24fa-40a5-a38f-40d184c2aea3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "24a45ba4-e6d8-4a6f-880a-686acd61f2ef")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14969,6 +15341,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C17903"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "840e0a96-cdb4-4281-b5fb-2aff66e83c76")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/4394d770-ad9c-4cba-97b4-a165568105a1")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
@@ -15142,6 +15526,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "576046e0-9ab1-494b-a8a8-55d89907d9fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C17903"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "cdfa9b06-25c5-45a9-b99e-648253602d1d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15795,6 +16191,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C17901"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8d1c9b36-71ef-4de3-9328-57ed51c8bd11")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/a95fafed-05fa-4dd6-91ab-f259e1a884b6")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
@@ -15968,6 +16376,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "80c72891-8030-4e30-bccb-418b0ec1b26a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C15195"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "04be00fc-f242-49b5-ae7f-269b6b9b5961")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16155,6 +16575,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2c87e868-3369-4b47-a459-9cc5043f5d17")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/0c804901-281a-416b-a4b3-7d4b87b52dee")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
@@ -16328,6 +16760,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3855326b-b51f-4b2d-bf27-ccf02eb35041")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25076"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "88192e65-4026-48cf-8592-c64074c4d650")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16859,6 +17303,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C25890"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1f015a5c-0109-4645-a522-972e245fe0a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/8edf9dd4-fa65-400f-857f-2b84852b2d8b")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
@@ -17032,6 +17488,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "dcea264e-1840-4c78-aae1-fc4a7d45a76b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C28233"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9d39d2ac-1d53-4d57-8bd0-602ba620e2f6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17219,6 +17687,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C15195"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "baa16abe-15aa-428a-a073-4fb2074a02ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/09016fbb-78f3-445a-9009-4be8b1fec1f5")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
@@ -17392,6 +17872,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "43246528-93a9-4ac4-9dad-1bbc2d371517")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C4184"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "40bdd80d-eabf-4eab-aacd-4d274903f740")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17787,6 +18279,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C15195"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6676a89c-5808-421f-9c87-72cfaa6a9347")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/083bd46c-a13f-4793-a51a-afdbf5ccfa06")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
@@ -17967,6 +18471,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2dc683a0-e0c9-45fc-b2ff-7089369a3934")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/772d9dc7-9aa9-416b-9d9f-87709a45d04c")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
@@ -18140,6 +18656,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1d6082b0-129a-4129-9afe-e4c6b727e049")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C307331"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ce5e6be1-2406-48eb-aadd-1c1844dc10da")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18656,6 +19184,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C52923"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2bd259fa-4048-4f2c-bded-6ea8eb44f8b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/f0a47ebc-2dbe-4be2-8d58-c3a33c32535e")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
@@ -18836,6 +19376,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C25076"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "313c428d-3d63-42bf-9ec5-969c97494c95")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/10061c94-4769-418c-8a1b-f0051a0d887f")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
@@ -19009,6 +19561,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c863a845-47d6-48b3-ab4c-5005537bcd29")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25076"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ea05e3f7-646c-401b-b903-a329e1fc0cb7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19431,6 +19995,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C17903"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "751f922c-7454-4584-b449-68ceabe72db2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/cc675ed4-32db-4879-bd88-07d5f15bb365")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
@@ -19604,6 +20180,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1e8c58a7-dccf-466f-bdc0-94ce9a3e3ab8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25890"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "047b39a1-c614-4e59-8a90-9c7171206100")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19999,6 +20587,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C17903"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "747b483d-82af-4af0-bc7f-7ed22e0eb3da")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/d2f01a8e-2f65-4cc0-8b32-e3f4c789fd62")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
@@ -20387,6 +20987,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C52923"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1ab3a3bb-1128-47c9-afcd-bacb44a0318f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/863511a1-d7f8-4a4b-a179-1a39e7b0e397")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
@@ -20560,6 +21172,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "09c7062d-0371-4d5a-8e24-1372a13e2740")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25752"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7ab7fe16-5689-41fd-80ec-4add8cb3a21c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21020,6 +21644,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C17903"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "477c5cbe-79a4-4abd-9426-b280bd18b2c7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/e8c76c87-1bf3-4a86-85fd-93d5a529e87a")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
@@ -21193,6 +21829,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1d3d765b-31e1-43f3-bd12-a2912569aab5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C307331"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "94ffd482-533b-44c2-bb7a-663632e0a1ab")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21380,6 +22028,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C25076"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "24445e6c-8151-411a-987e-ef615ee318e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/7d8192b7-0929-4866-b076-d6b5f6fe9340")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
@@ -21553,6 +22213,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6bc0e299-5f33-4b67-a75f-7402f063c84c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C17903"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3997c838-711d-4918-898a-aea12d0e84c3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21813,6 +22485,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C25076"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2ecae3a4-68a7-4ff2-8817-7d9bb7dde200")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/16c1ae91-2539-4c22-8f4b-d82da29d4bc1")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
@@ -21986,6 +22670,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bc99e118-cc83-4bb7-bc5b-19f664a14cde")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25890"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5c4af568-9d82-4c05-bfdd-9c3bee262c8c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22408,6 +23104,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C52923"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "daf6ff28-39c0-4e1b-bdb7-f73dd3de511d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/73767729-e365-468c-bd96-54c63fb92f0f")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
@@ -22581,6 +23289,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "042cdd47-adb4-40e4-9afc-2ef398ed535c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25076"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5d7e500d-eabf-4be9-89c1-689bb4bfa890")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22768,6 +23488,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C17903"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a0739ade-e646-47a0-abe3-1ce022aecadb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/edb3fee4-a93b-489f-bb24-8d0a243879b0")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
@@ -22941,6 +23673,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "dc033d2b-8efe-42c3-b26f-c0d2d19034c7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C17903"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "056bbf21-b8ec-49cf-a4a2-f5d3fb5fe655")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23128,6 +23872,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C25890"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "844d4b80-74a8-4deb-b18e-29bd7a7c2bcc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/6315796c-4ea1-4c8b-bafd-280f855dc0e0")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
@@ -23301,6 +24057,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "483b3e2a-a1a1-454c-8438-7f2fb1ba5a4d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C15195"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2188830c-c79b-4cbc-8e15-54f794dfa54a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23488,6 +24256,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C17903"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "41c5ba4e-c7d7-4c19-81a7-b054525cb12d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/90dda7a6-71f5-4eb7-bca9-c10b77c0e566")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
@@ -23659,6 +24439,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d8651c21-8117-421d-918d-46f95d3507cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C689566"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "78f44b95-2a9d-4715-8e14-29bf49c88bfe")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24442,6 +25234,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C17903"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ea7e25a1-8b62-4d01-95ca-546c17cd0310")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/9325175e-ef59-4489-b075-cc5d24e38f73")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
@@ -24830,6 +25634,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C15849"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "aaaad06d-cead-4346-9a8c-349e1c09e115")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/6984e6c4-65ce-4c51-bc9a-fb51c2bf9edd")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
@@ -25003,6 +25819,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d20a6636-ed47-46f4-9f4d-9bb8a9a3086d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C15195"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "81ced6e0-db78-4d68-835b-37fddfe04407")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25190,6 +26018,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C25890"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "839921c0-ba65-4285-b83e-ea4029283ab5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/285b1959-6af0-4d56-8791-89fd7958140c")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
@@ -25363,6 +26203,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e7d04958-213c-4d5b-b0c1-76b4b4b66e59")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C15195"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5eb6119e-7112-442a-812f-82f25514f066")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25550,6 +26402,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C15195"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c66b59e7-64e9-4c8f-a6a3-f7911ee73d75")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/80be2b12-6e0c-40c2-887f-14c30c6eaf89")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
@@ -25723,6 +26587,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a0fcc0b9-7c10-4156-970c-6cacb6d28d46")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25890"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d7a8bc02-9830-4224-bc86-dfcdc4792f16")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25910,6 +26786,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C25076"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "95755768-b6e3-4fa2-96b6-21f841fb0f05")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/8382cd2e-baf7-4068-bf59-1a3a72775de7")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
@@ -26083,6 +26971,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fbd9578c-3d52-4e49-9217-179228f49e18")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C22775"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "306cc104-4f55-4986-9b8f-f2435198afca")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27579,6 +28479,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C15195"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8d9fd185-1b61-4eed-935a-990d79deb25f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/b3ffa5d1-fac5-40f4-b58b-a65557ef5b1e")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
@@ -27752,6 +28664,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7c7a241a-e8ff-4e0f-b29e-1593daf6e979")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C307331"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "48829217-633f-4738-af35-748d6bc56b65")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28247,6 +29171,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C17903"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4bd222e4-c48a-406d-ac86-2414702b72ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/5a3a9ca2-632c-4427-bf70-98667460a3de")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
@@ -28620,6 +29556,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C25076"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c300736f-aa84-43bb-8474-8fb64a34fb0a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/9323fc27-cf65-49d7-9bd3-31900dae6845")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
@@ -28793,6 +29741,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "95d63161-eaaf-4bbe-9f1d-46c40380ea28")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C59461"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3eb462cc-df54-4fa8-8734-636904b33eb2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28980,6 +29940,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C17903"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a409c77e-695c-42f7-b41b-244f48571642")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/5abf40ca-1c35-42b7-a164-dbd6e5650083")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
@@ -29153,6 +30125,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cb44f93e-f492-4cac-aed6-becd956ac721")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C17903"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "13828c03-b296-4241-9e66-92b5562135e3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29600,6 +30584,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C25076"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e1acfe17-4d0c-489a-a923-2976a7b81609")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/dc4d43df-30b4-4b74-965b-692d5e281c56")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
@@ -29773,6 +30769,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e2a08f4f-6055-4ab1-aa77-1ba3b27e2c53")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C17903"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6a0eb645-f6e5-41b3-ba52-7bd23048d02a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30161,6 +31169,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5be6872d-d151-4bc5-9e94-1c2dc5ce2f3c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25890"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "141491df-23c1-456c-91f9-cc8cfc8afc01")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30570,6 +31590,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C17903"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9574a2b9-5427-41a1-a4ae-1aad6be9215d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/ae2d8306-e391-4235-96a5-76ad1a58ac1b")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
@@ -30743,6 +31775,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8a04036c-8dea-4ce7-b6e9-687c578d1291")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25890"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "eb9f0505-61bd-428c-aa55-fd8abde138ef")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30930,6 +31974,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C17903"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "100167ab-91d7-4774-b8c5-ec04bf367641")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/6df1eb0a-a54c-4622-8310-a6a317e5eb80")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
@@ -31103,6 +32159,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9257cafa-61f7-40f1-a075-b7c8d9b075f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25890"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "30e49265-c450-4835-a48c-bdd1a2b9177f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31456,6 +32524,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d8ddcff1-e312-41c1-8bd7-0ccbf459fb89")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C15195"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "53807d3d-2a95-4e85-a2ca-4aa4a252b636")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32534,6 +33614,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C25905"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "449f1d11-09b6-4f59-a751-056f9bfb7478")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/06ce35d5-3310-426d-bb68-54a4db5fcab4")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
@@ -32707,6 +33799,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cd423d11-7117-4d5c-8964-6b72122ca32e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1548"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0626dc9f-d0e8-45dd-aca4-62a831590ffa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33309,6 +34413,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C17903"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "75198d77-635b-4f90-93dc-84c90031eac9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/22efbe96-115f-41cb-bbb3-454d13adc020")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
@@ -33482,6 +34598,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "32fea0ad-9af5-4de2-b3e5-394ea7df6367")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C52923"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f4c52bf8-33d2-4692-8c89-e4a53c537d85")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33669,6 +34797,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C25076"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "bc855d23-3328-47d2-8bdd-44caecd1d431")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/57533158-7a3b-4741-826b-8d9662ab4578")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
@@ -33842,6 +34982,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8ee0ceae-2c7e-4d87-919f-d476570cdf07")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25076"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e0d17e4f-4b04-4894-bea8-341e1d8cb5eb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34631,6 +35783,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C25079"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d21e20d0-5fd4-438f-9d25-9dc60e6fbaa5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/a1e041a4-b8fb-4409-8a2d-034db27c8cb6")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
@@ -34963,6 +36127,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a35e8643-1507-44ba-b720-c8d0fee7c37c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C15195"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7741b3bd-61c9-41ca-9f09-14eb894c03cb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35789,6 +36965,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a6f308a0-9603-45fc-ad5f-75fc2c0d37a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25076"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "37313e47-f942-4ba7-a1d0-72deb317345b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37250,6 +38438,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C17903"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0f7fe15d-a9c2-40fc-88e1-14fa546f6852")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/da4593dc-9494-42e2-b19b-4feb484cf1fa")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
@@ -37423,6 +38623,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2965239a-cbf0-4c38-a560-80da5e084686")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25752"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "97cdfd21-5513-4fc2-919a-461e7d4b97bb")
 			(effects
 				(font
 					(size 1.27 1.27)
