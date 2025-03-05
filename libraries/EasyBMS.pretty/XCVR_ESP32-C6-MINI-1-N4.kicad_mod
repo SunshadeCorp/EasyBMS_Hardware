@@ -53,30 +53,6 @@
 			)
 		)
 	)
-	(fp_poly
-		(pts
-			(xy -1.245 -1.245) (xy -2.705 -1.245) (xy -2.705 -2.102071) (xy -2.102071 -2.705) (xy -1.245 -2.705)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill yes)
-		(layer "F.Cu")
-		(uuid "45d9dd53-d7b8-4b1d-9c0a-d9095013a574")
-	)
-	(fp_poly
-		(pts
-			(xy -1.145 -1.145) (xy -2.805 -1.145) (xy -2.805 -2.152071) (xy -2.152071 -2.805) (xy -1.145 -2.805)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill yes)
-		(layer "F.Mask")
-		(uuid "2dc1c691-27df-40a5-a089-dc1444c154aa")
-	)
 	(fp_line
 		(start -6.6 -11)
 		(end 6.6 -11)
@@ -117,18 +93,6 @@
 		(fill no)
 		(layer "F.SilkS")
 		(uuid "a15a25c8-9373-42ce-94ff-26d287710e9e")
-	)
-	(fp_poly
-		(pts
-			(xy -1.245 -1.245) (xy -2.705 -1.245) (xy -2.705 -2.102071) (xy -2.102071 -2.705) (xy -1.245 -2.705)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill yes)
-		(layer "F.Paste")
-		(uuid "b709f925-7401-4397-9ae7-5237ec5df808")
 	)
 	(fp_line
 		(start -6.85 -11.25)
@@ -653,14 +617,17 @@
 		(thermal_bridge_angle 0)
 		(uuid "0f79502e-c5be-4ca6-be45-c28aa5a97b00")
 	)
-	(pad "49_1" smd rect
-		(at -1.975 -1.975)
-		(size 0.4 0.4)
-		(layers "F.Cu")
+	(pad "49_1" smd roundrect
+		(at -1.98 -1.98)
+		(size 1.45 1.45)
+		(property pad_prop_heatsink)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.41)
+		(chamfer top_left)
 		(solder_mask_margin 0.1016)
 		(solder_paste_margin 0)
-		(thermal_bridge_angle 0)
-		(uuid "e7174117-ce81-4092-a7c8-797465a9deeb")
+		(uuid "9ea68672-17da-4b73-a9a8-c50fd3f3902e")
 	)
 	(pad "49_2" smd rect
 		(at 0 -1.975)
