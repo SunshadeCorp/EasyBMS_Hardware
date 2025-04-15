@@ -807,4 +807,15 @@
 		)
 	)
 	(embedded_fonts no)
+	(model "C:/Users/merlin.bromberg/Documents/KiCad/9.0/projects/EasyBMS-Hardware/libraries/EasyBMS.3dshapes/ESP32-C6-MINI-1.step"
+		(offset
+			(xyz -6.6 -5.6 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )
