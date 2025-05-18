@@ -7522,66 +7522,6 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 81.28 347.98) (xy 194.31 347.98) (xy 194.31 322.58) (xy 81.28 322.58)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 1fe63154-d818-40c1-b257-fe465fb96ed0)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 81.28 152.4) (xy 194.31 152.4) (xy 194.31 127) (xy 81.28 127)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 287bd672-25cb-4d85-a234-1124994a7685)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 81.28 264.16) (xy 194.31 264.16) (xy 194.31 238.76) (xy 81.28 238.76)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 2d369e79-8e58-4e5f-ac75-5e454954174e)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 81.28 96.52) (xy 194.31 96.52) (xy 194.31 71.12) (xy 81.28 71.12)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 2ff2618c-45dc-4907-9dba-2f00156e588c)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
 				(xy 81.28 292.1) (xy 194.31 292.1) (xy 194.31 266.7) (xy 81.28 266.7)
 			)
 			(stroke
@@ -7591,37 +7531,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 3218b5b8-c14e-4959-9021-a913445e7c20)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 81.28 236.22) (xy 194.31 236.22) (xy 194.31 210.82) (xy 81.28 210.82)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 32e432fa-5b4f-49b4-b04a-ca7379d9ea3e)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 81.28 124.46) (xy 194.31 124.46) (xy 194.31 99.06) (xy 81.28 99.06)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 3997f0de-346d-42b2-9e84-6645aa8ab535)
+			(uuid 048efaab-15ed-41bd-9420-18980bcbe51a)
 		)
 	)
 	(rule_area
@@ -7636,37 +7546,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 3ab01bad-cfd5-4e57-afe4-117c6da684a4)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 81.28 208.28) (xy 194.31 208.28) (xy 194.31 182.88) (xy 81.28 182.88)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 70e51b73-b01f-4998-902b-79086ededb9e)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 81.28 375.92) (xy 194.31 375.92) (xy 194.31 350.52) (xy 81.28 350.52)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 984e70e8-f363-452c-99f9-923d53cc2f2e)
+			(uuid 19db5549-41e9-4bd5-9838-c6c9e79a522f)
 		)
 	)
 	(rule_area
@@ -7681,7 +7561,22 @@
 			(fill
 				(type none)
 			)
-			(uuid 9b81b2f3-1504-4916-aa6c-f1fa4388f661)
+			(uuid 4d04e4be-2131-4af3-b90e-e91c3a7df48d)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 81.28 236.22) (xy 194.31 236.22) (xy 194.31 210.82) (xy 81.28 210.82)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 6a4e7398-6671-4b23-8d7f-761ab1766152)
 		)
 	)
 	(rule_area
@@ -7696,7 +7591,7 @@
 			(fill
 				(type none)
 			)
-			(uuid b960b4d2-b60a-4ff4-bd82-a2eac9307c82)
+			(uuid 6e662069-772b-4a93-b92e-c2f5d04bc1dc)
 		)
 	)
 	(rule_area
@@ -7711,7 +7606,112 @@
 			(fill
 				(type none)
 			)
-			(uuid c247b61a-d1e5-48c4-8251-f338ab8f91ce)
+			(uuid 6fdd7c9b-8f91-4bbf-be72-76af8ee638f9)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 81.28 208.28) (xy 194.31 208.28) (xy 194.31 182.88) (xy 81.28 182.88)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 9ea4a4ee-326e-4772-8edb-cc612b4df90c)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 81.28 264.16) (xy 194.31 264.16) (xy 194.31 238.76) (xy 81.28 238.76)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid aae5eee4-aeb7-4e42-90fd-f4b5c7dfe748)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 81.28 96.52) (xy 194.31 96.52) (xy 194.31 71.12) (xy 81.28 71.12)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid b2528fcb-8cbc-4c9d-acd8-8a57c9d49db8)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 81.28 152.4) (xy 194.31 152.4) (xy 194.31 127) (xy 81.28 127)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid caad81b7-fff8-4090-b6a2-7cd520e6bca1)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 81.28 124.46) (xy 194.31 124.46) (xy 194.31 99.06) (xy 81.28 99.06)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid d2801dcb-62e4-4094-861f-4583fcb9cda0)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 81.28 375.92) (xy 194.31 375.92) (xy 194.31 350.52) (xy 81.28 350.52)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid d9ad6c9d-360f-49f1-a772-ef46e66f5bdf)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 81.28 347.98) (xy 194.31 347.98) (xy 194.31 322.58) (xy 81.28 322.58)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid f0284416-08fe-497c-905b-247098550c30)
 		)
 	)
 	(netclass_flag ""
@@ -8746,7 +8746,7 @@
 		(at 189.23 176.53 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "0c4f38fe-707c-4d72-b8c8-a0f00bf058cd")
@@ -9281,7 +9281,7 @@
 		(at 40.64 154.94 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "12d9a31d-cd6e-4272-bc9b-8d8a7796d4f3")
@@ -9438,7 +9438,7 @@
 		(at 189.23 232.41 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "1dc2e819-989d-46c5-ba5c-fa87f55421d0")
@@ -9595,7 +9595,7 @@
 		(at 189.23 204.47 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "21d0e96f-0af0-46af-891c-403ab86b73be")
@@ -10227,7 +10227,7 @@
 		(at 40.64 205.74 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "33f11c34-29a8-491e-a4a6-f99c834e0d74")
@@ -10306,7 +10306,7 @@
 		(at 40.64 215.9 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "35c299fc-e216-489e-9092-bd751723426e")
@@ -10385,7 +10385,7 @@
 		(at 189.23 316.23 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "3fb22c50-b7a0-4e1d-90b3-72288dc2eeb8")
@@ -10698,7 +10698,7 @@
 		(at 189.23 288.29 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "471af026-b733-4ddc-998f-6937a0f000e8")
@@ -10892,7 +10892,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C21190"
 			(at 495.3 217.17 0)
 			(effects
 				(font
@@ -11080,7 +11080,7 @@
 		(at 40.64 246.38 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "532b228f-2072-461a-bdd8-a627c4fa259a")
@@ -11159,7 +11159,7 @@
 		(at 40.64 226.06 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "53403441-778f-41d6-839a-daf6c1d32a11")
@@ -11472,7 +11472,7 @@
 		(at 40.64 165.1 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "5a5a5c28-de34-4e7c-82f6-c3548a642093")
@@ -11707,7 +11707,7 @@
 		(at 438.15 209.55 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "5d4f8576-e640-4b41-9315-82210c8e7f7f")
@@ -12067,7 +12067,7 @@
 		(at 40.64 175.26 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "67bfe009-7170-4012-a92a-0c2ec1626ecd")
@@ -12146,7 +12146,7 @@
 		(at 189.23 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "6826afa3-ce00-4e5b-99a3-3ff79be12eb9")
@@ -12225,7 +12225,7 @@
 		(at 189.23 260.35 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "6dadb652-df11-4d6c-8e3e-5b0066051486")
@@ -12619,7 +12619,7 @@
 		(at 252.73 379.73 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "77d16919-e5da-4ad5-a8b3-25c96cf17a36")
@@ -13006,7 +13006,7 @@
 		(at 189.23 148.59 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "8027d389-ba8b-4cf1-bf25-b9a83f1807d6")
@@ -14108,7 +14108,7 @@
 		(at 40.64 185.42 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "9416edbc-cbc2-41bf-9eeb-dfac5ffd451c")
@@ -14187,7 +14187,7 @@
 		(at 189.23 372.11 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "98acb1ec-5099-4619-ba9b-32db0adcf05c")
@@ -14393,7 +14393,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C21190"
 			(at 481.33 217.17 0)
 			(effects
 				(font
@@ -15178,7 +15178,7 @@
 		(at 189.23 64.77 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "b84c7fbd-660e-4ce1-9a02-db310187c2ca")
@@ -15416,7 +15416,7 @@
 		(at 40.64 236.22 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "c21292d2-b74b-4690-ab10-f631b6debfbb")
@@ -16713,7 +16713,7 @@
 		(at 189.23 344.17 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "df12a845-bdc4-434d-b85f-9ad60ff2bef3")
@@ -17170,7 +17170,7 @@
 		(at 189.23 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "eaf1143b-8477-4d5b-8398-08b187a7085a")
@@ -17249,7 +17249,7 @@
 		(at 40.64 256.54 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "ed7f3689-bc3b-4ccd-8dc2-3627bf0c82ef")
@@ -17718,7 +17718,7 @@
 		(at 40.64 195.58 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "fdccfe14-1068-45ba-b628-e94ff610d163")

@@ -167,7 +167,7 @@
 		(path "/67bfe009-7170-4012-a92a-0c2ec1626ecd")
 		(sheetname "/")
 		(sheetfile "RJ45 Adapter.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start -1.33 3.87)
 			(end 1.33 3.87)
@@ -432,7 +432,7 @@
 		(path "/12d9a31d-cd6e-4272-bc9b-8d8a7796d4f3")
 		(sheetname "/")
 		(sheetfile "RJ45 Adapter.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start 1.33 -1.33)
 			(end 1.33 0)
@@ -697,7 +697,7 @@
 		(path "/9416edbc-cbc2-41bf-9eeb-dfac5ffd451c")
 		(sheetname "/")
 		(sheetfile "RJ45 Adapter.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start -1.33 3.87)
 			(end 1.33 3.87)
@@ -962,7 +962,7 @@
 		(path "/fdccfe14-1068-45ba-b628-e94ff610d163")
 		(sheetname "/")
 		(sheetfile "RJ45 Adapter.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start -1.33 3.87)
 			(end 1.33 3.87)
@@ -1227,7 +1227,7 @@
 		(path "/35c299fc-e216-489e-9092-bd751723426e")
 		(sheetname "/")
 		(sheetfile "RJ45 Adapter.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start -1.33 3.87)
 			(end 1.33 3.87)
@@ -1492,7 +1492,7 @@
 		(path "/c21292d2-b74b-4690-ab10-f631b6debfbb")
 		(sheetname "/")
 		(sheetfile "RJ45 Adapter.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start -1.33 3.87)
 			(end 1.33 3.87)
@@ -1757,7 +1757,7 @@
 		(path "/532b228f-2072-461a-bdd8-a627c4fa259a")
 		(sheetname "/")
 		(sheetfile "RJ45 Adapter.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start 1.33 -1.33)
 			(end 1.33 0)
@@ -2022,7 +2022,7 @@
 		(path "/5a5a5c28-de34-4e7c-82f6-c3548a642093")
 		(sheetname "/")
 		(sheetfile "RJ45 Adapter.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start -1.33 3.87)
 			(end 1.33 3.87)
@@ -2219,12 +2219,12 @@
 			)
 		)
 	)
-	(footprint "RJ45 Connectors:RJ45-SMD_HELING_MJ88-B211-JRS3"
+	(footprint "EasyEDA2KiCAD:RJ45-SMD_HELING_MJ88-B211-JRS3"
 		(layer "F.Cu")
 		(uuid "90768cae-66c0-415a-88a8-42819e009c83")
 		(at 76.825 44.815 -90)
 		(property "Reference" "RJ2"
-			(at 0 -11.46 90)
+			(at 0 -11.46 270)
 			(layer "F.SilkS")
 			(uuid "22424a72-74c7-4ca5-bbe4-ec89ac998545")
 			(effects
@@ -2235,7 +2235,7 @@
 			)
 		)
 		(property "Value" "MJ88-B211-JRS3"
-			(at 0 11.46 90)
+			(at 0 11.46 270)
 			(layer "F.Fab")
 			(uuid "c2a580bc-6634-49ff-87e3-4b8bb1e461b2")
 			(effects
@@ -2246,7 +2246,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "aaf1dbd4-773c-4f96-a598-e303d63db2d7")
@@ -2258,7 +2258,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "24e8b68f-267a-4a39-9192-e2e6e9a4eba3")
@@ -2274,7 +2274,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "33735fec-8a2c-4a59-bf92-7f52312201c0")
+			(uuid "0eb1f4f0-13b0-4d04-96af-d591295c6b85")
 			(effects
 				(font
 					(size 1 1)
@@ -2294,7 +2294,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ec695215-3aef-483a-afcf-4ee5756683c9")
+			(uuid "574e574e-9ac0-4d67-9f93-a0b986e7a256")
 		)
 		(fp_line
 			(start -7.87 8.96)
@@ -2304,7 +2304,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "16ac6b87-c53b-48ff-90e3-c89c6310c667")
+			(uuid "025bc4d0-1436-48d6-9736-59ef4553b0d5")
 		)
 		(fp_line
 			(start 7.88 8.96)
@@ -2314,7 +2314,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "7a02b799-a50a-4e60-970d-41016fbe85ad")
+			(uuid "0513f49f-7a18-4999-9485-9538322935b4")
 		)
 		(fp_line
 			(start -7.87 -6.02)
@@ -2324,7 +2324,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8e66d0ca-1c5c-47e2-bf47-3815cf4da042")
+			(uuid "f0c261eb-6958-4d40-8a28-7d97cdfb64d6")
 		)
 		(fp_line
 			(start -7.87 -6.02)
@@ -2334,7 +2334,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f3260f51-a6fe-4d26-8f19-747f8e9c04a8")
+			(uuid "15854422-3af6-4f61-876a-035e5eb8bc2c")
 		)
 		(fp_line
 			(start -3.83 -6.02)
@@ -2344,7 +2344,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "980fb1a5-77b3-461b-bc2c-0bc084b1c012")
+			(uuid "24774bc6-13f0-4657-859f-f9e8f1d680c1")
 		)
 		(fp_line
 			(start -2.56 -6.02)
@@ -2354,7 +2354,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "3d593169-5e7f-4f87-bf5c-451334b3f8e7")
+			(uuid "b9dcd89b-5f52-4d31-85a6-496e165dd89a")
 		)
 		(fp_line
 			(start -1.29 -6.02)
@@ -2364,7 +2364,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "888681a4-ecdb-4467-b5ea-06605bb7e05e")
+			(uuid "affe4673-44ce-40d7-8e4a-2dd5a263ef5e")
 		)
 		(fp_line
 			(start -0.02 -6.02)
@@ -2374,7 +2374,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f5322b39-2914-4f7e-aba6-bf5cdda8e665")
+			(uuid "2cdcbbc8-1dd3-4bd6-8cbf-f5a8c13f6add")
 		)
 		(fp_line
 			(start 1.25 -6.02)
@@ -2384,7 +2384,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6cc2ae45-381a-4119-a9ec-e9538bdcff76")
+			(uuid "d6174d59-2055-4157-b800-afa61fcf3860")
 		)
 		(fp_line
 			(start 2.52 -6.02)
@@ -2394,7 +2394,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "1529c566-e929-4fef-a965-33c44303bdcf")
+			(uuid "a178061b-8abc-4a83-9b56-d9b2e499292d")
 		)
 		(fp_line
 			(start 3.79 -6.02)
@@ -2404,7 +2404,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "e5c06e67-e3fb-41dc-bdf4-5ed17665f561")
+			(uuid "5aef1076-2f15-4c0b-823e-9f41d155d7b3")
 		)
 		(fp_line
 			(start 5.06 -6.02)
@@ -2414,7 +2414,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "2bb08868-1f00-44e4-abf3-4010300ca625")
+			(uuid "97dc0809-c5f9-4942-8203-d534f92981b7")
 		)
 		(fp_line
 			(start 7.88 -6.02)
@@ -2424,7 +2424,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "72ec7181-4cce-42f7-8f0d-b3b7c7dfe024")
+			(uuid "48a23481-b92e-49ec-bfa4-9eea995b65e4")
 		)
 		(fp_circle
 			(center -5.82 -7.19)
@@ -2435,7 +2435,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "b9ae5975-bc1e-4ec8-b421-514e513436c9")
+			(uuid "d36526dd-4bbe-4204-87ea-416712c780ce")
 		)
 		(fp_circle
 			(center -5.72 4.41)
@@ -2446,7 +2446,7 @@
 			)
 			(fill no)
 			(layer "Cmts.User")
-			(uuid "7f3fd1dc-b87e-450d-ac56-9d70bd6dd8f6")
+			(uuid "4ffd3d17-abfa-44bd-a726-eeea9a8c847d")
 		)
 		(fp_circle
 			(center 5.71 4.41)
@@ -2457,7 +2457,7 @@
 			)
 			(fill no)
 			(layer "Cmts.User")
-			(uuid "88a00d2d-383a-4b29-9243-6b5a6e12a074")
+			(uuid "e254bc62-dc5f-4e40-8aca-60133f0344c5")
 		)
 		(fp_circle
 			(center -4.47 -8.53)
@@ -2468,7 +2468,7 @@
 			)
 			(fill no)
 			(layer "Cmts.User")
-			(uuid "dfd2c9ef-a2f8-4b17-bfaf-7140a1f86be2")
+			(uuid "3f8c0258-6fd8-4f74-84da-82933a90dda8")
 		)
 		(fp_circle
 			(center -9.25 -8.61)
@@ -2479,10 +2479,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "fc21f2e9-e4e5-412d-8ddc-ec00ed41e84e")
+			(uuid "51571c8f-4c1a-41fb-b167-013493dec6ba")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(uuid "112e053d-3c73-4ff9-a550-5951ae3d9be1")
 			(effects
@@ -2498,7 +2498,7 @@
 			(drill 3.25)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "15a2048a-6023-44fc-a3f5-0b78131f5524")
+			(uuid "241699b7-7e5b-45b7-b573-046cebdd2633")
 		)
 		(pad "" thru_hole circle
 			(at 5.71 4.41 270)
@@ -2506,7 +2506,7 @@
 			(drill 3.25)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "5cac0179-8424-48c4-82a2-5b5466c909c7")
+			(uuid "24b291be-5433-40af-ba46-18afc204d02e")
 		)
 		(pad "1" smd rect
 			(at -4.44 -7.46 270)
@@ -2599,15 +2599,15 @@
 			(uuid "8a7ab1a2-89e1-484a-bec5-4073a5cc3135")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/RJ45-SMD_HELING_MJ88-B211-JRS3.wrl"
+		(model "${KIPRJMOD}/../libraries/EasyEDA2KiCAD.3dshapes/RJ45-SMD_HELING_MJ88-B211-JRS3.wrl"
 			(offset
-				(xyz 0 -2.19 2.8)
+				(xyz 0 -2.19 11.8)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -2679,7 +2679,7 @@
 		(path "/ed7f3689-bc3b-4ccd-8dc2-3627bf0c82ef")
 		(sheetname "/")
 		(sheetfile "RJ45 Adapter.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start 1.33 -1.33)
 			(end 1.33 0)
@@ -2944,7 +2944,7 @@
 		(path "/53403441-778f-41d6-839a-daf6c1d32a11")
 		(sheetname "/")
 		(sheetfile "RJ45 Adapter.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start -1.33 3.87)
 			(end 1.33 3.87)
@@ -3209,7 +3209,7 @@
 		(path "/33f11c34-29a8-491e-a4a6-f99c834e0d74")
 		(sheetname "/")
 		(sheetfile "RJ45 Adapter.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start -1.33 3.87)
 			(end 1.33 3.87)
@@ -3406,12 +3406,12 @@
 			)
 		)
 	)
-	(footprint "RJ45 Connectors:RJ45-SMD_HELING_MJ88-B211-JRS3"
+	(footprint "EasyEDA2KiCAD:RJ45-SMD_HELING_MJ88-B211-JRS3"
 		(layer "F.Cu")
 		(uuid "c3b1dbd8-21b0-41af-af02-a17528d4f50e")
 		(at 76.825 65.275 -90)
 		(property "Reference" "RJ1"
-			(at 0 -11.46 90)
+			(at 0 -11.46 270)
 			(layer "F.SilkS")
 			(uuid "c890ce33-2050-4a42-98cc-b817bb3007cf")
 			(effects
@@ -3422,7 +3422,7 @@
 			)
 		)
 		(property "Value" "MJ88-B211-JRS3"
-			(at 0 11.46 90)
+			(at 0 11.46 270)
 			(layer "F.Fab")
 			(uuid "93afd9cc-c013-4dbd-9cc9-cb3b38489479")
 			(effects
@@ -3433,7 +3433,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f1889ede-c9ec-4d10-8a75-639598720a7a")
@@ -3445,7 +3445,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c216d36c-6f2b-4f6f-8dcf-8c64becdb255")
@@ -3461,7 +3461,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "00ce0435-6961-4f42-a20d-b4a5787484d4")
+			(uuid "c1c7c231-07fc-4e64-9ab0-4d4e562f07cb")
 			(effects
 				(font
 					(size 1 1)
@@ -3481,7 +3481,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "151c3d79-38fb-4b73-8ed3-021b1228d4bd")
+			(uuid "adf9a61a-972b-4d6f-9aa8-8ec3ff5d9304")
 		)
 		(fp_line
 			(start -7.87 8.96)
@@ -3491,7 +3491,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "07fb6ca8-c858-4ac6-82f0-1dc17ad18a10")
+			(uuid "f50788ae-ac36-49a7-80ad-5773e0f3d37d")
 		)
 		(fp_line
 			(start 7.88 8.96)
@@ -3501,7 +3501,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "2fa094fe-34af-4105-94af-20c6c6146ad9")
+			(uuid "0a254de0-9a31-4f03-9c86-dbeffa377eb8")
 		)
 		(fp_line
 			(start -7.87 -6.02)
@@ -3511,7 +3511,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "168337f6-87c8-406f-8d0e-da3c18a9edf7")
+			(uuid "127b0723-7c24-4e74-832b-3d0420e68858")
 		)
 		(fp_line
 			(start -7.87 -6.02)
@@ -3521,7 +3521,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "514ef32b-c855-4ac5-88d0-6b5adbd0e2c4")
+			(uuid "f6e6f910-8cc9-4234-8615-c4c10e3acae2")
 		)
 		(fp_line
 			(start -3.83 -6.02)
@@ -3531,7 +3531,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "1e9285f0-bc98-48a2-9c34-d6b35554892f")
+			(uuid "de6cc3dc-0b1a-4d37-a6e1-9d9eaa505b18")
 		)
 		(fp_line
 			(start -2.56 -6.02)
@@ -3541,7 +3541,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "89a3bfd7-2ffc-454a-bf03-5615c67d5946")
+			(uuid "8fcfd633-acc2-4ed7-89af-e16130971ba3")
 		)
 		(fp_line
 			(start -1.29 -6.02)
@@ -3551,7 +3551,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "7083c2a8-da81-45c8-a0b2-6c0b4b28867b")
+			(uuid "45a9977c-7de3-4060-b3e5-e5ca4ae46a32")
 		)
 		(fp_line
 			(start -0.02 -6.02)
@@ -3561,7 +3561,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4f8e2e87-3a05-428a-9c52-4cf6d3536768")
+			(uuid "ebda99e4-3482-4105-ad2e-87315011f838")
 		)
 		(fp_line
 			(start 1.25 -6.02)
@@ -3571,7 +3571,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a47c626f-cd5b-4716-b258-2feb6db700a6")
+			(uuid "a29c52d7-8c26-4cd1-b019-96ea94775b7d")
 		)
 		(fp_line
 			(start 2.52 -6.02)
@@ -3581,7 +3581,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "7963d9b0-671d-4242-bb35-0aee1d99c482")
+			(uuid "0f502e2a-394d-4511-be0d-692972f9e701")
 		)
 		(fp_line
 			(start 3.79 -6.02)
@@ -3591,7 +3591,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "9a785e26-83c2-4dba-854a-488211e29500")
+			(uuid "b81ccbf2-44ae-4819-9c4c-84694cd1879d")
 		)
 		(fp_line
 			(start 5.06 -6.02)
@@ -3601,7 +3601,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "39c9fa0e-3b0c-4a3d-afd0-70d422a09f39")
+			(uuid "94204996-1b2d-4f12-9c67-ecff00c74101")
 		)
 		(fp_line
 			(start 7.88 -6.02)
@@ -3611,7 +3611,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f93e7c2a-8e20-4fb2-86db-18a753feac8d")
+			(uuid "5cd5dbc7-c0cb-411d-bd19-79fcbff58dc8")
 		)
 		(fp_circle
 			(center -5.82 -7.19)
@@ -3622,7 +3622,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "72acb8c3-a725-47fa-bb01-31ef14c8314f")
+			(uuid "26d5e675-9c1f-43f0-9c03-d0c3241e5b07")
 		)
 		(fp_circle
 			(center -5.72 4.41)
@@ -3633,7 +3633,7 @@
 			)
 			(fill no)
 			(layer "Cmts.User")
-			(uuid "da7a4c1f-d7d5-4b13-a949-c9e19f883231")
+			(uuid "ce046b39-e406-4299-8671-4e576c2c4bc8")
 		)
 		(fp_circle
 			(center 5.71 4.41)
@@ -3644,7 +3644,7 @@
 			)
 			(fill no)
 			(layer "Cmts.User")
-			(uuid "3bfce440-6e1a-475e-9beb-bf4025bda742")
+			(uuid "2158a185-3231-40d2-8212-021ed7441796")
 		)
 		(fp_circle
 			(center -4.47 -8.53)
@@ -3655,7 +3655,7 @@
 			)
 			(fill no)
 			(layer "Cmts.User")
-			(uuid "b637fbf8-7115-4619-9a26-7647261b300d")
+			(uuid "235ba670-4db2-4bec-b616-afb7e500142e")
 		)
 		(fp_circle
 			(center -9.25 -8.61)
@@ -3666,10 +3666,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "484bb0e9-9055-4ab2-8053-a3680ae7e9cf")
+			(uuid "ddcb933e-ae9c-4d0b-9af5-f4ef1de50caf")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(uuid "1ac3653f-7cb2-42d4-b142-6e922aa5e329")
 			(effects
@@ -3685,7 +3685,7 @@
 			(drill 3.25)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "afa69a68-efba-4f82-907d-984d504052f9")
+			(uuid "2542068a-b1d7-42fe-b2f3-a322b33da269")
 		)
 		(pad "" thru_hole circle
 			(at 5.71 4.41 270)
@@ -3693,7 +3693,7 @@
 			(drill 3.25)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "cbba4d73-94bb-4daf-af88-7698343e5b0b")
+			(uuid "3023833f-7687-4207-823c-53cdf50b12e5")
 		)
 		(pad "1" smd rect
 			(at -4.44 -7.46 270)
@@ -3786,15 +3786,15 @@
 			(uuid "1530656e-2f84-4ce1-821c-54f7d423e4e7")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/RJ45-SMD_HELING_MJ88-B211-JRS3.wrl"
+		(model "${KIPRJMOD}/../libraries/EasyEDA2KiCAD.3dshapes/RJ45-SMD_HELING_MJ88-B211-JRS3.wrl"
 			(offset
-				(xyz 0 -2.19 2.8)
+				(xyz 0 -2.19 11.8)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
