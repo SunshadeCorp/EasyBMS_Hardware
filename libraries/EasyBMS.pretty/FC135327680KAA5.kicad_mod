@@ -171,7 +171,7 @@
 		(uuid "c89258d4-fb01-4e78-b25c-16e7453826c1")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/merlin.bromberg/Documents/KiCad/9.0/projects/EasyBMS-Hardware/libraries/EasyBMS.3dshapes/FC-135_32.7680KA-A5.step"
+	(model "${KIPRJMOD}/../libraries/EasyBMS.3dshapes/FC-135_32.7680KA-A5.step"
 		(offset
 			(xyz 0 0 0.25)
 		)
