@@ -265,7 +265,7 @@
 		(uuid "a4b37e02-e370-4be0-8bf8-439235af9d99")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/merlin.bromberg/Documents/KiCad/9.0/projects/EasyBMS-Hardware/libraries/EasyBMS.3dshapes/ISO1042DWV.step"
+	(model "${KIPRJMOD}/../libraries/EasyBMS.3dshapes/ISO1042DWV.step"
 		(offset
 			(xyz 0 0 1.6)
 		)
