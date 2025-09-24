@@ -2435,7 +2435,7 @@
 		(path "/eaf1143b-8477-4d5b-8398-08b187a7085a")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_poly
 			(pts
 				(xy -0.5001 0.5999) (xy 0.4001 0.5999) (xy 0.4001 -0.5999) (xy -0.5001 -0.5999)
@@ -3865,6 +3865,7 @@
 		(path "/c21292d2-b74b-4690-ab10-f631b6debfbb")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.54 0.635)
 			(end 1.905 1.27)
@@ -4138,7 +4139,7 @@
 		(path "/df12a845-bdc4-434d-b85f-9ad60ff2bef3")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_poly
 			(pts
 				(xy -0.5001 0.5999) (xy 0.4001 0.5999) (xy 0.4001 -0.5999) (xy -0.5001 -0.5999)
@@ -4770,7 +4771,7 @@
 		(path "/98acb1ec-5099-4619-ba9b-32db0adcf05c")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_poly
 			(pts
 				(xy -0.5001 0.5999) (xy 0.4001 0.5999) (xy 0.4001 -0.5999) (xy -0.5001 -0.5999)
@@ -8022,7 +8023,7 @@
 		(path "/1dc2e819-989d-46c5-ba5c-fa87f55421d0")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_poly
 			(pts
 				(xy -0.5001 0.5999) (xy 0.4001 0.5999) (xy 0.4001 -0.5999) (xy -0.5001 -0.5999)
@@ -9203,6 +9204,7 @@
 		(path "/53403441-778f-41d6-839a-daf6c1d32a11")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.54 0.635)
 			(end 1.905 1.27)
@@ -9909,6 +9911,7 @@
 		(path "/532b228f-2072-461a-bdd8-a627c4fa259a")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.54 -0.635)
 			(end -2.54 0.635)
@@ -10950,7 +10953,7 @@
 		(path "/0c4f38fe-707c-4d72-b8c8-a0f00bf058cd")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_poly
 			(pts
 				(xy -0.5001 0.5999) (xy 0.4001 0.5999) (xy 0.4001 -0.5999) (xy -0.5001 -0.5999)
@@ -11974,6 +11977,7 @@
 		(path "/35c299fc-e216-489e-9092-bd751723426e")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.54 0.635)
 			(end 1.905 1.27)
@@ -13773,7 +13777,7 @@
 		(path "/b84c7fbd-660e-4ce1-9a02-db310187c2ca")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_poly
 			(pts
 				(xy -0.5001 0.5999) (xy 0.4001 0.5999) (xy 0.4001 -0.5999) (xy -0.5001 -0.5999)
@@ -14972,6 +14976,7 @@
 		(path "/ed7f3689-bc3b-4ccd-8dc2-3627bf0c82ef")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.54 0.635)
 			(end 1.905 1.27)
@@ -18965,7 +18970,7 @@
 		(path "/471af026-b733-4ddc-998f-6937a0f000e8")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_poly
 			(pts
 				(xy -0.5001 0.5999) (xy 0.4001 0.5999) (xy 0.4001 -0.5999) (xy -0.5001 -0.5999)
@@ -20385,6 +20390,7 @@
 		(path "/33f11c34-29a8-491e-a4a6-f99c834e0d74")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.54 0.635)
 			(end 1.905 1.27)
@@ -22034,7 +22040,7 @@
 		(path "/6826afa3-ce00-4e5b-99a3-3ff79be12eb9")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_poly
 			(pts
 				(xy -0.5001 0.5999) (xy 0.4001 0.5999) (xy 0.4001 -0.5999) (xy -0.5001 -0.5999)
@@ -26526,6 +26532,7 @@
 		(path "/12d9a31d-cd6e-4272-bc9b-8d8a7796d4f3")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.54 -0.635)
 			(end -2.54 0.635)
@@ -28271,7 +28278,7 @@
 		(path "/6dadb652-df11-4d6c-8e3e-5b0066051486")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_poly
 			(pts
 				(xy -0.5001 0.5999) (xy 0.4001 0.5999) (xy 0.4001 -0.5999) (xy -0.5001 -0.5999)
@@ -29896,7 +29903,7 @@
 		(path "/134121bf-8371-4800-bf5a-8b8796e781ad")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_bom)
 		(fp_line
 			(start -2.54 -0.635)
 			(end -2.54 0.635)
@@ -32735,7 +32742,7 @@
 		(path "/21d0e96f-0af0-46af-891c-403ab86b73be")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_poly
 			(pts
 				(xy -0.5001 0.5999) (xy 0.4001 0.5999) (xy 0.4001 -0.5999) (xy -0.5001 -0.5999)
@@ -32971,6 +32978,7 @@
 		(path "/67bfe009-7170-4012-a92a-0c2ec1626ecd")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.54 0.635)
 			(end 1.905 1.27)
@@ -34023,7 +34031,7 @@
 		(path "/3fb22c50-b7a0-4e1d-90b3-72288dc2eeb8")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_poly
 			(pts
 				(xy -0.5001 0.5999) (xy 0.4001 0.5999) (xy 0.4001 -0.5999) (xy -0.5001 -0.5999)
@@ -35550,6 +35558,7 @@
 		(path "/fdccfe14-1068-45ba-b628-e94ff610d163")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.54 0.635)
 			(end 1.905 1.27)
@@ -36376,7 +36385,7 @@
 		(path "/8027d389-ba8b-4cf1-bf25-b9a83f1807d6")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_poly
 			(pts
 				(xy -0.5001 0.5999) (xy 0.4001 0.5999) (xy 0.4001 -0.5999) (xy -0.5001 -0.5999)
@@ -37561,6 +37570,7 @@
 		(path "/9416edbc-cbc2-41bf-9eeb-dfac5ffd451c")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.54 0.635)
 			(end 1.905 1.27)
@@ -37834,6 +37844,7 @@
 		(path "/5a5a5c28-de34-4e7c-82f6-c3548a642093")
 		(sheetname "/")
 		(sheetfile "EasyBMS.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.54 0.635)
 			(end 1.905 1.27)
@@ -39734,7 +39745,7 @@
 		(layer "F.Fab")
 		(uuid "feda12fb-83c5-40ec-9656-d1930556b947")
 	)
-	(gr_text "EasyBMS\nMEB\nv3.0\n22.02.2025"
+	(gr_text "EasyBMS\nMEB\nv3.1\n19.05.2025"
 		(at 151.9907 101.6748 0)
 		(layer "F.SilkS")
 		(uuid "092c6cac-1c94-4d88-8c39-400b149e9e06")
@@ -54679,7 +54690,7 @@
 		(polygon
 			(pts
 				(xy 172.5523 76.185163) (xy 170.732663 78.0048) (xy 164.024456 78.0048) (xy 162.25 75.225) (xy 158.925 74.75)
-				(xy 158.925 74.1) (xy 164.4499 74.0774) (xy 165.0499 73.4774) (xy 165.0499 72.3774) (xy 172.55 72.4)
+				(xy 158.925 74.225714) (xy 164.323669 74.203631) (xy 165.0499 73.4774) (xy 165.0499 72.3774) (xy 172.55 72.4)
 			)
 		)
 		(filled_polygon
@@ -54688,11 +54699,9 @@
 				(xy 172.513035 72.399888) (xy 172.539235 72.410834) (xy 172.550022 72.436965) (xy 172.55229 76.169781)
 				(xy 172.54144 76.196022) (xy 172.541424 76.196038) (xy 170.743529 77.993934) (xy 170.717295 78.0048)
 				(xy 164.044788 78.0048) (xy 164.018554 77.993934) (xy 164.013516 77.987662) (xy 162.25 75.225) (xy 158.956853 74.75455)
-				(xy 158.93242 74.740083) (xy 158.925 74.717823) (xy 158.925 74.136948) (xy 158.935866 74.110714)
-				(xy 158.961945 74.099848) (xy 162.17425 74.086708) (xy 162.181627 74.08742) (xy 162.203142 74.0917)
-				(xy 162.203143 74.0917) (xy 163.528257 74.0917) (xy 163.528258 74.0917) (xy 163.565448 74.084302)
-				(xy 163.565453 74.084298) (xy 163.566702 74.083781) (xy 163.580749 74.080955) (xy 164.4499 74.0774)
-				(xy 165.0499 73.4774) (xy 165.0499 72.414612) (xy 165.060766 72.388378) (xy 165.087 72.377512) (xy 165.087069 72.377512)
+				(xy 158.93242 74.740083) (xy 158.925 74.717823) (xy 158.925 74.262662) (xy 158.935866 74.236428)
+				(xy 158.961945 74.225562) (xy 164.323669 74.203631) (xy 165.0499 73.4774) (xy 165.0499 72.414612)
+				(xy 165.060766 72.388378) (xy 165.087 72.377512) (xy 165.087069 72.377512)
 			)
 		)
 	)
@@ -56130,7 +56139,7 @@
 				(xy 129.716673 75.254993) (xy 129.7266 75.18686) (xy 129.7266 74.066091) (xy 129.744906 74.021897)
 				(xy 130.136584 73.630219) (xy 130.136589 73.630214) (xy 130.187174 73.542597) (xy 130.225124 73.513479)
 				(xy 130.27255 73.519722) (xy 130.30167 73.557673) (xy 130.3038 73.573849) (xy 130.3038 73.691113)
-				(xy 130.315882 73.7362) (xy 130.323439 73.764402) (xy 130.331083 73.792931) (xy 130.334501 73.805688)
+				(xy 130.314336 73.730431) (xy 130.323439 73.764402) (xy 130.331083 73.792931) (xy 130.334501 73.805688)
 				(xy 130.334503 73.805692) (xy 130.393808 73.90841) (xy 130.393815 73.908419) (xy 130.507294 74.021897)
 				(xy 130.5256 74.066091) (xy 130.5256 75.186859) (xy 130.535526 75.25499) (xy 130.535526 75.254991)
 				(xy 130.535527 75.254993) (xy 130.586902 75.360083) (xy 130.669617 75.442798) (xy 130.774707 75.494173)
@@ -56301,7 +56310,7 @@
 				(xy 129.1256 72.9406) (xy 129.107294 72.984794) (xy 129.0631 73.0031) (xy 128.34284 73.0031) (xy 128.331934 73.004689)
 				(xy 128.274709 73.013026) (xy 128.169615 73.064403) (xy 128.086903 73.147115) (xy 128.035526 73.252209)
 				(xy 128.0256 73.32034) (xy 128.0256 73.6406) (xy 128.007294 73.684794) (xy 127.9631 73.7031) (xy 127.11674 73.7031)
-				(xy 127.108497 73.704301) (xy 127.048609 73.713026) (xy 126.943515 73.764403) (xy 126.933294 73.774625)
+				(xy 127.105121 73.704792) (xy 127.048609 73.713026) (xy 126.943515 73.764403) (xy 126.933294 73.774625)
 				(xy 126.8891 73.792931) (xy 126.844906 73.774625) (xy 126.8266 73.730431) (xy 126.8266 70.916091)
 				(xy 126.844906 70.871897) (xy 127.044397 70.672406) (xy 127.088591 70.6541) (xy 127.609359 70.6541)
 				(xy 127.60936 70.6541) (xy 127.677493 70.644173) (xy 127.782583 70.592798) (xy 127.865298 70.510083)
@@ -56585,17 +56594,15 @@
 				(xy 164.846817 72.102202) (xy 164.803141 72.145876) (xy 164.80063 72.147916) (xy 164.80063 72.147917)
 				(xy 164.79429 72.153066) (xy 164.791508 72.156215) (xy 164.786488 72.16253) (xy 164.764103 72.184915)
 				(xy 164.712726 72.290009) (xy 164.7028 72.35814) (xy 164.7028 72.359092) (xy 164.701948 72.369378)
-				(xy 164.6944 72.414613) (xy 164.6944 73.304259) (xy 164.676094 73.348453) (xy 164.320245 73.704301)
-				(xy 164.276307 73.722606) (xy 163.579303 73.725457) (xy 163.510634 73.732438) (xy 163.498033 73.734973)
-				(xy 163.485708 73.7362) (xy 162.238249 73.7362) (xy 162.229138 73.735532) (xy 162.225343 73.734973)
-				(xy 162.215777 73.733563) (xy 162.215783 73.733563) (xy 162.208402 73.732851) (xy 162.172778 73.73121)
-				(xy 161.828956 73.732617) (xy 161.784687 73.714493) (xy 161.766201 73.670374) (xy 161.7662 73.670118)
-				(xy 161.7662 71.562929) (xy 161.784506 71.518735) (xy 161.8287 71.500429) (xy 161.872894 71.518735)
-				(xy 161.884847 71.535475) (xy 161.926502 71.620683) (xy 162.009217 71.703398) (xy 162.114307 71.754773)
-				(xy 162.18244 71.7647) (xy 162.182441 71.7647) (xy 163.548959 71.7647) (xy 163.54896 71.7647) (xy 163.617093 71.754773)
-				(xy 163.722183 71.703398) (xy 163.804898 71.620683) (xy 163.856273 71.515593) (xy 163.8662 71.44746)
-				(xy 163.8662 70.78094) (xy 163.856273 70.712807) (xy 163.804898 70.607717) (xy 163.754375 70.557194)
-				(xy 163.736069 70.513) (xy 163.754375 70.468806) (xy 163.798569 70.4505) (xy 164.653555 70.4505)
+				(xy 164.6944 72.414613) (xy 164.6944 73.304259) (xy 164.676094 73.348453) (xy 164.194014 73.830532)
+				(xy 164.150076 73.848837) (xy 161.828956 73.858331) (xy 161.784687 73.840207) (xy 161.766201 73.796088)
+				(xy 161.7662 73.795832) (xy 161.7662 71.562929) (xy 161.784506 71.518735) (xy 161.8287 71.500429)
+				(xy 161.872894 71.518735) (xy 161.884847 71.535475) (xy 161.926502 71.620683) (xy 162.009217 71.703398)
+				(xy 162.114307 71.754773) (xy 162.18244 71.7647) (xy 162.182441 71.7647) (xy 163.548959 71.7647)
+				(xy 163.54896 71.7647) (xy 163.617093 71.754773) (xy 163.722183 71.703398) (xy 163.804898 71.620683)
+				(xy 163.856273 71.515593) (xy 163.8662 71.44746) (xy 163.8662 70.78094) (xy 163.856273 70.712807)
+				(xy 163.804898 70.607717) (xy 163.754375 70.557194) (xy 163.736069 70.513) (xy 163.754375 70.468806)
+				(xy 163.798569 70.4505) (xy 164.653555 70.4505)
 			)
 		)
 		(filled_polygon
