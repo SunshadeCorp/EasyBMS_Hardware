@@ -940,6 +940,189 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "EasyBMS-eagle-import:+3V3"
 			(power)
 			(exclude_from_sim no)
@@ -5894,709 +6077,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyBMS-eagle-import:XL-1615RGBC-WS2812B"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "LED2"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "XL-1615RGBC-WS2812B"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "EasyEDA2KiCAD:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C5349954"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "XL-1615RGBC-WS2812B_1_0"
-				(polyline
-					(pts
-						(xy -7.62 10.16) (xy -7.62 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 -2.54) (xy -7.62 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 -5.08) (xy 0 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 6.35) (xy -5.08 6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 3.81) (xy -5.08 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 8.89) (xy -5.08 6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 6.35) (xy -3.81 6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 3.81) (xy -6.35 6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 3.81) (xy -5.08 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 3.81) (xy -3.81 6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 2.54) (xy -5.08 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -1.27) (xy -7.62 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 3.81) (xy -5.08 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 6.35) (xy 0 6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 3.81) (xy -1.27 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 6.35) (xy -1.27 8.89)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 3.81) (xy -2.54 6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 3.81) (xy -1.27 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 3.81) (xy 0 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy -5.08 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 10.16) (xy -7.62 10.16)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 10.16) (xy 0 8.89)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 8.89) (xy -5.08 8.89)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 6.35) (xy -1.27 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 5.08 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -5.08) (xy 7.62 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 6.35) (xy 2.54 6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 6.35) (xy 2.54 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 8.89) (xy 0 8.89)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 8.89) (xy 5.08 8.89)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 6.35) (xy 2.54 8.89)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 3.81) (xy 1.27 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 3.81) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 3.81) (xy 3.81 6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 3.81) (xy 3.81 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy -1.27 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 6.35) (xy 2.54 6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 8.89) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -1.27) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -1.27) (xy 7.62 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 10.16) (xy 0 10.16)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 7.62 10.16)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 7.62 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "WS2812B"
-					(at 3.81 1.27 0)
-					(effects
-						(font
-							(size 1.27 1.0795)
-						)
-						(justify right top)
-					)
-				)
-				(pin input line
-					(at -12.7 -2.54 0)
-					(length 5.08)
-					(name "DI"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 15.24 270)
-					(length 5.08)
-					(name "VDD"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -10.16 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 -2.54 180)
-					(length 5.08)
-					(name "DO"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "EasyBMS-eagle-import:XL7046"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -7645,6 +7125,160 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "EasyEDA2KiCAD:XL-0807RGBC-WS2812B"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "XL-0807RGBC-WS2812B"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA2KiCAD:LED-SMD_4P-L2.0-W1.8_XL-0807RGBC-WS2812B"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C3646929"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "XL-0807RGBC-WS2812B_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -6.35 3.81)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10373,12 +10007,6 @@
 		(uuid "7950dc40-cc35-40b3-ba28-483061d38a58")
 	)
 	(junction
-		(at 246.38 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7aac444c-1a75-4b45-87e0-2958299cd5bc")
-	)
-	(junction
 		(at 325.12 252.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10443,6 +10071,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8bd3b0a1-33f9-4a6c-942f-f21ddfd26f1c")
+	)
+	(junction
+		(at 231.14 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d3c951d-b79e-44cb-8e24-5d779110cdf9")
 	)
 	(junction
 		(at 426.72 59.69)
@@ -10719,7 +10353,7 @@
 		(uuid "b51d5448-4aaf-4536-b289-d30b8b0d08e2")
 	)
 	(no_connect
-		(at 259.08 152.4)
+		(at 254 154.94)
 		(uuid "c2f7402f-62c8-4e41-9a55-76bf078c0696")
 	)
 	(no_connect
@@ -10729,10 +10363,6 @@
 	(no_connect
 		(at 149.86 342.9)
 		(uuid "f62a6119-1190-4bf6-9f0f-d0fbb2bed925")
-	)
-	(no_connect
-		(at 241.3 261.62)
-		(uuid "fcf10311-7fa8-4cc2-a17b-e368b724f1a6")
 	)
 	(no_connect
 		(at 401.32 292.1)
@@ -11140,6 +10770,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 176.53) (xy 231.14 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1867fe2e-bc1d-45a9-b6b9-349263c3c4a1")
+	)
+	(wire
+		(pts
 			(xy 181.61 256.54) (xy 177.8 256.54)
 		)
 		(stroke
@@ -11187,6 +10827,16 @@
 			(type default)
 		)
 		(uuid "1bb2cdc6-1869-4865-a0a6-392eea41e0ed")
+	)
+	(wire
+		(pts
+			(xy 254 152.4) (xy 260.35 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c2ce55f-b4a3-4ef3-9e4e-0779474fd3b9")
 	)
 	(wire
 		(pts
@@ -11400,7 +11050,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 128.27) (xy 257.81 130.81)
+			(xy 237.49 128.27) (xy 237.49 132.08)
 		)
 		(stroke
 			(width 0.1524)
@@ -11470,6 +11120,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 181.61) (xy 213.36 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ab5cd73-3905-432f-b5e3-d240b2979b3c")
+	)
+	(wire
+		(pts
 			(xy 342.9 69.215) (xy 342.9 59.69)
 		)
 		(stroke
@@ -11477,16 +11137,6 @@
 			(type solid)
 		)
 		(uuid "2b4cd3f6-34f2-4b92-8f61-8d1aac0f84ff")
-	)
-	(wire
-		(pts
-			(xy 246.38 128.27) (xy 257.81 128.27)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "2b932e0d-922a-411c-a86f-c4b57e12bc47")
 	)
 	(wire
 		(pts
@@ -11657,6 +11307,16 @@
 			(type solid)
 		)
 		(uuid "347af2da-2516-4014-931e-fd1b22d8b543")
+	)
+	(wire
+		(pts
+			(xy 241.3 176.53) (xy 260.35 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "349e3dd2-c4cb-4a54-a7d6-c4f46a55821d")
 	)
 	(wire
 		(pts
@@ -12440,6 +12100,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 152.4) (xy 260.35 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d655dfb-e499-4281-90d4-1caa2729c613")
+	)
+	(wire
+		(pts
 			(xy 342.9 76.835) (xy 342.9 87.63)
 		)
 		(stroke
@@ -12630,7 +12300,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 128.27) (xy 246.38 124.46)
+			(xy 231.14 128.27) (xy 231.14 124.46)
 		)
 		(stroke
 			(width 0.1524)
@@ -12767,6 +12437,16 @@
 			(type solid)
 		)
 		(uuid "74202f22-d173-4e4f-af14-a5f21585da8f")
+	)
+	(wire
+		(pts
+			(xy 231.14 128.27) (xy 231.14 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7451b01f-30ea-450f-a687-80dd0275cd21")
 	)
 	(wire
 		(pts
@@ -12910,7 +12590,17 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 160.02) (xy 246.38 163.83)
+			(xy 241.3 261.62) (xy 251.46 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d34c76c-6ee9-4933-884f-f2fcbf6953ec")
+	)
+	(wire
+		(pts
+			(xy 260.35 154.94) (xy 260.35 158.75)
 		)
 		(stroke
 			(width 0.1524)
@@ -12950,7 +12640,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 128.27) (xy 246.38 128.27)
+			(xy 224.79 128.27) (xy 231.14 128.27)
 		)
 		(stroke
 			(width 0.1524)
@@ -13097,6 +12787,16 @@
 			(type default)
 		)
 		(uuid "864a4e11-6380-4660-8c1a-aca071e3d15f")
+	)
+	(wire
+		(pts
+			(xy 231.14 128.27) (xy 237.49 128.27)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "869b6bf9-0078-4072-b932-bea1823521bd")
 	)
 	(wire
 		(pts
@@ -13510,7 +13210,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 138.43) (xy 257.81 142.24)
+			(xy 237.49 139.7) (xy 237.49 140.97)
 		)
 		(stroke
 			(width 0.1524)
@@ -13557,16 +13257,6 @@
 			(type default)
 		)
 		(uuid "a2ac7034-7653-4382-977e-1d59d544a8cb")
-	)
-	(wire
-		(pts
-			(xy 246.38 134.62) (xy 246.38 128.27)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "a2ec2fa0-8b0f-476e-8c2b-dd312b1f97b7")
 	)
 	(wire
 		(pts
@@ -14280,6 +13970,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 176.53) (xy 219.71 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9324747-78ff-47d0-9888-4c85f59ed8cf")
+	)
+	(wire
+		(pts
 			(xy 57.15 288.29) (xy 57.15 290.83)
 		)
 		(stroke
@@ -14767,6 +14467,16 @@
 			(type solid)
 		)
 		(uuid "e5878957-52a5-4808-85e3-d7fb0d36c811")
+	)
+	(wire
+		(pts
+			(xy 233.68 154.94) (xy 231.14 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6408bc5-c372-4dcf-a9de-db70ad62f3cf")
 	)
 	(wire
 		(pts
@@ -15268,6 +14978,16 @@
 		)
 		(uuid "11f0578a-122e-4521-9de4-2080bb3e8550")
 	)
+	(label "LED"
+		(at 251.46 261.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1354ec09-a845-42d6-91aa-2c2f22b03e77")
+	)
 	(label "D-"
 		(at 46.99 147.32 0)
 		(effects
@@ -15478,6 +15198,16 @@
 		)
 		(uuid "93dc6dbf-afad-45fd-824a-e9cab609f078")
 	)
+	(label "LED"
+		(at 260.35 176.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9471417c-7844-4d87-b9c7-1d161871700b")
+	)
 	(label "A0DSPL"
 		(at 214.63 373.38 0)
 		(effects
@@ -15557,16 +15287,6 @@
 			(justify left bottom)
 		)
 		(uuid "c6c2d2cf-53b7-43af-90b8-08dc3c139aff")
-	)
-	(label "+5V/1"
-		(at 246.38 134.62 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "d38fdafd-4975-462e-aff9-b093baf75192")
 	)
 	(label "MODULEVOLTAGE"
 		(at 251.46 320.04 0)
@@ -15860,7 +15580,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R0402_334"
+		(property "Footprint" "EasyBMS:R0402"
 			(at 388.62 67.31 0)
 			(effects
 				(font
@@ -15878,7 +15598,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 388.62 67.31 0)
 			(effects
 				(font
@@ -15938,7 +15658,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R0402_334"
+		(property "Footprint" "EasyBMS:R0402"
 			(at 388.62 80.01 0)
 			(effects
 				(font
@@ -15956,7 +15676,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 388.62 80.01 0)
 			(effects
 				(font
@@ -16017,7 +15737,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:C0805_334"
+		(property "Footprint" "EasyBMS:C0603"
 			(at 341.63 222.25 0)
 			(effects
 				(font
@@ -16035,7 +15755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAPACITOR, European symbol"
 			(at 341.63 222.25 0)
 			(effects
 				(font
@@ -16095,7 +15815,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:C0402_334"
+		(property "Footprint" "EasyBMS:C0402"
 			(at 248.92 228.6 0)
 			(effects
 				(font
@@ -16113,7 +15833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAPACITOR, European symbol"
 			(at 248.92 228.6 0)
 			(effects
 				(font
@@ -16191,7 +15911,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SUPPLY SYMBOL"
 			(at 280.67 259.08 0)
 			(effects
 				(font
@@ -16257,7 +15977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SUPPLY SYMBOL"
 			(at 294.64 293.37 0)
 			(effects
 				(font
@@ -16305,7 +16025,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R0402_334"
+		(property "Footprint" "EasyBMS:R0402"
 			(at 39.37 154.94 0)
 			(effects
 				(font
@@ -16323,7 +16043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 39.37 154.94 0)
 			(effects
 				(font
@@ -16401,7 +16121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SUPPLY SYMBOL"
 			(at 171.45 240.03 0)
 			(effects
 				(font
@@ -16545,7 +16265,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R1206_334"
+		(property "Footprint" "EasyBMS:R1206"
 			(at 408.305 59.69 0)
 			(effects
 				(font
@@ -16563,7 +16283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 408.305 59.69 0)
 			(effects
 				(font
@@ -16641,7 +16361,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SUPPLY SYMBOL"
 			(at 288.29 316.23 0)
 			(effects
 				(font
@@ -16689,7 +16409,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:SJ_252"
+		(property "Footprint" "EasyBMS:SJ"
 			(at 378.46 307.34 0)
 			(effects
 				(font
@@ -16707,7 +16427,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD solder JUMPER"
 			(at 378.46 307.34 0)
 			(effects
 				(font
@@ -16776,7 +16496,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SUPPLY SYMBOL"
 			(at 288.29 295.275 0)
 			(effects
 				(font
@@ -16842,7 +16562,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "PIN HEADER"
 			(at 201.93 284.48 0)
 			(effects
 				(font
@@ -17233,7 +16953,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SUPPLY SYMBOL"
 			(at 200.66 317.5 0)
 			(effects
 				(font
@@ -17281,7 +17001,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:C1206_334"
+		(property "Footprint" "EasyBMS:C0805"
 			(at 408.94 334.01 0)
 			(effects
 				(font
@@ -17299,7 +17019,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAPACITOR, European symbol"
 			(at 408.94 334.01 0)
 			(effects
 				(font
@@ -17443,7 +17163,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SUPPLY SYMBOL"
 			(at 255.27 241.3 0)
 			(effects
 				(font
@@ -17466,7 +17186,7 @@
 	)
 	(symbol
 		(lib_id "power:+5VA")
-		(at 246.38 124.46 0)
+		(at 231.14 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17475,7 +17195,7 @@
 		(fields_autoplaced yes)
 		(uuid "204d7800-ecf5-4d32-90a5-952f7b0a435d")
 		(property "Reference" "#PWR029"
-			(at 246.38 128.27 0)
+			(at 231.14 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17484,7 +17204,7 @@
 			)
 		)
 		(property "Value" "+5VA"
-			(at 246.38 119.38 0)
+			(at 231.14 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17492,7 +17212,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 246.38 124.46 0)
+			(at 231.14 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17501,7 +17221,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 124.46 0)
+			(at 231.14 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17510,7 +17230,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5VA\""
-			(at 246.38 124.46 0)
+			(at 231.14 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17733,7 +17453,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_7.5x5.85mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOP-8_6.62x9.15mm_P2.54mm"
 			(at 303.53 313.69 0)
 			(effects
 				(font
@@ -17830,7 +17550,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R0603_334"
+		(property "Footprint" "EasyBMS:R0402"
 			(at 238.76 327.66 0)
 			(effects
 				(font
@@ -17848,7 +17568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 238.76 327.66 0)
 			(effects
 				(font
@@ -17907,7 +17627,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RS485 Modul:RS-485-MODULE"
+		(property "Footprint" "RS485Module:RS-485-MODULE"
 			(at 358.14 250.19 0)
 			(effects
 				(font
@@ -18009,7 +17729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SUPPLY SYMBOL"
 			(at 208.915 370.84 0)
 			(effects
 				(font
@@ -18075,7 +17795,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SUPPLY SYMBOL"
 			(at 57.15 283.21 0)
 			(effects
 				(font
@@ -18123,7 +17843,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:3,2_237"
+		(property "Footprint" "EasyBMS:3,2"
 			(at 453.39 132.08 0)
 			(effects
 				(font
@@ -18141,7 +17861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MOUNTING HOLE with drill center marker"
 			(at 453.39 132.08 0)
 			(effects
 				(font
@@ -18204,7 +17924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SUPPLY SYMBOL"
 			(at 248.92 293.37 0)
 			(effects
 				(font
@@ -18252,7 +17972,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:C0402_334"
+		(property "Footprint" "EasyBMS:C0402"
 			(at 184.15 256.54 0)
 			(effects
 				(font
@@ -18270,7 +17990,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAPACITOR, European symbol"
 			(at 184.15 256.54 0)
 			(effects
 				(font
@@ -18330,7 +18050,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:B3F-10XX_377"
+		(property "Footprint" "EasyBMS:B3F-10XX"
 			(at 158.75 228.6 0)
 			(effects
 				(font
@@ -18348,7 +18068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "OMRON SWITCH"
 			(at 158.75 228.6 0)
 			(effects
 				(font
@@ -18499,7 +18219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SUPPLY SYMBOL"
 			(at 182.88 269.875 0)
 			(effects
 				(font
@@ -18547,7 +18267,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R0603_334"
+		(property "Footprint" "EasyBMS:R0402"
 			(at 238.76 312.42 0)
 			(effects
 				(font
@@ -18565,7 +18285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 238.76 312.42 0)
 			(effects
 				(font
@@ -18692,7 +18412,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:C0805_334"
+		(property "Footprint" "EasyBMS:C0603"
 			(at 336.55 144.78 0)
 			(effects
 				(font
@@ -18710,7 +18430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAPACITOR, European symbol"
 			(at 336.55 144.78 0)
 			(effects
 				(font
@@ -18921,7 +18641,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:3,2_237"
+		(property "Footprint" "EasyBMS:3,2"
 			(at 481.33 134.62 0)
 			(effects
 				(font
@@ -18939,7 +18659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MOUNTING HOLE with drill center marker"
 			(at 481.33 134.62 0)
 			(effects
 				(font
@@ -18984,7 +18704,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:DO214AC_210"
+		(property "Footprint" "EasyBMS:DO214AC"
 			(at 130.81 137.16 0)
 			(effects
 				(font
@@ -19002,7 +18722,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DIODE"
 			(at 130.81 137.16 0)
 			(effects
 				(font
@@ -19063,7 +18783,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R1206_334"
+		(property "Footprint" "EasyBMS:R1206"
 			(at 410.21 326.39 0)
 			(effects
 				(font
@@ -19081,7 +18801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 410.21 326.39 0)
 			(effects
 				(font
@@ -19141,7 +18861,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:DO214AC_210"
+		(property "Footprint" "EasyBMS:DO214AC"
 			(at 294.64 74.93 0)
 			(effects
 				(font
@@ -19159,7 +18879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DIODE"
 			(at 294.64 74.93 0)
 			(effects
 				(font
@@ -19220,7 +18940,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:1X08_16378166"
+		(property "Footprint" "EasyBMS:1X08"
 			(at 231.14 375.92 0)
 			(effects
 				(font
@@ -19238,7 +18958,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "PIN HEADER"
 			(at 231.14 375.92 0)
 			(effects
 				(font
@@ -19307,7 +19027,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:C0402_334"
+		(property "Footprint" "EasyBMS:C0402"
 			(at 71.12 299.72 0)
 			(effects
 				(font
@@ -19325,7 +19045,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAPACITOR, European symbol"
 			(at 71.12 299.72 0)
 			(effects
 				(font
@@ -19386,7 +19106,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:C0805_334"
+		(property "Footprint" "EasyBMS:C0603"
 			(at 426.72 72.39 0)
 			(effects
 				(font
@@ -19404,7 +19124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAPACITOR, European symbol"
 			(at 426.72 72.39 0)
 			(effects
 				(font
@@ -19482,7 +19202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SUPPLY SYMBOL"
 			(at 426.72 50.8 0)
 			(effects
 				(font
@@ -19530,7 +19250,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:C0402_334"
+		(property "Footprint" "EasyBMS:C0402"
 			(at 182.88 242.57 0)
 			(effects
 				(font
@@ -19548,7 +19268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAPACITOR, European symbol"
 			(at 182.88 242.57 0)
 			(effects
 				(font
@@ -19626,7 +19346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SUPPLY SYMBOL"
 			(at 195.58 280.67 0)
 			(effects
 				(font
@@ -19692,7 +19412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SUPPLY SYMBOL"
 			(at 264.16 92.71 0)
 			(effects
 				(font
@@ -19758,7 +19478,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SUPPLY SYMBOL"
 			(at 92.71 184.15 0)
 			(effects
 				(font
@@ -19806,7 +19526,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R0603_334"
+		(property "Footprint" "EasyBMS:R0603"
 			(at 186.69 307.34 0)
 			(effects
 				(font
@@ -19824,7 +19544,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 186.69 307.34 0)
 			(effects
 				(font
@@ -19884,7 +19604,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:3,2_237"
+		(property "Footprint" "EasyBMS:3,2"
 			(at 514.35 132.08 0)
 			(effects
 				(font
@@ -19902,7 +19622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MOUNTING HOLE with drill center marker"
 			(at 514.35 132.08 0)
 			(effects
 				(font
@@ -20025,7 +19745,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:C0805_334"
+		(property "Footprint" "EasyBMS:C0805"
 			(at 255.27 228.6 0)
 			(effects
 				(font
@@ -20043,7 +19763,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAPACITOR, European symbol"
 			(at 255.27 228.6 0)
 			(effects
 				(font
@@ -20078,7 +19798,7 @@
 	)
 	(symbol
 		(lib_id "EasyBMS-eagle-import:GND")
-		(at 246.38 166.37 0)
+		(at 260.35 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20086,7 +19806,7 @@
 		(dnp no)
 		(uuid "68a93e29-2360-45e4-8147-ad26e5057b45")
 		(property "Reference" "#GND4"
-			(at 246.38 166.37 0)
+			(at 260.35 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20095,7 +19815,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 243.84 168.91 0)
+			(at 257.81 163.83 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -20104,7 +19824,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 246.38 166.37 0)
+			(at 260.35 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20113,7 +19833,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 166.37 0)
+			(at 260.35 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20121,8 +19841,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 246.38 166.37 0)
+		(property "Description" "SUPPLY SYMBOL"
+			(at 260.35 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20169,7 +19889,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:C0805_334"
+		(property "Footprint" "EasyBMS:C0805"
 			(at 187.96 72.39 0)
 			(effects
 				(font
@@ -20187,7 +19907,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAPACITOR, European symbol"
 			(at 187.96 72.39 0)
 			(effects
 				(font
@@ -20247,7 +19967,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:C0603_334"
+		(property "Footprint" "EasyBMS:C0603"
 			(at 220.98 67.31 0)
 			(effects
 				(font
@@ -20265,7 +19985,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAPACITOR, European symbol"
 			(at 220.98 67.31 0)
 			(effects
 				(font
@@ -20391,7 +20111,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R1206_334"
+		(property "Footprint" "EasyBMS:R1206"
 			(at 92.71 344.17 0)
 			(effects
 				(font
@@ -20409,7 +20129,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 92.71 344.17 0)
 			(effects
 				(font
@@ -20469,7 +20189,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:153CLV-0605_334"
+		(property "Footprint" "EasyBMS:153CLV-0605"
 			(at 355.6 72.39 0)
 			(effects
 				(font
@@ -20487,7 +20207,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "POLARIZED CAPACITOR, European symbol"
 			(at 355.6 72.39 0)
 			(effects
 				(font
@@ -20548,7 +20268,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:SJ_252"
+		(property "Footprint" "EasyBMS:SJ"
 			(at 378.46 299.72 0)
 			(effects
 				(font
@@ -20566,7 +20286,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD solder JUMPER"
 			(at 378.46 299.72 0)
 			(effects
 				(font
@@ -20617,7 +20337,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R0402_334"
+		(property "Footprint" "EasyBMS:R0402"
 			(at 88.9 298.45 0)
 			(effects
 				(font
@@ -20635,7 +20355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 88.9 298.45 0)
 			(effects
 				(font
@@ -20713,7 +20433,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SUPPLY SYMBOL"
 			(at 375.92 131.445 0)
 			(effects
 				(font
@@ -20761,7 +20481,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:C0402_334"
+		(property "Footprint" "EasyBMS:C0402"
 			(at 325.12 246.38 0)
 			(effects
 				(font
@@ -20779,7 +20499,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAPACITOR, European symbol"
 			(at 325.12 246.38 0)
 			(effects
 				(font
@@ -20839,7 +20559,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:C0805_334"
+		(property "Footprint" "EasyBMS:C0805"
 			(at 97.79 358.14 0)
 			(effects
 				(font
@@ -20857,7 +20577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAPACITOR, European symbol"
 			(at 97.79 358.14 0)
 			(effects
 				(font
@@ -20917,7 +20637,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R0402_334"
+		(property "Footprint" "EasyBMS:R0402"
 			(at 188.595 274.32 0)
 			(effects
 				(font
@@ -20935,7 +20655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 188.595 274.32 0)
 			(effects
 				(font
@@ -20995,7 +20715,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:C0402_334"
+		(property "Footprint" "EasyBMS:C0402"
 			(at 175.26 358.14 0)
 			(effects
 				(font
@@ -21013,7 +20733,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAPACITOR, European symbol"
 			(at 175.26 358.14 0)
 			(effects
 				(font
@@ -21091,7 +20811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SUPPLY SYMBOL"
 			(at 157.48 280.67 0)
 			(effects
 				(font
@@ -21157,7 +20877,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SUPPLY SYMBOL"
 			(at 149.86 236.22 0)
 			(effects
 				(font
@@ -21205,7 +20925,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:SJ_252"
+		(property "Footprint" "EasyBMS:SJ"
 			(at 308.61 347.98 0)
 			(effects
 				(font
@@ -21223,7 +20943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD solder JUMPER"
 			(at 308.61 347.98 0)
 			(effects
 				(font
@@ -21499,7 +21219,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:153CLV-0605_334"
+		(property "Footprint" "EasyBMS:153CLV-0605"
 			(at 200.66 72.39 0)
 			(effects
 				(font
@@ -21517,7 +21237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "POLARIZED CAPACITOR, European symbol"
 			(at 200.66 72.39 0)
 			(effects
 				(font
@@ -21578,7 +21298,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:SJ_252"
+		(property "Footprint" "EasyBMS:SJ"
 			(at 43.18 308.61 0)
 			(effects
 				(font
@@ -21596,7 +21316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD solder JUMPER"
 			(at 43.18 308.61 0)
 			(effects
 				(font
@@ -21615,6 +21335,92 @@
 			(project "EasyBMS"
 				(path "/fe11cb2a-e816-4a0a-a2bf-8a52ff11890e"
 					(reference "IP-/GND1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 223.52 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8201ffe1-6380-4ff9-a513-7886c083c784")
+		(property "Reference" "D36"
+			(at 221.9325 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 221.9325 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 223.52 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 223.52 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 223.52 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2286"
+			(at 223.52 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "898989aa-e9c0-4f39-a75e-d09bec7cd1d5")
+		)
+		(pin "2"
+			(uuid "76d6ff20-11cc-4d68-80f7-9ba78f3fec48")
+		)
+		(instances
+			(project ""
+				(path "/fe11cb2a-e816-4a0a-a2bf-8a52ff11890e"
+					(reference "D36")
 					(unit 1)
 				)
 			)
@@ -21647,7 +21453,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:C0805_334"
+		(property "Footprint" "EasyBMS:C0805"
 			(at 161.29 331.47 0)
 			(effects
 				(font
@@ -21665,7 +21471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAPACITOR, European symbol"
 			(at 161.29 331.47 0)
 			(effects
 				(font
@@ -21844,7 +21650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SUPPLY SYMBOL"
 			(at 238.76 340.36 0)
 			(effects
 				(font
@@ -21910,7 +21716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SUPPLY SYMBOL"
 			(at 130.81 166.37 0)
 			(effects
 				(font
@@ -21976,7 +21782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SUPPLY SYMBOL"
 			(at 209.55 309.88 0)
 			(effects
 				(font
@@ -22108,7 +21914,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SUPPLY SYMBOL"
 			(at 294.64 276.225 0)
 			(effects
 				(font
@@ -22156,7 +21962,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:SJ_252"
+		(property "Footprint" "EasyBMS:SJ"
 			(at 384.81 317.5 0)
 			(effects
 				(font
@@ -22174,7 +21980,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD solder JUMPER"
 			(at 384.81 317.5 0)
 			(effects
 				(font
@@ -22225,7 +22031,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R0402_334"
+		(property "Footprint" "EasyBMS:R0402"
 			(at 201.93 249.555 0)
 			(effects
 				(font
@@ -22243,7 +22049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 201.93 249.555 0)
 			(effects
 				(font
@@ -22303,7 +22109,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:SJ_252"
+		(property "Footprint" "EasyBMS:SJ"
 			(at 391.16 279.4 0)
 			(effects
 				(font
@@ -22321,7 +22127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD solder JUMPER"
 			(at 391.16 279.4 0)
 			(effects
 				(font
@@ -22370,7 +22176,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyBMS:SOD3715X135_16378169"
+		(property "Footprint" "EasyBMS:SOD3715X135"
 			(at 210.82 152.4 0)
 			(effects
 				(font
@@ -22388,7 +22194,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode Rectifier - Popular parts"
 			(at 210.82 152.4 0)
 			(effects
 				(font
@@ -22423,6 +22229,84 @@
 		)
 	)
 	(symbol
+		(lib_id "EasyBMS-eagle-import:R-EU_R0402")
+		(at 236.22 176.53 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "93806313-27f7-41f9-8c7e-240937e7591f")
+		(property "Reference" "R79"
+			(at 240.03 178.0286 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1k"
+			(at 240.03 173.228 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "EasyBMS:R0402"
+			(at 236.22 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RESISTOR, European symbol"
+			(at 236.22 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 236.22 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c313f69-fe8b-442c-8e11-1ee6e0ee47e7")
+		)
+		(pin "2"
+			(uuid "98576612-4a04-4e3c-abd4-18c9259c0af0")
+		)
+		(instances
+			(project "EasyBMS"
+				(path "/fe11cb2a-e816-4a0a-a2bf-8a52ff11890e"
+					(reference "R79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "EasyBMS-eagle-import:C-EUC0603")
 		(at 325.12 316.23 0)
 		(mirror y)
@@ -22450,7 +22334,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:C0805_334"
+		(property "Footprint" "EasyBMS:C0603"
 			(at 325.12 316.23 0)
 			(effects
 				(font
@@ -22468,7 +22352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAPACITOR, European symbol"
 			(at 325.12 316.23 0)
 			(effects
 				(font
@@ -22503,7 +22387,7 @@
 	)
 	(symbol
 		(lib_id "EasyBMS-eagle-import:C-EUC0402")
-		(at 257.81 133.35 0)
+		(at 237.49 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22511,7 +22395,7 @@
 		(dnp no)
 		(uuid "9572e58a-3f6c-4864-ae49-8b199ada1fd3")
 		(property "Reference" "C17"
-			(at 259.334 132.969 0)
+			(at 239.014 134.239 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -22520,7 +22404,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 259.334 138.049 0)
+			(at 239.014 139.319 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -22528,8 +22412,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:C0402_334"
-			(at 257.81 133.35 0)
+		(property "Footprint" "EasyBMS:C0402"
+			(at 237.49 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22538,7 +22422,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 133.35 0)
+			(at 237.49 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22546,8 +22430,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 257.81 133.35 0)
+		(property "Description" "CAPACITOR, European symbol"
+			(at 237.49 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22556,7 +22440,7 @@
 			)
 		)
 		(property "LCSC" "C307331"
-			(at 257.81 133.35 0)
+			(at 237.49 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22606,7 +22490,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:C0402_334"
+		(property "Footprint" "EasyBMS:C0402"
 			(at 342.9 71.755 0)
 			(effects
 				(font
@@ -22624,7 +22508,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAPACITOR, European symbol"
 			(at 342.9 71.755 0)
 			(effects
 				(font
@@ -22760,7 +22644,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:C0805_334"
+		(property "Footprint" "EasyBMS:C0805"
 			(at 168.91 331.47 0)
 			(effects
 				(font
@@ -22778,7 +22662,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAPACITOR, European symbol"
 			(at 168.91 331.47 0)
 			(effects
 				(font
@@ -22914,7 +22798,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R0603_334"
+		(property "Footprint" "EasyBMS:R0603"
 			(at 168.91 364.49 0)
 			(effects
 				(font
@@ -22932,7 +22816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 168.91 364.49 0)
 			(effects
 				(font
@@ -22992,7 +22876,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:C0402_334"
+		(property "Footprint" "EasyBMS:C0402"
 			(at 318.77 316.23 0)
 			(effects
 				(font
@@ -23010,7 +22894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAPACITOR, European symbol"
 			(at 318.77 316.23 0)
 			(effects
 				(font
@@ -23070,7 +22954,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:3,2_237"
+		(property "Footprint" "EasyBMS:3,2"
 			(at 481.33 146.05 0)
 			(effects
 				(font
@@ -23088,7 +22972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MOUNTING HOLE with drill center marker"
 			(at 481.33 146.05 0)
 			(effects
 				(font
@@ -23133,7 +23017,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R0402_334"
+		(property "Footprint" "EasyBMS:R0402"
 			(at 334.645 59.69 0)
 			(effects
 				(font
@@ -23151,7 +23035,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 334.645 59.69 0)
 			(effects
 				(font
@@ -23278,7 +23162,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:SJ_252"
+		(property "Footprint" "EasyBMS:SJ"
 			(at 318.77 337.82 0)
 			(effects
 				(font
@@ -23296,7 +23180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD solder JUMPER"
 			(at 318.77 337.82 0)
 			(effects
 				(font
@@ -23347,7 +23231,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R0402_334"
+		(property "Footprint" "EasyBMS:R0402"
 			(at 316.23 290.83 0)
 			(effects
 				(font
@@ -23365,7 +23249,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 316.23 290.83 0)
 			(effects
 				(font
@@ -23592,7 +23476,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "EasyEDA2KiCAD:ESOP-8_L4.9-W3.9-P1.27-LS6.0-TL-EP"
+		(property "Footprint" "EasyBMS:SOIC127P600X170-9N"
 			(at 231.14 59.69 0)
 			(effects
 				(font
@@ -23692,7 +23576,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R0603_334"
+		(property "Footprint" "EasyBMS:R0603"
 			(at 186.69 320.04 0)
 			(effects
 				(font
@@ -23710,7 +23594,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 186.69 320.04 0)
 			(effects
 				(font
@@ -23770,7 +23654,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:C0402_334"
+		(property "Footprint" "EasyBMS:C0402"
 			(at 294.64 283.21 0)
 			(effects
 				(font
@@ -23788,7 +23672,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAPACITOR, European symbol"
 			(at 294.64 283.21 0)
 			(effects
 				(font
@@ -23848,7 +23732,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R1206_334"
+		(property "Footprint" "EasyBMS:R1206"
 			(at 170.18 59.69 0)
 			(effects
 				(font
@@ -23866,7 +23750,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 170.18 59.69 0)
 			(effects
 				(font
@@ -23926,7 +23810,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:C0402_334"
+		(property "Footprint" "EasyBMS:C0402"
 			(at 280.67 246.38 0)
 			(effects
 				(font
@@ -23944,7 +23828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAPACITOR, European symbol"
 			(at 280.67 246.38 0)
 			(effects
 				(font
@@ -24082,7 +23966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "EasyBMS:B2,54_385"
+		(property "Footprint" "EasyBMS:B2,54"
 			(at 251.46 248.92 0)
 			(effects
 				(font
@@ -24100,7 +23984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Test pad"
 			(at 251.46 248.92 0)
 			(effects
 				(font
@@ -24213,7 +24097,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:C0402_334"
+		(property "Footprint" "EasyBMS:C0402"
 			(at 396.24 64.77 0)
 			(effects
 				(font
@@ -24231,7 +24115,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAPACITOR, European symbol"
 			(at 396.24 64.77 0)
 			(effects
 				(font
@@ -24259,90 +24143,6 @@
 			(project ""
 				(path "/fe11cb2a-e816-4a0a-a2bf-8a52ff11890e"
 					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EasyBMS-eagle-import:XL-1615RGBC-WS2812B")
-		(at 246.38 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b6198ef3-1f1f-41ce-93d9-3a6dfb23b26b")
-		(property "Reference" "LED2"
-			(at 246.38 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "XL-1615RGBC-WS2812B"
-			(at 246.38 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "EasyEDA2KiCAD:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-1"
-			(at 246.38 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 246.38 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 246.38 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5349954"
-			(at 246.38 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "61c26220-6635-441c-824a-db13256c4e7a")
-		)
-		(pin "3"
-			(uuid "747673b3-3770-4208-ad97-8efe0ee95a4a")
-		)
-		(pin "4"
-			(uuid "fe5e06a9-90ef-4766-a814-67e9548df9af")
-		)
-		(pin "2"
-			(uuid "ef30b5d1-e5dd-4383-8616-0ae1438b0dfe")
-		)
-		(instances
-			(project ""
-				(path "/fe11cb2a-e816-4a0a-a2bf-8a52ff11890e"
-					(reference "LED2")
 					(unit 1)
 				)
 			)
@@ -24516,7 +24316,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:SJ_252"
+		(property "Footprint" "EasyBMS:SJ"
 			(at 378.46 297.18 0)
 			(effects
 				(font
@@ -24534,7 +24334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD solder JUMPER"
 			(at 378.46 297.18 0)
 			(effects
 				(font
@@ -24585,7 +24385,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:C0402_334"
+		(property "Footprint" "EasyBMS:C0402"
 			(at 97.79 304.8 0)
 			(effects
 				(font
@@ -24603,7 +24403,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAPACITOR, European symbol"
 			(at 97.79 304.8 0)
 			(effects
 				(font
@@ -24663,7 +24463,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:SJ_252"
+		(property "Footprint" "EasyBMS:SJ"
 			(at 321.31 290.83 0)
 			(effects
 				(font
@@ -24681,7 +24481,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD solder JUMPER"
 			(at 321.31 290.83 0)
 			(effects
 				(font
@@ -24750,7 +24550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SUPPLY SYMBOL"
 			(at 173.99 297.18 0)
 			(effects
 				(font
@@ -24944,7 +24744,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R0603_334"
+		(property "Footprint" "EasyBMS:R0603"
 			(at 168.91 351.79 0)
 			(effects
 				(font
@@ -24962,7 +24762,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 168.91 351.79 0)
 			(effects
 				(font
@@ -25040,7 +24840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SUPPLY SYMBOL"
 			(at 97.79 316.23 0)
 			(effects
 				(font
@@ -25056,6 +24856,89 @@
 			(project "EasyBMS"
 				(path "/fe11cb2a-e816-4a0a-a2bf-8a52ff11890e"
 					(reference "#GND029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA2KiCAD:XL-0807RGBC-WS2812B")
+		(at 243.84 152.4 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8b55498-9197-49fb-9059-a64accc74637")
+		(property "Reference" "U4"
+			(at 243.84 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XL-0807RGBC-WS2812B"
+			(at 243.84 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA2KiCAD:LED-SMD_4P-L2.0-W1.8_XL-0807RGBC-WS2812B"
+			(at 243.84 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 243.84 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C3646929"
+			(at 243.84 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5fd71816-d811-4fce-9210-a6d804d7ad7f")
+		)
+		(pin "4"
+			(uuid "aaca8210-a3cd-4f27-b6d1-5c70783b664b")
+		)
+		(pin "3"
+			(uuid "59063d57-573c-4c33-9522-f0b3bfefc609")
+		)
+		(pin "1"
+			(uuid "856d2c8a-880e-4d81-b190-8b648eed2b13")
+		)
+		(instances
+			(project ""
+				(path "/fe11cb2a-e816-4a0a-a2bf-8a52ff11890e"
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -25088,7 +24971,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:SJ_252"
+		(property "Footprint" "EasyBMS:SJ"
 			(at 387.35 279.4 0)
 			(effects
 				(font
@@ -25106,7 +24989,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD solder JUMPER"
 			(at 387.35 279.4 0)
 			(effects
 				(font
@@ -25240,7 +25123,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SUPPLY SYMBOL"
 			(at 358.14 157.48 0)
 			(effects
 				(font
@@ -25372,7 +25255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SUPPLY SYMBOL"
 			(at 177.8 260.35 0)
 			(effects
 				(font
@@ -25420,7 +25303,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:SJ_252"
+		(property "Footprint" "EasyBMS:SJ"
 			(at 378.46 304.8 0)
 			(effects
 				(font
@@ -25438,7 +25321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD solder JUMPER"
 			(at 378.46 304.8 0)
 			(effects
 				(font
@@ -25623,7 +25506,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:SOT223_111"
+		(property "Footprint" "EasyBMS:SOT223"
 			(at 359.41 215.9 0)
 			(effects
 				(font
@@ -25774,7 +25657,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:SOT223_111"
+		(property "Footprint" "EasyBMS:SOT223"
 			(at 358.14 138.43 0)
 			(effects
 				(font
@@ -25859,7 +25742,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:SJ_252"
+		(property "Footprint" "EasyBMS:SJ"
 			(at 394.97 317.5 0)
 			(effects
 				(font
@@ -25877,7 +25760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD solder JUMPER"
 			(at 394.97 317.5 0)
 			(effects
 				(font
@@ -25928,7 +25811,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R0402_334"
+		(property "Footprint" "EasyBMS:R0402"
 			(at 171.45 221.615 0)
 			(effects
 				(font
@@ -25946,7 +25829,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 171.45 221.615 0)
 			(effects
 				(font
@@ -26138,7 +26021,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 			(at 95.25 370.205 0)
 			(effects
 				(font
@@ -26225,7 +26108,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R0603_334"
+		(property "Footprint" "EasyBMS:R0603"
 			(at 152.4 372.11 0)
 			(effects
 				(font
@@ -26243,7 +26126,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 152.4 372.11 0)
 			(effects
 				(font
@@ -26321,7 +26204,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SUPPLY SYMBOL"
 			(at 280.67 236.22 0)
 			(effects
 				(font
@@ -26369,7 +26252,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:C0603_334"
+		(property "Footprint" "EasyBMS:C0603"
 			(at 375.92 144.145 0)
 			(effects
 				(font
@@ -26387,7 +26270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAPACITOR, European symbol"
 			(at 375.92 144.145 0)
 			(effects
 				(font
@@ -26465,7 +26348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SUPPLY SYMBOL"
 			(at 243.84 215.265 0)
 			(effects
 				(font
@@ -26723,7 +26606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "EasyBMS:B2,54_385"
+		(property "Footprint" "EasyBMS:B2,54"
 			(at 251.46 246.38 0)
 			(effects
 				(font
@@ -26741,7 +26624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Test pad"
 			(at 251.46 246.38 0)
 			(effects
 				(font
@@ -26807,7 +26690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SUPPLY SYMBOL"
 			(at 171.45 212.725 0)
 			(effects
 				(font
@@ -26873,7 +26756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SUPPLY SYMBOL"
 			(at 110.49 166.37 0)
 			(effects
 				(font
@@ -26921,7 +26804,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:C0402_334"
+		(property "Footprint" "EasyBMS:C0402"
 			(at 171.45 231.775 0)
 			(effects
 				(font
@@ -26939,7 +26822,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAPACITOR, European symbol"
 			(at 171.45 231.775 0)
 			(effects
 				(font
@@ -27000,7 +26883,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:C0805_334"
+		(property "Footprint" "EasyBMS:C0603"
 			(at 381 222.25 0)
 			(effects
 				(font
@@ -27018,7 +26901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAPACITOR, European symbol"
 			(at 381 222.25 0)
 			(effects
 				(font
@@ -27053,7 +26936,7 @@
 	)
 	(symbol
 		(lib_id "EasyBMS-eagle-import:GND")
-		(at 257.81 144.78 0)
+		(at 237.49 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27061,7 +26944,7 @@
 		(dnp no)
 		(uuid "f5d59eb5-544a-414f-b9af-0fa2a7d0f1cb")
 		(property "Reference" "#GND16"
-			(at 257.81 144.78 0)
+			(at 237.49 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27070,7 +26953,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 255.27 147.32 0)
+			(at 234.95 146.05 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -27079,7 +26962,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 144.78 0)
+			(at 237.49 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27088,7 +26971,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 144.78 0)
+			(at 237.49 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27096,8 +26979,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 257.81 144.78 0)
+		(property "Description" "SUPPLY SYMBOL"
+			(at 237.49 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27162,7 +27045,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Crystal 0.032768MHz +/-20ppm (Tol) 12.5pF FUND 70000Ohm 2-Pin CSMD T/R\n\nSource: https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-135&lang=en  Datasheet"
 			(at 194.31 254 0)
 			(effects
 				(font
@@ -27223,7 +27106,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R0402_334"
+		(property "Footprint" "EasyBMS:R0402"
 			(at 224.79 140.335 0)
 			(effects
 				(font
@@ -27241,7 +27124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 224.79 140.335 0)
 			(effects
 				(font
@@ -27319,7 +27202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SUPPLY SYMBOL"
 			(at 120.65 166.37 0)
 			(effects
 				(font
@@ -27367,7 +27250,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:C0402_334"
+		(property "Footprint" "EasyBMS:C0402"
 			(at 193.04 313.69 0)
 			(effects
 				(font
@@ -27385,7 +27268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAPACITOR, European symbol"
 			(at 193.04 313.69 0)
 			(effects
 				(font
@@ -27463,7 +27346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SUPPLY SYMBOL"
 			(at 57.15 323.85 0)
 			(effects
 				(font
@@ -27511,7 +27394,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R0402_334"
+		(property "Footprint" "EasyBMS:R0402"
 			(at 102.87 157.48 0)
 			(effects
 				(font
@@ -27529,7 +27412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 102.87 157.48 0)
 			(effects
 				(font
@@ -27589,7 +27472,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R0402_334"
+		(property "Footprint" "EasyBMS:R0402"
 			(at 209.55 323.85 0)
 			(effects
 				(font
@@ -27607,7 +27490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 209.55 323.85 0)
 			(effects
 				(font
@@ -27635,6 +27518,72 @@
 			(project ""
 				(path "/fe11cb2a-e816-4a0a-a2bf-8a52ff11890e"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyBMS-eagle-import:GND")
+		(at 213.36 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ffe8add8-ad44-4d45-955e-063c584b68c9")
+		(property "Reference" "#GND032"
+			(at 213.36 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 210.82 186.69 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SUPPLY SYMBOL"
+			(at 213.36 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7607b41a-ec3b-4632-a4a7-c8ecdd74bf88")
+		)
+		(instances
+			(project "EasyBMS"
+				(path "/fe11cb2a-e816-4a0a-a2bf-8a52ff11890e"
+					(reference "#GND032")
 					(unit 1)
 				)
 			)
@@ -27817,7 +27766,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "call_pack_1.kicad_sch"
+		(property "Sheetfile" "cell_pack_1.kicad_sch"
 			(at 105.41 315.5446 0)
 			(effects
 				(font

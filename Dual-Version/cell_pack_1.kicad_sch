@@ -8143,7 +8143,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R0402_334"
+		(property "Footprint" "EasyBMS:R0402"
 			(at 135.89 128.27 0)
 			(effects
 				(font
@@ -8161,7 +8161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 135.89 128.27 0)
 			(effects
 				(font
@@ -8221,7 +8221,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R1206_334"
+		(property "Footprint" "EasyBMS:R1206"
 			(at 115.57 151.13 0)
 			(effects
 				(font
@@ -8239,7 +8239,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 115.57 151.13 0)
 			(effects
 				(font
@@ -8299,7 +8299,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R0603_334"
+		(property "Footprint" "EasyBMS:R0603"
 			(at 341.63 50.8 0)
 			(effects
 				(font
@@ -8317,7 +8317,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 341.63 50.8 0)
 			(effects
 				(font
@@ -8377,7 +8377,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:C0402_334"
+		(property "Footprint" "EasyBMS:C0402"
 			(at 176.53 90.17 0)
 			(effects
 				(font
@@ -8395,7 +8395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAPACITOR, European symbol"
 			(at 176.53 90.17 0)
 			(effects
 				(font
@@ -8455,7 +8455,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:C0402_334"
+		(property "Footprint" "EasyBMS:C0402"
 			(at 176.53 341.63 0)
 			(effects
 				(font
@@ -8473,7 +8473,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAPACITOR, European symbol"
 			(at 176.53 341.63 0)
 			(effects
 				(font
@@ -8533,7 +8533,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:C0402_334"
+		(property "Footprint" "EasyBMS:C0402"
 			(at 176.53 229.87 0)
 			(effects
 				(font
@@ -8551,7 +8551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAPACITOR, European symbol"
 			(at 176.53 229.87 0)
 			(effects
 				(font
@@ -8611,7 +8611,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:DO214AC_210"
+		(property "Footprint" "EasyBMS:DO214AC"
 			(at 265.43 387.35 0)
 			(effects
 				(font
@@ -8629,7 +8629,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DIODE"
 			(at 265.43 387.35 0)
 			(effects
 				(font
@@ -8690,7 +8690,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R0402_334"
+		(property "Footprint" "EasyBMS:R0402"
 			(at 161.29 80.01 0)
 			(effects
 				(font
@@ -8708,7 +8708,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 161.29 80.01 0)
 			(effects
 				(font
@@ -8786,7 +8786,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DIODE\n\nfilled"
 			(at 189.23 176.53 0)
 			(effects
 				(font
@@ -8847,7 +8847,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R0603_334"
+		(property "Footprint" "EasyBMS:R0603"
 			(at 379.73 50.8 0)
 			(effects
 				(font
@@ -8865,7 +8865,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 379.73 50.8 0)
 			(effects
 				(font
@@ -8943,7 +8943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SUPPLY SYMBOL"
 			(at 360.68 158.115 0)
 			(effects
 				(font
@@ -8991,7 +8991,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R0402_334"
+		(property "Footprint" "EasyBMS:R0402"
 			(at 135.89 156.21 0)
 			(effects
 				(font
@@ -9009,7 +9009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 135.89 156.21 0)
 			(effects
 				(font
@@ -9069,7 +9069,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R0402_334"
+		(property "Footprint" "EasyBMS:R0402"
 			(at 135.89 267.97 0)
 			(effects
 				(font
@@ -9087,7 +9087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 135.89 267.97 0)
 			(effects
 				(font
@@ -9147,7 +9147,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:C0402_334"
+		(property "Footprint" "EasyBMS:C0402"
 			(at 176.53 173.99 0)
 			(effects
 				(font
@@ -9165,7 +9165,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAPACITOR, European symbol"
 			(at 176.53 173.99 0)
 			(effects
 				(font
@@ -9225,7 +9225,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R1206_334"
+		(property "Footprint" "EasyBMS:R1206"
 			(at 90.17 151.13 0)
 			(effects
 				(font
@@ -9243,7 +9243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 90.17 151.13 0)
 			(effects
 				(font
@@ -9321,7 +9321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "PIN HEADER"
 			(at 40.64 154.94 0)
 			(effects
 				(font
@@ -9382,7 +9382,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R0402_334"
+		(property "Footprint" "EasyBMS:R0402"
 			(at 135.89 295.91 0)
 			(effects
 				(font
@@ -9400,7 +9400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 135.89 295.91 0)
 			(effects
 				(font
@@ -9478,7 +9478,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DIODE\n\nfilled"
 			(at 189.23 232.41 0)
 			(effects
 				(font
@@ -9539,7 +9539,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R0603_334"
+		(property "Footprint" "EasyBMS:R0603"
 			(at 341.63 66.04 0)
 			(effects
 				(font
@@ -9557,7 +9557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 341.63 66.04 0)
 			(effects
 				(font
@@ -9635,7 +9635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DIODE\n\nfilled"
 			(at 189.23 204.47 0)
 			(effects
 				(font
@@ -9696,7 +9696,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R0402_334"
+		(property "Footprint" "EasyBMS:R0402"
 			(at 161.29 135.89 0)
 			(effects
 				(font
@@ -9714,7 +9714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 161.29 135.89 0)
 			(effects
 				(font
@@ -9774,7 +9774,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R0402_334"
+		(property "Footprint" "EasyBMS:R0402"
 			(at 135.89 240.03 0)
 			(effects
 				(font
@@ -9792,7 +9792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 135.89 240.03 0)
 			(effects
 				(font
@@ -9852,7 +9852,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R1206_334"
+		(property "Footprint" "EasyBMS:R1206"
 			(at 90.17 318.77 0)
 			(effects
 				(font
@@ -9870,7 +9870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 90.17 318.77 0)
 			(effects
 				(font
@@ -9930,7 +9930,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:DO214AC_210"
+		(property "Footprint" "EasyBMS:DO214AC"
 			(at 265.43 384.81 0)
 			(effects
 				(font
@@ -9948,7 +9948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DIODE"
 			(at 265.43 384.81 0)
 			(effects
 				(font
@@ -10027,7 +10027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Infineon BSS308PEH6327XTSA1 P-channel MOSFET, 1.6 A, 30 V OptiMOS P, 3-Pin SOT-23\n\nSource: https://www.infineon.com/dgdl/Infineon-BSS308PE-DS-v02_03-en.pdf?fileId=db3a304330f686060131099c80400073  Datasheet"
 			(at 128.27 163.83 0)
 			(effects
 				(font
@@ -10090,7 +10090,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R0402_334"
+		(property "Footprint" "EasyBMS:R0402"
 			(at 161.29 275.59 0)
 			(effects
 				(font
@@ -10108,7 +10108,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 161.29 275.59 0)
 			(effects
 				(font
@@ -10186,7 +10186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Infineon BSS308PEH6327XTSA1 P-channel MOSFET, 1.6 A, 30 V OptiMOS P, 3-Pin SOT-23\n\nSource: https://www.infineon.com/dgdl/Infineon-BSS308PE-DS-v02_03-en.pdf?fileId=db3a304330f686060131099c80400073  Datasheet"
 			(at 128.27 359.41 0)
 			(effects
 				(font
@@ -10267,7 +10267,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "PIN HEADER"
 			(at 40.64 205.74 0)
 			(effects
 				(font
@@ -10346,7 +10346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "PIN HEADER"
 			(at 40.64 215.9 0)
 			(effects
 				(font
@@ -10425,7 +10425,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DIODE\n\nfilled"
 			(at 189.23 316.23 0)
 			(effects
 				(font
@@ -10486,7 +10486,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R1206_334"
+		(property "Footprint" "EasyBMS:R1206"
 			(at 90.17 262.89 0)
 			(effects
 				(font
@@ -10504,7 +10504,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 90.17 262.89 0)
 			(effects
 				(font
@@ -10564,7 +10564,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R0402_334"
+		(property "Footprint" "EasyBMS:R0402"
 			(at 161.29 303.53 0)
 			(effects
 				(font
@@ -10582,7 +10582,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 161.29 303.53 0)
 			(effects
 				(font
@@ -10642,7 +10642,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R0402_334"
+		(property "Footprint" "EasyBMS:R0402"
 			(at 161.29 107.95 0)
 			(effects
 				(font
@@ -10660,7 +10660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 161.29 107.95 0)
 			(effects
 				(font
@@ -10738,7 +10738,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DIODE\n\nfilled"
 			(at 189.23 288.29 0)
 			(effects
 				(font
@@ -10817,7 +10817,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SUPPLY SYMBOL"
 			(at 360.68 226.06 0)
 			(effects
 				(font
@@ -10865,7 +10865,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R0603_334"
+		(property "Footprint" "EasyBMS:R0603"
 			(at 495.3 217.17 0)
 			(effects
 				(font
@@ -10883,7 +10883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 495.3 217.17 0)
 			(effects
 				(font
@@ -10961,7 +10961,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Infineon BSS308PEH6327XTSA1 P-channel MOSFET, 1.6 A, 30 V OptiMOS P, 3-Pin SOT-23\n\nSource: https://www.infineon.com/dgdl/Infineon-BSS308PE-DS-v02_03-en.pdf?fileId=db3a304330f686060131099c80400073  Datasheet"
 			(at 128.27 303.53 0)
 			(effects
 				(font
@@ -11024,7 +11024,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R1206_334"
+		(property "Footprint" "EasyBMS:R1206"
 			(at 115.57 234.95 0)
 			(effects
 				(font
@@ -11042,7 +11042,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 115.57 234.95 0)
 			(effects
 				(font
@@ -11120,7 +11120,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "PIN HEADER"
 			(at 40.64 246.38 0)
 			(effects
 				(font
@@ -11199,7 +11199,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "PIN HEADER"
 			(at 40.64 226.06 0)
 			(effects
 				(font
@@ -11260,7 +11260,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R0402_334"
+		(property "Footprint" "EasyBMS:R0402"
 			(at 135.89 323.85 0)
 			(effects
 				(font
@@ -11278,7 +11278,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 135.89 323.85 0)
 			(effects
 				(font
@@ -11338,7 +11338,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:C0402_334"
+		(property "Footprint" "EasyBMS:C0402"
 			(at 176.53 118.11 0)
 			(effects
 				(font
@@ -11356,7 +11356,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAPACITOR, European symbol"
 			(at 176.53 118.11 0)
 			(effects
 				(font
@@ -11416,7 +11416,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R1206_334"
+		(property "Footprint" "EasyBMS:R1206"
 			(at 90.17 95.25 0)
 			(effects
 				(font
@@ -11434,7 +11434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 90.17 95.25 0)
 			(effects
 				(font
@@ -11512,7 +11512,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "PIN HEADER"
 			(at 40.64 165.1 0)
 			(effects
 				(font
@@ -11573,7 +11573,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R1206_334"
+		(property "Footprint" "EasyBMS:R1206"
 			(at 90.17 179.07 0)
 			(effects
 				(font
@@ -11591,7 +11591,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 90.17 179.07 0)
 			(effects
 				(font
@@ -11651,7 +11651,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R1206_334"
+		(property "Footprint" "EasyBMS:R1206"
 			(at 90.17 346.71 0)
 			(effects
 				(font
@@ -11669,7 +11669,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 90.17 346.71 0)
 			(effects
 				(font
@@ -11747,7 +11747,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Battery Monitoring 5.7V Automotive 48-Pin SSOP Tube\n\nSource: https://www.arrow.com/en/products/ltc6811ig-1pbf/analog-devices  Datasheet"
 			(at 438.15 209.55 0)
 			(effects
 				(font
@@ -11963,7 +11963,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SUPPLY SYMBOL"
 			(at 369.57 116.84 0)
 			(effects
 				(font
@@ -12011,7 +12011,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R0402_334"
+		(property "Footprint" "EasyBMS:R0402"
 			(at 161.29 247.65 0)
 			(effects
 				(font
@@ -12029,7 +12029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 161.29 247.65 0)
 			(effects
 				(font
@@ -12107,7 +12107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "PIN HEADER"
 			(at 40.64 175.26 0)
 			(effects
 				(font
@@ -12186,7 +12186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DIODE\n\nfilled"
 			(at 189.23 92.71 0)
 			(effects
 				(font
@@ -12265,7 +12265,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DIODE\n\nfilled"
 			(at 189.23 260.35 0)
 			(effects
 				(font
@@ -12326,7 +12326,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R1206_334"
+		(property "Footprint" "EasyBMS:R1206"
 			(at 90.17 234.95 0)
 			(effects
 				(font
@@ -12344,7 +12344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 90.17 234.95 0)
 			(effects
 				(font
@@ -12422,7 +12422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Infineon BSS308PEH6327XTSA1 P-channel MOSFET, 1.6 A, 30 V OptiMOS P, 3-Pin SOT-23\n\nSource: https://www.infineon.com/dgdl/Infineon-BSS308PE-DS-v02_03-en.pdf?fileId=db3a304330f686060131099c80400073  Datasheet"
 			(at 128.27 219.71 0)
 			(effects
 				(font
@@ -12485,7 +12485,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:C0402_334"
+		(property "Footprint" "EasyBMS:C0402"
 			(at 360.68 143.51 0)
 			(effects
 				(font
@@ -12503,7 +12503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAPACITOR, European symbol"
 			(at 360.68 143.51 0)
 			(effects
 				(font
@@ -12563,7 +12563,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:C0402_334"
+		(property "Footprint" "EasyBMS:C0402"
 			(at 176.53 369.57 0)
 			(effects
 				(font
@@ -12581,7 +12581,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAPACITOR, European symbol"
 			(at 176.53 369.57 0)
 			(effects
 				(font
@@ -12641,7 +12641,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:SJ_252"
+		(property "Footprint" "EasyBMS:SJ"
 			(at 252.73 379.73 0)
 			(effects
 				(font
@@ -12659,7 +12659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD solder JUMPER"
 			(at 252.73 379.73 0)
 			(effects
 				(font
@@ -12728,7 +12728,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Infineon BSS308PEH6327XTSA1 P-channel MOSFET, 1.6 A, 30 V OptiMOS P, 3-Pin SOT-23\n\nSource: https://www.infineon.com/dgdl/Infineon-BSS308PE-DS-v02_03-en.pdf?fileId=db3a304330f686060131099c80400073  Datasheet"
 			(at 128.27 331.47 0)
 			(effects
 				(font
@@ -12791,7 +12791,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:C0402_334"
+		(property "Footprint" "EasyBMS:C0402"
 			(at 375.92 143.51 0)
 			(effects
 				(font
@@ -12809,7 +12809,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAPACITOR, European symbol"
 			(at 375.92 143.51 0)
 			(effects
 				(font
@@ -12887,7 +12887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Infineon BSS308PEH6327XTSA1 P-channel MOSFET, 1.6 A, 30 V OptiMOS P, 3-Pin SOT-23\n\nSource: https://www.infineon.com/dgdl/Infineon-BSS308PE-DS-v02_03-en.pdf?fileId=db3a304330f686060131099c80400073  Datasheet"
 			(at 128.27 80.01 0)
 			(effects
 				(font
@@ -12950,7 +12950,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R0402_334"
+		(property "Footprint" "EasyBMS:R0402"
 			(at 135.89 44.45 0)
 			(effects
 				(font
@@ -12968,7 +12968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 135.89 44.45 0)
 			(effects
 				(font
@@ -13046,7 +13046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DIODE\n\nfilled"
 			(at 189.23 148.59 0)
 			(effects
 				(font
@@ -13107,7 +13107,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:C0402_334"
+		(property "Footprint" "EasyBMS:C0402"
 			(at 176.53 201.93 0)
 			(effects
 				(font
@@ -13125,7 +13125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAPACITOR, European symbol"
 			(at 176.53 201.93 0)
 			(effects
 				(font
@@ -13185,7 +13185,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R0402_334"
+		(property "Footprint" "EasyBMS:R0402"
 			(at 351.79 209.55 0)
 			(effects
 				(font
@@ -13203,7 +13203,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 351.79 209.55 0)
 			(effects
 				(font
@@ -13263,7 +13263,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R0402_334"
+		(property "Footprint" "EasyBMS:R0402"
 			(at 161.29 163.83 0)
 			(effects
 				(font
@@ -13281,7 +13281,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 161.29 163.83 0)
 			(effects
 				(font
@@ -13359,7 +13359,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Infineon BSS308PEH6327XTSA1 P-channel MOSFET, 1.6 A, 30 V OptiMOS P, 3-Pin SOT-23\n\nSource: https://www.infineon.com/dgdl/Infineon-BSS308PE-DS-v02_03-en.pdf?fileId=db3a304330f686060131099c80400073  Datasheet"
 			(at 128.27 107.95 0)
 			(effects
 				(font
@@ -13422,7 +13422,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R0402_334"
+		(property "Footprint" "EasyBMS:R0402"
 			(at 135.89 72.39 0)
 			(effects
 				(font
@@ -13440,7 +13440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 135.89 72.39 0)
 			(effects
 				(font
@@ -13518,7 +13518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Infineon BSS308PEH6327XTSA1 P-channel MOSFET, 1.6 A, 30 V OptiMOS P, 3-Pin SOT-23\n\nSource: https://www.infineon.com/dgdl/Infineon-BSS308PE-DS-v02_03-en.pdf?fileId=db3a304330f686060131099c80400073  Datasheet"
 			(at 128.27 191.77 0)
 			(effects
 				(font
@@ -13581,7 +13581,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:C0402_334"
+		(property "Footprint" "EasyBMS:C0402"
 			(at 176.53 313.69 0)
 			(effects
 				(font
@@ -13599,7 +13599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAPACITOR, European symbol"
 			(at 176.53 313.69 0)
 			(effects
 				(font
@@ -13659,7 +13659,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:C0402_334"
+		(property "Footprint" "EasyBMS:C0402"
 			(at 288.29 372.11 0)
 			(effects
 				(font
@@ -13677,7 +13677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAPACITOR, European symbol"
 			(at 288.29 372.11 0)
 			(effects
 				(font
@@ -13737,7 +13737,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R0402_334"
+		(property "Footprint" "EasyBMS:R0402"
 			(at 161.29 219.71 0)
 			(effects
 				(font
@@ -13755,7 +13755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 161.29 219.71 0)
 			(effects
 				(font
@@ -13815,7 +13815,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R1206_334"
+		(property "Footprint" "EasyBMS:R1206"
 			(at 115.57 318.77 0)
 			(effects
 				(font
@@ -13833,7 +13833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 115.57 318.77 0)
 			(effects
 				(font
@@ -13893,7 +13893,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R0402_334"
+		(property "Footprint" "EasyBMS:R0402"
 			(at 135.89 100.33 0)
 			(effects
 				(font
@@ -13911,7 +13911,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 135.89 100.33 0)
 			(effects
 				(font
@@ -13971,7 +13971,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R1206_334"
+		(property "Footprint" "EasyBMS:R1206"
 			(at 115.57 123.19 0)
 			(effects
 				(font
@@ -13989,7 +13989,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 115.57 123.19 0)
 			(effects
 				(font
@@ -14067,7 +14067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Infineon BSS308PEH6327XTSA1 P-channel MOSFET, 1.6 A, 30 V OptiMOS P, 3-Pin SOT-23\n\nSource: https://www.infineon.com/dgdl/Infineon-BSS308PE-DS-v02_03-en.pdf?fileId=db3a304330f686060131099c80400073  Datasheet"
 			(at 128.27 275.59 0)
 			(effects
 				(font
@@ -14148,7 +14148,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "PIN HEADER"
 			(at 40.64 185.42 0)
 			(effects
 				(font
@@ -14227,7 +14227,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DIODE\n\nfilled"
 			(at 189.23 372.11 0)
 			(effects
 				(font
@@ -14288,7 +14288,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R0402_334"
+		(property "Footprint" "EasyBMS:R0402"
 			(at 161.29 331.47 0)
 			(effects
 				(font
@@ -14306,7 +14306,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 161.29 331.47 0)
 			(effects
 				(font
@@ -14366,7 +14366,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R0603_334"
+		(property "Footprint" "EasyBMS:R0603"
 			(at 481.33 217.17 0)
 			(effects
 				(font
@@ -14384,7 +14384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 481.33 217.17 0)
 			(effects
 				(font
@@ -14444,7 +14444,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:C0402_334"
+		(property "Footprint" "EasyBMS:C0402"
 			(at 176.53 257.81 0)
 			(effects
 				(font
@@ -14462,7 +14462,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAPACITOR, European symbol"
 			(at 176.53 257.81 0)
 			(effects
 				(font
@@ -14522,7 +14522,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:C0402_334"
+		(property "Footprint" "EasyBMS:C0402"
 			(at 176.53 62.23 0)
 			(effects
 				(font
@@ -14540,7 +14540,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAPACITOR, European symbol"
 			(at 176.53 62.23 0)
 			(effects
 				(font
@@ -14618,7 +14618,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SUPPLY SYMBOL"
 			(at 314.96 384.81 0)
 			(effects
 				(font
@@ -14666,7 +14666,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R0402_334"
+		(property "Footprint" "EasyBMS:R0402"
 			(at 369.57 101.6 0)
 			(effects
 				(font
@@ -14684,7 +14684,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 369.57 101.6 0)
 			(effects
 				(font
@@ -14762,7 +14762,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SUPPLY SYMBOL"
 			(at 351.79 115.57 0)
 			(effects
 				(font
@@ -14810,7 +14810,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R1206_334"
+		(property "Footprint" "EasyBMS:R1206"
 			(at 115.57 67.31 0)
 			(effects
 				(font
@@ -14828,7 +14828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 115.57 67.31 0)
 			(effects
 				(font
@@ -14888,7 +14888,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R1206_334"
+		(property "Footprint" "EasyBMS:R1206"
 			(at 90.17 207.01 0)
 			(effects
 				(font
@@ -14906,7 +14906,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 90.17 207.01 0)
 			(effects
 				(font
@@ -14966,7 +14966,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:C0402_334"
+		(property "Footprint" "EasyBMS:C0402"
 			(at 176.53 146.05 0)
 			(effects
 				(font
@@ -14984,7 +14984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAPACITOR, European symbol"
 			(at 176.53 146.05 0)
 			(effects
 				(font
@@ -15044,7 +15044,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R0402_334"
+		(property "Footprint" "EasyBMS:R0402"
 			(at 161.29 359.41 0)
 			(effects
 				(font
@@ -15062,7 +15062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 161.29 359.41 0)
 			(effects
 				(font
@@ -15122,7 +15122,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R1206_334"
+		(property "Footprint" "EasyBMS:R1206"
 			(at 115.57 346.71 0)
 			(effects
 				(font
@@ -15140,7 +15140,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 115.57 346.71 0)
 			(effects
 				(font
@@ -15218,7 +15218,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DIODE\n\nfilled"
 			(at 189.23 64.77 0)
 			(effects
 				(font
@@ -15297,7 +15297,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Infineon BSS308PEH6327XTSA1 P-channel MOSFET, 1.6 A, 30 V OptiMOS P, 3-Pin SOT-23\n\nSource: https://www.infineon.com/dgdl/Infineon-BSS308PE-DS-v02_03-en.pdf?fileId=db3a304330f686060131099c80400073  Datasheet"
 			(at 128.27 52.07 0)
 			(effects
 				(font
@@ -15360,7 +15360,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:C0402_334"
+		(property "Footprint" "EasyBMS:C0402"
 			(at 345.44 143.51 0)
 			(effects
 				(font
@@ -15378,7 +15378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAPACITOR, European symbol"
 			(at 345.44 143.51 0)
 			(effects
 				(font
@@ -15456,7 +15456,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "PIN HEADER"
 			(at 40.64 236.22 0)
 			(effects
 				(font
@@ -15517,7 +15517,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R0402_334"
+		(property "Footprint" "EasyBMS:R0402"
 			(at 161.29 191.77 0)
 			(effects
 				(font
@@ -15535,7 +15535,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 161.29 191.77 0)
 			(effects
 				(font
@@ -15595,7 +15595,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R1206_334"
+		(property "Footprint" "EasyBMS:R1206"
 			(at 90.17 67.31 0)
 			(effects
 				(font
@@ -15613,7 +15613,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 90.17 67.31 0)
 			(effects
 				(font
@@ -15673,7 +15673,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:C0402_334"
+		(property "Footprint" "EasyBMS:C0402"
 			(at 176.53 285.75 0)
 			(effects
 				(font
@@ -15691,7 +15691,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAPACITOR, European symbol"
 			(at 176.53 285.75 0)
 			(effects
 				(font
@@ -15751,7 +15751,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R1206_334"
+		(property "Footprint" "EasyBMS:R1206"
 			(at 115.57 179.07 0)
 			(effects
 				(font
@@ -15769,7 +15769,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 115.57 179.07 0)
 			(effects
 				(font
@@ -15829,7 +15829,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R1206_334"
+		(property "Footprint" "EasyBMS:R1206"
 			(at 90.17 123.19 0)
 			(effects
 				(font
@@ -15847,7 +15847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 90.17 123.19 0)
 			(effects
 				(font
@@ -15925,7 +15925,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SUPPLY SYMBOL"
 			(at 379.73 81.28 0)
 			(effects
 				(font
@@ -15973,7 +15973,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R0402_334"
+		(property "Footprint" "EasyBMS:R0402"
 			(at 161.29 52.07 0)
 			(effects
 				(font
@@ -15991,7 +15991,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 161.29 52.07 0)
 			(effects
 				(font
@@ -16051,7 +16051,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R0402_334"
+		(property "Footprint" "EasyBMS:R0402"
 			(at 135.89 212.09 0)
 			(effects
 				(font
@@ -16069,7 +16069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 135.89 212.09 0)
 			(effects
 				(font
@@ -16129,7 +16129,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R0603_334"
+		(property "Footprint" "EasyBMS:R0603"
 			(at 379.73 66.04 0)
 			(effects
 				(font
@@ -16147,7 +16147,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 379.73 66.04 0)
 			(effects
 				(font
@@ -16207,7 +16207,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R1206_334"
+		(property "Footprint" "EasyBMS:R1206"
 			(at 90.17 374.65 0)
 			(effects
 				(font
@@ -16225,7 +16225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 90.17 374.65 0)
 			(effects
 				(font
@@ -16285,7 +16285,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R1206_334"
+		(property "Footprint" "EasyBMS:R1206"
 			(at 115.57 290.83 0)
 			(effects
 				(font
@@ -16303,7 +16303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 115.57 290.83 0)
 			(effects
 				(font
@@ -16363,7 +16363,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R0402_334"
+		(property "Footprint" "EasyBMS:R0402"
 			(at 275.59 369.57 0)
 			(effects
 				(font
@@ -16381,7 +16381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 275.59 369.57 0)
 			(effects
 				(font
@@ -16459,7 +16459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SUPPLY SYMBOL"
 			(at 527.05 280.67 0)
 			(effects
 				(font
@@ -16525,7 +16525,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Infineon BSS308PEH6327XTSA1 P-channel MOSFET, 1.6 A, 30 V OptiMOS P, 3-Pin SOT-23\n\nSource: https://www.infineon.com/dgdl/Infineon-BSS308PE-DS-v02_03-en.pdf?fileId=db3a304330f686060131099c80400073  Datasheet"
 			(at 128.27 247.65 0)
 			(effects
 				(font
@@ -16606,7 +16606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SUPPLY SYMBOL"
 			(at 341.63 81.28 0)
 			(effects
 				(font
@@ -16672,7 +16672,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Infineon BSS308PEH6327XTSA1 P-channel MOSFET, 1.6 A, 30 V OptiMOS P, 3-Pin SOT-23\n\nSource: https://www.infineon.com/dgdl/Infineon-BSS308PE-DS-v02_03-en.pdf?fileId=db3a304330f686060131099c80400073  Datasheet"
 			(at 128.27 135.89 0)
 			(effects
 				(font
@@ -16753,7 +16753,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DIODE\n\nfilled"
 			(at 189.23 344.17 0)
 			(effects
 				(font
@@ -16814,7 +16814,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R0402_334"
+		(property "Footprint" "EasyBMS:R0402"
 			(at 135.89 184.15 0)
 			(effects
 				(font
@@ -16832,7 +16832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 135.89 184.15 0)
 			(effects
 				(font
@@ -16892,7 +16892,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R0402_334"
+		(property "Footprint" "EasyBMS:R0402"
 			(at 351.79 100.33 0)
 			(effects
 				(font
@@ -16910,7 +16910,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 351.79 100.33 0)
 			(effects
 				(font
@@ -16970,7 +16970,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R1206_334"
+		(property "Footprint" "EasyBMS:R1206"
 			(at 90.17 290.83 0)
 			(effects
 				(font
@@ -16988,7 +16988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 90.17 290.83 0)
 			(effects
 				(font
@@ -17048,7 +17048,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R1206_334"
+		(property "Footprint" "EasyBMS:R1206"
 			(at 115.57 374.65 0)
 			(effects
 				(font
@@ -17066,7 +17066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 115.57 374.65 0)
 			(effects
 				(font
@@ -17144,7 +17144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SUPPLY SYMBOL"
 			(at 26.67 233.68 0)
 			(effects
 				(font
@@ -17210,7 +17210,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DIODE\n\nfilled"
 			(at 189.23 120.65 0)
 			(effects
 				(font
@@ -17289,7 +17289,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "PIN HEADER"
 			(at 40.64 256.54 0)
 			(effects
 				(font
@@ -17350,7 +17350,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R1206_334"
+		(property "Footprint" "EasyBMS:R1206"
 			(at 115.57 95.25 0)
 			(effects
 				(font
@@ -17368,7 +17368,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 115.57 95.25 0)
 			(effects
 				(font
@@ -17428,7 +17428,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:C0805_334"
+		(property "Footprint" "EasyBMS:C0805"
 			(at 360.68 217.17 0)
 			(effects
 				(font
@@ -17446,7 +17446,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAPACITOR, European symbol"
 			(at 360.68 217.17 0)
 			(effects
 				(font
@@ -17506,7 +17506,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R1206_334"
+		(property "Footprint" "EasyBMS:R1206"
 			(at 115.57 262.89 0)
 			(effects
 				(font
@@ -17524,7 +17524,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 115.57 262.89 0)
 			(effects
 				(font
@@ -17584,7 +17584,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R1206_334"
+		(property "Footprint" "EasyBMS:R1206"
 			(at 115.57 207.01 0)
 			(effects
 				(font
@@ -17602,7 +17602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 115.57 207.01 0)
 			(effects
 				(font
@@ -17662,7 +17662,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EasyBMS:R0402_334"
+		(property "Footprint" "EasyBMS:R0402"
 			(at 135.89 351.79 0)
 			(effects
 				(font
@@ -17680,7 +17680,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESISTOR, European symbol"
 			(at 135.89 351.79 0)
 			(effects
 				(font
@@ -17758,7 +17758,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "PIN HEADER"
 			(at 40.64 195.58 0)
 			(effects
 				(font
