@@ -1,0 +1,119 @@
+(footprint "FC-135R_L3.2-W1.5"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "8e6a7c5c-6d50-431f-87bc-61b89eb966e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "FC-135R_L3.2-W1.5"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "97806dce-5c55-4ee8-a188-858af4182ab8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "16c46212-eff5-4097-8323-04bcb7258422")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "008cd05e-fa08-4c07-b699-8783f4f259f5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.51 -0.76)
+		(end 0.51 -0.76)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "440afc29-5796-4c7c-b832-74fb0d129c2a")
+	)
+	(fp_line
+		(start 0.51 0.76)
+		(end -0.51 0.76)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "516d3544-fefd-4134-be11-168bd7844bb4")
+	)
+	(fp_circle
+		(center -1.75 0.9)
+		(end -1.72 0.9)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "7cbf63d6-28db-4710-a24a-d6d68626af90")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "bbb1c495-f1bd-4669-a07e-2ce95e04d8d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.25 0 90)
+		(size 1.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f5d10b6b-fea3-4909-a308-5352b2e01275")
+	)
+	(pad "2" smd rect
+		(at 1.25 0 90)
+		(size 1.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "81416998-13e1-4cdf-b39a-aa8d902242bf")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../libraries/EasyEDA2KiCAD.3dshapes/FC-135R_L3.2-W1.5.wrl"
+		(offset
+			(xyz 0 -0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
